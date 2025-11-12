@@ -1,0 +1,43 @@
+PRODUCT TYPE IDENTIFIER REQUIREMENTS
+===================================
+
+Core Environment
+- Python 3.11 with pip or uv for dependency management.
+- Git 2.45+ with credential helper configured (branch lives in `product-type-identifier-data`).
+- Make or Invoke tasks optional but recommended for scripted runs.
+
+Python Libraries
+- pandas>=2.2 for tabular wrangling and stats summary exports.
+- polars (optional) for speedups on string-heavy transforms.
+- numpy, scipy for numerical helpers.
+- scikit-learn>=1.5 for classical models, vectorizers, and evaluation metrics.
+- sentence-transformers>=3.0 for text embeddings (local) or fall back to OpenAI embeddings via `openai` or `litellm`.
+- rapidfuzz for fuzzy matching between product text and taxonomy leaves.
+- spacy with `en_core_web_sm` for noun chunking and attribute extraction.
+- beautifulsoup4+lxml in case additional HTML cleaning of descriptions becomes necessary.
+- tqdm, rich, or loguru for progress/UI feedback inside scripts.
+
+Data & Storage
+- The included JSON file (`data/scraped_data_output.json`) should remain the single source of raw listings; convert to Parquet/JSONL for intermediate steps but keep schema parity on export.
+- Taxonomy definitions live in `data/taxonomy_paths.txt`; treat this file as immutable, version any edits, and use it only for downstream mapping once organic product-type labels are finalized.
+- Local DuckDB or SQLite database for caching feature tables; Postgres 15+ if shared access is required.
+
+Product-Type Discovery Rules
+- Always derive initial product-type identifiers purely from the scraped dataset (titles, descriptions, brand/model cues); do not pre-fill labels from the taxonomy.
+- When a classifier reaches high confidence, record the mapping rules that translate those organic identifiers into taxonomy leaves so future runs stay deterministic.
+- Keep any mapping tables or scripts under `mapping/` (to be created later) to preserve lineage between organic types and taxonomy roll-ups.
+
+Process & Quality Gates
+- Maintain >=98% macro accuracy and >=0.95 recall per high-volume taxonomy branch before promotion.
+- Reserve at least 15% of records as a blind hold-out set; document the SKU list in a future `evaluation/holdout.csv` file.
+- Log every automated label suggestion with confidence so that uncertain rows (<0.7) can be routed to human review.
+- Track experiments using MLflow or Weights & Biases with run metadata referencing git commit + taxonomy version.
+
+Deployment & Ops
+- Package the predictor behind a FastAPI or Flask microservice with JSON I/O and health checks.
+- Store trained artifacts (vectorizers, encoders, model weights) under `product_type_identifier/models/` with semantic versioning.
+- Schedule nightly or on-demand inference via Prefect, Airflow, or GitHub Actions; emit metrics to logging/BI for drift checks.
+
+Security & Compliance
+- Secrets (API keys, database creds) must live in `.env` files ignored by git or in a managed secret store.
+- Remove or mask any customer-identifiable data if future datasets expand beyond public product info.
