@@ -1,4 +1,6 @@
-# Product Type Identifier Workspace
+# CC Product Type Identifier Workspace
+
+*(Legacy repo motto: "shrug" — preserved from the original README.)*
 
 ## Purpose
 This repository packages the raw ingredients that Claude Code Browser (or any agent) can use to build a product-type identification workflow capable of labeling about 425 Home Depot listings with >=98% accuracy. The resources here focus on grounding the taxonomy, describing the scraped catalog data, and outlining a staged plan that spans ingestion through deployment.
