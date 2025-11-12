@@ -1,0 +1,48 @@
+{
+  "total_records": 425,
+  "clusters": {
+    "lighting": 260,
+    "electrical": 51,
+    "locks": 23,
+    "plumbing": 23,
+    "hardware": 9,
+    "tools": 31,
+    "smart_home": 3,
+    "paint": 5,
+    "uncategorized": 10
+  },
+  "top_brands": [
+    "Hampton Bay",
+    "Commercial Electric",
+    "Home Decorators Collection",
+    "GE",
+    "Milwaukee",
+    "DEWALT",
+    "Glacier Bay",
+    "Leviton",
+    "Husky",
+    "DIABLO",
+    "Delta",
+    "HALO",
+    "VELUX",
+    "Feit Electric",
+    "Cerrowire",
+    "EcoSmart",
+    "HDX",
+    "3M",
+    "KOHLER",
+    "Everbilt"
+  ],
+  "attribute_counts": {
+    "wattage": 101,
+    "pack_size": 65,
+    "color": 283,
+    "material": 278,
+    "amperage": 64,
+    "size_inches": 585,
+    "gallon": 18,
+    "size_feet": 121,
+    "voltage": 32,
+    "piece_count": 29
+  }
+}
