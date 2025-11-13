@@ -1,0 +1,400 @@
+[
+  {
+    "item_id": "product_3",
+    "title": "LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLOM-60-BK",
+    "original_clarity_score": 6,
+    "specs_product_type": "mirror",
+    "specs_confidence": 1.0,
+    "evidence": [
+      "Found keyword 'mirror' for mirror",
+      "Found keyword 'glass' for mirror",
+      "Found keyword 'reflection' for mirror",
+      "Found keyword 'wall mirror' for mirror",
+      "Found material 'glass' for mirror",
+      "Found material 'aluminum' for mirror",
+      "Found material 'aluminum' for ladder",
+      "Found material 'metal' for shelving",
+      "Found material 'metal' for mailbox",
+      "Found material 'aluminum' for mailbox",
+      "Found material 'metal' for organizer",
+      "Found material 'metal' for range hood",
+      "Found material 'metal' for work bench",
+      "Material 'glass' suggests mirror",
+      "Material 'glass' suggests skylight",
+      "Material 'glass' suggests window",
+      "Material 'glass' suggests light fixture",
+      "Brand LuxHomez + 'mirror' in title"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "aluminum",
+      "glass",
+      "metal"
+    ]
+  },
+  {
+    "item_id": "product_26",
+    "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
+    "original_clarity_score": 6,
+    "specs_product_type": "ladder",
+    "specs_confidence": 1.0,
+    "evidence": [
+      "Found material 'aluminum' for mirror",
+      "Found keyword 'ladder' for ladder",
+      "Found keyword 'multi-position' for ladder",
+      "Found material 'aluminum' for ladder",
+      "Found material 'aluminum' for mailbox",
+      "Werner is a ladder brand"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "aluminum"
+    ]
+  },
+  {
+    "item_id": "product_127",
+    "title": "Home Decorators Collection Raleigh Jute Boucle Natural 6 ft. x 9 ft. Area Rug 8959830106x9",
+    "original_clarity_score": 6,
+    "specs_product_type": "rug",
+    "specs_confidence": 1.0,
+    "evidence": [
+      "Found keyword 'rug' for rug",
+      "Found keyword 'area rug' for rug",
+      "Found keyword 'jute' for rug",
+      "Found keyword 'boucle' for rug",
+      "Found material 'jute' for rug",
+      "Found keyword 'basket' for organizer",
+      "Material 'jute' suggests rug",
+      "Material 'jute' suggests mat",
+      "Material 'jute' suggests floor covering",
+      "Home Decorators Collection + rug indicators"
+    ],
+    "specs_available": false,
+    "dimensions": [
+      "6 x 9",
+      "6 x 9"
+    ],
+    "materials": [
+      "jute"
+    ]
+  },
+  {
+    "item_id": "product_154",
+    "title": "VELUX 22.5 in. x 22.5 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2222 0005",
+    "original_clarity_score": 6,
+    "specs_product_type": "skylight",
+    "specs_confidence": 0.9,
+    "evidence": [
+      "Found keyword 'glass' for mirror",
+      "Found material 'glass' for mirror",
+      "Found keyword 'skylight' for skylight",
+      "Found material 'plastic' for mailbox",
+      "Found material 'plastic' for organizer",
+      "Material 'glass' suggests mirror",
+      "Material 'glass' suggests skylight",
+      "Material 'glass' suggests window",
+      "Material 'glass' suggests light fixture",
+      "VELUX is a skylight brand"
+    ],
+    "specs_available": false,
+    "dimensions": [
+      "22.5 x 22.5"
+    ],
+    "materials": [
+      "glass",
+      "plastic"
+    ]
+  },
+  {
+    "item_id": "product_158",
+    "title": "VELUX 22-1/2 in. x 46-1/2 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2246 0005",
+    "original_clarity_score": 6,
+    "specs_product_type": "skylight",
+    "specs_confidence": 0.9,
+    "evidence": [
+      "Found keyword 'glass' for mirror",
+      "Found material 'glass' for mirror",
+      "Found keyword 'skylight' for skylight",
+      "Found material 'plastic' for mailbox",
+      "Found material 'plastic' for organizer",
+      "Material 'glass' suggests mirror",
+      "Material 'glass' suggests skylight",
+      "Material 'glass' suggests window",
+      "Material 'glass' suggests light fixture",
+      "VELUX is a skylight brand"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "glass",
+      "plastic"
+    ]
+  },
+  {
+    "item_id": "product_209",
+    "title": "Delta Lyndall 24 in. Wall Mount Towel Bar Bath Hardware Accessory in Polished Chrome LDL24-PC",
+    "original_clarity_score": 6,
+    "specs_product_type": "organizer",
+    "specs_confidence": 0.4,
+    "evidence": [
+      "Found keyword 'holder' for organizer"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_220",
+    "title": "Delta Greenwich II Wall Mount Round Closed Towel Ring Bath Hardware Accessory in Brushed Nickel GRE46-BN",
+    "original_clarity_score": 5,
+    "specs_product_type": "organizer",
+    "specs_confidence": 0.4,
+    "evidence": [
+      "Found material 'steel' for shelving",
+      "Found material 'steel' for mailbox",
+      "Found keyword 'holder' for organizer",
+      "Found material 'steel' for work bench"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "steel"
+    ]
+  },
+  {
+    "item_id": "product_233",
+    "title": "Delta Greenwich II 18 in. Wall Mount Towel Bar Bath Hardware Accessory in Brushed Nickel GRE18-BN",
+    "original_clarity_score": 6,
+    "specs_product_type": "organizer",
+    "specs_confidence": 0.8,
+    "evidence": [
+      "Found material 'steel' for shelving",
+      "Found material 'steel' for mailbox",
+      "Found keyword 'storage' for organizer",
+      "Found keyword 'holder' for organizer",
+      "Found material 'steel' for work bench"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "steel"
+    ]
+  },
+  {
+    "item_id": "product_289",
+    "title": "Gorilla Ladders 19 ft. Reach MPXT Aluminum Multi-Position Ladder with Project Top, 375 lbs. Load Capacity Type IAA Duty Rating GLMPXT-19-COM",
+    "original_clarity_score": 5,
+    "specs_product_type": "ladder",
+    "specs_confidence": 1.0,
+    "evidence": [
+      "Found material 'aluminum' for mirror",
+      "Found keyword 'ladder' for ladder",
+      "Found keyword 'step ladder' for ladder",
+      "Found keyword 'extension ladder' for ladder",
+      "Found keyword 'multi-position' for ladder",
+      "Found material 'aluminum' for ladder",
+      "Found material 'aluminum' for mailbox"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "aluminum"
+    ]
+  },
+  {
+    "item_id": "product_308",
+    "title": "VELCRO 24 in. x 3/4 in. Sticky Back for Fabrics Tape Black VEL-91878-USA",
+    "original_clarity_score": 6,
+    "specs_product_type": "rug",
+    "specs_confidence": 0.4,
+    "evidence": [
+      "Found material 'polyester' for rug",
+      "Found material 'nylon' for rug",
+      "Found material 'nylon' for door mat"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "polyester",
+      "nylon",
+      "iron"
+    ]
+  },
+  {
+    "item_id": "product_358",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "glass",
+      "bronze"
+    ]
+  },
+  {
+    "item_id": "product_363",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_375",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_389",
+    "title": "VELUX 22-1/2 in. x 22-1/2 in. Fixed Pan-Flashed Skylight with Tempered Low-E3 Glass QPF 2222 2005",
+    "original_clarity_score": 6,
+    "specs_product_type": "skylight",
+    "specs_confidence": 0.9,
+    "evidence": [
+      "Found keyword 'glass' for mirror",
+      "Found material 'glass' for mirror",
+      "Found keyword 'skylight' for skylight",
+      "Material 'glass' suggests mirror",
+      "Material 'glass' suggests skylight",
+      "Material 'glass' suggests window",
+      "Material 'glass' suggests light fixture",
+      "VELUX is a skylight brand"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "glass"
+    ]
+  },
+  {
+    "item_id": "product_392",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "aluminum",
+      "glass"
+    ]
+  },
+  {
+    "item_id": "product_394",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "vinyl"
+    ]
+  },
+  {
+    "item_id": "product_400",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_408",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_410",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_411",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": [
+      "glass"
+    ]
+  },
+  {
+    "item_id": "product_413",
+    "title": "",
+    "original_clarity_score": 2,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  },
+  {
+    "item_id": "product_422",
+    "title": "Commercial Electric Pocket Size Auto Digital Ranging Multimeter MMB-8332R",
+    "original_clarity_score": 5,
+    "specs_product_type": null,
+    "specs_confidence": 0.0,
+    "evidence": [
+      "No specification patterns matched"
+    ],
+    "specs_available": false,
+    "dimensions": [],
+    "materials": []
+  }
+]
