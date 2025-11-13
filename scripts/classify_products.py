@@ -235,6 +235,14 @@ class ProductClassifier:
                 'negative_keywords': []
             },
 
+            'HVAC Air Filter': {
+                'strong_keywords': ['air filter', 'furnace filter', 'hvac filter', 'replacement filter', 'pleated filter'],
+                'weak_keywords': ['merv', 'fpr', 'filtration', 'allergen', 'fiberglass', 'pleated'],
+                'description_hints': ['indoor air quality', 'dust', 'filter replacement', 'air filtration'],
+                'domains': ['hvac'],
+                'negative_keywords': ['water filter', 'oil filter', 'vacuum filter']
+            },
+
             # DOOR HARDWARE
             'Door Knob': {
                 'strong_keywords': ['door knob', 'knob', 'doorknob'],
@@ -494,6 +502,110 @@ class ProductClassifier:
                 'weak_keywords': ['nitrile', 'latex', 'leather', 'grip', 'cut resistant'],
                 'description_hints': ['hand protection', 'safety gloves'],
                 'domains': [],
+                'negative_keywords': []
+            },
+
+            'Ladder': {
+                'strong_keywords': ['ladder', 'step ladder', 'extension ladder', 'multi-position ladder'],
+                'weak_keywords': ['feet', 'reach', 'aluminum', 'fiberglass', 'type ia', 'type iaa', 'load capacity'],
+                'description_hints': ['climb', 'climbing', 'height access', 'reach height'],
+                'domains': ['tools'],
+                'negative_keywords': []
+            },
+
+            'Window': {
+                'strong_keywords': ['window', 'double-hung window', 'single-hung window', 'casement window', 'sliding window'],
+                'weak_keywords': ['low-e', 'glass', 'vinyl', 'wood', 'clad', 'sash', 'insulated glass'],
+                'description_hints': ['window features', 'energy efficient', 'window construction'],
+                'domains': [],
+                'negative_keywords': ['window film', 'window treatment', 'window covering']
+            },
+
+            'Bathroom Towel Bar': {
+                'strong_keywords': ['towel bar', 'towel rack', 'towel holder', 'towel ring'],
+                'weak_keywords': ['brushed nickel', 'chrome', 'bronze', 'bathroom', 'wall mount'],
+                'description_hints': ['bathroom accessory', 'bath hardware', 'towel storage'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Surge Protector': {
+                'strong_keywords': ['surge protector', 'surge suppressor', 'power strip'],
+                'weak_keywords': ['outlet', 'joules', 'usb', 'protection', 'grounded'],
+                'description_hints': ['surge protection', 'electrical protection', 'power outlets'],
+                'domains': ['electrical'],
+                'negative_keywords': ['extension cord', 'breaker']
+            },
+
+            'Safety Respirator': {
+                'strong_keywords': ['respirator', 'respirator cartridge', 'vapor cartridge', 'n95', 'p100'],
+                'weak_keywords': ['replacement', 'filter', 'organic vapor', 'breathing', 'face mask'],
+                'description_hints': ['respiratory protection', 'breathing protection', 'air filter'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Disposable Earplugs': {
+                'strong_keywords': ['earplugs', 'ear plugs', 'hearing protection'],
+                'weak_keywords': ['disposable', 'foam', 'nrr', 'noise reduction', 'decibel', 'pack'],
+                'description_hints': ['hearing protection', 'noise reduction', 'ear protection'],
+                'domains': [],
+                'negative_keywords': ['earmuffs']
+            },
+
+            'Speaker Mount': {
+                'strong_keywords': ['speaker mount', 'speaker bracket', 'bookshelf speaker mount'],
+                'weak_keywords': ['wall mount', 'swivel', 'tilt', 'adjustable'],
+                'description_hints': ['speaker installation', 'audio mount'],
+                'domains': [],
+                'negative_keywords': ['light', 'tv mount']
+            },
+
+            'Curtain Rod': {
+                'strong_keywords': ['curtain rod', 'drapery rod', 'window rod'],
+                'weak_keywords': ['telescoping', 'finials', 'decorative', 'adjustable', 'double rod'],
+                'description_hints': ['window treatment', 'curtain hanging', 'drapery hardware'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Shelf Bracket': {
+                'strong_keywords': ['shelf bracket', 'bracket'],
+                'weak_keywords': ['decorative', 'support', 'mounting', 'steel', 'nickel'],
+                'description_hints': ['shelf support', 'shelving', 'wall bracket'],
+                'domains': ['hardware'],
+                'negative_keywords': ['speaker bracket', 'light bracket']
+            },
+
+            'Radon Detector': {
+                'strong_keywords': ['radon detector', 'radon monitor', 'radon sensor'],
+                'weak_keywords': ['battery', 'smart', 'digital', 'lung cancer'],
+                'description_hints': ['radon monitoring', 'air quality', 'indoor air'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Paint Sprayer': {
+                'strong_keywords': ['paint sprayer', 'hvlp sprayer', 'airless sprayer', 'spray gun'],
+                'weak_keywords': ['hvlp', 'psi', 'gpm', 'nozzle', 'spray pattern'],
+                'description_hints': ['spray painting', 'paint application', 'finishing'],
+                'domains': ['tools'],
+                'negative_keywords': ['spray paint', 'paint can']
+            },
+
+            'Window Shade': {
+                'strong_keywords': ['window shade', 'roller shade', 'solar shade', 'outdoor shade'],
+                'weak_keywords': ['cordless', 'light filtering', 'blackout', 'uv protection'],
+                'description_hints': ['window covering', 'sun protection', 'privacy'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Metal Folding Tool': {
+                'strong_keywords': ['folding tool', 'sheet metal folder', 'bending tool'],
+                'weak_keywords': ['seam', 'bend', 'metal', 'hvac'],
+                'description_hints': ['metal fabrication', 'sheet metal', 'folding seam'],
+                'domains': ['tools'],
                 'negative_keywords': []
             },
 
