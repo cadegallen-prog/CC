@@ -1,250 +1,53 @@
 {
-  "total_errors": 23,
+  "total_errors": 3,
   "error_examples": [
     {
-      "title": "3M Organic Vapor Replacement Cartridges (1-Pair) 6001P1-DC",
-      "true_product_type": "safety_respirator_cartridge",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 2,
-        "paint": 2
-      }
+      "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+      "true_product_type": "stair_nosing_trim",
+      "expected_type": "Fastener",
+      "predicted_type": "Unknown - Unable to Classify",
+      "confidence": 10.0,
+      "reasons": [
+        "Found 2 supporting keywords"
+      ]
     },
     {
-      "title": "Delta Crestfield 18 in. Towel Bar in Brushed Nickel 138029",
-      "true_product_type": "bathroom_towel_bar",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 2
-      }
+      "title": "Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",
+      "true_product_type": "speaker_wall_mounts",
+      "expected_type": "Speaker Mount",
+      "predicted_type": "Unknown - Unable to Classify",
+      "confidence": 8.0,
+      "reasons": [
+        "Found 1 supporting keywords",
+        "Matches 1 product domains"
+      ]
     },
     {
-      "title": "Hampton Bay 80 CFM Ceiling Mount Room Side Installation Heavy-Duty Bathroom Exhaust Fan, ENERGY STAR BPT13-14MG",
-      "true_product_type": "bathroom_exhaust_fan",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1,
-        "electrical": 1
-      }
-    },
-    {
-      "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
-      "true_product_type": "surge_protector_with_usb",
-      "expected_cluster": "electrical",
-      "predicted_cluster": "lighting",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 2,
-        "electrical": 2
-      }
-    },
-    {
-      "title": "HDX 20 in. x 25 in. x 6 in. AprilAire and Space-Gard Replacement Pleated Air Filter (Without Frame) FPR 7, MERV 11 HDX-A201-11-6",
-      "true_product_type": "hvac_air_filter",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1,
-        "locks": 1
-      }
-    },
-    {
-      "title": "Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger Duplex Outlet, White R02-GUSB1-0BW",
-      "true_product_type": "gfci_usb_outlet",
-      "expected_cluster": "electrical",
-      "predicted_cluster": "lighting",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 2,
-        "electrical": 2,
-        "smart_home": 1,
-        "locks": 1
-      }
-    },
-    {
-      "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior Low-E Glass and White Hardware 9163982",
-      "true_product_type": "double_hung_window",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1
-      }
-    },
-    {
-      "title": "Malco 18 in. Folding Tool, Folding Depths of 3/8 in. and 1 in. 18F",
-      "true_product_type": "metal_folding_tool",
-      "expected_cluster": "hardware",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1,
-        "tools": 1
-      }
-    },
-    {
-      "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
-      "true_product_type": "decorative_shelf_bracket",
-      "expected_cluster": "hardware",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1,
-        "hardware": 1
-      }
-    },
-    {
-      "title": "Milwaukee Red Disposable Earplugs (10-Pack) with 32 dB Noise Reduction Rating 48-73-3001",
-      "true_product_type": "disposable_earplugs",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1
-      }
-    },
-    {
-      "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
-      "true_product_type": "multi_position_ladder",
-      "expected_cluster": "tools",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1
-      }
-    },
-    {
-      "title": "Milwaukee X-Large Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8903",
-      "true_product_type": "work_gloves",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "lighting",
-      "confidence": 1,
-      "cluster_scores": {
-        "lighting": 1,
-        "smart_home": 1
-      }
-    },
-    {
-      "title": "Airthings Wave Radon Battery Operated Smart Radon Detector 2951",
-      "true_product_type": "radon_detector",
-      "expected_cluster": "smart_home",
-      "predicted_cluster": "electrical",
-      "confidence": 1,
-      "cluster_scores": {
-        "electrical": 1,
-        "smart_home": 1,
-        "locks": 1,
-        "tools": 1
-      }
-    },
-    {
-      "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 in. L 458379",
-      "true_product_type": "outdoor_roller_shade",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "locks",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 1,
-        "locks": 2,
-        "tools": 1
-      }
-    },
-    {
-      "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel with Crystal Square Finials U-BN144FOMS03",
-      "true_product_type": "double_curtain_rod",
-      "expected_cluster": "uncategorized",
-      "predicted_cluster": "tools",
-      "confidence": 3,
-      "cluster_scores": {
-        "lighting": 2,
-        "locks": 1,
-        "tools": 3,
-        "hardware": 1
-      }
-    },
-    {
-      "title": "Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T5632-3BW M02-T5632-3BW",
-      "true_product_type": "usb_outlet",
-      "expected_cluster": "electrical",
-      "predicted_cluster": "smart_home",
-      "confidence": 3,
-      "cluster_scores": {
-        "lighting": 2,
-        "electrical": 2,
-        "smart_home": 3
-      }
-    },
-    {
-      "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
-      "true_product_type": "usb_outlet",
-      "expected_cluster": "electrical",
-      "predicted_cluster": "smart_home",
-      "confidence": 3,
-      "cluster_scores": {
-        "lighting": 2,
-        "electrical": 2,
-        "smart_home": 3
-      }
-    },
-    {
-      "title": "TITAN EP 60X Fine Finishing HVLP Paint Sprayer 2456369",
-      "true_product_type": "hvlp_paint_sprayer",
-      "expected_cluster": "tools",
-      "predicted_cluster": "paint",
-      "confidence": 3,
-      "cluster_scores": {
-        "lighting": 1,
-        "locks": 1,
-        "paint": 3
-      }
-    },
-    {
-      "title": "Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet VDR3322A1PA1",
-      "true_product_type": "kitchen_sink_with_faucet",
-      "expected_cluster": "plumbing",
-      "predicted_cluster": "paint",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 1,
-        "paint": 2,
-        "plumbing": 2
-      }
-    },
-    {
-      "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
-      "true_product_type": "chainsaw_tuneup_kit",
-      "expected_cluster": "tools",
-      "predicted_cluster": "lighting",
-      "confidence": 2,
-      "cluster_scores": {
-        "lighting": 2,
-        "paint": 1,
-        "tools": 1
-      }
+      "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb Included HDP12107ORB",
+      "true_product_type": "mini_pendant_light",
+      "expected_type": "Pendant Light",
+      "predicted_type": "Unknown - Unable to Classify",
+      "confidence": 6.0,
+      "reasons": [
+        "Matches 2 product domains"
+      ]
     }
   ],
   "recommendations": [
     {
-      "priority": "HIGH",
-      "issue": "Low overall accuracy (47.7%)",
-      "recommendation": "The keyword-based clustering needs significant improvement. Consider: (1) Using machine learning instead of rules, (2) Adding more specific keywords, (3) Adjusting keyword weights"
-    },
-    {
-      "priority": "HIGH",
-      "issue": "Too many products misclassified as \"lighting\" (16 errors)",
-      "recommendation": "The lighting cluster is too broad. Problem: keywords like \"light\", \"led\", and \"watt\" appear in many non-lighting products. Solution: Use more specific keywords or add negative keywords to exclude false matches."
-    },
-    {
       "priority": "LOW",
-      "issue": "11 products matched 3+ clusters",
-      "recommendation": "These products have ambiguous descriptions. Consider: (1) Using keyword weights, (2) Adding more specific keywords, (3) Using product hierarchy (e.g., is this primarily electrical or lighting?)"
+      "issue": "Good accuracy (93.2%)",
+      "recommendation": "The system is performing well. Focus on edge cases and rare product types."
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Too many products misclassified as \"Unknown - Unable to Classify\" (3 errors)",
+      "recommendation": "The \"Unknown - Unable to Classify\" pattern may be too broad or need more specific keywords. Review the keywords and add negative keywords to exclude false matches."
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "3 products could not be classified",
+      "recommendation": "Add more product type patterns or keywords to catch these products. Review the unclassified products to identify missing categories."
     }
   ]
 }

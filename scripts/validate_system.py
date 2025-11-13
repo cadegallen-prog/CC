@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """
 Product Type Validation System
-Tests the clustering/identification system against ground truth
+Tests the NEW ProductClassifier against ground truth
 """
 
 import json
 from pathlib import Path
 from collections import defaultdict, Counter
 import sys
+
+# Import the ProductClassifier
+sys.path.insert(0, str(Path(__file__).parent))
+from classify_products import ProductClassifier
 
 def load_json(file_path):
     """Load JSON file"""
@@ -25,110 +29,83 @@ def load_full_dataset():
     data_file = Path("/home/user/CC/data/scraped_data_output.json")
     return load_json(data_file)
 
-def get_cluster_assignment(product):
-    """Replicate the cluster assignment logic from pattern_discovery.py"""
-    title = product.get('title', '').lower()
-    description = product.get('description', '').lower()
-    combined = f"{title} {description}"
+def get_product_classification(product, classifier):
+    """
+    Use the NEW ProductClassifier to classify a product
+    Returns (predicted_type, confidence, details)
+    """
+    result = classifier.classify_product(product)
+    return result['product_type'], result['confidence'], result
 
-    cluster_seeds = {
-        'lighting': ['light', 'bulb', 'lamp', 'led', 'fixture', 'lumens', 'watt', 'filament'],
-        'electrical': ['breaker', 'switch', 'outlet', 'electrical', 'circuit', 'amp', 'volt', 'wire'],
-        'smart_home': ['smart', 'wifi', 'keypad', 'electronic', 'digital', 'bluetooth'],
-        'locks': ['lock', 'deadbolt', 'door', 'keyless', 'security', 'latch'],
-        'paint': ['paint', 'primer', 'coating', 'stain', 'semi-gloss', 'latex', 'enamel'],
-        'tools': ['drill', 'saw', 'tool', 'impact', 'cordless', 'battery', 'driver'],
-        'hardware': ['screw', 'nail', 'fastener', 'anchor', 'bolt', 'nut'],
-        'plumbing': ['pipe', 'faucet', 'valve', 'plumbing', 'water', 'drain'],
+def map_ground_truth_to_expected_classifier_type(ground_truth_type):
+    """
+    Map ground truth product types to expected ProductClassifier types
+    This allows us to compare apples to apples
+    """
+    mapping = {
+        # Lighting products
+        'recessed_light_fixture': 'Recessed Light',
+        'under_cabinet_light': 'Under Cabinet Light',
+        'smart_flush_mount_light': 'Flush Mount Light',
+        'landscape_flood_light': 'Landscape Lighting',  # Now has specific pattern
+        'wall_sconce': 'Wall Sconce',
+        'led_troffer_light': 'Troffer Light',  # Now has specific pattern
+        'led_track_lighting_kit': 'Track Lighting',
+        'mini_pendant_light': 'Pendant Light',
+
+        # Electrical products
+        'circuit_breaker': 'Circuit Breaker',
+        'electrical_load_center': 'Load Center',
+        'gfci_usb_outlet': 'Electrical Outlet',
+        'usb_outlet': 'Electrical Outlet',
+        'surge_protector_with_usb': 'Surge Protector',
+        'circuit_breaker_kit': 'Circuit Breaker',
+
+        # Locks
+        'smart_deadbolt_lock': 'Door Lock',
+
+        # Plumbing
+        'faucet_valve_stem': 'Faucet Part',  # Now has specific pattern
+        'backflow_preventer_valve': 'Plumbing Fitting',
+        'kitchen_sink_with_faucet': 'Sink',
+        'dual_flush_toilet': 'Toilet',
+
+        # Tools & Hardware
+        'multi_position_ladder': 'Ladder',
+        'sds_plus_rebar_cutter': 'Specialty Cutter',  # Now has specific pattern
+        'hex_driver_bits': 'Drill Bit',
+        'chainsaw_tuneup_kit': 'Tool Kit',  # Now has specific pattern
+        'hvlp_paint_sprayer': 'Paint Sprayer',
+        'decorative_shelf_bracket': 'Shelf Bracket',
+        'roofing_shovel_blade': 'Saw Blade',  # Similar to blade
+        'stair_nosing_trim': 'Fastener',  # Or hardware
+        'velcro_fastener_tape': 'Tape',
+        'metal_folding_tool': 'Metal Folding Tool',
+
+        # HVAC & Home
+        'safety_respirator_cartridge': 'Safety Respirator',
+        'bathroom_towel_bar': 'Bathroom Towel Bar',
+        'bathroom_exhaust_fan': 'Exhaust Fan',
+        'hvac_air_filter': 'HVAC Air Filter',
+        'double_hung_window': 'Window',
+        'work_gloves': 'Work Gloves',
+        'outdoor_roller_shade': 'Window Shade',
+        'double_curtain_rod': 'Curtain Rod',
+        'speaker_wall_mounts': 'Speaker Mount',
+        'disposable_earplugs': 'Disposable Earplugs',
+        'radon_detector': 'Radon Detector',
+
+        # Special cases
+        'missing_data': 'Unknown - Missing Data',
     }
 
-    cluster_scores = defaultdict(int)
-    for cluster_name, keywords in cluster_seeds.items():
-        for keyword in keywords:
-            if keyword in combined:
-                cluster_scores[cluster_name] += 1
+    return mapping.get(ground_truth_type, 'UNKNOWN_MAPPING')
 
-    if cluster_scores:
-        best_cluster = max(cluster_scores.items(), key=lambda x: x[1])[0]
-        confidence_score = cluster_scores[best_cluster]
-        total_score = sum(cluster_scores.values())
-        return best_cluster, confidence_score, cluster_scores
-    else:
-        return 'uncategorized', 0, {}
-
-def map_product_type_to_cluster(product_type):
-    """
-    Map specific product types to general clusters
-    This is the expected/correct cluster for each product type
-    """
-
-    # Lighting cluster
-    lighting_types = [
-        'recessed_light_fixture', 'under_cabinet_light', 'smart_flush_mount_light',
-        'landscape_flood_light', 'wall_sconce', 'led_troffer_light', 'led_track_lighting_kit',
-        'mini_pendant_light'
-    ]
-
-    # Electrical cluster
-    electrical_types = [
-        'circuit_breaker', 'electrical_load_center', 'gfci_usb_outlet', 'usb_outlet',
-        'surge_protector_with_usb', 'circuit_breaker_kit'
-    ]
-
-    # Locks cluster
-    locks_types = ['smart_deadbolt_lock']
-
-    # Plumbing cluster
-    plumbing_types = [
-        'faucet_valve_stem', 'backflow_preventer_valve', 'kitchen_sink_with_faucet',
-        'dual_flush_toilet'
-    ]
-
-    # Tools cluster
-    tools_types = [
-        'multi_position_ladder', 'sds_plus_rebar_cutter', 'hex_driver_bits',
-        'chainsaw_tuneup_kit', 'hvlp_paint_sprayer'
-    ]
-
-    # Hardware cluster
-    hardware_types = [
-        'decorative_shelf_bracket', 'roofing_shovel_blade', 'stair_nosing_trim',
-        'velcro_fastener_tape', 'metal_folding_tool'
-    ]
-
-    # Smart home cluster
-    smart_home_types = ['radon_detector']
-
-    # Uncategorized or special cases
-    uncategorized_types = [
-        'safety_respirator_cartridge', 'bathroom_towel_bar', 'bathroom_exhaust_fan',
-        'hvac_air_filter', 'double_hung_window', 'work_gloves', 'outdoor_roller_shade',
-        'double_curtain_rod', 'speaker_wall_mounts', 'disposable_earplugs',
-        'missing_data'
-    ]
-
-    if product_type in lighting_types:
-        return 'lighting'
-    elif product_type in electrical_types:
-        return 'electrical'
-    elif product_type in locks_types:
-        return 'locks'
-    elif product_type in plumbing_types:
-        return 'plumbing'
-    elif product_type in tools_types:
-        return 'tools'
-    elif product_type in hardware_types:
-        return 'hardware'
-    elif product_type in smart_home_types:
-        return 'smart_home'
-    else:
-        return 'uncategorized'
-
-def calculate_accuracy_metrics(ground_truth_samples, full_dataset):
-    """Calculate accuracy metrics for the clustering system"""
+def calculate_accuracy_metrics(ground_truth_samples, full_dataset, classifier):
+    """Calculate accuracy metrics using the NEW ProductClassifier"""
 
     print("="*80)
-    print("VALIDATION RESULTS")
+    print("VALIDATION RESULTS - TESTING NEW PRODUCTCLASSIFIER")
     print("="*80)
 
     # Filter out missing data samples
@@ -145,24 +122,24 @@ def calculate_accuracy_metrics(ground_truth_samples, full_dataset):
         # Get the product from full dataset
         product = full_dataset[sample['index']]
 
-        # Get cluster assignment
-        predicted_cluster, confidence, cluster_scores = get_cluster_assignment(product)
+        # Get classification from NEW ProductClassifier
+        predicted_type, confidence, classification_details = get_product_classification(product, classifier)
 
-        # Get expected cluster
-        expected_cluster = map_product_type_to_cluster(sample['true_product_type'])
+        # Get expected type from ground truth
+        expected_type = map_ground_truth_to_expected_classifier_type(sample['true_product_type'])
 
         # Check if prediction is correct
-        is_correct = (predicted_cluster == expected_cluster)
+        is_correct = (predicted_type == expected_type)
 
         results.append({
             'sample_id': sample['sample_id'],
             'title': sample['title'],
             'true_product_type': sample['true_product_type'],
-            'expected_cluster': expected_cluster,
-            'predicted_cluster': predicted_cluster,
+            'expected_type': expected_type,
+            'predicted_type': predicted_type,
             'is_correct': is_correct,
             'confidence': confidence,
-            'cluster_scores': cluster_scores,
+            'classification_details': classification_details,
             'difficulty': sample['difficulty']
         })
 
@@ -186,23 +163,23 @@ def calculate_accuracy_metrics(ground_truth_samples, full_dataset):
             diff_acc = diff_correct / diff_total if diff_total > 0 else 0
             print(f"  {difficulty.capitalize()}: {diff_correct}/{diff_total} = {diff_acc*100:.1f}%")
 
-    # Accuracy by cluster
-    print(f"\nAccuracy by Expected Cluster:")
-    cluster_results = defaultdict(list)
+    # Accuracy by product type
+    print(f"\nAccuracy by Expected Type:")
+    type_results = defaultdict(list)
     for r in results:
-        cluster_results[r['expected_cluster']].append(r)
+        type_results[r['expected_type']].append(r)
 
-    for cluster in sorted(cluster_results.keys()):
-        cluster_res = cluster_results[cluster]
-        cluster_correct = sum(1 for r in cluster_res if r['is_correct'])
-        cluster_total = len(cluster_res)
-        cluster_acc = cluster_correct / cluster_total if cluster_total > 0 else 0
-        print(f"  {cluster}: {cluster_correct}/{cluster_total} = {cluster_acc*100:.1f}%")
+    for prod_type in sorted(type_results.keys()):
+        type_res = type_results[prod_type]
+        type_correct = sum(1 for r in type_res if r['is_correct'])
+        type_total = len(type_res)
+        type_acc = type_correct / type_total if type_total > 0 else 0
+        print(f"  {prod_type}: {type_correct}/{type_total} = {type_acc*100:.1f}%")
 
     return results, accuracy
 
 def build_confusion_matrix(results):
-    """Build confusion matrix showing what clusters were confused"""
+    """Build confusion matrix showing what product types were confused"""
 
     print(f"\n{'='*80}")
     print(f"CONFUSION ANALYSIS")
@@ -211,22 +188,26 @@ def build_confusion_matrix(results):
     # Build confusion matrix
     confusion = defaultdict(lambda: defaultdict(int))
     for r in results:
-        confusion[r['expected_cluster']][r['predicted_cluster']] += 1
+        confusion[r['expected_type']][r['predicted_type']] += 1
 
-    # Get all clusters
-    all_clusters = sorted(set(
+    # Get all types
+    all_types = sorted(set(
         list(confusion.keys()) +
         [pred for expected in confusion.values() for pred in expected.keys()]
     ))
 
-    # Print confusion matrix
+    # Print confusion matrix (truncate names for display)
     print(f"\nConfusion Matrix (Rows=Expected, Columns=Predicted):")
-    print(f"\n{'Expected':<15} | " + " ".join(f"{c:<10}" for c in all_clusters))
-    print(f"{'-'*15}-+-{'-'*11*len(all_clusters)}")
+    print(f"Note: Product type names truncated to 20 chars for display\n")
 
-    for expected in all_clusters:
-        row = f"{expected:<15} | "
-        for predicted in all_clusters:
+    # Print column headers
+    truncated_types = [t[:20] for t in all_types]
+    print(f"{'Expected':<20} | " + " ".join(f"{c:<10}" for c in truncated_types))
+    print(f"{'-'*20}-+-{'-'*11*len(all_types)}")
+
+    for expected in all_types:
+        row = f"{expected[:20]:<20} | "
+        for predicted in all_types:
             count = confusion[expected][predicted]
             if count > 0:
                 if expected == predicted:
@@ -277,54 +258,44 @@ def analyze_errors(results):
         print(f"\n  Error #{i}:")
         print(f"    Title: {error['title'][:80]}")
         print(f"    True Type: {error['true_product_type']}")
-        print(f"    Expected Cluster: {error['expected_cluster']}")
-        print(f"    Predicted Cluster: {error['predicted_cluster']}")
+        print(f"    Expected Type: {error['expected_type']}")
+        print(f"    Predicted Type: {error['predicted_type']}")
         print(f"    Confidence: {error['confidence']}")
-        print(f"    All Cluster Scores: {dict(error['cluster_scores'])}")
 
-        # Analyze why this error occurred
-        reasons = []
+        # Show alternate types if available
+        alternates = error['classification_details'].get('alternate_types', [])
+        if alternates:
+            print(f"    Alternate Types: {', '.join([f'{t}({s:.0f})' for t,s in alternates[:3]])}")
 
-        # Check if product has ambiguous keywords
-        if len(error['cluster_scores']) >= 3:
-            reasons.append("Product has keywords matching multiple clusters")
-
-        # Check if confidence is low
-        if error['confidence'] <= 2:
-            reasons.append("Low confidence score")
-
-        # Check if expected cluster had any matches
-        if error['cluster_scores'].get(error['expected_cluster'], 0) > 0:
-            reasons.append(f"Expected cluster '{error['expected_cluster']}' did score {error['cluster_scores'][error['expected_cluster']]} points but was beaten by '{error['predicted_cluster']}' with {error['confidence']} points")
-        else:
-            reasons.append(f"Expected cluster '{error['expected_cluster']}' had NO keyword matches at all")
-
-        print(f"    Why it failed:")
-        for reason in reasons:
-            print(f"      - {reason}")
+        # Get reasons from classification
+        reasons = error['classification_details'].get('reasons', [])
+        if reasons:
+            print(f"    Classification Reasons:")
+            for reason in reasons[:5]:
+                print(f"      - {reason}")
 
     # Error patterns
     print(f"\nError Patterns:")
 
-    # Pattern 1: Products misclassified as lighting
-    lighting_errors = [e for e in errors if e['predicted_cluster'] == 'lighting']
-    if lighting_errors:
-        print(f"\n  Products incorrectly classified as 'lighting': {len(lighting_errors)}")
-        print(f"    (This cluster may be too broad or have too many keywords)")
+    # Pattern 1: Count most common predicted types for errors
+    error_predicted_types = Counter([e['predicted_type'] for e in errors])
+    print(f"\n  Most common error predictions:")
+    for pred_type, count in error_predicted_types.most_common(5):
+        print(f"    {pred_type}: {count} errors")
 
     # Pattern 2: Products with low confidence
-    low_conf_errors = [e for e in errors if e['confidence'] <= 2]
+    low_conf_errors = [e for e in errors if e['confidence'] < 30]
     if low_conf_errors:
-        print(f"\n  Errors with low confidence (<=2): {len(low_conf_errors)}")
+        print(f"\n  Errors with low confidence (<30): {len(low_conf_errors)}")
 
-    # Pattern 3: Uncategorized products that should have a category
-    uncategorized_errors = [e for e in errors if e['predicted_cluster'] == 'uncategorized' and e['expected_cluster'] != 'uncategorized']
-    if uncategorized_errors:
-        print(f"\n  Products that should have a category but were 'uncategorized': {len(uncategorized_errors)}")
+    # Pattern 3: Products that couldn't be classified
+    unknown_errors = [e for e in errors if 'Unknown' in e['predicted_type']]
+    if unknown_errors:
+        print(f"\n  Products that couldn't be classified: {len(unknown_errors)}")
 
     return errors
 
-def test_edge_cases(ground_truth_samples, full_dataset):
+def test_edge_cases(ground_truth_samples, full_dataset, classifier):
     """Test edge cases specifically"""
 
     print(f"\n{'='*80}")
@@ -345,21 +316,21 @@ def test_edge_cases(ground_truth_samples, full_dataset):
             continue
 
         product = full_dataset[sample['index']]
-        predicted_cluster, confidence, cluster_scores = get_cluster_assignment(product)
-        expected_cluster = map_product_type_to_cluster(sample['true_product_type'])
-        is_correct = (predicted_cluster == expected_cluster)
+        predicted_type, confidence, classification_details = get_product_classification(product, classifier)
+        expected_type = map_ground_truth_to_expected_classifier_type(sample['true_product_type'])
+        is_correct = (predicted_type == expected_type)
 
         print(f"\n  Sample {sample['sample_id']}: {sample['title'][:60]}")
         print(f"    True Type: {sample['true_product_type']}")
-        print(f"    Expected: {expected_cluster}")
-        print(f"    Predicted: {predicted_cluster}")
+        print(f"    Expected: {expected_type}")
+        print(f"    Predicted: {predicted_type}")
         print(f"    Correct: {'✓' if is_correct else '✗'}")
         print(f"    Confidence: {confidence}")
 
         edge_results.append({
             'sample': sample,
-            'predicted': predicted_cluster,
-            'expected': expected_cluster,
+            'predicted': predicted_type,
+            'expected': expected_type,
             'is_correct': is_correct
         })
 
@@ -474,22 +445,24 @@ def generate_recommendations(results, errors, accuracy):
             'recommendation': 'The system is performing well. Focus on edge cases and rare product types.'
         })
 
-    # Recommendation 2: Based on error patterns
-    lighting_errors = [e for e in errors if e['predicted_cluster'] == 'lighting']
-    if len(lighting_errors) > len(errors) * 0.3:
-        recommendations.append({
-            'priority': 'HIGH',
-            'issue': f'Too many products misclassified as "lighting" ({len(lighting_errors)} errors)',
-            'recommendation': 'The lighting cluster is too broad. Problem: keywords like "light", "led", and "watt" appear in many non-lighting products. Solution: Use more specific keywords or add negative keywords to exclude false matches.'
-        })
+    # Recommendation 2: Based on most common error types
+    if errors:
+        error_predicted_types = Counter([e['predicted_type'] for e in errors])
+        most_common_error = error_predicted_types.most_common(1)[0]
+        if most_common_error[1] > len(errors) * 0.3:
+            recommendations.append({
+                'priority': 'HIGH',
+                'issue': f'Too many products misclassified as "{most_common_error[0]}" ({most_common_error[1]} errors)',
+                'recommendation': f'The "{most_common_error[0]}" pattern may be too broad or need more specific keywords. Review the keywords and add negative keywords to exclude false matches.'
+            })
 
-    # Recommendation 3: Based on uncategorized products
-    uncategorized_errors = [e for e in errors if e['predicted_cluster'] == 'uncategorized']
-    if len(uncategorized_errors) > 0:
+    # Recommendation 3: Based on unknown products
+    unknown_errors = [e for e in errors if 'Unknown' in e['predicted_type']]
+    if len(unknown_errors) > 0:
         recommendations.append({
             'priority': 'MEDIUM',
-            'issue': f'{len(uncategorized_errors)} products that should have a category are uncategorized',
-            'recommendation': 'Add more cluster categories or keywords to catch these products. Consider adding clusters for: bathroom accessories, HVAC, safety equipment, window treatments.'
+            'issue': f'{len(unknown_errors)} products could not be classified',
+            'recommendation': 'Add more product type patterns or keywords to catch these products. Review the unclassified products to identify missing categories.'
         })
 
     # Recommendation 4: Keyword coverage
@@ -502,12 +475,12 @@ def generate_recommendations(results, errors, accuracy):
         })
 
     # Recommendation 5: Ambiguous products
-    multi_cluster_errors = [e for e in errors if len(e['cluster_scores']) >= 3]
-    if len(multi_cluster_errors) > 0:
+    ambiguous_errors = [e for e in errors if len(e['classification_details'].get('alternate_types', [])) >= 2]
+    if len(ambiguous_errors) > 0:
         recommendations.append({
             'priority': 'LOW',
-            'issue': f'{len(multi_cluster_errors)} products matched 3+ clusters',
-            'recommendation': 'These products have ambiguous descriptions. Consider: (1) Using keyword weights, (2) Adding more specific keywords, (3) Using product hierarchy (e.g., is this primarily electrical or lighting?)'
+            'issue': f'{len(ambiguous_errors)} products had multiple high-scoring matches',
+            'recommendation': 'These products have ambiguous descriptions. Consider: (1) Improving keyword specificity, (2) Adding negative keywords to differentiate similar types, (3) Using stricter confidence thresholds.'
         })
 
     # Print recommendations
@@ -555,10 +528,10 @@ def save_validation_outputs(results, errors, accuracy, confusion, recommendation
             {
                 'title': e['title'],
                 'true_product_type': e['true_product_type'],
-                'expected_cluster': e['expected_cluster'],
-                'predicted_cluster': e['predicted_cluster'],
+                'expected_type': e['expected_type'],
+                'predicted_type': e['predicted_type'],
                 'confidence': e['confidence'],
-                'cluster_scores': dict(e['cluster_scores'])
+                'reasons': e['classification_details'].get('reasons', [])
             }
             for e in errors[:20]  # Save top 20 errors
         ],
@@ -579,8 +552,12 @@ def main():
     print(f"Loaded {len(ground_truth)} ground truth samples")
     print(f"Loaded {len(full_dataset)} products from full dataset")
 
+    print("\nInitializing ProductClassifier...")
+    classifier = ProductClassifier()
+    print(f"Classifier initialized with {len(classifier.patterns)} product type patterns")
+
     # Calculate accuracy metrics
-    results, accuracy = calculate_accuracy_metrics(ground_truth, full_dataset)
+    results, accuracy = calculate_accuracy_metrics(ground_truth, full_dataset, classifier)
 
     # Build confusion matrix
     confusion = build_confusion_matrix(results)
@@ -589,7 +566,7 @@ def main():
     errors = analyze_errors(results)
 
     # Test edge cases
-    edge_results = test_edge_cases(ground_truth, full_dataset)
+    edge_results = test_edge_cases(ground_truth, full_dataset, classifier)
 
     # Build confidence calibration
     confidence_buckets = build_confidence_calibration(results)

@@ -32,7 +32,7 @@ class ProductClassifier:
                 'description_hints': ['watt equivalent', 'color temperature', 'soft white', 'daylight', 'cri', 'bulbs for', 'bulbs take', 'led bulbs'],
                 'spec_indicators': {'wattage', 'lumens', 'color_temp', 'base_type', 'dimmable'},
                 'domains': ['lighting', 'electrical'],
-                'negative_keywords': [],  # Remove negative keywords - bulbs are often described as "for chandelier", etc
+                'negative_keywords': ['sconce', 'pendant', 'chandelier', 'fixture', 'wall mount', 'ceiling mount'],
                 'spec_boost': True  # Boost score if has bulb-specific specs
             },
 
@@ -46,9 +46,9 @@ class ProductClassifier:
             },
 
             'Pendant Light': {
-                'strong_keywords': ['pendant light', 'mini-pendant', 'pendant with', 'light pendant'],
-                'weak_keywords': ['hanging', 'suspension', 'chain', 'adjustable height', 'glass shade'],
-                'description_hints': ['hanging light', 'ceiling mounted', 'decorative lighting', 'pendant is'],
+                'strong_keywords': ['pendant light', 'mini-pendant', 'mini pendant', 'pendant with', 'light pendant'],
+                'weak_keywords': ['hanging', 'suspension', 'chain', 'adjustable height', 'glass shade', 'metal strap'],
+                'description_hints': ['hanging light', 'ceiling mounted', 'decorative lighting', 'pendant is', 'pendant features'],
                 'domains': ['lighting', 'electrical'],
                 'negative_keywords': ['light bulb']
             },
@@ -71,9 +71,9 @@ class ProductClassifier:
             },
 
             'Wall Sconce': {
-                'strong_keywords': ['sconce', 'wall sconce', 'wall light'],
-                'weak_keywords': ['wall mount', 'vanity light', 'bath light'],
-                'description_hints': ['wall mounted', 'bathroom lighting', 'decorative wall'],
+                'strong_keywords': ['sconce', 'wall sconce', 'wall light', 'vanity sconce', 'sconce light'],
+                'weak_keywords': ['wall mount', 'vanity light', 'bath light', 'arm', 'shade', 'glass shade', 'mid-century', 'brushed', 'accent lighting'],
+                'description_hints': ['wall mounted', 'bathroom lighting', 'decorative wall', 'sconce features', 'wall fixture', 'wall-mounted light', 'sconce is', 'sconces are'],
                 'domains': ['lighting', 'electrical'],
                 'negative_keywords': ['switch', 'outlet', 'plate']
             },
@@ -91,6 +91,23 @@ class ProductClassifier:
                 'description_hints': ['ceiling mounted', 'flush to ceiling', 'mount fixture'],
                 'domains': ['lighting', 'electrical'],
                 'negative_keywords': ['light bulb', 'recessed light', 'ceiling fan']
+            },
+
+            'Landscape Lighting': {
+                'strong_keywords': ['landscape light', 'landscape lighting', 'flood light', 'outdoor flood', 'pathway light', 'yard light'],
+                'weak_keywords': ['low voltage', 'outdoor', 'waterproof', 'ip65', 'ground stake', 'spotlight'],
+                'description_hints': ['outdoor lighting', 'landscape', 'garden', 'pathway', 'yard lighting'],
+                'spec_indicators': {'waterproof', 'outdoor_rated'},
+                'domains': ['lighting', 'electrical'],
+                'negative_keywords': []
+            },
+
+            'Troffer Light': {
+                'strong_keywords': ['troffer', 'troffer light', 'troffer lighting'],
+                'weak_keywords': ['drop ceiling', 'suspended ceiling', 'commercial', 'office lighting'],
+                'description_hints': ['commercial lighting', 'office light', 'ceiling grid'],
+                'domains': ['lighting', 'electrical'],
+                'negative_keywords': []
             },
 
             # ELECTRICAL PRODUCTS
@@ -112,9 +129,9 @@ class ProductClassifier:
             },
 
             'Electrical Outlet': {
-                'strong_keywords': ['outlet', 'receptacle', 'gfci outlet', 'usb outlet'],
-                'weak_keywords': ['duplex', 'tamper resistant', 'grounded'],
-                'description_hints': ['wall outlet', 'power receptacle'],
+                'strong_keywords': ['outlet', 'receptacle', 'gfci outlet', 'usb outlet', 'usb charger', 'in-wall charger'],
+                'weak_keywords': ['duplex', 'tamper resistant', 'grounded', 'usb', 'type a', 'type c'],
+                'description_hints': ['wall outlet', 'power receptacle', 'usb charging', 'charger devices'],
                 'domains': ['electrical'],
                 'negative_keywords': ['switch', 'breaker', 'cover plate']
             },
@@ -145,6 +162,14 @@ class ProductClassifier:
                 'negative_keywords': ['showerhead', 'toilet', 'drain']
             },
 
+            'Faucet Part': {
+                'strong_keywords': ['valve stem', 'faucet cartridge', 'faucet stem', 'stem assembly'],
+                'weak_keywords': ['replacement', 'assembly', 'ceramic disc', 'repair'],
+                'description_hints': ['faucet repair', 'replacement part', 'valve assembly'],
+                'domains': ['plumbing'],
+                'negative_keywords': []
+            },
+
             'Showerhead': {
                 'strong_keywords': ['showerhead', 'shower head', 'rain shower', 'handheld shower'],
                 'weak_keywords': ['spray', 'gpm', 'rainfall', 'jets'],
@@ -171,11 +196,11 @@ class ProductClassifier:
             },
 
             'Sink': {
-                'strong_keywords': ['sink', 'bathroom sink', 'kitchen sink', 'utility sink', 'vessel sink'],
-                'weak_keywords': ['basin', 'bowl', 'undermount', 'drop-in', 'farmhouse'],
-                'description_hints': ['wash basin'],
+                'strong_keywords': ['sink', 'bathroom sink', 'kitchen sink', 'utility sink', 'vessel sink', 'drop-in sink', 'undermount sink'],
+                'weak_keywords': ['basin', 'bowl', 'undermount', 'drop-in', 'farmhouse', 'stainless steel', 'gauge'],
+                'description_hints': ['wash basin', 'kitchen sink', 'bathroom sink'],
                 'domains': ['plumbing'],
-                'negative_keywords': ['faucet', 'drain only']
+                'negative_keywords': ['drain assembly', 'drain only', 'faucet only']
             },
 
             'Vanity Top': {
@@ -235,6 +260,14 @@ class ProductClassifier:
                 'negative_keywords': []
             },
 
+            'HVAC Air Filter': {
+                'strong_keywords': ['air filter', 'furnace filter', 'hvac filter', 'replacement filter', 'pleated filter'],
+                'weak_keywords': ['merv', 'fpr', 'filtration', 'allergen', 'fiberglass', 'pleated'],
+                'description_hints': ['indoor air quality', 'dust', 'filter replacement', 'air filtration'],
+                'domains': ['hvac'],
+                'negative_keywords': ['water filter', 'oil filter', 'vacuum filter']
+            },
+
             # DOOR HARDWARE
             'Door Knob': {
                 'strong_keywords': ['door knob', 'knob', 'doorknob'],
@@ -275,6 +308,14 @@ class ProductClassifier:
                 'description_hints': ['drilling', 'screw driving'],
                 'domains': ['tools'],
                 'negative_keywords': ['drill only', 'saw']
+            },
+
+            'Specialty Cutter': {
+                'strong_keywords': ['rebar cutter', 'bolt cutter', 'wire cutter', 'cable cutter', 'tile cutter'],
+                'weak_keywords': ['sds', 'sds-plus', 'cutting', 'hardened steel', 'reinforced'],
+                'description_hints': ['cutting rebar', 'cutting wire', 'specialty cutting'],
+                'domains': ['tools'],
+                'negative_keywords': []
             },
 
             'Drill': {
@@ -337,6 +378,14 @@ class ProductClassifier:
                 'strong_keywords': ['level', 'spirit level', 'torpedo level'],
                 'weak_keywords': ['bubble', 'magnetic', 'vial'],
                 'description_hints': ['leveling tool', 'measuring tool'],
+                'domains': ['tools'],
+                'negative_keywords': []
+            },
+
+            'Tool Kit': {
+                'strong_keywords': ['tune-up kit', 'tuneup kit', 'maintenance kit', 'repair kit', 'tool kit'],
+                'weak_keywords': ['replacement parts', 'chainsaw', 'mower', 'engine', 'service'],
+                'description_hints': ['kit includes', 'replacement', 'maintenance'],
                 'domains': ['tools'],
                 'negative_keywords': []
             },
@@ -429,15 +478,15 @@ class ProductClassifier:
                 'weak_keywords': ['bond', 'stick', 'tube', 'cartridge'],
                 'description_hints': ['bonding', 'sticks to'],
                 'domains': [],
-                'negative_keywords': ['tape']
+                'negative_keywords': ['tape', 'stair', 'nosing', 'trim', 'transition']
             },
 
             'Plumbing Fitting': {
-                'strong_keywords': ['fitting', 'elbow', 'coupling', 'tee', 'adapter', 'connector', 'push-to-connect'],
-                'weak_keywords': ['pvc', 'copper', 'brass', 'compression', 'threaded'],
-                'description_hints': ['pipe fitting', 'plumbing connection'],
+                'strong_keywords': ['fitting', 'elbow', 'coupling', 'tee', 'push-to-connect', 'backflow preventer', 'check valve'],
+                'weak_keywords': ['pvc', 'copper', 'brass', 'compression', 'threaded', 'backflow', 'preventer', 'adapter', 'connector'],
+                'description_hints': ['pipe fitting', 'plumbing connection', 'backflow', 'prevent backflow'],
                 'domains': ['plumbing'],
-                'negative_keywords': ['faucet', 'showerhead', 'toilet']
+                'negative_keywords': ['faucet', 'showerhead', 'toilet', 'electrical', 'usb', 'outlet']
             },
 
             'Under Cabinet Light': {
@@ -494,6 +543,110 @@ class ProductClassifier:
                 'weak_keywords': ['nitrile', 'latex', 'leather', 'grip', 'cut resistant'],
                 'description_hints': ['hand protection', 'safety gloves'],
                 'domains': [],
+                'negative_keywords': []
+            },
+
+            'Ladder': {
+                'strong_keywords': ['ladder', 'step ladder', 'extension ladder', 'multi-position ladder'],
+                'weak_keywords': ['feet', 'reach', 'aluminum', 'fiberglass', 'type ia', 'type iaa', 'load capacity'],
+                'description_hints': ['climb', 'climbing', 'height access', 'reach height'],
+                'domains': ['tools'],
+                'negative_keywords': []
+            },
+
+            'Window': {
+                'strong_keywords': ['window', 'double-hung window', 'single-hung window', 'casement window', 'sliding window'],
+                'weak_keywords': ['low-e', 'glass', 'vinyl', 'wood', 'clad', 'sash', 'insulated glass'],
+                'description_hints': ['window features', 'energy efficient', 'window construction'],
+                'domains': [],
+                'negative_keywords': ['window film', 'window treatment', 'window covering']
+            },
+
+            'Bathroom Towel Bar': {
+                'strong_keywords': ['towel bar', 'towel rack', 'towel holder', 'towel ring'],
+                'weak_keywords': ['brushed nickel', 'chrome', 'bronze', 'bathroom', 'wall mount'],
+                'description_hints': ['bathroom accessory', 'bath hardware', 'towel storage'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Surge Protector': {
+                'strong_keywords': ['surge protector', 'surge suppressor', 'power strip'],
+                'weak_keywords': ['outlet', 'joules', 'usb', 'protection', 'grounded'],
+                'description_hints': ['surge protection', 'electrical protection', 'power outlets'],
+                'domains': ['electrical'],
+                'negative_keywords': ['extension cord', 'breaker']
+            },
+
+            'Safety Respirator': {
+                'strong_keywords': ['respirator', 'respirator cartridge', 'vapor cartridge', 'n95', 'p100'],
+                'weak_keywords': ['replacement', 'filter', 'organic vapor', 'breathing', 'face mask'],
+                'description_hints': ['respiratory protection', 'breathing protection', 'air filter'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Disposable Earplugs': {
+                'strong_keywords': ['earplugs', 'ear plugs', 'hearing protection'],
+                'weak_keywords': ['disposable', 'foam', 'nrr', 'noise reduction', 'decibel', 'pack'],
+                'description_hints': ['hearing protection', 'noise reduction', 'ear protection'],
+                'domains': [],
+                'negative_keywords': ['earmuffs']
+            },
+
+            'Speaker Mount': {
+                'strong_keywords': ['speaker mount', 'speaker bracket', 'bookshelf speaker mount', 'speaker wall mount'],
+                'weak_keywords': ['wall mount', 'swivel', 'tilt', 'adjustable', 'audio', 'speakers'],
+                'description_hints': ['speaker installation', 'audio mount', 'mount speakers', 'speaker display'],
+                'domains': [],
+                'negative_keywords': ['light']
+            },
+
+            'Curtain Rod': {
+                'strong_keywords': ['curtain rod', 'drapery rod', 'window rod'],
+                'weak_keywords': ['telescoping', 'finials', 'decorative', 'adjustable', 'double rod'],
+                'description_hints': ['window treatment', 'curtain hanging', 'drapery hardware'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Shelf Bracket': {
+                'strong_keywords': ['shelf bracket', 'bracket'],
+                'weak_keywords': ['decorative', 'support', 'mounting', 'steel', 'nickel'],
+                'description_hints': ['shelf support', 'shelving', 'wall bracket'],
+                'domains': ['hardware'],
+                'negative_keywords': ['speaker bracket', 'light bracket']
+            },
+
+            'Radon Detector': {
+                'strong_keywords': ['radon detector', 'radon monitor', 'radon sensor'],
+                'weak_keywords': ['battery', 'smart', 'digital', 'lung cancer'],
+                'description_hints': ['radon monitoring', 'air quality', 'indoor air'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Paint Sprayer': {
+                'strong_keywords': ['paint sprayer', 'hvlp sprayer', 'airless sprayer', 'spray gun'],
+                'weak_keywords': ['hvlp', 'psi', 'gpm', 'nozzle', 'spray pattern'],
+                'description_hints': ['spray painting', 'paint application', 'finishing'],
+                'domains': ['tools'],
+                'negative_keywords': ['spray paint', 'paint can']
+            },
+
+            'Window Shade': {
+                'strong_keywords': ['window shade', 'roller shade', 'solar shade', 'outdoor shade'],
+                'weak_keywords': ['cordless', 'light filtering', 'blackout', 'uv protection'],
+                'description_hints': ['window covering', 'sun protection', 'privacy'],
+                'domains': [],
+                'negative_keywords': []
+            },
+
+            'Metal Folding Tool': {
+                'strong_keywords': ['folding tool', 'sheet metal folder', 'bending tool'],
+                'weak_keywords': ['seam', 'bend', 'metal', 'hvac'],
+                'description_hints': ['metal fabrication', 'sheet metal', 'folding seam'],
+                'domains': ['tools'],
                 'negative_keywords': []
             },
 
@@ -670,14 +823,16 @@ class ProductClassifier:
             confidence_level = 'Medium'
         elif best_score >= 30:
             confidence_level = 'Low'
-        else:
+        elif best_score >= 20:
             confidence_level = 'Very Low'
+        else:
+            confidence_level = 'No Match'
 
         # Get alternate types (other high-scoring matches)
         alternates = [(t, s) for t, s in sorted_scores[1:6] if s >= 20]
 
         return {
-            'product_type': best_type if best_score >= 30 else 'Unknown - Unable to Classify',
+            'product_type': best_type if best_score >= 20 else 'Unknown - Unable to Classify',
             'confidence': round(best_score, 1),
             'confidence_level': confidence_level,
             'reasons': all_reasons[best_type],
