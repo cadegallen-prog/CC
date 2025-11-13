@@ -1,0 +1,404 @@
+{
+  "description_statistics": {
+    "total_products": 425,
+    "products_with_descriptions": 415,
+    "products_missing_descriptions": 10,
+    "word_count": {
+      "min": 10,
+      "max": 265,
+      "mean": 111.3,
+      "median": 98,
+      "stdev": 50.5
+    },
+    "character_count": {
+      "min": 52,
+      "max": 1627,
+      "mean": 698.6,
+      "median": 624
+    }
+  },
+  "total_products": 425,
+  "products_with_clear_descriptions": 332,
+  "products_with_vague_descriptions": 93,
+  "total_unique_type_phrases": 475,
+  "clear_examples": [
+    {
+      "title": "Commercial Electric 1-Pack 2 ft. x 4 ft. 128-Watt Equivalent Integrated LED White Prismatic Lens Commercial Grid Ceiling Troffer CETR24BL40PD",
+      "description_word_count": 214,
+      "has_description": true,
+      "type_phrases_extracted": [
+        "light fixtures",
+        "led light source",
+        "sturdy frame",
+        "troffers",
+        "troffers",
+        "commercial electric led troffers",
+        "light fixtures",
+        "led light source",
+        "sturdy frame",
+        "troffers",
+        "they",
+        "troffers",
+        "ceiling troffer"
+      ],
+      "has_clear_type_phrase": true,
+      "category_signals": {
+        "lighting": [
+          "light",
+          "lumens",
+          "watt",
+          "lighting",
+          "led"
+        ],
+        "electrical": [
+          "volt"
+        ],
+        "hardware": [
+          "handle"
+        ],
+        "building_materials": [
+          "insulation"
+        ]
+      },
+      "top_category": [
+        "lighting",
+        5
+      ],
+      "category_confidence_scores": [
+        [
+          "lighting",
+          5
+        ],
+        [
+          "electrical",
+          1
+        ],
+        [
+          "hardware",
+          1
+        ],
+        [
+          "building_materials",
+          1
+        ]
+      ],
+      "useful_specs": {
+        "dimensions": {
+          "Width": "23.74",
+          "Height": "1.7",
+          "Weight": "12.54 lb"
+        },
+        "wattage": {
+          "value": 40.0,
+          "unit": "W"
+        },
+        "lumens": {
+          "value": 4400,
+          "unit": "lm"
+        },
+        "color_temp": {
+          "value": 4000,
+          "unit": "K"
+        },
+        "product_domains": [
+          "hvac",
+          "lighting",
+          "electrical"
+        ],
+        "model_number": "Commercial",
+        "ul_listed": "UL",
+        "voltage": {
+          "value": 277.0,
+          "unit": "V"
+        }
+      },
+      "spec_count": 8
+    },
+    {
+      "title": "Milwaukee High Performance Hard Shell Knee Pads with PACKOUT Tool Bag 48-73-6030-48-22-8321",
+      "description_word_count": 178,
+      "has_description": true,
+      "type_phrases_extracted": [
+        "milwaukee performance knee pad",
+        "professional knee pads",
+        "durable tool duffel bag",
+        "tool bag wherever",
+        "kit",
+        "milwaukee performance knee pad",
+        "professional knee pads",
+        "packout tool bag",
+        "durable tool duffel bag",
+        "tool bag"
+      ],
+      "has_clear_type_phrase": true,
+      "category_signals": {
+        "tools": [
+          "tool"
+        ]
+      },
+      "top_category": [
+        "tools",
+        1
+      ],
+      "category_confidence_scores": [
+        [
+          "tools",
+          1
+        ]
+      ],
+      "useful_specs": {},
+      "spec_count": 0
+    },
+    {
+      "title": "Wagner Control Pro 130 High Efficiency Airless Power Tank Paint and Stain Sprayer 580678",
+      "description_word_count": 196,
+      "has_description": true,
+      "type_phrases_extracted": [
+        "stationary paint sprayer",
+        "sprayer",
+        "clean-up process",
+        "system",
+        "best sprayer",
+        "stationary paint sprayer",
+        "sprayer has several",
+        "clean-up process",
+        "hose"
+      ],
+      "has_clear_type_phrase": true,
+      "category_signals": {
+        "plumbing": [
+          "sprayer"
+        ],
+        "paint": [
+          "paint",
+          "finish",
+          "stain",
+          "latex"
+        ],
+        "outdoor_garden": [
+          "hose"
+        ]
+      },
+      "top_category": [
+        "paint",
+        4
+      ],
+      "category_confidence_scores": [
+        [
+          "paint",
+          4
+        ],
+        [
+          "plumbing",
+          1
+        ],
+        [
+          "outdoor_garden",
+          1
+        ]
+      ],
+      "useful_specs": {
+        "dimensions": {
+          "Depth": "13.25 in",
+          "Width": "13.25 in",
+          "Height": "12 in",
+          "Weight": "9.5 lb"
+        },
+        "product_domains": [
+          "lighting",
+          "hvac"
+        ],
+        "model_number": "Wagner",
+        "gallons": {
+          "value": 1.5,
+          "unit": "gal"
+        }
+      },
+      "spec_count": 4
+    },
+    {
+      "title": "Saniflo SaniBest Pro 2-Piece 1.28gal Single Flush Elongated Toilet with 1hp Grinder Pump in White 013.087.005",
+      "description_word_count": 222,
+      "has_description": true,
+      "type_phrases_extracted": [
+        "sanibest pro",
+        "sanibest pro",
+        "sanibest pro",
+        "wastewater other sanitary fixtures",
+        "unit",
+        "sanibest pro",
+        "sanibest pro",
+        "sanibest pro",
+        "wastewater other sanitary fixtures"
+      ],
+      "has_clear_type_phrase": true,
+      "category_signals": {
+        "plumbing": [
+          "sink",
+          "shower",
+          "plumbing",
+          "toilet",
+          "valve",
+          "bathtub"
+        ],
+        "hvac": [
+          "air"
+        ],
+        "hardware": [
+          "handle"
+        ],
+        "tools": [
+          "grinder"
+        ],
+        "outdoor_garden": [
+          "soil"
+        ]
+      },
+      "top_category": [
+        "plumbing",
+        6
+      ],
+      "category_confidence_scores": [
+        [
+          "plumbing",
+          6
+        ],
+        [
+          "hvac",
+          1
+        ],
+        [
+          "hardware",
+          1
+        ],
+        [
+          "tools",
+          1
+        ],
+        [
+          "outdoor_garden",
+          1
+        ]
+      ],
+      "useful_specs": {},
+      "spec_count": 0
+    },
+    {
+      "title": "Kwikset San Clemente Matte Black Single Cylinder Low Profile Door Handleset with Halifax Handle Featuring SmartKey Security 818SCEXHFLSQ514",
+      "description_word_count": 147,
+      "has_description": true,
+      "type_phrases_extracted": [
+        "san clemente handleset",
+        "latch bolt",
+        "deadbolt",
+        "matte black finish",
+        "san clemente also",
+        "latch bolt",
+        "deadbolt",
+        "matte black finish"
+      ],
+      "has_clear_type_phrase": true,
+      "category_signals": {
+        "hardware": [
+          "screw",
+          "bolt",
+          "handle",
+          "lock"
+        ],
+        "paint": [
+          "finish"
+        ]
+      },
+      "top_category": [
+        "hardware",
+        4
+      ],
+      "category_confidence_scores": [
+        [
+          "hardware",
+          4
+        ],
+        [
+          "paint",
+          1
+        ]
+      ],
+      "useful_specs": {
+        "dimensions": {
+          "Depth": "2.63 in",
+          "Width": "2.75 in",
+          "Height": "17.91 in",
+          "Weight": "6.55 lb"
+        },
+        "product_domains": [
+          "lighting",
+          "hvac"
+        ],
+        "model_number": "Kwikset"
+      },
+      "spec_count": 3
+    }
+  ],
+  "vague_examples": [
+    {
+      "title": "",
+      "description_word_count": 0,
+      "has_description": false,
+      "type_phrases_extracted": [],
+      "has_clear_type_phrase": false,
+      "category_signals": {},
+      "top_category": null,
+      "category_confidence_scores": [],
+      "useful_specs": {},
+      "spec_count": 0
+    },
+    {
+      "title": "",
+      "description_word_count": 0,
+      "has_description": false,
+      "type_phrases_extracted": [],
+      "has_clear_type_phrase": false,
+      "category_signals": {},
+      "top_category": null,
+      "category_confidence_scores": [],
+      "useful_specs": {},
+      "spec_count": 0
+    },
+    {
+      "title": "",
+      "description_word_count": 0,
+      "has_description": false,
+      "type_phrases_extracted": [],
+      "has_clear_type_phrase": false,
+      "category_signals": {},
+      "top_category": null,
+      "category_confidence_scores": [],
+      "useful_specs": {},
+      "spec_count": 0
+    },
+    {
+      "title": "",
+      "description_word_count": 0,
+      "has_description": false,
+      "type_phrases_extracted": [],
+      "has_clear_type_phrase": false,
+      "category_signals": {},
+      "top_category": null,
+      "category_confidence_scores": [],
+      "useful_specs": {},
+      "spec_count": 0
+    },
+    {
+      "title": "",
+      "description_word_count": 0,
+      "has_description": false,
+      "type_phrases_extracted": [],
+      "has_clear_type_phrase": false,
+      "category_signals": {},
+      "top_category": null,
+      "category_confidence_scores": [],
+      "useful_specs": {},
+      "spec_count": 0
+    }
+  ]
+}

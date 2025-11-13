@@ -1,0 +1,17 @@
+{
+  "feit electric": "lighting",
+  "ge": "electrical_breaker",
+  "halo": "lighting",
+  "cerrowire": "electrical_wire",
+  "metalux": "lighting",
+  "moen": "plumbing_faucet",
+  "ecosmart": "lighting",
+  "square d": "electrical_breaker",
+  "hampton bay": "lighting",
+  "commercial electric": "lighting",
+  "leviton": "electrical_breaker",
+  "ultra prograde": "lighting",
+  "glacier bay": "plumbing_faucet",
+  "philips": "lighting",
+  "andersen": "door"
+}
