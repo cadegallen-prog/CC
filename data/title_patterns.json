@@ -1,0 +1,97 @@
+{
+  "pattern_counts": {
+    "Other": 144,
+    "Brand-Model-Details": 68,
+    "Brand-Number-Type": 85,
+    "Vague-No-Type": 86,
+    "Brand-Type-Specs": 32,
+    "Model-Heavy": 10
+  },
+  "pattern_examples": {
+    "Other": [
+      {
+        "title": "Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Chandelier LED Light Bulb Soft White 2700K (3-Pack) ETC60927CAWFILHDRP/3",
+        "product_id": 0
+      },
+      {
+        "title": "Rheem Performance 30 Gal. Short 30,000 BTU Natural Gas Water Heater with 6-Year Warranty XG30S06EC30U1",
+        "product_id": 4
+      },
+      {
+        "title": "Honeywell Home 1-Week Programmable Thermostat with Digital Display RTH221B",
+        "product_id": 17
+      }
+    ],
+    "Brand-Model-Details": [
+      {
+        "title": "GE 20 Amp Double Pole Ground Fault Breaker with Self-Test THQL2120GFTP",
+        "product_id": 1
+      },
+      {
+        "title": "Kwikset HALO Satin Nickel Keypad WiFi Electronic Single-Cylinder Smart Lock Deadbolt featuring SmartKey Security 938WIFIKYPD15SM",
+        "product_id": 2
+      },
+      {
+        "title": "LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLOM-60-BK",
+        "product_id": 3
+      }
+    ],
+    "Brand-Number-Type": [
+      {
+        "title": "Cerrowire 500 ft. 18/10 Black Solid Copper Sprinkler Wire 240-1010J",
+        "product_id": 6
+      },
+      {
+        "title": "Empire 48 in. UltraView LED Magnetic Box Level EM95.48",
+        "product_id": 7
+      },
+      {
+        "title": "Cerrowire 500 ft. 18/7 Black Solid Copper Sprinkler Wire 240-1007J",
+        "product_id": 8
+      }
+    ],
+    "Vague-No-Type": [
+      {
+        "title": "Cobra 5/16 in. x 50 ft. Slotted End Replacement Cable BC96106C",
+        "product_id": 11
+      },
+      {
+        "title": "Southwire 1/2 in. x 100 ft. Alflex RWA Metallic Aluminum Flexible Conduit 55082103",
+        "product_id": 12
+      },
+      {
+        "title": "GE Q-Line 40 Amp 1 in. Double Pole Circuit Breaker (THQP240) THQP240",
+        "product_id": 21
+      }
+    ],
+    "Brand-Type-Specs": [
+      {
+        "title": "MOEN Adler Single-Handle Low Arc Kitchen Faucet in Chrome with Tool Free Install 87201",
+        "product_id": 13
+      },
+      {
+        "title": "Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed Nickel LF-042-BRKK",
+        "product_id": 16
+      },
+      {
+        "title": "Lutron Skylark Contour LED+ Dimmer Switch for LED and Incandescent Bulbs, 150-Watt/Single-Pole or 3-Way, Ivory (CTCL-153PDH-IV) CTCL-153PDH-IV",
+        "product_id": 20
+      }
+    ],
+    "Model-Heavy": [
+      {
+        "title": "",
+        "product_id": 358
+      },
+      {
+        "title": "",
+        "product_id": 363
+      },
+      {
+        "title": "",
+        "product_id": 375
+      }
+    ]
+  },
+  "total_products": 425
+}
