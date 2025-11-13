@@ -1,0 +1,329 @@
+{
+  "summary": {
+    "total_products": 425,
+    "total_fields": 15,
+    "field_names": [
+      "brand",
+      "description",
+      "images",
+      "internet_sku",
+      "model",
+      "price",
+      "rating",
+      "reviews",
+      "sale_price",
+      "sku",
+      "sku_description",
+      "structured_details",
+      "structured_specifications",
+      "title",
+      "url"
+    ]
+  },
+  "field_completeness": {
+    "brand": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 413,
+      "non_empty_percentage": 97.2,
+      "missing_count": 0,
+      "empty_count": 12
+    },
+    "description": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 415,
+      "non_empty_percentage": 97.6,
+      "missing_count": 0,
+      "empty_count": 10
+    },
+    "images": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 415,
+      "non_empty_percentage": 97.6,
+      "missing_count": 0,
+      "empty_count": 10
+    },
+    "internet_sku": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 364,
+      "non_empty_percentage": 85.6,
+      "missing_count": 0,
+      "empty_count": 61
+    },
+    "model": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 413,
+      "non_empty_percentage": 97.2,
+      "missing_count": 0,
+      "empty_count": 12
+    },
+    "price": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 425,
+      "non_empty_percentage": 100.0,
+      "missing_count": 0,
+      "empty_count": 0
+    },
+    "rating": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 425,
+      "non_empty_percentage": 100.0,
+      "missing_count": 0,
+      "empty_count": 0
+    },
+    "reviews": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 425,
+      "non_empty_percentage": 100.0,
+      "missing_count": 0,
+      "empty_count": 0
+    },
+    "sale_price": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 413,
+      "non_empty_percentage": 97.2,
+      "missing_count": 0,
+      "empty_count": 12
+    },
+    "sku": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 425,
+      "non_empty_percentage": 100.0,
+      "missing_count": 0,
+      "empty_count": 0
+    },
+    "sku_description": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 425,
+      "non_empty_percentage": 100.0,
+      "missing_count": 0,
+      "empty_count": 0
+    },
+    "structured_details": {
+      "present_count": 305,
+      "present_percentage": 71.8,
+      "non_empty_count": 305,
+      "non_empty_percentage": 71.8,
+      "missing_count": 120,
+      "empty_count": 0
+    },
+    "structured_specifications": {
+      "present_count": 418,
+      "present_percentage": 98.4,
+      "non_empty_count": 343,
+      "non_empty_percentage": 80.7,
+      "missing_count": 7,
+      "empty_count": 75
+    },
+    "title": {
+      "present_count": 425,
+      "present_percentage": 100.0,
+      "non_empty_count": 415,
+      "non_empty_percentage": 97.6,
+      "missing_count": 0,
+      "empty_count": 10
+    },
+    "url": {
+      "present_count": 103,
+      "present_percentage": 24.2,
+      "non_empty_count": 97,
+      "non_empty_percentage": 22.8,
+      "missing_count": 322,
+      "empty_count": 6
+    }
+  },
+  "duplicates": {
+    "total_unique_ids": 0,
+    "total_products": 425,
+    "duplicate_ids": [],
+    "duplicate_count": 0
+  },
+  "text_analysis": {
+    "title": {
+      "count": 415,
+      "avg_length": 96.34939759036145,
+      "min_length": 34,
+      "max_length": 160,
+      "avg_words": 14.780722891566265
+    },
+    "description": {
+      "count": 415,
+      "avg_length": 698.5542168674699,
+      "min_length": 52,
+      "max_length": 1627,
+      "avg_words": 111.26265060240964
+    }
+  },
+  "specs_analysis": {
+    "total_with_specs": 0,
+    "dict_format_count": 0,
+    "list_format_count": 0,
+    "empty_specs_count": 0,
+    "common_spec_keys": [],
+    "avg_spec_keys_per_product": 0
+  },
+  "challenges": {
+    "missing_description": 10,
+    "missing_specs": 425,
+    "missing_both": 10,
+    "short_titles": 10,
+    "no_price": 10,
+    "examples": {
+      "easy": [],
+      "hard": [
+        {
+          "title": "",
+          "has_description": false,
+          "has_specs": false,
+          "title_words": 0,
+          "difficulty_score": 0
+        },
+        {
+          "title": "",
+          "has_description": false,
+          "has_specs": false,
+          "title_words": 0,
+          "difficulty_score": 0
+        },
+        {
+          "title": "",
+          "has_description": false,
+          "has_specs": false,
+          "title_words": 0,
+          "difficulty_score": 0
+        },
+        {
+          "title": "",
+          "has_description": false,
+          "has_specs": false,
+          "title_words": 0,
+          "difficulty_score": 0
+        },
+        {
+          "title": "",
+          "has_description": false,
+          "has_specs": false,
+          "title_words": 0,
+          "difficulty_score": 0
+        }
+      ]
+    }
+  },
+  "field_rankings": [
+    {
+      "field": "title",
+      "usefulness_weight": 10,
+      "completeness_percentage": 97.6,
+      "overall_score": 0.976,
+      "reason": "Primary product name - always useful"
+    },
+    {
+      "field": "description",
+      "usefulness_weight": 9,
+      "completeness_percentage": 97.6,
+      "overall_score": 0.878,
+      "reason": "Detailed product information"
+    },
+    {
+      "field": "brand",
+      "usefulness_weight": 5,
+      "completeness_percentage": 97.2,
+      "overall_score": 0.486,
+      "reason": "Brand can indicate product type"
+    },
+    {
+      "field": "price",
+      "usefulness_weight": 2,
+      "completeness_percentage": 100.0,
+      "overall_score": 0.2,
+      "reason": "Minimal type information"
+    },
+    {
+      "field": "reviews",
+      "usefulness_weight": 2,
+      "completeness_percentage": 100.0,
+      "overall_score": 0.2,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "sku",
+      "usefulness_weight": 2,
+      "completeness_percentage": 100.0,
+      "overall_score": 0.2,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "sku_description",
+      "usefulness_weight": 2,
+      "completeness_percentage": 100.0,
+      "overall_score": 0.2,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "images",
+      "usefulness_weight": 2,
+      "completeness_percentage": 97.6,
+      "overall_score": 0.195,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "model",
+      "usefulness_weight": 2,
+      "completeness_percentage": 97.2,
+      "overall_score": 0.194,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "sale_price",
+      "usefulness_weight": 2,
+      "completeness_percentage": 97.2,
+      "overall_score": 0.194,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "internet_sku",
+      "usefulness_weight": 2,
+      "completeness_percentage": 85.6,
+      "overall_score": 0.171,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "structured_specifications",
+      "usefulness_weight": 2,
+      "completeness_percentage": 80.7,
+      "overall_score": 0.161,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "structured_details",
+      "usefulness_weight": 2,
+      "completeness_percentage": 71.8,
+      "overall_score": 0.144,
+      "reason": "Unknown usefulness"
+    },
+    {
+      "field": "rating",
+      "usefulness_weight": 1,
+      "completeness_percentage": 100.0,
+      "overall_score": 0.1,
+      "reason": "No type information"
+    },
+    {
+      "field": "url",
+      "usefulness_weight": 1,
+      "completeness_percentage": 22.8,
+      "overall_score": 0.023,
+      "reason": "Reference only"
+    }
+  ]
+}
