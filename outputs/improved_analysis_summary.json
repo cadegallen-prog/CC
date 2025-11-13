@@ -1,0 +1,17 @@
+{
+  "total_products": 425,
+  "confidence_distribution": {
+    "very_high": 249,
+    "medium": 136,
+    "high": 15,
+    "low": 9,
+    "unknown": 16
+  },
+  "success_rate": "94.1%",
+  "extraction_methods": {
+    "from_title": 249,
+    "from_specs": 343,
+    "from_brand": 150,
+    "from_description": 368
+  }
+}
