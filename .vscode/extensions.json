@@ -1,0 +1,30 @@
+{
+    "recommendations": [
+        // Essential Python Development
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+
+        // Jupyter Notebooks (for visual/interactive coding)
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+
+        // Code Quality & Formatting (makes your code pretty)
+        "ms-python.black-formatter",
+        "charliermarsh.ruff",
+
+        // Git Integration (visual git tools)
+        "eamodio.gitlens",
+
+        // General Helpers
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "PKief.material-icon-theme",
+        "oderwat.indent-rainbow",
+
+        // Data & JSON
+        "mechatroner.rainbow-csv",
+        "ZainChen.json"
+    ]
+}
