@@ -1,0 +1,519 @@
+{
+  "total_keywords": 81,
+  "keywords_found": {
+    "electrical wire": 9,
+    "power drill": 9,
+    "circuit breaker": 8,
+    "electrical outlet": 8,
+    "door": 7,
+    "fasteners": 7,
+    "faucet": 7,
+    "level": 7,
+    "curtain rod": 6,
+    "lumber": 6,
+    "storage bin": 5,
+    "safety equipment": 5,
+    "hook": 4,
+    "electrical switch": 3,
+    "door lock": 3,
+    "vacuum": 3,
+    "paint": 2,
+    "electrical panel": 2,
+    "light bulb": 2,
+    "bathtub": 2,
+    "rack": 2,
+    "sink": 1,
+    "wood stain": 1,
+    "drywall": 1,
+    "flooring": 1,
+    "angle grinder": 1,
+    "garden hose": 1,
+    "valve": 1,
+    "roofing": 1,
+    "ceiling light": 1,
+    "pliers": 1,
+    "water heater": 1,
+    "pipe": 1,
+    "window": 1
+  },
+  "keyword_dictionary": {
+    "light bulb": [
+      "bulb",
+      "light bulb",
+      "led bulb",
+      "incandescent",
+      "cfl"
+    ],
+    "ceiling light": [
+      "ceiling light",
+      "flush mount",
+      "semi-flush",
+      "ceiling fixture"
+    ],
+    "chandelier": [
+      "chandelier",
+      "hanging light",
+      "pendant light"
+    ],
+    "wall sconce": [
+      "wall sconce",
+      "wall light",
+      "wall fixture",
+      "wall mount light"
+    ],
+    "recessed light": [
+      "recessed light",
+      "can light",
+      "downlight",
+      "pot light"
+    ],
+    "under cabinet light": [
+      "under cabinet",
+      "under counter light",
+      "task lighting"
+    ],
+    "outdoor light": [
+      "outdoor light",
+      "exterior light",
+      "landscape light",
+      "pathway light"
+    ],
+    "track light": [
+      "track light",
+      "track head",
+      "track fixture"
+    ],
+    "circuit breaker": [
+      "circuit breaker",
+      "breaker",
+      "electrical breaker",
+      "gfci breaker",
+      "afci breaker"
+    ],
+    "electrical outlet": [
+      "outlet",
+      "receptacle",
+      "wall outlet",
+      "electrical outlet",
+      "duplex outlet"
+    ],
+    "electrical switch": [
+      "switch",
+      "light switch",
+      "wall switch",
+      "dimmer switch",
+      "toggle switch"
+    ],
+    "electrical wire": [
+      "wire",
+      "electrical wire",
+      "copper wire",
+      "romex",
+      "thhn"
+    ],
+    "electrical conduit": [
+      "conduit",
+      "electrical conduit",
+      "pvc conduit",
+      "metallic conduit"
+    ],
+    "electrical panel": [
+      "electrical panel",
+      "breaker panel",
+      "load center",
+      "service panel"
+    ],
+    "electrical box": [
+      "electrical box",
+      "junction box",
+      "outlet box",
+      "switch box"
+    ],
+    "faucet": [
+      "faucet",
+      "tap",
+      "kitchen faucet",
+      "bathroom faucet",
+      "sink faucet"
+    ],
+    "sink": [
+      "sink",
+      "basin",
+      "washbasin",
+      "kitchen sink",
+      "bathroom sink"
+    ],
+    "toilet": [
+      "toilet",
+      "commode",
+      "water closet",
+      "elongated toilet",
+      "round toilet"
+    ],
+    "shower head": [
+      "shower head",
+      "showerhead",
+      "rain shower",
+      "handheld shower"
+    ],
+    "bathtub": [
+      "bathtub",
+      "tub",
+      "soaking tub",
+      "alcove tub",
+      "freestanding tub"
+    ],
+    "water heater": [
+      "water heater",
+      "hot water heater",
+      "tankless water heater",
+      "gas water heater"
+    ],
+    "pipe": [
+      "pipe",
+      "plumbing pipe",
+      "pvc pipe",
+      "copper pipe",
+      "drain pipe"
+    ],
+    "valve": [
+      "valve",
+      "shut-off valve",
+      "ball valve",
+      "gate valve",
+      "check valve"
+    ],
+    "ceiling fan": [
+      "ceiling fan",
+      "fan",
+      "indoor ceiling fan",
+      "outdoor ceiling fan"
+    ],
+    "exhaust fan": [
+      "exhaust fan",
+      "bathroom fan",
+      "ventilation fan",
+      "vent fan"
+    ],
+    "portable fan": [
+      "portable fan",
+      "floor fan",
+      "desk fan",
+      "table fan"
+    ],
+    "thermostat": [
+      "thermostat",
+      "programmable thermostat",
+      "smart thermostat",
+      "digital thermostat"
+    ],
+    "hvac filter": [
+      "air filter",
+      "hvac filter",
+      "furnace filter",
+      "ac filter"
+    ],
+    "power drill": [
+      "drill",
+      "power drill",
+      "cordless drill",
+      "hammer drill",
+      "impact driver"
+    ],
+    "circular saw": [
+      "circular saw",
+      "saw",
+      "power saw"
+    ],
+    "miter saw": [
+      "miter saw",
+      "compound miter saw",
+      "sliding miter saw"
+    ],
+    "table saw": [
+      "table saw"
+    ],
+    "jigsaw": [
+      "jigsaw",
+      "jig saw"
+    ],
+    "reciprocating saw": [
+      "reciprocating saw",
+      "recip saw",
+      "sawzall"
+    ],
+    "angle grinder": [
+      "angle grinder",
+      "grinder",
+      "disc grinder"
+    ],
+    "sander": [
+      "sander",
+      "orbital sander",
+      "belt sander",
+      "palm sander"
+    ],
+    "router": [
+      "router",
+      "wood router",
+      "trim router"
+    ],
+    "nail gun": [
+      "nail gun",
+      "nailer",
+      "brad nailer",
+      "finish nailer",
+      "framing nailer"
+    ],
+    "wrench": [
+      "wrench",
+      "socket wrench",
+      "adjustable wrench",
+      "torque wrench"
+    ],
+    "screwdriver": [
+      "screwdriver",
+      "phillips screwdriver",
+      "flathead screwdriver"
+    ],
+    "hammer": [
+      "hammer",
+      "claw hammer",
+      "framing hammer",
+      "sledgehammer"
+    ],
+    "pliers": [
+      "pliers",
+      "needle nose pliers",
+      "locking pliers",
+      "wire cutters"
+    ],
+    "level": [
+      "level",
+      "spirit level",
+      "laser level",
+      "torpedo level",
+      "box level"
+    ],
+    "tape measure": [
+      "tape measure",
+      "measuring tape",
+      "ruler"
+    ],
+    "door hardware": [
+      "door handle",
+      "door knob",
+      "door lever",
+      "door lock",
+      "deadbolt"
+    ],
+    "cabinet hardware": [
+      "cabinet knob",
+      "cabinet pull",
+      "cabinet handle",
+      "cabinet hinge"
+    ],
+    "fasteners": [
+      "screw",
+      "nail",
+      "bolt",
+      "nut",
+      "washer"
+    ],
+    "hook": [
+      "hook",
+      "coat hook",
+      "wall hook",
+      "utility hook"
+    ],
+    "drywall": [
+      "drywall",
+      "sheetrock",
+      "gypsum board",
+      "wallboard"
+    ],
+    "lumber": [
+      "lumber",
+      "wood",
+      "2x4",
+      "2x6",
+      "plywood"
+    ],
+    "insulation": [
+      "insulation",
+      "fiberglass insulation",
+      "foam insulation"
+    ],
+    "roofing": [
+      "roofing",
+      "shingles",
+      "roof shingles",
+      "roofing material"
+    ],
+    "flooring": [
+      "flooring",
+      "vinyl flooring",
+      "laminate flooring",
+      "hardwood flooring",
+      "tile flooring"
+    ],
+    "paint": [
+      "paint",
+      "interior paint",
+      "exterior paint",
+      "latex paint",
+      "oil-based paint"
+    ],
+    "primer": [
+      "primer",
+      "paint primer",
+      "sealer"
+    ],
+    "wood stain": [
+      "stain",
+      "wood stain",
+      "deck stain"
+    ],
+    "caulk": [
+      "caulk",
+      "caulking",
+      "sealant",
+      "silicone caulk"
+    ],
+    "garden hose": [
+      "hose",
+      "garden hose",
+      "water hose"
+    ],
+    "sprinkler": [
+      "sprinkler",
+      "lawn sprinkler",
+      "irrigation sprinkler"
+    ],
+    "lawn mower": [
+      "lawn mower",
+      "mower",
+      "push mower",
+      "riding mower"
+    ],
+    "string trimmer": [
+      "string trimmer",
+      "trimmer",
+      "weed eater",
+      "weed whacker"
+    ],
+    "leaf blower": [
+      "leaf blower",
+      "blower"
+    ],
+    "pressure washer": [
+      "pressure washer",
+      "power washer"
+    ],
+    "shelving": [
+      "shelf",
+      "shelving",
+      "shelving unit",
+      "wall shelf",
+      "storage shelf"
+    ],
+    "cabinet": [
+      "cabinet",
+      "storage cabinet",
+      "base cabinet",
+      "wall cabinet"
+    ],
+    "storage bin": [
+      "storage bin",
+      "bin",
+      "storage container",
+      "tote"
+    ],
+    "rack": [
+      "rack",
+      "storage rack",
+      "shelving rack",
+      "wire rack"
+    ],
+    "door": [
+      "door",
+      "entry door",
+      "interior door",
+      "exterior door",
+      "front door"
+    ],
+    "window": [
+      "window",
+      "vinyl window",
+      "wood window",
+      "sliding window"
+    ],
+    "window blind": [
+      "blind",
+      "window blind",
+      "mini blind",
+      "venetian blind"
+    ],
+    "window shade": [
+      "shade",
+      "window shade",
+      "roller shade",
+      "cellular shade"
+    ],
+    "curtain rod": [
+      "curtain rod",
+      "drapery rod",
+      "rod"
+    ],
+    "vacuum": [
+      "vacuum",
+      "shop vacuum",
+      "wet dry vac",
+      "shop vac"
+    ],
+    "cleaning supplies": [
+      "cleaner",
+      "cleaning solution",
+      "disinfectant",
+      "all-purpose cleaner"
+    ],
+    "mop": [
+      "mop",
+      "floor mop",
+      "wet mop",
+      "dust mop"
+    ],
+    "broom": [
+      "broom",
+      "push broom",
+      "angle broom"
+    ],
+    "smoke detector": [
+      "smoke detector",
+      "smoke alarm",
+      "fire alarm"
+    ],
+    "carbon monoxide detector": [
+      "carbon monoxide detector",
+      "co detector"
+    ],
+    "fire extinguisher": [
+      "fire extinguisher",
+      "extinguisher"
+    ],
+    "safety equipment": [
+      "safety glasses",
+      "safety goggles",
+      "hard hat",
+      "work gloves",
+      "respirator"
+    ],
+    "door lock": [
+      "lock",
+      "door lock",
+      "smart lock",
+      "keypad lock",
+      "deadbolt"
+    ]
+  }
+}
