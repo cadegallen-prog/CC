@@ -1,0 +1,112 @@
+{
+  "overall_accuracy": 0.4772727272727273,
+  "total_samples": 44,
+  "correct_predictions": 21,
+  "total_errors": 23,
+  "accuracy_by_difficulty": {
+    "easy": 0.6,
+    "medium": 0.42424242424242425,
+    "hard": 1.0
+  },
+  "confusion_matrix": {
+    "uncategorized": {
+      "lighting": 8,
+      "locks": 1,
+      "tools": 1,
+      "uncategorized": 1,
+      "electrical": 0,
+      "hardware": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "smart_home": 0
+    },
+    "lighting": {
+      "lighting": 10,
+      "electrical": 0,
+      "hardware": 0,
+      "locks": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "smart_home": 0,
+      "tools": 0,
+      "uncategorized": 0
+    },
+    "electrical": {
+      "lighting": 2,
+      "electrical": 3,
+      "smart_home": 2,
+      "hardware": 0,
+      "locks": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "tools": 0,
+      "uncategorized": 0
+    },
+    "hardware": {
+      "lighting": 3,
+      "hardware": 2,
+      "electrical": 0,
+      "locks": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "smart_home": 0,
+      "tools": 0,
+      "uncategorized": 0
+    },
+    "tools": {
+      "lighting": 2,
+      "tools": 2,
+      "paint": 1,
+      "electrical": 0,
+      "hardware": 0,
+      "locks": 0,
+      "plumbing": 0,
+      "smart_home": 0,
+      "uncategorized": 0
+    },
+    "smart_home": {
+      "electrical": 1,
+      "hardware": 0,
+      "lighting": 0,
+      "locks": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "smart_home": 0,
+      "tools": 0,
+      "uncategorized": 0
+    },
+    "locks": {
+      "locks": 1,
+      "electrical": 0,
+      "hardware": 0,
+      "lighting": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "smart_home": 0,
+      "tools": 0,
+      "uncategorized": 0
+    },
+    "plumbing": {
+      "plumbing": 2,
+      "paint": 1,
+      "lighting": 1,
+      "electrical": 0,
+      "hardware": 0,
+      "locks": 0,
+      "smart_home": 0,
+      "tools": 0,
+      "uncategorized": 0
+    },
+    "paint": {
+      "electrical": 0,
+      "hardware": 0,
+      "lighting": 0,
+      "locks": 0,
+      "paint": 0,
+      "plumbing": 0,
+      "smart_home": 0,
+      "tools": 0,
+      "uncategorized": 0
+    }
+  }
+}

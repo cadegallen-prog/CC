@@ -1,0 +1,118 @@
+{
+  "total_tests": 22,
+  "passed": 21,
+  "failed": 1,
+  "success_rate": 0.9545454545454546,
+  "tests": [
+    {
+      "name": "LED bulb should be classified as lighting",
+      "status": "PASS",
+      "message": "Expected lighting, got lighting"
+    },
+    {
+      "name": "Ceiling fan with light should be classified as lighting",
+      "status": "PASS",
+      "message": "Expected lighting, got lighting"
+    },
+    {
+      "name": "Pendant fixture should be classified as lighting",
+      "status": "PASS",
+      "message": "Expected lighting, got lighting"
+    },
+    {
+      "name": "Circuit breaker should be classified as electrical",
+      "status": "PASS",
+      "message": "Expected electrical, got electrical"
+    },
+    {
+      "name": "GFCI outlet should be classified as electrical",
+      "status": "PASS",
+      "message": "Expected electrical, got electrical"
+    },
+    {
+      "name": "Switch should be classified as electrical",
+      "status": "PASS",
+      "message": "Expected electrical, got electrical"
+    },
+    {
+      "name": "Faucet should be classified as plumbing",
+      "status": "FAIL",
+      "message": "Expected plumbing, got paint"
+    },
+    {
+      "name": "Toilet should be classified as plumbing",
+      "status": "PASS",
+      "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Valve should be classified as plumbing",
+      "status": "PASS",
+      "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Drill should be classified as tools",
+      "status": "PASS",
+      "message": "Expected tools, got tools"
+    },
+    {
+      "name": "Saw should be classified as tools",
+      "status": "PASS",
+      "message": "Expected tools, got tools"
+    },
+    {
+      "name": "Smart deadbolt should be classified as locks",
+      "status": "PASS",
+      "message": "Expected locks, got locks"
+    },
+    {
+      "name": "Door lock should be classified as locks",
+      "status": "PASS",
+      "message": "Expected locks, got locks"
+    },
+    {
+      "name": "Screws should be classified as hardware",
+      "status": "PASS",
+      "message": "Expected hardware, got hardware"
+    },
+    {
+      "name": "Nails should be classified as hardware",
+      "status": "PASS",
+      "message": "Expected hardware, got hardware"
+    },
+    {
+      "name": "Interior paint should be classified as paint",
+      "status": "PASS",
+      "message": "Expected paint, got paint"
+    },
+    {
+      "name": "Primer should be classified as paint",
+      "status": "PASS",
+      "message": "Expected paint, got paint"
+    },
+    {
+      "name": "Empty product should be uncategorized",
+      "status": "PASS",
+      "message": "Expected uncategorized, got uncategorized"
+    },
+    {
+      "name": "Product with title should have a classification",
+      "status": "PASS",
+      "message": "Condition is true"
+    },
+    {
+      "name": "LED bulb should have high confidence",
+      "status": "PASS",
+      "message": "Condition is true"
+    },
+    {
+      "name": "Product should have at least 1 confidence point",
+      "status": "PASS",
+      "message": "Condition is true"
+    },
+    {
+      "name": "Ambiguous product should match multiple clusters",
+      "status": "PASS",
+      "message": "Condition is true"
+    }
+  ]
+}
