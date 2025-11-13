@@ -1,116 +1,14 @@
 {
-  "total_errors": 12,
+  "total_errors": 3,
   "error_examples": [
-    {
-      "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2GTL 4 70LHE GZ10 PWS1836 LP840",
-      "true_product_type": "led_troffer_light",
-      "expected_type": "Recessed Light",
-      "predicted_type": "Wire",
-      "confidence": 33.0,
-      "reasons": [
-        "Description contains \"wire\"",
-        "Found 1 supporting keywords",
-        "Matches 1 product domains"
-      ]
-    },
-    {
-      "title": "Hampton Bay 75-Watt Equivalent Low Voltage Black LED Outdoor Landscape Flood Light Powered by Hubspace L08157",
-      "true_product_type": "landscape_flood_light",
-      "expected_type": "LED Light Bulb",
-      "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 14.0,
-      "reasons": [
-        "Found 1 supporting keywords",
-        "Found 1 description hints",
-        "Matches 2 product domains"
-      ]
-    },
-    {
-      "title": "Home Decorators Collection Closmere 5 in. 1-Light Brushed Gold Mid-Century Modern Wall Sconce with Clear Glass Shade HB3696-338",
-      "true_product_type": "wall_sconce",
-      "expected_type": "Wall Sconce",
-      "predicted_type": "LED Light Bulb",
-      "confidence": 46.0,
-      "reasons": [
-        "Description contains \"light bulb\"",
-        "Found 1 supporting keywords",
-        "Has 2 matching specifications",
-        "Matches 2 product domains"
-      ]
-    },
-    {
-      "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle Faucets 864540",
-      "true_product_type": "faucet_valve_stem",
-      "expected_type": "Faucet",
-      "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 8.0,
-      "reasons": [
-        "Found 1 supporting keywords",
-        "Matches 1 product domains"
-      ]
-    },
-    {
-      "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single Top Entry Freeze Sensor 007M1-QT-FZ 1 R",
-      "true_product_type": "backflow_preventer_valve",
-      "expected_type": "Plumbing Fitting",
-      "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 5.0,
-      "reasons": [
-        "Found 1 supporting keywords"
-      ]
-    },
     {
       "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
       "true_product_type": "stair_nosing_trim",
       "expected_type": "Fastener",
       "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 25.0,
+      "confidence": 10.0,
       "reasons": [
-        "Description contains \"glue\""
-      ]
-    },
-    {
-      "title": "DIABLO 3/4 in. x 12 in. SDS-Plus Rebar Cutter DMAPLRC1050",
-      "true_product_type": "sds_plus_rebar_cutter",
-      "expected_type": "Drill Bit",
-      "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 28.0,
-      "reasons": [
-        "Description contains \"drill\"",
-        "Matches 1 product domains"
-      ]
-    },
-    {
-      "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
-      "true_product_type": "usb_outlet",
-      "expected_type": "Electrical Outlet",
-      "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 25.0,
-      "reasons": [
-        "Description contains \"adapter\""
-      ]
-    },
-    {
-      "title": "Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet VDR3322A1PA1",
-      "true_product_type": "kitchen_sink_with_faucet",
-      "expected_type": "Sink",
-      "predicted_type": "Drain",
-      "confidence": 33.0,
-      "reasons": [
-        "Description contains \"drain\"",
-        "Found 1 supporting keywords",
-        "Matches 1 product domains"
-      ]
-    },
-    {
-      "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
-      "true_product_type": "chainsaw_tuneup_kit",
-      "expected_type": "Fastener",
-      "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 28.0,
-      "reasons": [
-        "Description contains \"air filter\"",
-        "Matches 1 product domains"
+        "Found 2 supporting keywords"
       ]
     },
     {
@@ -129,27 +27,26 @@
       "true_product_type": "mini_pendant_light",
       "expected_type": "Pendant Light",
       "predicted_type": "Unknown - Unable to Classify",
-      "confidence": 28.0,
+      "confidence": 6.0,
       "reasons": [
-        "Description contains \"light bulb\"",
-        "Matches 1 product domains"
+        "Matches 2 product domains"
       ]
     }
   ],
   "recommendations": [
     {
-      "priority": "MEDIUM",
-      "issue": "Moderate accuracy (72.7%)",
-      "recommendation": "The system is working but has room for improvement. Focus on fixing the most common error patterns."
+      "priority": "LOW",
+      "issue": "Good accuracy (93.2%)",
+      "recommendation": "The system is performing well. Focus on edge cases and rare product types."
     },
     {
       "priority": "HIGH",
-      "issue": "Too many products misclassified as \"Unknown - Unable to Classify\" (9 errors)",
+      "issue": "Too many products misclassified as \"Unknown - Unable to Classify\" (3 errors)",
       "recommendation": "The \"Unknown - Unable to Classify\" pattern may be too broad or need more specific keywords. Review the keywords and add negative keywords to exclude false matches."
     },
     {
       "priority": "MEDIUM",
-      "issue": "9 products could not be classified",
+      "issue": "3 products could not be classified",
       "recommendation": "Add more product type patterns or keywords to catch these products. Review the unclassified products to identify missing categories."
     }
   ]

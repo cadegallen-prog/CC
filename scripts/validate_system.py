@@ -47,9 +47,9 @@ def map_ground_truth_to_expected_classifier_type(ground_truth_type):
         'recessed_light_fixture': 'Recessed Light',
         'under_cabinet_light': 'Under Cabinet Light',
         'smart_flush_mount_light': 'Flush Mount Light',
-        'landscape_flood_light': 'LED Light Bulb',  # May be classified as general lighting
+        'landscape_flood_light': 'Landscape Lighting',  # Now has specific pattern
         'wall_sconce': 'Wall Sconce',
-        'led_troffer_light': 'Recessed Light',
+        'led_troffer_light': 'Troffer Light',  # Now has specific pattern
         'led_track_lighting_kit': 'Track Lighting',
         'mini_pendant_light': 'Pendant Light',
 
@@ -65,16 +65,16 @@ def map_ground_truth_to_expected_classifier_type(ground_truth_type):
         'smart_deadbolt_lock': 'Door Lock',
 
         # Plumbing
-        'faucet_valve_stem': 'Faucet',  # May be hard to classify
+        'faucet_valve_stem': 'Faucet Part',  # Now has specific pattern
         'backflow_preventer_valve': 'Plumbing Fitting',
         'kitchen_sink_with_faucet': 'Sink',
         'dual_flush_toilet': 'Toilet',
 
         # Tools & Hardware
         'multi_position_ladder': 'Ladder',
-        'sds_plus_rebar_cutter': 'Drill Bit',  # Or similar tool
+        'sds_plus_rebar_cutter': 'Specialty Cutter',  # Now has specific pattern
         'hex_driver_bits': 'Drill Bit',
-        'chainsaw_tuneup_kit': 'Fastener',  # May be miscellaneous
+        'chainsaw_tuneup_kit': 'Tool Kit',  # Now has specific pattern
         'hvlp_paint_sprayer': 'Paint Sprayer',
         'decorative_shelf_bracket': 'Shelf Bracket',
         'roofing_shovel_blade': 'Saw Blade',  # Similar to blade
