@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Type Identification Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .stat-card .label {
+            color: #666;
+            font-size: 0.95em;
+            margin-top: 5px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .visualization {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .visualization img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .visualization img:hover {
+            transform: scale(1.02);
+        }
+
+        .visualization h3 {
+            margin-top: 15px;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        .samples {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .samples h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .sample-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .sample-item strong {
+            color: #333;
+        }
+
+        .sample-item span {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .badge-high {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-low {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .download-section {
+            background: #e8f4f8;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .download-section h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .download-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .download-btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Product Type Identification Dashboard</h1>
+            <p>Comprehensive Analysis of 425 Home Depot Products</p>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Products</h3>
+                <div class="value">425</div>
+                <div class="label">Products Analyzed</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Product Types</h3>
+                <div class="value">42</div>
+                <div class="label">Unique Types Identified</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Brands</h3>
+                <div class="value">119</div>
+                <div class="label">Different Brands</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Avg Confidence</h3>
+                <div class="value">94.0%</div>
+                <div class="label">Data Quality Score</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>High Confidence</h3>
+                <div class="value">343</div>
+                <div class="label">Products (≥85% confidence)</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Needs Review</h3>
+                <div class="value">12</div>
+                <div class="label">Low Confidence Products</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>With Reviews</h3>
+                <div class="value">409</div>
+                <div class="label">Products Have Ratings</div>
+            </div>
+
+            <div class="stat-card">
+                <h3>Avg Price</h3>
+                <div class="value">$88.99</div>
+                <div class="label">Average Product Price</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="section">
+                <h2>📈 Product Type Distribution</h2>
+
+                <div class="visualization">
+                    <img src="../outputs/visualizations/category_distribution.png" alt="Category Distribution">
+                    <h3>Product Distribution by Category</h3>
+                </div>
+
+                <div class="grid-2">
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/product_type_distribution_top20.png" alt="Top 20 Product Types">
+                        <h3>Top 20 Most Common Product Types</h3>
+                    </div>
+
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/product_type_long_tail.png" alt="Long Tail">
+                        <h3>The Long Tail of Product Types</h3>
+                    </div>
+                </div>
+
+                <div class="visualization">
+                    <img src="../outputs/visualizations/product_type_by_confidence.png" alt="Types by Confidence">
+                    <h3>Product Types Colored by Confidence Level</h3>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>✅ Data Quality Analysis</h2>
+
+                <div class="grid-2">
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/data_completeness.png" alt="Data Completeness">
+                        <h3>Field Completeness Across Products</h3>
+                    </div>
+
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/confidence_distribution.png" alt="Confidence Distribution">
+                        <h3>Confidence Score Distribution</h3>
+                    </div>
+                </div>
+
+                <div class="visualization">
+                    <img src="../outputs/visualizations/completeness_vs_confidence.png" alt="Completeness vs Confidence">
+                    <h3>Data Completeness vs Confidence Correlation</h3>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>💰 Price Analysis</h2>
+
+                <div class="visualization">
+                    <img src="../outputs/visualizations/price_distribution.png" alt="Price Distribution">
+                    <h3>Overall Price Distribution</h3>
+                </div>
+
+                <div class="grid-2">
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/price_ranges_by_type.png" alt="Price Ranges">
+                        <h3>Price Ranges by Product Type</h3>
+                    </div>
+
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/average_price_by_type.png" alt="Average Price">
+                        <h3>Average Price by Type</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>🏷️ Brand Analysis</h2>
+
+                <div class="visualization">
+                    <img src="../outputs/visualizations/top_brands.png" alt="Top Brands">
+                    <h3>Top 20 Brands by Product Count</h3>
+                </div>
+
+                <div class="grid-2">
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/brand_category_matrix.png" alt="Brand-Category Matrix">
+                        <h3>Brand-Category Heat Map</h3>
+                    </div>
+
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/average_price_by_brand.png" alt="Price by Brand">
+                        <h3>Average Price by Brand</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>🎯 Confidence Analysis</h2>
+
+                <div class="visualization">
+                    <img src="../outputs/visualizations/confidence_histogram.png" alt="Confidence Histogram">
+                    <h3>Confidence Score Histogram</h3>
+                </div>
+
+                <div class="grid-2">
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/confidence_by_type.png" alt="Confidence by Type">
+                        <h3>Average Confidence by Product Type</h3>
+                    </div>
+
+                    <div class="visualization">
+                        <img src="../outputs/visualizations/products_needing_review.png" alt="Needs Review">
+                        <h3>Products Requiring Manual Review</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>📋 Sample Products by Type</h2>
+                <p style="margin-bottom: 20px; color: #666;">Here are examples of products for the top product types:</p>
+
+                <div class="samples">
+                    <h3>Other/Uncategorized (149 products)</h3>
+
+                    <div class="sample-item">
+                        <strong>LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLO...</strong><br>
+                        <span>Brand: LuxHomez | Price: $42.00</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Cerrowire 500 ft. 18/10 Black Solid Copper Sprinkler Wire 240-1010J...</strong><br>
+                        <span>Brand: Cerrowire | Price: $371.80</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Empire 48 in. UltraView LED Magnetic Box Level EM95.48...</strong><br>
+                        <span>Brand: Empire | Price: $77.97</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                </div>
+
+                <div class="samples">
+                    <h3>Lighting (Other) (43 products)</h3>
+
+                    <div class="sample-item">
+                        <strong>Metalux 13 in. Round 400-Watt Equivalent Integrated LED White High Bay Light HBRC2L3...</strong><br>
+                        <span>Brand: Metalux | Price: $153.97</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Cerrowire 25 ft. 18/2 Silver Stranded Copper Lamp Wire 251-1015AR...</strong><br>
+                        <span>Brand: Cerrowire | Price: $11.58</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Lutron Claro 3-Gang Decorator/Rocker Wallplate, Gloss, Light Almond (1-Pack) CW-3B-LA...</strong><br>
+                        <span>Brand: Lutron | Price: $9.97</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                </div>
+
+                <div class="samples">
+                    <h3>Circuit Breaker (24 products)</h3>
+
+                    <div class="sample-item">
+                        <strong>GE 20 Amp Double Pole Ground Fault Breaker with Self-Test THQL2120GFTP...</strong><br>
+                        <span>Brand: GE | Price: $112.50</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Siemens 30 Amp Double Pole Type QPF2 GFCI Circuit Breaker US2:QF230AP...</strong><br>
+                        <span>Brand: Siemens | Price: $109.00</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>GE Q-Line 40 Amp 1 in. Double Pole Circuit Breaker (THQP240) THQP240...</strong><br>
+                        <span>Brand: GE | Price: $14.99</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                </div>
+
+                <div class="samples">
+                    <h3>Recessed Light (23 products)</h3>
+
+                    <div class="sample-item">
+                        <strong>HALO HLBSL 6 in. Can Less Integrated LED, 900 Lumens, 5CCT, White (4-Pack) HLBSL609FS5-4PK...</strong><br>
+                        <span>Brand: HALO | Price: $61.97</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit ...</strong><br>
+                        <span>Brand: HALO | Price: $58.97</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Commercial Electric Trimless Integrated LED 4 in Round Adjustable Color Temp Canless Recessed Light ...</strong><br>
+                        <span>Brand: Commercial Electric | Price: $22.47</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                </div>
+
+                <div class="samples">
+                    <h3>Faucet (21 products)</h3>
+
+                    <div class="sample-item">
+                        <strong>MOEN Adler Single-Handle Low Arc Kitchen Faucet in Chrome with Tool Free Install 87201...</strong><br>
+                        <span>Brand: MOEN | Price: $59.39</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed Nickel LF-042-BRKK...</strong><br>
+                        <span>Brand: Pfister | Price: $135.79</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                    <div class="sample-item">
+                        <strong>Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle...</strong><br>
+                        <span>Brand: Pfister | Price: $29.08</span>
+                        <span class="badge badge-high">Confidence: 100%</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <div class="download-section">
+                <h3>📥 Download Full Results</h3>
+                <div class="download-links">
+                    <a href="../exports/product_classifications.csv" class="download-btn">📊 Download CSV</a>
+                    <a href="../exports/product_classifications.xlsx" class="download-btn">📊 Download Excel</a>
+                    <a href="../exports/product_classifications.json" class="download-btn">📊 Download JSON</a>
+                    <a href="executive_summary.md" class="download-btn">📄 View Summary</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Product Type Identification Dashboard</strong></p>
+            <p>Generated on 2025-11-13 09:01:55</p>
+            <p>425 Home Depot Products | 42 Product Types Identified</p>
+        </footer>
+    </div>
+</body>
+</html>
