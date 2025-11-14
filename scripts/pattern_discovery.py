@@ -285,7 +285,7 @@ def cluster_similar_products(data):
         'locks': ['lock', 'deadbolt', 'door', 'keyless', 'security', 'latch'],
         'paint': ['paint', 'primer', 'coating', 'stain', 'semi-gloss', 'latex', 'enamel'],
         'tools': ['drill', 'saw', 'tool', 'impact', 'cordless', 'battery', 'driver'],
-        'hardware': ['screw', 'nail', 'fastener', 'anchor', 'bolt', 'nut'],
+        'hardware': ['screw', 'screws', 'nail', 'nails', 'fastener', 'anchor', 'bolt', 'nut'],
         'plumbing': ['pipe', 'faucet', 'valve', 'plumbing', 'water', 'drain'],
     }
 
@@ -304,7 +304,8 @@ def cluster_similar_products(data):
         cluster_scores = defaultdict(int)
         for cluster_name, keywords in cluster_seeds.items():
             for keyword in keywords:
-                if keyword in combined:
+                # Use word boundary matching to avoid partial matches (e.g., "stain" in "stainless")
+                if re.search(r'\b' + re.escape(keyword) + r'\b', combined):
                     cluster_scores[cluster_name] += 1
 
         # Assign to best matching cluster

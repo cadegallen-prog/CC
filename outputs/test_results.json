@@ -1,8 +1,8 @@
 {
-  "total_tests": 22,
-  "passed": 21,
-  "failed": 1,
-  "success_rate": 0.9545454545454546,
+  "total_tests": 32,
+  "passed": 32,
+  "failed": 0,
+  "success_rate": 1.0,
   "tests": [
     {
       "name": "LED bulb should be classified as lighting",
@@ -36,8 +36,13 @@
     },
     {
       "name": "Faucet should be classified as plumbing",
-      "status": "FAIL",
-      "message": "Expected plumbing, got paint"
+      "status": "PASS",
+      "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Faucet should have confidence >= 1",
+      "status": "PASS",
+      "message": "Condition is true"
     },
     {
       "name": "Toilet should be classified as plumbing",
@@ -48,6 +53,36 @@
       "name": "Valve should be classified as plumbing",
       "status": "PASS",
       "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Bathroom faucet should be classified as plumbing",
+      "status": "PASS",
+      "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Bathroom faucet should have confidence >= 1",
+      "status": "PASS",
+      "message": "Condition is true"
+    },
+    {
+      "name": "Lavatory faucet should be classified as plumbing",
+      "status": "PASS",
+      "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Lavatory faucet should have confidence >= 1",
+      "status": "PASS",
+      "message": "Condition is true"
+    },
+    {
+      "name": "Pull-down faucet should be classified as plumbing",
+      "status": "PASS",
+      "message": "Expected plumbing, got plumbing"
+    },
+    {
+      "name": "Pull-down faucet should have confidence >= 1",
+      "status": "PASS",
+      "message": "Condition is true"
     },
     {
       "name": "Drill should be classified as tools",
@@ -86,6 +121,21 @@
     },
     {
       "name": "Primer should be classified as paint",
+      "status": "PASS",
+      "message": "Expected paint, got paint"
+    },
+    {
+      "name": "Wood stain should be classified as paint",
+      "status": "PASS",
+      "message": "Expected paint, got paint"
+    },
+    {
+      "name": "Stainless steel sink should NOT be classified as paint",
+      "status": "PASS",
+      "message": "Condition is true"
+    },
+    {
+      "name": "Wood stain should be classified as paint",
       "status": "PASS",
       "message": "Expected paint, got paint"
     },
