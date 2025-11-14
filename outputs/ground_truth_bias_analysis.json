@@ -1,0 +1,758 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-14",
+    "ground_truth_size": 48,
+    "full_dataset_size": 425,
+    "sampling_ratio": "1:8.9"
+  },
+  "ground_truth_distribution": {
+    "total_samples": 48,
+    "unique_product_types": 41,
+    "product_type_counts": {
+      "missing_data": 4,
+      "recessed_light_fixture": 2,
+      "under_cabinet_light": 2,
+      "disposable_earplugs": 2,
+      "usb_outlet": 2,
+      "safety_respirator_cartridge": 1,
+      "bathroom_towel_bar": 1,
+      "bathroom_exhaust_fan": 1,
+      "surge_protector_with_usb": 1,
+      "hvac_air_filter": 1,
+      "gfci_usb_outlet": 1,
+      "led_troffer_light": 1,
+      "double_hung_window": 1,
+      "metal_folding_tool": 1,
+      "decorative_shelf_bracket": 1,
+      "smart_flush_mount_light": 1,
+      "landscape_flood_light": 1,
+      "multi_position_ladder": 1,
+      "wall_sconce": 1,
+      "work_gloves": 1,
+      "circuit_breaker": 1,
+      "electrical_load_center": 1,
+      "radon_detector": 1,
+      "outdoor_roller_shade": 1,
+      "smart_deadbolt_lock": 1,
+      "faucet_valve_stem": 1,
+      "backflow_preventer_valve": 1,
+      "roofing_shovel_blade": 1,
+      "stair_nosing_trim": 1,
+      "double_curtain_rod": 1,
+      "sds_plus_rebar_cutter": 1,
+      "hvlp_paint_sprayer": 1,
+      "kitchen_sink_with_faucet": 1,
+      "chainsaw_tuneup_kit": 1,
+      "hex_driver_bits": 1,
+      "dual_flush_toilet": 1,
+      "speaker_wall_mounts": 1,
+      "circuit_breaker_kit": 1,
+      "velcro_fastener_tape": 1,
+      "led_track_lighting_kit": 1,
+      "mini_pendant_light": 1
+    },
+    "product_type_percentages": {
+      "missing_data": 8.33,
+      "recessed_light_fixture": 4.17,
+      "under_cabinet_light": 4.17,
+      "disposable_earplugs": 4.17,
+      "usb_outlet": 4.17,
+      "safety_respirator_cartridge": 2.08,
+      "bathroom_towel_bar": 2.08,
+      "bathroom_exhaust_fan": 2.08,
+      "surge_protector_with_usb": 2.08,
+      "hvac_air_filter": 2.08,
+      "gfci_usb_outlet": 2.08,
+      "led_troffer_light": 2.08,
+      "double_hung_window": 2.08,
+      "metal_folding_tool": 2.08,
+      "decorative_shelf_bracket": 2.08,
+      "smart_flush_mount_light": 2.08,
+      "landscape_flood_light": 2.08,
+      "multi_position_ladder": 2.08,
+      "wall_sconce": 2.08,
+      "work_gloves": 2.08,
+      "circuit_breaker": 2.08,
+      "electrical_load_center": 2.08,
+      "radon_detector": 2.08,
+      "outdoor_roller_shade": 2.08,
+      "smart_deadbolt_lock": 2.08,
+      "faucet_valve_stem": 2.08,
+      "backflow_preventer_valve": 2.08,
+      "roofing_shovel_blade": 2.08,
+      "stair_nosing_trim": 2.08,
+      "double_curtain_rod": 2.08,
+      "sds_plus_rebar_cutter": 2.08,
+      "hvlp_paint_sprayer": 2.08,
+      "kitchen_sink_with_faucet": 2.08,
+      "chainsaw_tuneup_kit": 2.08,
+      "hex_driver_bits": 2.08,
+      "dual_flush_toilet": 2.08,
+      "speaker_wall_mounts": 2.08,
+      "circuit_breaker_kit": 2.08,
+      "velcro_fastener_tape": 2.08,
+      "led_track_lighting_kit": 2.08,
+      "mini_pendant_light": 2.08
+    },
+    "domain_counts": {
+      "Lighting": 10,
+      "Other": 8,
+      "Electrical": 7,
+      "Tools": 6,
+      "Safety/PPE": 5,
+      "Hardware": 5,
+      "Plumbing": 4,
+      "Home & Decor": 2,
+      "HVAC": 1
+    },
+    "domain_percentages": {
+      "Lighting": 20.83,
+      "Other": 16.67,
+      "Electrical": 14.58,
+      "Tools": 12.5,
+      "Safety/PPE": 10.42,
+      "Hardware": 10.42,
+      "Plumbing": 8.33,
+      "Home & Decor": 4.17,
+      "HVAC": 2.08
+    }
+  },
+  "full_dataset_distribution": {
+    "total_products": 425,
+    "unique_product_types": 51,
+    "product_type_counts": {
+      "Unknown - Unable to Classify": 165,
+      "Recessed Light": 23,
+      "LED Light Bulb": 17,
+      "Circuit Breaker": 17,
+      "Load Center": 11,
+      "Unknown - Missing Data": 10,
+      "Light Switch": 9,
+      "Faucet": 9,
+      "Electrical Outlet": 9,
+      "Work Gloves": 9,
+      "Wire": 8,
+      "Saw": 8,
+      "Toilet": 8,
+      "Plumbing Fitting": 7,
+      "Wall Sconce": 7,
+      "Exhaust Fan": 7,
+      "Track Lighting": 6,
+      "Under Cabinet Light": 6,
+      "Pendant Light": 6,
+      "Skylight": 6,
+      "Saw Blade": 5,
+      "Tape": 5,
+      "Drain": 5,
+      "Cable": 4,
+      "Drill Bit": 4,
+      "Sink": 4,
+      "Drill": 4,
+      "Chandelier": 4,
+      "Door Lock": 3,
+      "Water Heater": 3,
+      "Level": 3,
+      "Flush Mount Light": 3,
+      "Extension Cord": 3,
+      "Cleaning Pad": 2,
+      "Door Knob": 2,
+      "Wall Plate": 2,
+      "Shop Vacuum": 2,
+      "Shower Pan": 2,
+      "Spring": 2,
+      "Showerhead": 2,
+      "Door Hinge": 2,
+      "Smoke Detector": 2,
+      "Thermostat": 1,
+      "Fastener": 1,
+      "Ceiling Fan": 1,
+      "Screwdriver": 1,
+      "Door Handle": 1,
+      "Paint Brush": 1,
+      "Vanity Top": 1,
+      "Adhesive": 1,
+      "Voltage Tester": 1
+    },
+    "product_type_percentages": {
+      "Unknown - Unable to Classify": 38.82,
+      "Recessed Light": 5.41,
+      "LED Light Bulb": 4.0,
+      "Circuit Breaker": 4.0,
+      "Load Center": 2.59,
+      "Unknown - Missing Data": 2.35,
+      "Light Switch": 2.12,
+      "Faucet": 2.12,
+      "Electrical Outlet": 2.12,
+      "Work Gloves": 2.12,
+      "Wire": 1.88,
+      "Saw": 1.88,
+      "Toilet": 1.88,
+      "Plumbing Fitting": 1.65,
+      "Wall Sconce": 1.65,
+      "Exhaust Fan": 1.65,
+      "Track Lighting": 1.41,
+      "Under Cabinet Light": 1.41,
+      "Pendant Light": 1.41,
+      "Skylight": 1.41,
+      "Saw Blade": 1.18,
+      "Tape": 1.18,
+      "Drain": 1.18,
+      "Cable": 0.94,
+      "Drill Bit": 0.94,
+      "Sink": 0.94,
+      "Drill": 0.94,
+      "Chandelier": 0.94,
+      "Door Lock": 0.71,
+      "Water Heater": 0.71,
+      "Level": 0.71,
+      "Flush Mount Light": 0.71,
+      "Extension Cord": 0.71,
+      "Cleaning Pad": 0.47,
+      "Door Knob": 0.47,
+      "Wall Plate": 0.47,
+      "Shop Vacuum": 0.47,
+      "Shower Pan": 0.47,
+      "Spring": 0.47,
+      "Showerhead": 0.47,
+      "Door Hinge": 0.47,
+      "Smoke Detector": 0.47,
+      "Thermostat": 0.24,
+      "Fastener": 0.24,
+      "Ceiling Fan": 0.24,
+      "Screwdriver": 0.24,
+      "Door Handle": 0.24,
+      "Paint Brush": 0.24,
+      "Vanity Top": 0.24,
+      "Adhesive": 0.24,
+      "Voltage Tester": 0.24
+    },
+    "domain_counts": {
+      "Other": 198,
+      "Lighting": 87,
+      "Electrical": 49,
+      "Plumbing": 40,
+      "Tools": 22,
+      "Safety/PPE": 11,
+      "HVAC": 8,
+      "Hardware": 6,
+      "Home & Decor": 3,
+      "Paint": 1
+    },
+    "domain_percentages": {
+      "Other": 46.59,
+      "Lighting": 20.47,
+      "Electrical": 11.53,
+      "Plumbing": 9.41,
+      "Tools": 5.18,
+      "Safety/PPE": 2.59,
+      "HVAC": 1.88,
+      "Hardware": 1.41,
+      "Home & Decor": 0.71,
+      "Paint": 0.24
+    }
+  },
+  "comparison": {
+    "domain_comparison": {
+      "Other": {
+        "ground_truth_count": 8,
+        "ground_truth_percentage": 16.67,
+        "full_dataset_count": 198,
+        "full_dataset_percentage": 46.59,
+        "difference": -29.92,
+        "status": "under-represented"
+      },
+      "Hardware": {
+        "ground_truth_count": 5,
+        "ground_truth_percentage": 10.42,
+        "full_dataset_count": 6,
+        "full_dataset_percentage": 1.41,
+        "difference": 9.0,
+        "status": "over-represented"
+      },
+      "Safety/PPE": {
+        "ground_truth_count": 5,
+        "ground_truth_percentage": 10.42,
+        "full_dataset_count": 11,
+        "full_dataset_percentage": 2.59,
+        "difference": 7.83,
+        "status": "over-represented"
+      },
+      "Tools": {
+        "ground_truth_count": 6,
+        "ground_truth_percentage": 12.5,
+        "full_dataset_count": 22,
+        "full_dataset_percentage": 5.18,
+        "difference": 7.32,
+        "status": "over-represented"
+      },
+      "Home & Decor": {
+        "ground_truth_count": 2,
+        "ground_truth_percentage": 4.17,
+        "full_dataset_count": 3,
+        "full_dataset_percentage": 0.71,
+        "difference": 3.46,
+        "status": "balanced"
+      },
+      "Electrical": {
+        "ground_truth_count": 7,
+        "ground_truth_percentage": 14.58,
+        "full_dataset_count": 49,
+        "full_dataset_percentage": 11.53,
+        "difference": 3.05,
+        "status": "balanced"
+      },
+      "Plumbing": {
+        "ground_truth_count": 4,
+        "ground_truth_percentage": 8.33,
+        "full_dataset_count": 40,
+        "full_dataset_percentage": 9.41,
+        "difference": -1.08,
+        "status": "balanced"
+      },
+      "Lighting": {
+        "ground_truth_count": 10,
+        "ground_truth_percentage": 20.83,
+        "full_dataset_count": 87,
+        "full_dataset_percentage": 20.47,
+        "difference": 0.36,
+        "status": "balanced"
+      },
+      "Paint": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 1,
+        "full_dataset_percentage": 0.24,
+        "difference": -0.24,
+        "status": "balanced"
+      },
+      "HVAC": {
+        "ground_truth_count": 1,
+        "ground_truth_percentage": 2.08,
+        "full_dataset_count": 8,
+        "full_dataset_percentage": 1.88,
+        "difference": 0.2,
+        "status": "balanced"
+      }
+    },
+    "top_20_type_comparison": {
+      "Unknown - Unable to Classify": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 165,
+        "full_dataset_percentage": 38.82,
+        "difference": -38.82
+      },
+      "missing_data": {
+        "ground_truth_count": 4,
+        "ground_truth_percentage": 8.33,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 8.33
+      },
+      "Recessed Light": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 23,
+        "full_dataset_percentage": 5.41,
+        "difference": -5.41
+      },
+      "disposable_earplugs": {
+        "ground_truth_count": 2,
+        "ground_truth_percentage": 4.17,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 4.17
+      },
+      "recessed_light_fixture": {
+        "ground_truth_count": 2,
+        "ground_truth_percentage": 4.17,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 4.17
+      },
+      "under_cabinet_light": {
+        "ground_truth_count": 2,
+        "ground_truth_percentage": 4.17,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 4.17
+      },
+      "usb_outlet": {
+        "ground_truth_count": 2,
+        "ground_truth_percentage": 4.17,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 4.17
+      },
+      "LED Light Bulb": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 17,
+        "full_dataset_percentage": 4.0,
+        "difference": -4.0
+      },
+      "Circuit Breaker": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 17,
+        "full_dataset_percentage": 4.0,
+        "difference": -4.0
+      },
+      "Load Center": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 11,
+        "full_dataset_percentage": 2.59,
+        "difference": -2.59
+      },
+      "Unknown - Missing Data": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 10,
+        "full_dataset_percentage": 2.35,
+        "difference": -2.35
+      },
+      "Faucet": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 9,
+        "full_dataset_percentage": 2.12,
+        "difference": -2.12
+      },
+      "Electrical Outlet": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 9,
+        "full_dataset_percentage": 2.12,
+        "difference": -2.12
+      },
+      "Light Switch": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 9,
+        "full_dataset_percentage": 2.12,
+        "difference": -2.12
+      },
+      "Work Gloves": {
+        "ground_truth_count": 0,
+        "ground_truth_percentage": 0.0,
+        "full_dataset_count": 9,
+        "full_dataset_percentage": 2.12,
+        "difference": -2.12
+      },
+      "backflow_preventer_valve": {
+        "ground_truth_count": 1,
+        "ground_truth_percentage": 2.08,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 2.08
+      },
+      "smart_flush_mount_light": {
+        "ground_truth_count": 1,
+        "ground_truth_percentage": 2.08,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 2.08
+      },
+      "circuit_breaker_kit": {
+        "ground_truth_count": 1,
+        "ground_truth_percentage": 2.08,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 2.08
+      },
+      "surge_protector_with_usb": {
+        "ground_truth_count": 1,
+        "ground_truth_percentage": 2.08,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 2.08
+      },
+      "speaker_wall_mounts": {
+        "ground_truth_count": 1,
+        "ground_truth_percentage": 2.08,
+        "full_dataset_count": 0,
+        "full_dataset_percentage": 0.0,
+        "difference": 2.08
+      }
+    }
+  },
+  "missing_and_underrepresented_types": [
+    {
+      "product_type": "Unknown - Unable to Classify",
+      "full_dataset_count": 165,
+      "full_dataset_percentage": 38.82,
+      "ground_truth_count": 0,
+      "domain": "Other",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Recessed Light",
+      "full_dataset_count": 23,
+      "full_dataset_percentage": 5.41,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "LED Light Bulb",
+      "full_dataset_count": 17,
+      "full_dataset_percentage": 4.0,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Circuit Breaker",
+      "full_dataset_count": 17,
+      "full_dataset_percentage": 4.0,
+      "ground_truth_count": 0,
+      "domain": "Electrical",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Load Center",
+      "full_dataset_count": 11,
+      "full_dataset_percentage": 2.59,
+      "ground_truth_count": 0,
+      "domain": "Electrical",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Unknown - Missing Data",
+      "full_dataset_count": 10,
+      "full_dataset_percentage": 2.35,
+      "ground_truth_count": 0,
+      "domain": "Other",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Light Switch",
+      "full_dataset_count": 9,
+      "full_dataset_percentage": 2.12,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Faucet",
+      "full_dataset_count": 9,
+      "full_dataset_percentage": 2.12,
+      "ground_truth_count": 0,
+      "domain": "Plumbing",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Electrical Outlet",
+      "full_dataset_count": 9,
+      "full_dataset_percentage": 2.12,
+      "ground_truth_count": 0,
+      "domain": "Electrical",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Work Gloves",
+      "full_dataset_count": 9,
+      "full_dataset_percentage": 2.12,
+      "ground_truth_count": 0,
+      "domain": "Safety/PPE",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Wire",
+      "full_dataset_count": 8,
+      "full_dataset_percentage": 1.88,
+      "ground_truth_count": 0,
+      "domain": "Electrical",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Saw",
+      "full_dataset_count": 8,
+      "full_dataset_percentage": 1.88,
+      "ground_truth_count": 0,
+      "domain": "Tools",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Toilet",
+      "full_dataset_count": 8,
+      "full_dataset_percentage": 1.88,
+      "ground_truth_count": 0,
+      "domain": "Plumbing",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Plumbing Fitting",
+      "full_dataset_count": 7,
+      "full_dataset_percentage": 1.65,
+      "ground_truth_count": 0,
+      "domain": "Plumbing",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Wall Sconce",
+      "full_dataset_count": 7,
+      "full_dataset_percentage": 1.65,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Exhaust Fan",
+      "full_dataset_count": 7,
+      "full_dataset_percentage": 1.65,
+      "ground_truth_count": 0,
+      "domain": "HVAC",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Track Lighting",
+      "full_dataset_count": 6,
+      "full_dataset_percentage": 1.41,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Under Cabinet Light",
+      "full_dataset_count": 6,
+      "full_dataset_percentage": 1.41,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Pendant Light",
+      "full_dataset_count": 6,
+      "full_dataset_percentage": 1.41,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Skylight",
+      "full_dataset_count": 6,
+      "full_dataset_percentage": 1.41,
+      "ground_truth_count": 0,
+      "domain": "Lighting",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Saw Blade",
+      "full_dataset_count": 5,
+      "full_dataset_percentage": 1.18,
+      "ground_truth_count": 0,
+      "domain": "Tools",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Tape",
+      "full_dataset_count": 5,
+      "full_dataset_percentage": 1.18,
+      "ground_truth_count": 0,
+      "domain": "Other",
+      "status": "completely_missing"
+    },
+    {
+      "product_type": "Drain",
+      "full_dataset_count": 5,
+      "full_dataset_percentage": 1.18,
+      "ground_truth_count": 0,
+      "domain": "Plumbing",
+      "status": "completely_missing"
+    }
+  ],
+  "statistical_analysis": {
+    "chi_square_statistic": 61.85,
+    "degrees_of_freedom": 9,
+    "kl_divergence": 0.3957,
+    "expected_ground_truth_counts": {
+      "Lighting": 9.83,
+      "Electrical": 5.53,
+      "Home & Decor": 0.34,
+      "Other": 22.36,
+      "Plumbing": 4.52,
+      "HVAC": 0.9,
+      "Hardware": 0.68,
+      "Tools": 2.48,
+      "Safety/PPE": 1.24,
+      "Paint": 0.11
+    },
+    "interpretation": {
+      "chi_square": "Higher values indicate greater deviation from expected distribution",
+      "kl_divergence": "Higher values indicate greater divergence between distributions (0 = identical)"
+    }
+  },
+  "bias_summary": {
+    "is_stratified": false,
+    "over_represented_domains": [
+      "Tools",
+      "Safety/PPE",
+      "Hardware"
+    ],
+    "under_represented_domains": [
+      "Other"
+    ],
+    "balanced_domains": [
+      "Plumbing",
+      "Lighting",
+      "Paint",
+      "Home & Decor",
+      "Electrical",
+      "HVAC"
+    ],
+    "total_missing_types": 23,
+    "total_underrepresented_types": 0
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "issue": "Over-represented domains in ground truth",
+      "domains": [
+        "Tools",
+        "Safety/PPE",
+        "Hardware"
+      ],
+      "action": "Reduce sampling from: Tools (12.5% vs 5.18%), Safety/PPE (10.42% vs 2.59%), Hardware (10.42% vs 1.41%). These domains are over-sampled relative to the full dataset."
+    },
+    {
+      "priority": "high",
+      "issue": "Under-represented domains in ground truth",
+      "domains": [
+        "Other"
+      ],
+      "action": "Increase sampling from: Other (16.67% vs 46.59%). These domains are under-sampled relative to the full dataset."
+    },
+    {
+      "priority": "medium",
+      "issue": "Missing product types in Other",
+      "action": "Add samples for: Unknown - Unable to Classify (165 products), Unknown - Missing Data (10 products)"
+    },
+    {
+      "priority": "medium",
+      "issue": "Missing product types in Lighting",
+      "action": "Add samples for: Recessed Light (23 products), LED Light Bulb (17 products), Light Switch (9 products)"
+    },
+    {
+      "priority": "medium",
+      "issue": "Missing product types in Electrical",
+      "action": "Add samples for: Circuit Breaker (17 products), Load Center (11 products), Electrical Outlet (9 products)"
+    },
+    {
+      "priority": "medium",
+      "issue": "Missing product types in Plumbing",
+      "action": "Add samples for: Faucet (9 products)"
+    },
+    {
+      "priority": "medium",
+      "issue": "Missing product types in Safety/PPE",
+      "action": "Add samples for: Work Gloves (9 products)"
+    },
+    {
+      "priority": "medium",
+      "issue": "Stratified sampling strategy",
+      "action": "Use proportional stratified sampling: sample each product type in proportion to its frequency in the full dataset"
+    }
+  ]
+}

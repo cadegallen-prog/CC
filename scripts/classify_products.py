@@ -28,12 +28,12 @@ class ProductClassifier:
         self.patterns = {
             # LIGHTING PRODUCTS
             'LED Light Bulb': {
-                'strong_keywords': ['light bulb', 'led bulb', 'lamp bulb', 'bulb soft white', 'bulb daylight'],
+                'strong_keywords': ['light bulb', 'led bulb', 'lamp bulb', 'bulb soft white', 'bulb daylight', 'led light', 'led lamp', 'led tube'],
                 'weak_keywords': ['watt equivalent', 'lumens', 'kelvin', 'dimmable', 'a19', 'a21', 'br30', 'par38', 'e26', 'e12', 'b10', 'candelabra'],
                 'description_hints': ['watt equivalent', 'color temperature', 'soft white', 'daylight', 'cri', 'bulbs for', 'bulbs take', 'led bulbs'],
                 'spec_indicators': {'wattage', 'lumens', 'color_temp', 'base_type', 'dimmable'},
                 'domains': ['lighting', 'electrical'],
-                'negative_keywords': ['sconce', 'pendant', 'chandelier', 'fixture', 'wall mount', 'ceiling mount'],
+                'negative_keywords': ['sconce', 'pendant', 'fixture', 'wall mount', 'ceiling mount'],
                 'spec_boost': True  # Boost score if has bulb-specific specs
             },
 
@@ -111,6 +111,38 @@ class ProductClassifier:
                 'negative_keywords': []
             },
 
+            'High Bay Light': {
+                'strong_keywords': ['high bay', 'high bay light', 'high bay lighting', 'highbay'],
+                'weak_keywords': ['warehouse', 'commercial', 'industrial', 'shop light', 'lumen', 'integrated led'],
+                'description_hints': ['warehouse lighting', 'industrial lighting', 'commercial lighting', 'high ceilings', 'mounting height'],
+                'domains': ['lighting', 'electrical'],
+                'negative_keywords': []
+            },
+
+            'Flashlight': {
+                'strong_keywords': ['flashlight', 'flash light', 'handheld light', 'portable light', 'tactical light'],
+                'weak_keywords': ['lumens', 'beam', 'rechargeable', 'battery', 'alkaline', 'led light', 'handheld'],
+                'description_hints': ['handheld', 'portable lighting', 'beam distance', 'runtime'],
+                'domains': ['tools', 'lighting'],
+                'negative_keywords': []
+            },
+
+            'String Lights': {
+                'strong_keywords': ['string light', 'string lights', 'cafe lights', 'bistro lights', 'edison string'],
+                'weak_keywords': ['outdoor', 'indoor', 'weatherproof', 'linkable', 'plug-in', 'solar'],
+                'description_hints': ['decorative lighting', 'outdoor entertaining', 'patio', 'string of lights'],
+                'domains': ['lighting', 'electrical'],
+                'negative_keywords': ['light bulb', 'led bulb', 'lamp bulb']
+            },
+
+            'Shop Light': {
+                'strong_keywords': ['shop light', 'work light', 'utility light', 'garage light', 'led shop light'],
+                'weak_keywords': ['linkable', 'pull chain', 'integrated led', 'flush mount', 'workshop'],
+                'description_hints': ['garage lighting', 'workshop', 'utility area', 'work area'],
+                'domains': ['lighting', 'electrical'],
+                'negative_keywords': []
+            },
+
             # ELECTRICAL PRODUCTS
             'Circuit Breaker': {
                 'strong_keywords': ['breaker', 'circuit breaker', 'gfci breaker', 'afci breaker'],
@@ -122,11 +154,11 @@ class ProductClassifier:
             },
 
             'Light Switch': {
-                'strong_keywords': ['switch', 'light switch', 'dimmer switch', 'rocker switch', 'toggle switch'],
-                'weak_keywords': ['gang', 'way', '3-way', '4-way', 'decorator'],
+                'strong_keywords': ['light switch', 'dimmer switch', 'rocker switch', 'toggle switch', 'wall switch'],
+                'weak_keywords': ['gang', 'way', '3-way', '4-way', 'decorator', 'switch'],
                 'description_hints': ['wall switch', 'control lighting'],
                 'domains': ['electrical', 'lighting'],
-                'negative_keywords': ['breaker', 'outlet', 'receptacle']
+                'negative_keywords': ['breaker', 'outlet', 'receptacle', 'light bulb', 'led bulb', 'led light', 'lamp', 'flashlight', 'string light']
             },
 
             'Electrical Outlet': {
@@ -708,21 +740,44 @@ class ProductClassifier:
         specs = product.get('structured_specifications', {})
 
         # Check for negative keywords first (disqualifiers)
+        # Context-aware matching to avoid false rejections
         for neg_kw in pattern.get('negative_keywords', []):
-            if neg_kw in title or neg_kw in description:
-                return 0.0, ['Disqualified by negative keyword: ' + neg_kw]
+            # For fixture-type keywords (chandelier, sconce, pendant):
+            # Only block if NOT describing what the bulb is FOR
+            if neg_kw in ['chandelier', 'sconce', 'pendant']:
+                if neg_kw in title:
+                    # Check if it's "chandelier bulb" vs "chandelier fixture"
+                    # Pattern like "chandelier led" or "chandelier bulb" = bulb FOR chandelier
+                    pattern_str = rf'{neg_kw}\s+(led|light|bulb)'
+                    if re.search(pattern_str, title):
+                        # This is a bulb FOR that fixture type - don't block
+                        continue
+                    else:
+                        # It's an actual fixture - block it
+                        return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
+
+            # For generic keywords (fixture, wall mount, ceiling mount):
+            # Only block if in TITLE (not just description)
+            elif neg_kw in ['fixture', 'wall mount', 'ceiling mount']:
+                if neg_kw in title:
+                    return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
+
+            # For all other negative keywords: use original logic
+            else:
+                if neg_kw in title or neg_kw in description:
+                    return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
 
         # Strong keywords in title (highest weight)
         for kw in pattern['strong_keywords']:
             if self.contains_keyword(title, kw):
-                score += 40
+                score += 80  # Increased from 40 to 80 - title is primary signal
                 reasons.append(f'Title contains "{kw}"')
                 break  # Only count once
 
         # Strong keywords in description
         for kw in pattern['strong_keywords']:
             if self.contains_keyword(description, kw) and not self.contains_keyword(title, kw):
-                score += 25
+                score += 50  # Increased from 25 to 50 - strong description signals matter
                 reasons.append(f'Description contains "{kw}"')
                 break
 
@@ -733,7 +788,7 @@ class ProductClassifier:
                 weak_matches += 1
 
         if weak_matches > 0:
-            weak_score = min(weak_matches * 5, 20)  # Max 20 points for weak keywords
+            weak_score = min(weak_matches * 5, 30)  # Max 30 points for weak keywords (increased from 20)
             score += weak_score
             reasons.append(f'Found {weak_matches} supporting keywords')
 
@@ -833,7 +888,7 @@ class ProductClassifier:
         alternates = [(t, s) for t, s in sorted_scores[1:6] if s >= 20]
 
         return {
-            'product_type': best_type if best_score >= 20 else 'Unknown - Unable to Classify',
+            'product_type': best_type if best_score >= 15 else 'Unknown - Unable to Classify',
             'confidence': round(best_score, 1),
             'confidence_level': confidence_level,
             'reasons': all_reasons[best_type],

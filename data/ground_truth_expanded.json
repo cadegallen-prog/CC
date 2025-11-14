@@ -1,0 +1,1011 @@
+{
+  "metadata": {
+    "total_samples": 100,
+    "creation_date": "2025-11-14",
+    "sampling_strategy": "stratified by category with manual labeling",
+    "description": "Expanded ground truth dataset with representative sampling",
+    "labeling_method": "manual review of each product"
+  },
+  "samples": [
+    {
+      "index": 133,
+      "title": "Hampton Bay Indoor/Outdoor 12-Light 24 ft. Smart Plug-in Edison Bulb RGBW Color Changing LED String Light Powered by Hubspace HB-10521-HS",
+      "description": "Hampton Bay commercial grade Smart 24 ft. Color-Changing Plug-in String Lights lets you create unique colors for your team, party or occasion, or quickly switch to 1 of the fashionable built-in holida",
+      "brand": "Hampton Bay",
+      "price": 64.97,
+      "true_product_type": "led_string_light",
+      "difficulty": "medium",
+      "notes": "String light fixture"
+    },
+    {
+      "index": 18,
+      "title": "EcoSmart 60-Watt Equivalent A19 Dimmable LED Light Bulb with Selectable Color Temperature (6-Pack) 13A1960W5CCTS01",
+      "description": "Upgrade your existing incandescent, halogen, and CFL bulbs to energy efficient EcoSmart LED light bulbs today and start saving dollars and cents on your power bill. These A19 LED light bulbs feature a",
+      "brand": "EcoSmart",
+      "price": 16.48,
+      "true_product_type": "led_light_bulb",
+      "difficulty": "easy",
+      "notes": "Matched: led bulb"
+    },
+    {
+      "index": 171,
+      "title": "Hampton Bay Lamar Park 50 Lumen Low Voltage Black Integrated LED Waterproof Outdoor Path Lights with Easy Clip Connectors (6-Pack) L08207",
+      "description": "LED 6-Pack Path Light shines brightly and is long lasting. It uses over 80% less energy. It has a rated life of 30,000-hour and is virtually maintenance free, with no bulbs to change. The all Plastic ",
+      "brand": "Hampton Bay",
+      "price": 69.97,
+      "true_product_type": "landscape_path_light",
+      "difficulty": "medium",
+      "notes": "Outdoor path light"
+    },
+    {
+      "index": 161,
+      "title": "Home Decorators Collection Sirrine 17.25 in. 2-Light Black Outdoor Wall Light Fixture Sconce with Clear Seeded Glass KB27704",
+      "description": "The Sirrine Collection from Home Decorators exhibits lantern-inspired craftsman lighting suitable for a variety of home types, from modern farmhouse to transitional. The 17.25-inch tall wall light is ",
+      "brand": "Home Decorators Collection",
+      "price": 79.97,
+      "true_product_type": "wall_sconce",
+      "difficulty": "medium",
+      "notes": "Matched: wall sconce"
+    },
+    {
+      "index": 159,
+      "title": "Home Decorators Collection Kenton 4.75 in. 1-Light Vintage Bronze Industrial Wall Sconce with Cage Frame Detail HB15016-310",
+      "description": "The Kenton family of light fixtures adds an industrial touch to your interior d\u00e9cor. With its warm vintage bronze finish and cage frame detail, the Kenton wall sconce is sure to be a conversation piec",
+      "brand": "Home Decorators Collection",
+      "price": 27.49,
+      "true_product_type": "wall_sconce",
+      "difficulty": "medium",
+      "notes": "Matched: wall sconce"
+    },
+    {
+      "index": 146,
+      "title": "EcoSmart 6 in. Integrated LED White Canless New Construction or Remodel Dimmable Recessed Light Trim Soft White, (4-Pack) NB01aA10FR1-279",
+      "description": "The 5 & 6 in. Soft White (2700K) Ecosmart LED downlight is an easy way to upgrade your existing can lights to the sleek look of recessed lighting and LED energy efficient technology. These lights are ",
+      "brand": "EcoSmart",
+      "price": 24.97,
+      "true_product_type": "recessed_light_fixture",
+      "difficulty": "medium",
+      "notes": "Matched: recessed light"
+    },
+    {
+      "index": 129,
+      "title": "Hampton Bay Raeburn 23 in. Steel and Marble Aged Brass Indoor Table Lamp with Black Fabric Shade HD-2166-AGB",
+      "description": "Both Handsome and understated, the tablelamp provides updated styling that is ideal for living room or bedrooms. The lamp features a stunning combination of Aged Brass finish accented with a black mar",
+      "brand": "Hampton Bay",
+      "price": 29.97,
+      "true_product_type": "table_lamp",
+      "difficulty": "medium",
+      "notes": "Table lamp"
+    },
+    {
+      "index": 121,
+      "title": "Hampton Bay Denbeck 4.5 in. W Matte Black 1-Light Sconce Clear Glass KVB1301AX-01",
+      "description": "This sconce is artfuly designed with a modern minimalist sensibility in mind. A clean metal band holds the clear glass cylinder in place, poised with an Edison bulb within emanating like the glow of a",
+      "brand": "Hampton Bay",
+      "price": 32.7,
+      "true_product_type": "wall_sconce",
+      "difficulty": "medium",
+      "notes": "Matched: wall sconce"
+    },
+    {
+      "index": 269,
+      "title": "Philips 60-Watt Equivalent G25 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) with Bluetooth (1-Pack) 567214",
+      "description": "Philips Smart Wi-Fi LED lighting puts you in complete control of your lighting with smart bulbs that are easy to use, functional and affordable. We've made all of your favorite high-quality Philips bu",
+      "brand": "Philips",
+      "price": 12.97,
+      "true_product_type": "led_light_bulb",
+      "difficulty": "easy",
+      "notes": "Matched: led bulb"
+    },
+    {
+      "index": 350,
+      "title": "Commercial Electric Creekford 3-Light Brushed Nickel Pendant with Frosted Glass Shade HON8913A",
+      "description": "The 3-light pendant is beautifully crafted in a restoration look of yester year. Finished in brushed nickel, it will be a great additional to any room. It has a frosted glass shade to provide pure ill",
+      "brand": "Commercial Electric",
+      "price": 69.97,
+      "true_product_type": "pendant_light",
+      "difficulty": "medium",
+      "notes": "Matched: pendant"
+    },
+    {
+      "index": 1,
+      "title": "GE 20 Amp Double Pole Ground Fault Breaker with Self-Test THQL2120GFTP",
+      "description": "The GE 20 Amp Double Pole Ground Fault Circuit Breaker with Self-Test has a tin plated copper stab to create a reliable, permanent and corrosion resistant connection. The Self-Test functionality is a ",
+      "brand": "GE",
+      "price": 112.5,
+      "true_product_type": "circuit_breaker",
+      "difficulty": "medium",
+      "notes": "Matched: circuit breaker"
+    },
+    {
+      "index": 32,
+      "title": "GE 200 Amp 32-Space 64-Circuit Main Breaker Indoor Load Center Contractor Kit TM3220C64K",
+      "description": "The GE PowerMark Gold 200 Amp 32-Space 64-Circuit Main Breaker Indoor Load Center Contractor Kit is pre-packaged with a selection of circuit breakers. The UL-listed load center has holes rated 100% sp",
+      "brand": "GE",
+      "price": 176.0,
+      "true_product_type": "electrical_load_center",
+      "difficulty": "hard",
+      "notes": "Electrical panel/load center"
+    },
+    {
+      "index": 72,
+      "title": "Leviton Branch Circuit Breaker, AFCI/GFCI 1-Pole 20 Amp, 120-Volt, Thermal Magnetic LB120-DFR R12-LB120-DFR",
+      "description": "Leviton is proud to bring the Load Center into the 21st century with a focus on improved safety and ease of installation. Thanks to its revolutionary design, all hot and neutral wires terminate at cus",
+      "brand": "Leviton",
+      "price": 69.0,
+      "true_product_type": "circuit_breaker",
+      "difficulty": "medium",
+      "notes": "Matched: circuit breaker"
+    },
+    {
+      "index": 37,
+      "title": "GE 200 Amp 32-Space 64-Circuit Main Lug Indoor Load Center Contractor Kit TLM3220C64GK",
+      "description": "The GE 200 Amp 32-Space 64-Circuit Main Lug Indoor Load Center Contractor Kit is pre-packaged with a selection of circuit breakers. The UL-listed load center has holes rated 100% split neutral on each",
+      "brand": "GE",
+      "price": 137.0,
+      "true_product_type": "electrical_load_center",
+      "difficulty": "hard",
+      "notes": "Electrical panel/load center"
+    },
+    {
+      "index": 109,
+      "title": "Bell + Howell Swivel Power 180-Degree Swiveling Design 6-Outlets & 3 USB Port Outlet Splitters Charging Wall Tap with Surge Protection 7544",
+      "description": "Swivel Power by Bell plus Howell allows you to have more power in the places you need most. Each power strip has 6 power outlets and 3-USB ports. The built-in 3000-Watt surge protection allows to safe",
+      "brand": "Bell + Howell",
+      "price": 18.58,
+      "true_product_type": "surge_protector",
+      "difficulty": "medium",
+      "notes": "Surge protector outlet splitter"
+    },
+    {
+      "index": 364,
+      "title": "Kidde 10-Year Battery Powered Smoke and Carbon Monoxide Detector with Alarm LED Warning Lights 21031514 21031514",
+      "description": "Experience the next level of fire safety with the Kidde 10-Year Battery Smoke & Carbon Monoxide Detector, LED Warning Lights, model 30CUD10. This smoke & CO detector has enhanced sensing technology th",
+      "brand": "Kidde",
+      "price": 54.97,
+      "true_product_type": "smoke_co_detector_combo",
+      "difficulty": "medium",
+      "notes": "Combination smoke and CO detector"
+    },
+    {
+      "index": 66,
+      "title": "Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Door Handle FBE365 V CAM 619 ACC",
+      "description": "The\u00a0Schlage Keypad Deadbolt with passage handle allows you to lock and unlock your door without using a key. Ideal for front and back doors as well as garage entry doors, home offices, this electronic",
+      "brand": "Schlage",
+      "price": 157.41,
+      "true_product_type": "smart_door_lock",
+      "difficulty": "easy",
+      "notes": "Electronic smart door lock"
+    },
+    {
+      "index": 335,
+      "title": "Grip-Rite 2-3/8 in. x 0.113 in. 30\u00b0 Paper Collated Exterior Galvanized Offset Round Head Ring Shank Framing Nails 4000 per Box GRSP8DRHG4",
+      "description": "Grip-Rite GRSP8D4M 2-3/8 in. x 0.113 in. 30\u00b0 Paper Collated Exterior Galvanized Offset Round Head Ring Shank Framing Nails are compatible with all 30\u00b0 pneumatic nailers. Exterior galvanized for increa",
+      "brand": "Grip-Rite",
+      "price": 154.0,
+      "true_product_type": "framing_nails",
+      "difficulty": "medium",
+      "notes": "Framing nails"
+    },
+    {
+      "index": 229,
+      "title": "DEWALT MAXFIT ULTRA 3-1./2 in. Phillips 3 Steel Screwdriving Bit DWAF3PH3-1H",
+      "description": "Featuring an ANTI-SNAP design, MAX FIT ULTRA screwdriving bits are reengineered to deliver up to 800 more screws per bit on select SKUs (select SKUs versus standard DEWALT PH2 screwdriving bits. Drivi",
+      "brand": "DEWALT",
+      "price": 3.97,
+      "true_product_type": "screwdriver_bits",
+      "difficulty": "medium",
+      "notes": "Screwdriver/driver bits"
+    },
+    {
+      "index": 379,
+      "title": "StyleWell 48 in. - 84 in. Telescoping 5/8 in. Single Curtain Rod Kit in Oil-Rubbed Bronze with Trumpet Square Finials UORB84F1607M06",
+      "description": "This all-inclusive Oil-Rubbed Bronze Drapery Rod Kit with trumpet square finials, beautifully adorns your stylish window treatments. Featuring a versatile finish that complements a variety of decor st",
+      "brand": "StyleWell",
+      "price": 24.98,
+      "true_product_type": "curtain_rod",
+      "difficulty": "hard",
+      "notes": "Matched: curtain rod"
+    },
+    {
+      "index": 415,
+      "title": "VELCRO 7/8 in. Sticky Back Squares (12-Pack) 90072",
+      "description": "VELCRO USA's classic hook and loop fasteners in convenient pre-cut squares. Features general purpose adhesive for smooth surface applications. Fast and easy, no tools or hardware required. Simple peel",
+      "brand": "VELCRO",
+      "price": 2.89,
+      "true_product_type": "velcro_fasteners",
+      "difficulty": "medium",
+      "notes": "Velcro hook and loop fasteners"
+    },
+    {
+      "index": 283,
+      "title": "Commercial Electric 4-Piece Nut Driver CE180651",
+      "description": "The Commercial Electric 4-Piece Nut Drivers includes 4 high quality standard size nut drivers that are color-coded for easy identification. Ergonomic anti-slip grips makes for comfortable use over ext",
+      "brand": "Commercial Electric",
+      "price": 14.97,
+      "true_product_type": "nut_driver_set",
+      "difficulty": "medium",
+      "notes": "Nut driver tool set"
+    },
+    {
+      "index": 216,
+      "title": "Delta Crestfield 24 in. Wall Mounted Towel Bar in Brushed Nickel 138031",
+      "description": "The classic design of the Delta Crestfield Bath Collection combines casual elegance with a timeless silhouette. Inspired by the fresh look of American architecture, this set conjures subtle design ele",
+      "brand": "Delta",
+      "price": 37.93,
+      "true_product_type": "bathroom_towel_bar",
+      "difficulty": "medium",
+      "notes": "Bathroom towel bar"
+    },
+    {
+      "index": 333,
+      "title": "KOHLER Capilano 18 in. Towel Bar in Matte Black K-R26682-BL",
+      "description": "Inspired by classic design, Capilano reflects vintage styling through decorative flairs and spherical detailing. The towel bar can fit with any bathroom decor. It comes with a lifetime limited warrant",
+      "brand": "KOHLER",
+      "price": 31.98,
+      "true_product_type": "bathroom_towel_bar",
+      "difficulty": "medium",
+      "notes": "Bathroom towel bar"
+    },
+    {
+      "index": 398,
+      "title": "IPEX 6 in. X 24 in. ABS SDR-35 Riser Pipe 9015",
+      "description": "A Riser Extension allows catch basins to be extended deeper into the ground. Increase the volume of your catch basin. Adjust the height of the drain grate to be flush with the top of the soil.",
+      "brand": "IPEX",
+      "price": 8.97,
+      "true_product_type": "drainage_pipe",
+      "difficulty": "medium",
+      "notes": "Drainage pipe"
+    },
+    {
+      "index": 151,
+      "title": "GE Whole House Water Filtration System GXWH50M",
+      "description": "The GE Whole House Filtration System is easy to install with push-to-connect fittings. Water flow is easily controlled with a simple twist. Basic, Advanced, or Premium filter options are available for",
+      "brand": "GE",
+      "price": 148.99,
+      "true_product_type": "water_filtration_system",
+      "difficulty": "medium",
+      "notes": "Water filtration system"
+    },
+    {
+      "index": 4,
+      "title": "Rheem Performance 30 Gal. Short 30,000 BTU Natural Gas Water Heater with 6-Year Warranty XG30S06EC30U1",
+      "description": "The Rheem Performance 30 gal. Natural Gas Short Water Heater comes with a 30,000 BTU/hour environmentally friendly low NOx burner that provides ample hot water for households with 1-people. to 2-peopl",
+      "brand": "Rheem",
+      "price": 589.0,
+      "true_product_type": "gas_water_heater",
+      "difficulty": "medium",
+      "notes": "Gas water heater"
+    },
+    {
+      "index": 60,
+      "title": "HALO LCR4 4 in. Soft White Selectable CCT Integrated LED Recessed Light With Round Surface Mount White Trim Retrofit Module LCR4129FSE010MW",
+      "description": "The Halo LCR4 is a 4 in. direct mount LED module with remote driver/junction box suitable for light commercial applications. This high-powered LED module installs without the use of a recessed housing",
+      "brand": "HALO",
+      "price": 18.79,
+      "true_product_type": "recessed_light_fixture",
+      "difficulty": "medium",
+      "notes": "Matched: recessed light"
+    },
+    {
+      "index": 196,
+      "title": "HALO H99 4 in. Steel Recessed Lighting Housing for Remodel Ceiling, No Insulation Contact, Air-Tite (6-Pack) H99RTAT-6PK",
+      "description": "The H99RTAT is a small aperture Non-IC AIR-TITE housing for providing accent and task lighting. The H99RTAT is designed for use in non-insulated existing ceilings. Non-IC Housing is AIR-TITE but insul",
+      "brand": "HALO",
+      "price": 128.88,
+      "true_product_type": "recessed_light_fixture",
+      "difficulty": "medium",
+      "notes": "Matched: recessed light"
+    },
+    {
+      "index": 180,
+      "title": "Hampton Bay Upton Brushed Nickel LED Sconce RS513859",
+      "description": "This 6 in. high LED wall sconce is finished in brushed nickel, and the color temperature is 3000K(warm white) color temperature of 502-Lumens and 90 CRI. this LED fixture can Illuminates both upward a",
+      "brand": "Hampton Bay",
+      "price": 64.97,
+      "true_product_type": "wall_sconce",
+      "difficulty": "medium",
+      "notes": "Matched: wall sconce"
+    },
+    {
+      "index": 163,
+      "title": "Ring Smart Lighting - Low Voltage Lighting Transformer (12-Volt x 15-Volt, 200-Watt), Black (Bridge Required) B09MV6PNMQ",
+      "description": "Smarten up your existing landscape lights at home with the Ring Transformer. Connect your low-voltage lights to the Ring Transformer and Ring Bridge (sold separately) to enable smart controls so you c",
+      "brand": "Ring",
+      "price": 99.99,
+      "true_product_type": "lighting_transformer",
+      "difficulty": "medium",
+      "notes": "Low voltage lighting transformer"
+    },
+    {
+      "index": 59,
+      "title": "Commercial Electric Specialty Elite 3 in. LED Trimless Canless Recessed Light, Adjustable CCT 92346",
+      "description": "Integrated all-in-one recessed lights are the homeowners dream; perfect for value-added lighting upgrades to enhance the look of your interior with the highest quality LEDs without breaking the bank. ",
+      "brand": "Commercial Electric",
+      "price": 19.97,
+      "true_product_type": "recessed_light_fixture",
+      "difficulty": "medium",
+      "notes": "Matched: recessed light"
+    },
+    {
+      "index": 112,
+      "title": "ULTRA PROGRADE ProWire Direct Wire 12 in. LED Oil-Rubbed Bronze Under Cabinet Light 64769-T1",
+      "description": "See your home in the best possible light with the 12 in. Ultra ProGrade ProWire Direct Wire LED Light Fixture. This light is perfect for mounting underneath or on top of kitchen cabinets, shelves and ",
+      "brand": "ULTRA PROGRADE",
+      "price": 34.97,
+      "true_product_type": "under_cabinet_light",
+      "difficulty": "medium",
+      "notes": "Matched: under cabinet light"
+    },
+    {
+      "index": 367,
+      "title": "Hampton Bay 4-ft. 3-Light Black Integrated LED Linear Track Lighting Kit with Mini Cylinder Track Heads 805049",
+      "description": "This integrated LED Hampton Bay Linear Track Lighting kit comes with everything you need to get up and running. It provides an abundance of light and sophistication to your interior space. It features",
+      "brand": "Hampton Bay",
+      "price": 139.0,
+      "true_product_type": "track_lighting_kit",
+      "difficulty": "hard",
+      "notes": "Track lighting system"
+    },
+    {
+      "index": 53,
+      "title": "HALO HLBSL 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor, Outdoor Integrated LED Recessed Light Kit HLBSL4069FS351EMWR",
+      "description": "Halo HLB4 Selectable Series Downlights are complete 4 in. ultra-thin canless recessed lights designed for use in new construction, remodel and retrofit installation, without needing a housing or j-box",
+      "brand": "HALO",
+      "price": 16.65,
+      "true_product_type": "recessed_light_fixture",
+      "difficulty": "hard",
+      "notes": "Matched: recessed light"
+    },
+    {
+      "index": 43,
+      "title": "Commercial Electric Trimless Integrated LED 6 in Round Adjustable Color Temp Canless Recessed Light for Kitchen Bathroom Livingroom, White 91488",
+      "description": "Good lighting is super important. It helps more than just what you see, it can completely change your mood. By choosing the right lighting for any given situation or time of day, you help prevent eye ",
+      "brand": "Commercial Electric",
+      "price": 27.47,
+      "true_product_type": "recessed_light_fixture",
+      "difficulty": "hard",
+      "notes": "Matched: recessed light"
+    },
+    {
+      "index": 188,
+      "title": "Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Spotlight with Smart App Control (1-Pack) Powered by Hubspace L08557-BK",
+      "description": "This 1-pack Low Voltage smart light offers color adjustable Integrated LED lighting. Sturdy, aluminum waterproof construction allows lights to withstand any weather. Simply plug-in and connect this wa",
+      "brand": "Hampton Bay",
+      "price": 51.78,
+      "true_product_type": "landscape_spotlight",
+      "difficulty": "medium",
+      "notes": "Outdoor spotlight"
+    },
+    {
+      "index": 40,
+      "title": "Hampton Bay 44 in. Black Integrated LED Linear Track Lighting Kit Mini Step 3-Light 805109",
+      "description": "This integrated LED Hampton Bay Linear Track Lighting kit comes with everything you need to get up and running. It provides an abundance of light and sophistication to your interior space. It features",
+      "brand": "Hampton Bay",
+      "price": 115.0,
+      "true_product_type": "track_lighting_kit",
+      "difficulty": "hard",
+      "notes": "Track lighting system"
+    },
+    {
+      "index": 22,
+      "title": "Southwire (By-The-Foot) 10/3 Gray Solid CU UF-B W/G Wire 13059199",
+      "description": "Southwire's copper UF-B cable is used in applications that include outside lamp posts, pumps and other loads. It can also be used for outbuildings such as garages and barns. UF-B feeds from a distribu",
+      "brand": "Southwire",
+      "price": 3.28,
+      "true_product_type": "electrical_wire",
+      "difficulty": "medium",
+      "notes": "Electrical wire"
+    },
+    {
+      "index": 287,
+      "title": "Hampton Bay Wireless Battery Operated Tabletop Doorbell Kit with LED Strobe Light and Wireless Push Button, White HB-7778-02",
+      "description": "You'll always be aware of your visitors when you install this Defiant Wireless Battery Operated Door Bell Strobe Kit. Alerting you by sound and light, this unit emits a flashing blue LED strobe light ",
+      "brand": "Hampton Bay",
+      "price": 39.98,
+      "true_product_type": "wireless_doorbell",
+      "difficulty": "hard",
+      "notes": "Wireless doorbell kit"
+    },
+    {
+      "index": 299,
+      "title": "Commercial Electric White 1-Gang Cable Pass-Through Plastic Wall Plate TV Multimedia Recessed Box 5053-WH",
+      "description": "Commercial Electric's TV Multimedia Recessed Box is designed to streamline power and cable management behind your HDTV. The box features a side cover plate with knockouts for 0.75 in. and 1 in. flexib",
+      "brand": "Commercial Electric",
+      "price": 38.97,
+      "true_product_type": "tv_cable_box",
+      "difficulty": "medium",
+      "notes": "TV cable management box"
+    },
+    {
+      "index": 219,
+      "title": "Scotch 3/4 in. x 30 ft. Linerless Rubber Splicing Tape 41717-BX-10",
+      "description": "Scotch Linerless Rubber Splicing Tape is an economical, general purpose, rubber tape. The tape is a highly conformable, linerless EPR (Ethylene Propylene Rubber) based electricalinsulating tape. The t",
+      "brand": "Scotch",
+      "price": 14.41,
+      "true_product_type": "adhesive_tape",
+      "difficulty": "medium",
+      "notes": "Adhesive tape"
+    },
+    {
+      "index": 308,
+      "title": "VELCRO 24 in. x 3/4 in. Sticky Back for Fabrics Tape Black VEL-91878-USA",
+      "description": "VELCRO Brand Sticky Back for Fabrics provides a permanent bond to fabrics without the need for sewing, gluing or ironing. The secure fabric bond withstands laundering. It is designed for cottons, poly",
+      "brand": "VELCRO",
+      "price": 3.77,
+      "true_product_type": "velcro_tape",
+      "difficulty": "medium",
+      "notes": "Velcro fastener tape"
+    },
+    {
+      "index": 84,
+      "title": "RIDGID 3 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with Filter, Locking Hose, Accessories and Pro Gear Attachment HD0300PG HD0300PG",
+      "description": "Wherever you go, RIDGID can go. Travel easily with this RIDGID 3 Gal. 5.0 Peak Horsepower NXT Wet Dry Vacuum that includes a Pro Gear Vac-Mount Attachment. This accessory attachment hauls your Pro Gea",
+      "brand": "RIDGID",
+      "price": 139.97,
+      "true_product_type": "shop_vacuum",
+      "difficulty": "medium",
+      "notes": "Shop vacuum"
+    },
+    {
+      "index": 400,
+      "title": "",
+      "description": "",
+      "brand": "",
+      "price": 0.0,
+      "true_product_type": "missing_data",
+      "difficulty": "hard",
+      "notes": "No title or description"
+    },
+    {
+      "index": 414,
+      "title": "Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Storage System G7200S-US",
+      "description": "Give yourself more workspace with this 6 ft. Adjustable Height Solid Wood Top Workbench in Black for Ready to Assemble Steel Garage Storage System. Easily place this in your garage to complete project",
+      "brand": "Husky",
+      "price": 381.1,
+      "true_product_type": "workbench",
+      "difficulty": "medium",
+      "notes": "Workbench"
+    },
+    {
+      "index": 154,
+      "title": "VELUX 22.5 in. x 22.5 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2222 0005",
+      "description": "VELUX FCM fixed curb mount skylights are ideal for replacing existing curb mount skylights, including old plastic bubble skylights. It can be installed on a flat roof at 0\u00b0 up to a 60\u00b0 roof pitch on a",
+      "brand": "VELUX",
+      "price": 193.3,
+      "true_product_type": "skylight",
+      "difficulty": "medium",
+      "notes": "Skylight"
+    },
+    {
+      "index": 377,
+      "title": "RYOBI 40V HP Brushless 21 in. Cordless Battery Walk Behind Self-Propelled Lawn Mower with (2) 6.0 Ah Batteries and Charger RY40HPLM01K2",
+      "description": "The RYOBI 40V HP Brushless 21\" Self-Propelled Mower Kit delivers more power than a 163cc gas mower, making it a true gas replacement. The (2) included 40V 6Ah batteries give you up to 80 minutes of ru",
+      "brand": "RYOBI",
+      "price": 549.0,
+      "true_product_type": "cordless_lawn_mower",
+      "difficulty": "medium",
+      "notes": "Battery-powered lawn mower"
+    },
+    {
+      "index": 136,
+      "title": "PUR PLUS 11 Cup Pitcher - Water Filter Pitcher PPT110WA",
+      "description": "Enjoy better tasting water with the PUR PLUS 11-Cup Water Filter Pitcher in White, which has been engineered for superior, 3-in-1 powerful water filtration to reduce over 20 chemical & physical substa",
+      "brand": "PUR",
+      "price": 34.99,
+      "true_product_type": "water_filtration_system",
+      "difficulty": "medium",
+      "notes": "Water filtration system"
+    },
+    {
+      "index": 337,
+      "title": "Anvil 1-1/4 in. Steel Corner Bead Tool with 24 oz. Rubber Mallet 82092",
+      "description": "The ANVIL Corner Clincher and Mallet is the ideal way to properly set drywall corner bead. This tool provides consistent, professional results. 1 strike with the included rubber headed mallet drives t",
+      "brand": "Anvil",
+      "price": 51.98,
+      "true_product_type": "drywall_corner_bead_tool",
+      "difficulty": "medium",
+      "notes": "Drywall corner bead tool"
+    },
+    {
+      "index": 173,
+      "title": "Milwaukee AIR-TIP 1-1/4 in. - 2-1/2 in. Pivoting Extension Wand Wet/Dry Shop Vacuum Attachment (1-Piece) 49-90-2031",
+      "description": "The MILWAUKEE AIR-TIP Pivoting Extension Wand provides greater cleaning access overhead and below with a pivoting 90 degree joint. At the click of a button, the extension wand can pivot 90 degrees to ",
+      "brand": "Milwaukee",
+      "price": 19.97,
+      "true_product_type": "shop_vacuum",
+      "difficulty": "medium",
+      "notes": "Shop vacuum"
+    },
+    {
+      "index": 392,
+      "title": "",
+      "description": "",
+      "brand": "",
+      "price": 0.0,
+      "true_product_type": "missing_data",
+      "difficulty": "hard",
+      "notes": "No title or description"
+    },
+    {
+      "index": 238,
+      "title": "Klein Tools Digital Dual Range Non Contact Voltage Tester with LED Flashlight 12-1000V AC NCVT-3PR",
+      "description": "The NCVT-3P is a non-contact voltage tester with an integrated flashlight. The voltage sensor detects 12 to 1000V AC and indicates the presence of voltage in cables, cords, circuit breakers, light fix",
+      "brand": "Klein Tools",
+      "price": 29.97,
+      "true_product_type": "voltage_tester",
+      "difficulty": "medium",
+      "notes": "Electrical voltage tester"
+    },
+    {
+      "index": 103,
+      "title": "Milwaukee 9 in. 8 TPI TORCH Nitrus Carbide Teeth Metal Cutting SAWZALL Reciprocating Saw Blade w/Additional 9 in. 8 TPI Blade 48-00-5262PC",
+      "description": "Since the company began in 1924, Milwaukee Tool has led the industry in developing innovative solutions that deliver increased productivity and unmatched durability for professional construction users",
+      "brand": "Milwaukee",
+      "price": 43.94,
+      "true_product_type": "saw_blade",
+      "difficulty": "medium",
+      "notes": "Matched: saw blade"
+    },
+    {
+      "index": 407,
+      "title": "SANOXY 25 ft. DVI-D Dual Link Digital Video Male to Male Cable 28AWG SNX-CBL-LDR-DV110-G125",
+      "description": "Decora Rocker Slide Universal Dimmers provide smooth, slide-action, full-range dimming for incandescent, dimmable LEDs, dimmable CFLs, halogen and Magnetic Low-Voltage (MLV) loads. with a new, streaml",
+      "brand": "SANOXY",
+      "price": 33.32,
+      "true_product_type": "video_cable",
+      "difficulty": "medium",
+      "notes": "DVI-D video cable (note: description seems incorrect for this product)"
+    },
+    {
+      "index": 12,
+      "title": "Southwire 1/2 in. x 100 ft. Alflex RWA Metallic Aluminum Flexible Conduit 55082103",
+      "description": "Alflex Type RWA (Reduced Wall Aluminum) Flexible Metal Conduit is suitable for power and lighting branch circuit conductors and cables for connecting receptacles, luminaries, equipment, office partiti",
+      "brand": "Southwire",
+      "price": 83.06,
+      "true_product_type": "flexible_conduit",
+      "difficulty": "medium",
+      "notes": "Flexible electrical conduit"
+    },
+    {
+      "index": 29,
+      "title": "Glacier Bay 9 in. x 7/8 in. Exposed Screw Assist Bar in Chrome 20135-1401-09",
+      "description": "The Glacier Bay 9 in. x 7/8 in. Exposed Screw Grab Bar in Chrome is made of stainless steel and built-to-last. Designed to provide aid and support to help with balance to help prevent falls, install n",
+      "brand": "Glacier Bay",
+      "price": 17.98,
+      "true_product_type": "bathroom_grab_bar",
+      "difficulty": "medium",
+      "notes": "Bathroom grab bar"
+    },
+    {
+      "index": 199,
+      "title": "Home Decorators Collection 37 in. W x 22 in D Quartz white Rectangular Single Sink Vanity Top in Snow Orchid BT37BQ1388-RS",
+      "description": "Transform your bathroom vanity with The Home Decorators Collection 37 in. W x 22 in. D Quartz Vanity Top in Snow Orchid with White Rectangle Single Sink. Quartz vanity top includes rectangular white u",
+      "brand": "Home Decorators Collection",
+      "price": 309.0,
+      "true_product_type": "bathroom_vanity_top",
+      "difficulty": "medium",
+      "notes": "Bathroom vanity top"
+    },
+    {
+      "index": 215,
+      "title": "Delta Crestfield Toilet Paper Holder in Brushed Nickel 138035",
+      "description": "The classic design of the Delta Crestfield Bath Collection combines casual elegance with a timeless silhouette. Inspired by the fresh look of American architecture, this set conjures subtle design ele",
+      "brand": "Delta",
+      "price": 30.88,
+      "true_product_type": "toilet_paper_holder",
+      "difficulty": "easy",
+      "notes": "Toilet paper holder"
+    },
+    {
+      "index": 132,
+      "title": "FastenMaster Collated Cortex Hidden Fastening System for AZEK Trim - 2 inch Cortex screws and plugs - Traditional (250 LF) FMCTXTCL-AZ2TDHD2",
+      "description": "The FastenMaster Collated Cortex Hidden Fastening System for PVC Trim is the fastest, easiest way to hide trim fasteners in PVC Trim. Features TORX ttap Drive System which is almost impossible to stri",
+      "brand": "FastenMaster",
+      "price": 165.0,
+      "true_product_type": "trim_fastening_system",
+      "difficulty": "medium",
+      "notes": "Hidden fastening system for trim - screws and plugs"
+    },
+    {
+      "index": 360,
+      "title": "Glacier Bay Foxton Single-Handle Single-Hole Bathroom Faucet in Chrome HDQFS6A0235CP",
+      "description": "Enhance your bath or powder room with the elegant, transitional style of the Foxton single-handle bathroom faucet. The sleek streamlined design leaves plenty of room for washing your hands or filling ",
+      "brand": "Glacier Bay",
+      "price": 107.1,
+      "true_product_type": "bathroom_faucet",
+      "difficulty": "medium",
+      "notes": "Bathroom faucet"
+    },
+    {
+      "index": 140,
+      "title": "CASTICO 32 in. W x 60 in. L x 1.125 in. H Alcove Solid Composite Stone Shower Pan Base with L/R Drain in Carrara Sand 1B1S-3260SECA",
+      "description": "Upgrade your shower space with the CASTICO curbless Shower Base, a perfect blend of style and functionality. Crafted from solid composite stone, this durable, solid-throughout base is designed for lon",
+      "brand": "CASTICO",
+      "price": 519.0,
+      "true_product_type": "shower_base",
+      "difficulty": "medium",
+      "notes": "Shower pan/base"
+    },
+    {
+      "index": 174,
+      "title": "KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed Nickel (Valve Included) K-R26930-4G-BN",
+      "description": "Inspired by classic design, the Capilano Tub/Shower faucet reflects vintage styling through decorative flairs and spherical detailing. This bath/shower faucet trim includes a multifunction showerhead,",
+      "brand": "KOHLER",
+      "price": 180.0,
+      "true_product_type": "tub_shower_faucet",
+      "difficulty": "medium",
+      "notes": "Tub and shower faucet"
+    },
+    {
+      "index": 153,
+      "title": "VELUX 10 in. Acrylic Dome Sun Tunnel Skylight with Rigid Tube and Pitched High Density Flashing THR 010 0000",
+      "description": "VELUX Sun Tunnel Skylights are a great way to brighten any space with energy-efficient natural light. They are perfect for interior rooms like bathrooms, laundry rooms, closets, and hallways. The THR ",
+      "brand": "VELUX",
+      "price": 249.0,
+      "true_product_type": "skylight",
+      "difficulty": "medium",
+      "notes": "Skylight"
+    },
+    {
+      "index": 327,
+      "title": "CASAINC 1-Spray Pattern with 1.8 GPM 10 in. with 1.8 GPM Wall Mount Square Fixed Shower Head in Brushed Nickel (Valve Included) N93101BN-10",
+      "description": "This bathroom shower set has a 10-inch stainless steel square rain shower head,air-in Technology.The single handle allows for easy adjustment of water flow and water temperature. US standard 1/2 NPT t",
+      "brand": "CASAINC",
+      "price": 79.0,
+      "true_product_type": "shower_head",
+      "difficulty": "medium",
+      "notes": "Shower head"
+    },
+    {
+      "index": 222,
+      "title": "Glacier Bay Builders 2-Handle Deck-Mount Roman Tub Faucet in Brushed Nickel 461-3004",
+      "description": "The Glacier Bay Builders 2-Handle Deck-Mount Roman Tub features a classic design with sleek, clean lines and a brushed nickel finish. It has solid brass waterways for durability and a 2-handle lever d",
+      "brand": "Glacier Bay",
+      "price": 183.69,
+      "true_product_type": "tub_shower_faucet",
+      "difficulty": "medium",
+      "notes": "Tub and shower faucet"
+    },
+    {
+      "index": 332,
+      "title": "Andersen 36in.x 80in. LuminAire Charcoal Gray for Single Entry Door 32in.-36in. Universal Handed Aluminum Retractable Screen Door 96701",
+      "description": "Instantly have fresh air at your fingertips. The LuminAire retractable screen door from Andersen provides a way to add natural light and ventilation to your home without changing the look of your entr",
+      "brand": "Andersen",
+      "price": 179.0,
+      "true_product_type": "retractable_screen_door",
+      "difficulty": "medium",
+      "notes": "Retractable screen door"
+    },
+    {
+      "index": 256,
+      "title": "HDX 36 in. Flat Bungee with Carabiner 56153",
+      "description": "The 48 in. Carabiner Flat Bungee Cord is constructed from strong and durable steel and an UV ray and weather resistant exterior jacket. It is constructed with a spring-loaded closure steel latch at ea",
+      "brand": "HDX",
+      "price": 5.74,
+      "true_product_type": "bungee_cord",
+      "difficulty": "medium",
+      "notes": "Bungee cord"
+    },
+    {
+      "index": 376,
+      "title": "Milwaukee 10 in. Straight-Cut Aviation Snips 48-22-4530",
+      "description": "Cut more metal than ever with Milwaukee Aviation Snips. The forged blades deliver up to 10X more cuts than cast blades. Bolt Lock prevents the blades from loosening and a durable chrome plating provid",
+      "brand": "Milwaukee",
+      "price": 16.97,
+      "true_product_type": "aviation_snips",
+      "difficulty": "medium",
+      "notes": "Metal cutting snips"
+    },
+    {
+      "index": 354,
+      "title": "MARSHALLTOWN 18 in. x 4 in. Finishing Trowel - Curved Durasoft Handle MXS81D-HD",
+      "description": "Look for a long life from the Marshalltown 418 in. x 4 in. Finishing Trowel with 18 in. long blade. The aluminum alloy mounting strengthens the handle-to-post fit. The handle's diamond shank prevents ",
+      "brand": "MARSHALLTOWN",
+      "price": 69.98,
+      "true_product_type": "finishing_trowel",
+      "difficulty": "medium",
+      "notes": "Finishing trowel"
+    },
+    {
+      "index": 227,
+      "title": "Rubbermaid Roughneck 32 Gal. Vented Black Round Trash Can with Lid 2149500",
+      "description": "The Rubbermaid Roughneck 32G Vented Trash Container is designed with durable materials to withstand harsh environments, cracking and denting. Venting channels allow air to flow into the container maki",
+      "brand": "Rubbermaid",
+      "price": 29.97,
+      "true_product_type": "trash_can",
+      "difficulty": "medium",
+      "notes": "Trash can"
+    },
+    {
+      "index": 393,
+      "title": "Lifeproof Sterling Oak 6 MIL x 8.7 in. W x 48 in. L Click Lock Waterproof Luxury Vinyl Plank Flooring (20.1 sqft/case) I966106L",
+      "description": "For durability and versatility, add 100% waterproof Lifeproof Rigid Core luxury vinyl flooring to your home. Flooring is the foundation to any home and that's why we've formulated this product with be",
+      "brand": "Lifeproof",
+      "price": 49.95,
+      "true_product_type": "vinyl_plank_flooring",
+      "difficulty": "medium",
+      "notes": "Vinyl plank flooring"
+    },
+    {
+      "index": 68,
+      "title": "GE Q-Line 30 Amp 1/2 in. Single-Pole Circuit Breaker (THQP130) THQP130",
+      "description": "The GE Q-Line 30 Amp 1/2 in. Single-Pole Circuit Breaker has a case made of heat-resistant thermoset for stability and structural integrity. The unit has a tin-plated copper stab to create a reliable,",
+      "brand": "GE",
+      "price": 6.98,
+      "true_product_type": "circuit_breaker",
+      "difficulty": "medium",
+      "notes": "Matched: circuit breaker"
+    },
+    {
+      "index": 380,
+      "title": "HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn Door Slab with Frame HOMDR-4884-F",
+      "description": "Let's get those doors on track, HOMACER is in town. You don't have to search anywhere else for the best sliding hardware you can get. We provide the finest sliding barn door hardware products and serv",
+      "brand": "HOMACER",
+      "price": 237.03,
+      "true_product_type": "barn_door_slab",
+      "difficulty": "medium",
+      "notes": "Barn door slab"
+    },
+    {
+      "index": 378,
+      "title": "HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn Door Slab with Frame HOMDR-4884-F",
+      "description": "Let's get those doors on track, HOMACER is in town. You don't have to search anywhere else for the best sliding hardware you can get. We provide the finest sliding barn door hardware products and serv",
+      "brand": "HOMACER",
+      "price": 237.03,
+      "true_product_type": "barn_door_slab",
+      "difficulty": "medium",
+      "notes": "Barn door slab"
+    },
+    {
+      "index": 27,
+      "title": "Square D Homeline 70 Amp 2-Pole Circuit Breaker HOM270CP",
+      "description": "The Square D by Schneider Electric Homeline 70 Amp Two-Pole Circuit Breaker is used for overload and short-circuit protection of your electrical system. This breaker is compatible with Square D Homeli",
+      "brand": "Square D",
+      "price": 48.48,
+      "true_product_type": "circuit_breaker",
+      "difficulty": "medium",
+      "notes": "Matched: circuit breaker"
+    },
+    {
+      "index": 61,
+      "title": "GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circuit Breaker Panel TL412R1P",
+      "description": "The load center includes a sturdy tin-plated copper buss bar and a galvanized box for increased durability and reliability. The one-piece interior removes and re-installs easily. Outdoor NEMA 3R enclo",
+      "brand": "GE",
+      "price": 48.95,
+      "true_product_type": "circuit_breaker",
+      "difficulty": "medium",
+      "notes": "Electrical circuit breaker"
+    },
+    {
+      "index": 118,
+      "title": "PEAK Aluminum Railing 6 in. W Black Aluminum Deck Railing Universal Connector for 42 in. high system 50901",
+      "description": "When it comes to aluminum railing systems, PEAK Aluminum Railing defines excellence. Engineered with meticulous attention to detail, our railing is the ideal choice for those who want a stylish, safe,",
+      "brand": "PEAK Aluminum Railing",
+      "price": 34.97,
+      "true_product_type": "deck_railing_connector",
+      "difficulty": "medium",
+      "notes": "Deck railing connector"
+    },
+    {
+      "index": 197,
+      "title": "DIABLO 2-3/4 in. x 5 in. 150-Grit SandNET Reusable Sanding Sheets DND234150S10N",
+      "description": "Diablo's SandNET reusable sanding sheets are the most advanced sanding sheets on the market with up to 10X longer life versus standard sandpaper. Each SandNET sheet features a clog-reducing nylon NET ",
+      "brand": "DIABLO",
+      "price": 9.95,
+      "true_product_type": "sandpaper_sheets",
+      "difficulty": "medium",
+      "notes": "Sandpaper/sanding sheets"
+    },
+    {
+      "index": 76,
+      "title": "Leviton 15 Amp 120/277 Volt Single Pole Antimicrobial Treated Decora Rocker Switch, White, 5-Pack MA2-05601-5AW",
+      "description": "Leviton Antimicrobial Switch: 5601, 15 Amp 120-Volt/277-Volt Decora Rocker Single Pole AC Quiet Switch, White, 5-Pack. Antimicrobial Switches and Wall plates from Leviton help combat the spread of har",
+      "brand": "Leviton",
+      "price": 14.98,
+      "true_product_type": "light_switch",
+      "difficulty": "medium",
+      "notes": "Rocker light switch"
+    },
+    {
+      "index": 104,
+      "title": "DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010",
+      "description": "DIABLO's SDS-Max carbide tipped core bit range provides 1 of the fastest and longest lasting coring solutions on the market for concrete applications. All-in-1 design strengthens the bit from end-to-e",
+      "brand": "DIABLO",
+      "price": 134.1,
+      "true_product_type": "drill_bit",
+      "difficulty": "easy",
+      "notes": "Matched: drill bit"
+    },
+    {
+      "index": 232,
+      "title": "DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6",
+      "description": "The DEWALT Max Impact 6-Piece Socket Set includes five 3/8 in. Drive Sockets (3/8 in., 7/16 in., 1/2 in., 9/16 in. and 5/8 in.). Set also includes1/4 in. Hex Socket Adapter. The DWASFSMI6 features 2-p",
+      "brand": "DEWALT",
+      "price": 19.97,
+      "true_product_type": "socket_set",
+      "difficulty": "medium",
+      "notes": "Socket wrench set"
+    },
+    {
+      "index": 228,
+      "title": "Milwaukee SHOCKWAVE Impact Duty 1 in. Square #2 Alloy Steel Insert Bit (10-Pack) 48-32-5008",
+      "description": "The MILWAUKEE SHOCKWAVE 1\" Impact #2 Square Drive Bits are engineered to be the Most Durable, Best Fitting driver bits on the market. The Wear Guard Tip delivers increased wear resistance which protec",
+      "brand": "Milwaukee",
+      "price": 9.97,
+      "true_product_type": "screwdriver_bits",
+      "difficulty": "medium",
+      "notes": "Square drive impact bits for screwdriving"
+    },
+    {
+      "index": 204,
+      "title": "DIABLO 6-1/2in. x 24-Teeth Framing Circular Saw Blade for Wood (2-Pack) D0624RVP",
+      "description": "Diablo's next generation framing saw blades feature industry leading technology for optimum performance and control in cordless saws. The combination of Diablo's specially formulated TiCo Hi-Density c",
+      "brand": "DIABLO",
+      "price": 12.88,
+      "true_product_type": "saw_blade",
+      "difficulty": "medium",
+      "notes": "Matched: saw blade"
+    },
+    {
+      "index": 251,
+      "title": "DEWALT MAXFIT 1 in. #2 Philips Bit (2-Piece) DWA1PH2MF2",
+      "description": "DEWALT MAXFIT screw driving bits are engineered for use with Impact Drivers. Their tip geometry reduces wear and creates an ideal fit with every fastener. Each bit features a unique torsion zone to de",
+      "brand": "DEWALT",
+      "price": 3.97,
+      "true_product_type": "screwdriver_bits",
+      "difficulty": "medium",
+      "notes": "Phillips head screwdriver bits"
+    },
+    {
+      "index": 272,
+      "title": "Home Decorators Collection 49 in. W x 22 in. D Ceramic White Rectangular Single Sink Vanity Top in Winter Mist SERST49-WM",
+      "description": "Complete your bathroom vanity with the Home Decorators Collection 49 in. W x 22 in. D cultured marble vanity top in winter mist. The Stone Effects winter mist finish gives the look of natural stone wi",
+      "brand": "Home Decorators Collection",
+      "price": 409.0,
+      "true_product_type": "bathroom_vanity_top",
+      "difficulty": "medium",
+      "notes": "Bathroom vanity top"
+    },
+    {
+      "index": 242,
+      "title": "DEWALT MAXFIT 2 in. #25 Torx Bit with Small Bulk Storage (15-Piece) DWA2TX25MF15",
+      "description": "DEWALT MAXFIT screw driving bits are engineered for use with Impact Drivers. Their tip geometry reduces wear and creates an ideal fit with every fastener. Each bit features a unique torsion zone to de",
+      "brand": "DEWALT",
+      "price": 14.69,
+      "true_product_type": "screwdriver_bits",
+      "difficulty": "medium",
+      "notes": "Torx screwdriver bits"
+    },
+    {
+      "index": 48,
+      "title": "Milwaukee 14-In-1 Multi-Bit Screwdriver 48-22-2900",
+      "description": "The Milwaukee\u00ae 14-in-1 Multi-Bit Screwdriver is the most versatile multi-bit screwdriver. This multi-bit driver features easy-access in-handle storage which keeps bits organized, allowing you to quick",
+      "brand": "Milwaukee",
+      "price": 18.97,
+      "true_product_type": "multi_bit_screwdriver",
+      "difficulty": "medium",
+      "notes": "Multi-bit screwdriver"
+    },
+    {
+      "index": 373,
+      "title": "Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in. Slats - 28 in. W x 48 in. L (Actual Size 27.5 in. W x 48 in. L) 10793478298266",
+      "description": "Design meets functionality with the White Cordless Room Darkening 2 in. Faux Wood Blind by Home Decorators Collection. The cordless design has a \"no cords\" feature. Offering a clean look by eliminatin",
+      "brand": "Home Decorators Collection",
+      "price": 30.98,
+      "true_product_type": "faux_wood_blinds",
+      "difficulty": "medium",
+      "notes": "Faux wood window blinds"
+    },
+    {
+      "index": 235,
+      "title": "Coolaroo Brown Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 96 in. W x 72 in. L 458348",
+      "description": "Coolaroo Spring Operated 80% UV Protection Outdoor Roller Shades feature our unique high density polyethylene (HDPE) knitted fabric that provides sun protection, cooling capabilities and weather resis",
+      "brand": "Coolaroo",
+      "price": 92.98,
+      "true_product_type": "outdoor_roller_shade",
+      "difficulty": "medium",
+      "notes": "Outdoor roller shade"
+    },
+    {
+      "index": 390,
+      "title": "Search Results for 520214 at The Home Depot",
+      "description": "72 in. Wall Mount (Barn Door) Track and Hardware Set",
+      "brand": "",
+      "price": 78.46,
+      "true_product_type": "barn_door_hardware",
+      "difficulty": "hard",
+      "notes": "Barn door track and hardware (scraped with incorrect title)"
+    },
+    {
+      "index": 100,
+      "title": "Kwikset Pismo Round Satin Nickel Dummy Door Knob Featuring Microban Antimicrobial Technology 788PSKRDT15CP",
+      "description": "Step up to designer styles and superior security with Kwikset Signature Series products. When it comes to contemporary design, Pismo door knobs hit the mark with clean lines, smooth surfaces and a sle",
+      "brand": "Kwikset",
+      "price": 15.96,
+      "true_product_type": "door_knob",
+      "difficulty": "medium",
+      "notes": "Door knob"
+    },
+    {
+      "index": 207,
+      "title": "Home Decorators Collection Harmony Gray 5 ft. x 7 ft. Abstract Indoor Machine Washable Area Rug 610303",
+      "description": "The Harmony collection features an innovative, machine washable printed base, with non-slip backing, perfect for high-traffic areas and family friendly living spaces. With its low-profile construction",
+      "brand": "Home Decorators Collection",
+      "price": 159.0,
+      "true_product_type": "area_rug",
+      "difficulty": "medium",
+      "notes": "Area rug"
+    },
+    {
+      "index": 387,
+      "title": "Gorilla 8 ft. Waterproof Patch and Seal Tape Clear 107261",
+      "description": "Gorilla Waterproof Patch and Seal Tape instantly seals out water, air and moisture. With an extra-thick adhesive layer and UV resistant backing this tape conforms to form a permanent bond indoors and ",
+      "brand": "Gorilla",
+      "price": 74.59,
+      "true_product_type": "adhesive_tape",
+      "difficulty": "medium",
+      "notes": "Adhesive tape"
+    },
+    {
+      "index": 396,
+      "title": "Saint-Gobain ADFORS 72 in. x 25 ft. Charcoal Fiberglass Pool and Patio Screen Roll FCS8513-M",
+      "description": "Saint-Gobain ADFORS Pool and Patio screen is a heavy duty fiberglass mesh that is specifically designed for use in applications such as screened porches and pool cages. The strong screen mesh makes it",
+      "brand": "Saint-Gobain ADFORS",
+      "price": 46.48,
+      "true_product_type": "window_screen_material",
+      "difficulty": "medium",
+      "notes": "Window screen material"
+    },
+    {
+      "index": 286,
+      "title": "Milwaukee X-Large Performance Work Gloves 48-22-8723",
+      "description": "Milwaukee Performance Work Gloves are Designed to provide Ultimate Durability and All Day Comfort. Featuring Smartswipe fingertips, knuckles and palms Designed to allow the use of touch screens, and h",
+      "brand": "Milwaukee",
+      "price": 14.97,
+      "true_product_type": "work_gloves",
+      "difficulty": "medium",
+      "notes": "Matched: work gloves"
+    },
+    {
+      "index": 282,
+      "title": "FIRM GRIP Medium Flex Cuff Outdoor and Work Gloves (2-Pack) 43126-20",
+      "description": "FIRM GRIP Flex Cuff work gloves feature a unique, flexible elastic cuff design that makes for easy on and off while delivering a snug fit that keeps out dirt and debris. Light-weight and breathable, t",
+      "brand": "FIRM GRIP",
+      "price": 12.88,
+      "true_product_type": "work_gloves",
+      "difficulty": "medium",
+      "notes": "Matched: work gloves"
+    },
+    {
+      "index": 162,
+      "title": "VELUX 21 in. x 45-3/4 in. Fixed Deck-Mount Skylight with Laminated Low-E3 Glass FS C06 2004",
+      "description": "VELUX FS fixed skylights are an energy-efficient way to bring sunlight into a home and make dark rooms come to life. Bringing natural light into a home through a skylight decreases the need for electr",
+      "brand": "VELUX",
+      "price": 445.86,
+      "true_product_type": "skylight",
+      "difficulty": "medium",
+      "notes": "Skylight"
+    },
+    {
+      "index": 374,
+      "title": "MSI Carrara White 6 in. x 12 in. Polished Marble Floor and Wall Tile (5 sq. ft./Case) TCARWHT612P",
+      "description": "Enliven your space with this Carrara White 6 in. x 12 in. Polished Marble Stone Look Floor and Wall Tile (5 sq. ft./Case). This is a durable option for your home. The polished white stone easily compl",
+      "brand": "MSI",
+      "price": 86.13,
+      "true_product_type": "floor_wall_tile",
+      "difficulty": "hard",
+      "notes": "Floor and wall tile"
+    },
+    {
+      "index": 416,
+      "title": "Vigoro 4 ft. x 100 ft. Heavy Duty Matrix Grid Weed Control Landscape Fabric VPNM410085",
+      "description": "The Vigoro 4 ft. x 100 ft. Heavy Duty Matrix Grid Landscape Fabric is perfect for all your landscape, hardscape, garden, planting, live goods, pathway, and soil erosion projects. The durable patented ",
+      "brand": "Vigoro",
+      "price": 59.98,
+      "true_product_type": "landscape_fabric",
+      "difficulty": "medium",
+      "notes": "Landscape weed control fabric"
+    }
+  ]
+}
