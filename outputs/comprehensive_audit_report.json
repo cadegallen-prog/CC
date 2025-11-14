@@ -1,0 +1,1989 @@
+{
+  "report": {
+    "executive_summary": {
+      "total_products": 425,
+      "ground_truth_accuracy": 61.7,
+      "unknown_products": 70,
+      "unknown_percentage": 16.5,
+      "target_accuracy": 95.0,
+      "accuracy_gap": 33.3
+    },
+    "validation_results": {
+      "correct": 29,
+      "incorrect": 18,
+      "missing": 0,
+      "total_samples": 47
+    },
+    "failure_taxonomy": {
+      "unknown_classifications": 70,
+      "confident_wrong": 15,
+      "low_confidence_correct": 3,
+      "pattern_missing": 3
+    },
+    "confidence_distribution": {
+      "high": 277,
+      "medium": 69,
+      "low": 0,
+      "very_low": 79
+    },
+    "pattern_analysis": {
+      "total_patterns": 76,
+      "weak_patterns": 7,
+      "missing_types": [
+        "chainsaw_tuneup_kit",
+        "recessed_light_fixture",
+        "gfci_usb_outlet",
+        "surge_protector_with_usb",
+        "mini_pendant_light",
+        "backflow_preventer_valve",
+        "sds_plus_rebar_cutter",
+        "bathroom_exhaust_fan",
+        "double_hung_window",
+        "led_troffer_light",
+        "speaker_wall_mounts",
+        "stair_nosing_trim",
+        "led_track_lighting_kit",
+        "smart_deadbolt_lock",
+        "circuit_breaker_kit",
+        "roofing_shovel_blade",
+        "kitchen_sink_with_faucet",
+        "dual_flush_toilet",
+        "landscape_flood_light",
+        "multi_position_ladder",
+        "double_curtain_rod",
+        "missing_data",
+        "safety_respirator_cartridge",
+        "smart_flush_mount_light",
+        "electrical_load_center",
+        "velcro_fastener_tape",
+        "hvlp_paint_sprayer",
+        "hex_driver_bits",
+        "decorative_shelf_bracket",
+        "usb_outlet",
+        "faucet_valve_stem",
+        "outdoor_roller_shade"
+      ]
+    },
+    "scoring_issues": {
+      "high_score_wrong": 15,
+      "low_score_correct": 3
+    },
+    "detailed_errors": [
+      {
+        "index": 25,
+        "title": "HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit (4-Pack) HLBSL4069FS35-4PK",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 142,
+        "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+        "expected": "surge_protector_with_usb",
+        "predicted": "Surge Protector",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 95,
+        "title": "Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger Duplex Outlet, White R02-GUSB1-0BW",
+        "expected": "gfci_usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 324,
+        "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2GTL 4 70LHE GZ10 PWS1836 LP840",
+        "expected": "led_troffer_light",
+        "predicted": "Troffer Light",
+        "confidence": 86.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 34,
+        "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior Low-E Glass and White Hardware 9163982",
+        "expected": "double_hung_window",
+        "predicted": "Window",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 107,
+        "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
+        "expected": "decorative_shelf_bracket",
+        "predicted": "Shelf Bracket",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 26,
+        "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
+        "expected": "multi_position_ladder",
+        "predicted": "Ladder",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 234,
+        "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 in. L 458379",
+        "expected": "outdoor_roller_shade",
+        "predicted": "Window Shade",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 116,
+        "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle Faucets 864540",
+        "expected": "faucet_valve_stem",
+        "predicted": "Faucet Part",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 423,
+        "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single Top Entry Freeze Sensor 007M1-QT-FZ 1 R",
+        "expected": "backflow_preventer_valve",
+        "predicted": "Plumbing Fitting",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 305,
+        "title": "Anvil Replacement Blade THD-blade-set",
+        "expected": "roofing_shovel_blade",
+        "predicted": "Saw Blade",
+        "confidence": 88.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 164,
+        "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+        "expected": "stair_nosing_trim",
+        "predicted": "Unknown - Unable to Classify",
+        "confidence": 10.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 119,
+        "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel with Crystal Square Finials U-BN144FOMS03",
+        "expected": "double_curtain_rod",
+        "predicted": "Curtain Rod",
+        "confidence": 95.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 36,
+        "title": "Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T5632-3BW M02-T5632-3BW",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 96,
+        "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 301,
+        "title": "Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",
+        "expected": "speaker_wall_mounts",
+        "predicted": "Unknown - Unable to Classify",
+        "confidence": 8.0,
+        "difficulty": "easy"
+      },
+      {
+        "index": 70,
+        "title": "Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for Kitchen Bath Living rooms, White 4-Pack 91475",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "easy"
+      },
+      {
+        "index": 352,
+        "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb Included HDP12107ORB",
+        "expected": "mini_pendant_light",
+        "predicted": "Unknown - Unable to Classify",
+        "confidence": 8.0,
+        "difficulty": "easy"
+      }
+    ],
+    "detailed_unknowns": [
+      {
+        "index": 3,
+        "title": "LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLO",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 12,
+        "title": "Southwire 1/2 in. x 100 ft. Alflex RWA Metallic Aluminum Flexible Conduit 55082103",
+        "confidence": 9.0,
+        "reasons": [
+          "Matches 3 product domains"
+        ]
+      },
+      {
+        "index": 77,
+        "title": "Channellock 12 in. Oil Filter/PVC Plier, Angled Head 2012",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 78,
+        "title": "Husky Encased Sewer Rod 82-974-111",
+        "confidence": 9.0,
+        "reasons": [
+          "Matches 3 product domains"
+        ]
+      },
+      {
+        "index": 86,
+        "title": "Nite Ize GlowStreak LED Red Ball Dog Toy GSB-10-R7",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 87,
+        "title": "Nite Ize SlapLit Neon Yellow LED Slap Wrap SLP2-33-R3",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 94,
+        "title": "Home Decorators Collection Silky Medallion Multi 5 ft. x 7 ft. Medallion Polyester Area Rug 5285.81.",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 110,
+        "title": "Lifetime 4 ft. One Hand Adjustable Height Fold-in-Half Table Almond 80726",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 127,
+        "title": "Home Decorators Collection Raleigh Jute Boucle Natural 6 ft. x 9 ft. Area Rug 8959830106x9",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 160,
+        "title": "Home Decorators Collection Harmony Denim 5 ft. x 7 ft. Indoor Machine Washable Area Rug 610273",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 164,
+        "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 166,
+        "title": "Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 168,
+        "title": "Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02/BN",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 191,
+        "title": "Home Decorators Collection Harmony Denim 2 ft. x 7 ft. Indoor Machine Washable Runner Rug 607228",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 193,
+        "title": "DIABLO 2-3/4 in. x 5 in. 100-Grit SandNET Reusable Sanding Sheets DND234100S10N",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 197,
+        "title": "DIABLO 2-3/4 in. x 5 in. 150-Grit SandNET Reusable Sanding Sheets DND234150S10N",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 206,
+        "title": "TrafficMaster Quince Navy/Blue 5 x 7 Medallion Vinyl Area Rug 8214.42.51HD",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 207,
+        "title": "Home Decorators Collection Harmony Gray 5 ft. x 7 ft. Abstract Indoor Machine Washable Area Rug 6103",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 213,
+        "title": "Philips Advance 40-Watt (F40T12) 1 or 2 Lamp 4 ft. T12 120V Rapid Start High Frequency Electronic Re",
+        "confidence": 11.0,
+        "reasons": [
+          "Has 1 matching specifications",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 225,
+        "title": "StyleWell Beckett Charcoal 6 ft. x 9 ft. Modern Geometric Living Room/Bedroom/Dining Room Area Rug G",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      }
+    ],
+    "confusion_matrix": {
+      "recessed_light_fixture": {
+        "Recessed Light": 2
+      },
+      "surge_protector_with_usb": {
+        "Surge Protector": 1
+      },
+      "gfci_usb_outlet": {
+        "Electrical Outlet": 1
+      },
+      "led_troffer_light": {
+        "Troffer Light": 1
+      },
+      "double_hung_window": {
+        "Window": 1
+      },
+      "decorative_shelf_bracket": {
+        "Shelf Bracket": 1
+      },
+      "multi_position_ladder": {
+        "Ladder": 1
+      },
+      "outdoor_roller_shade": {
+        "Window Shade": 1
+      },
+      "faucet_valve_stem": {
+        "Faucet Part": 1
+      },
+      "backflow_preventer_valve": {
+        "Plumbing Fitting": 1
+      },
+      "roofing_shovel_blade": {
+        "Saw Blade": 1
+      },
+      "stair_nosing_trim": {
+        "Unknown - Unable to Classify": 1
+      },
+      "double_curtain_rod": {
+        "Curtain Rod": 1
+      },
+      "usb_outlet": {
+        "Electrical Outlet": 2
+      },
+      "speaker_wall_mounts": {
+        "Unknown - Unable to Classify": 1
+      },
+      "mini_pendant_light": {
+        "Unknown - Unable to Classify": 1
+      },
+      "safety_respirator_cartridge": {
+        "safety_respirator_cartridge": 1
+      },
+      "bathroom_towel_bar": {
+        "bathroom_towel_bar": 1
+      },
+      "bathroom_exhaust_fan": {
+        "bathroom_exhaust_fan": 1
+      },
+      "under_cabinet_light": {
+        "under_cabinet_light": 2
+      },
+      "hvac_air_filter": {
+        "hvac_air_filter": 1
+      },
+      "metal_folding_tool": {
+        "metal_folding_tool": 1
+      },
+      "smart_flush_mount_light": {
+        "smart_flush_mount_light": 1
+      },
+      "landscape_flood_light": {
+        "landscape_flood_light": 1
+      },
+      "disposable_earplugs": {
+        "disposable_earplugs": 2
+      },
+      "wall_sconce": {
+        "wall_sconce": 1
+      },
+      "work_gloves": {
+        "work_gloves": 1
+      },
+      "circuit_breaker": {
+        "circuit_breaker": 1
+      },
+      "electrical_load_center": {
+        "electrical_load_center": 1
+      },
+      "radon_detector": {
+        "radon_detector": 1
+      },
+      "smart_deadbolt_lock": {
+        "smart_deadbolt_lock": 1
+      },
+      "sds_plus_rebar_cutter": {
+        "sds_plus_rebar_cutter": 1
+      },
+      "hvlp_paint_sprayer": {
+        "hvlp_paint_sprayer": 1
+      },
+      "kitchen_sink_with_faucet": {
+        "kitchen_sink_with_faucet": 1
+      },
+      "missing_data": {
+        "missing_data": 3
+      },
+      "chainsaw_tuneup_kit": {
+        "chainsaw_tuneup_kit": 1
+      },
+      "hex_driver_bits": {
+        "hex_driver_bits": 1
+      },
+      "dual_flush_toilet": {
+        "dual_flush_toilet": 1
+      },
+      "circuit_breaker_kit": {
+        "circuit_breaker_kit": 1
+      },
+      "velcro_fastener_tape": {
+        "velcro_fastener_tape": 1
+      },
+      "led_track_lighting_kit": {
+        "led_track_lighting_kit": 1
+      }
+    },
+    "weak_patterns_detail": [
+      {
+        "type": "Unknown - Missing Data",
+        "count": 10,
+        "avg_confidence": 0.0
+      },
+      {
+        "type": "Unknown - Unable to Classify",
+        "count": 60,
+        "avg_confidence": 8.3
+      },
+      {
+        "type": "Cleaning Solution",
+        "count": 3,
+        "avg_confidence": 50.0
+      },
+      {
+        "type": "Paint",
+        "count": 2,
+        "avg_confidence": 51.5
+      },
+      {
+        "type": "Light Switch",
+        "count": 3,
+        "avg_confidence": 54.3
+      },
+      {
+        "type": "High Bay Light",
+        "count": 2,
+        "avg_confidence": 58.0
+      },
+      {
+        "type": "Voltage Tester",
+        "count": 2,
+        "avg_confidence": 58.0
+      }
+    ]
+  },
+  "validation_results": {
+    "correct": [
+      {
+        "index": 125,
+        "title": "3M Organic Vapor Replacement Cartridges (1-Pair) 6001P1-DC",
+        "predicted": "Safety Respirator",
+        "confidence": 68.0
+      },
+      {
+        "index": 221,
+        "title": "Delta Crestfield 18 in. Towel Bar in Brushed Nickel 138029",
+        "predicted": "Bathroom Towel Bar",
+        "confidence": 100
+      },
+      {
+        "index": 203,
+        "title": "Hampton Bay 80 CFM Ceiling Mount Room Side Installation Heavy-Duty Bathroom Exhaust Fan, ENERGY STAR BPT13-14MG",
+        "predicted": "Exhaust Fan",
+        "confidence": 91.0
+      },
+      {
+        "index": 189,
+        "title": "Commercial Electric 36 in. LED White Direct Wire Under Cabinet Light 57005N-WH",
+        "predicted": "Under Cabinet Light",
+        "confidence": 91.0
+      },
+      {
+        "index": 113,
+        "title": "HDX 20 in. x 25 in. x 6 in. AprilAire and Space-Gard Replacement Pleated Air Filter (Without Frame) FPR 7, MERV 11 HDX-A201-11-6",
+        "predicted": "HVAC Air Filter",
+        "confidence": 100
+      },
+      {
+        "index": 30,
+        "title": "Malco 18 in. Folding Tool, Folding Depths of 3/8 in. and 1 in. 18F",
+        "predicted": "Metal Folding Tool",
+        "confidence": 80.0
+      },
+      {
+        "index": 186,
+        "title": "Commercial Electric 11 in. White Integrated LED Dimmable Flush Mount Puff with Adjustable CCT and RGB at 1400 Lumens Powered by Hubspace CD44bRGBW11W",
+        "predicted": "Flush Mount Light",
+        "confidence": 91.0
+      },
+      {
+        "index": 195,
+        "title": "Hampton Bay 75-Watt Equivalent Low Voltage Black LED Outdoor Landscape Flood Light Powered by Hubspace L08157",
+        "predicted": "Landscape Lighting",
+        "confidence": 100
+      },
+      {
+        "index": 418,
+        "title": "Milwaukee Red Disposable Earplugs (10-Pack) with 32 dB Noise Reduction Rating 48-73-3001",
+        "predicted": "Disposable Earplugs",
+        "confidence": 100
+      },
+      {
+        "index": 176,
+        "title": "Home Decorators Collection Closmere 5 in. 1-Light Brushed Gold Mid-Century Modern Wall Sconce with Clear Glass Shade HB3696-338",
+        "predicted": "Wall Sconce",
+        "confidence": 100
+      },
+      {
+        "index": 322,
+        "title": "Milwaukee X-Large Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8903",
+        "predicted": "Work Gloves",
+        "confidence": 95.0
+      },
+      {
+        "index": 41,
+        "title": "GE PowerMark Gold 200 Amp 10 in. Enclosed Outdoor Circuit Breaker THQMV200NRE",
+        "predicted": "Circuit Breaker",
+        "confidence": 93.0
+      },
+      {
+        "index": 75,
+        "title": "Square D Homeline 70 Amp 2-Space 4-Circuit Outdoor Main Lug Load Center(HOM24L70RBCP) HOM24L70RBCP",
+        "predicted": "Load Center",
+        "confidence": 100
+      },
+      {
+        "index": 130,
+        "title": "Airthings Wave Radon Battery Operated Smart Radon Detector 2951",
+        "predicted": "Radon Detector",
+        "confidence": 98.0
+      },
+      {
+        "index": 2,
+        "title": "Kwikset HALO Satin Nickel Keypad WiFi Electronic Single-Cylinder Smart Lock Deadbolt featuring SmartKey Security 938WIFIKYPD15SM",
+        "predicted": "Door Lock",
+        "confidence": 100
+      },
+      {
+        "index": 88,
+        "title": "DIABLO 3/4 in. x 12 in. SDS-Plus Rebar Cutter DMAPLRC1050",
+        "predicted": "Specialty Cutter",
+        "confidence": 98.0
+      },
+      {
+        "index": 90,
+        "title": "TITAN EP 60X Fine Finishing HVLP Paint Sprayer 2456369",
+        "predicted": "Paint Sprayer",
+        "confidence": 100
+      },
+      {
+        "index": 339,
+        "title": "Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet VDR3322A1PA1",
+        "predicted": "Sink",
+        "confidence": 100
+      },
+      {
+        "index": 358,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 375,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 411,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 409,
+        "title": "HDX Disposable Earplugs (50-Pack) REP501 50PK",
+        "predicted": "Disposable Earplugs",
+        "confidence": 100.0
+      },
+      {
+        "index": 23,
+        "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
+        "predicted": "Tool Kit",
+        "confidence": 89.0
+      },
+      {
+        "index": 406,
+        "title": "Milwaukee SHOCKWAVE Impact Duty Alloy Steel Hex Screw Driver Bit Set (9-Piece) 48-32-4616",
+        "predicted": "Drill Bit",
+        "confidence": 80.0
+      },
+      {
+        "index": 262,
+        "title": "Delta Foundations 2-Piece 1.1 GPF/1.6 GPF Dual Flush Round Toilet in White C41913D-WH",
+        "predicted": "Toilet",
+        "confidence": 100
+      },
+      {
+        "index": 218,
+        "title": "Feit Electric 6 ft. Plug-In White Strip Light Cuttable Linkable Integrated LED Color Changing CCT Onesync Under Cabinet Light (1-Pack) UCL72/FLEX/5CCT",
+        "predicted": "Under Cabinet Light",
+        "confidence": 96.0
+      },
+      {
+        "index": 47,
+        "title": "GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Breaker Value Kit TLM812SCUD1K",
+        "predicted": "Circuit Breaker",
+        "confidence": 100
+      },
+      {
+        "index": 310,
+        "title": "VELCRO 5 ft. x 3/4 in. Sticky Back Tape 90087",
+        "predicted": "Tape",
+        "confidence": 85.0
+      },
+      {
+        "index": 170,
+        "title": "Hampton Bay Pratford 2.6 ft. 4-Light Brushed Nickel Integrated LED Fixed Track Lighting Kit 23055-000",
+        "predicted": "Track Lighting",
+        "confidence": 86.0
+      }
+    ],
+    "incorrect": [
+      {
+        "index": 25,
+        "title": "HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit (4-Pack) HLBSL4069FS35-4PK",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 142,
+        "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+        "expected": "surge_protector_with_usb",
+        "predicted": "Surge Protector",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 95,
+        "title": "Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger Duplex Outlet, White R02-GUSB1-0BW",
+        "expected": "gfci_usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 324,
+        "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2GTL 4 70LHE GZ10 PWS1836 LP840",
+        "expected": "led_troffer_light",
+        "predicted": "Troffer Light",
+        "confidence": 86.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 34,
+        "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior Low-E Glass and White Hardware 9163982",
+        "expected": "double_hung_window",
+        "predicted": "Window",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 107,
+        "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
+        "expected": "decorative_shelf_bracket",
+        "predicted": "Shelf Bracket",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 26,
+        "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
+        "expected": "multi_position_ladder",
+        "predicted": "Ladder",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 234,
+        "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 in. L 458379",
+        "expected": "outdoor_roller_shade",
+        "predicted": "Window Shade",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 116,
+        "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle Faucets 864540",
+        "expected": "faucet_valve_stem",
+        "predicted": "Faucet Part",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 423,
+        "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single Top Entry Freeze Sensor 007M1-QT-FZ 1 R",
+        "expected": "backflow_preventer_valve",
+        "predicted": "Plumbing Fitting",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 305,
+        "title": "Anvil Replacement Blade THD-blade-set",
+        "expected": "roofing_shovel_blade",
+        "predicted": "Saw Blade",
+        "confidence": 88.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 164,
+        "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+        "expected": "stair_nosing_trim",
+        "predicted": "Unknown - Unable to Classify",
+        "confidence": 10.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 119,
+        "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel with Crystal Square Finials U-BN144FOMS03",
+        "expected": "double_curtain_rod",
+        "predicted": "Curtain Rod",
+        "confidence": 95.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 36,
+        "title": "Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T5632-3BW M02-T5632-3BW",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 96,
+        "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 301,
+        "title": "Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",
+        "expected": "speaker_wall_mounts",
+        "predicted": "Unknown - Unable to Classify",
+        "confidence": 8.0,
+        "difficulty": "easy"
+      },
+      {
+        "index": 70,
+        "title": "Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for Kitchen Bath Living rooms, White 4-Pack 91475",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "easy"
+      },
+      {
+        "index": 352,
+        "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb Included HDP12107ORB",
+        "expected": "mini_pendant_light",
+        "predicted": "Unknown - Unable to Classify",
+        "confidence": 8.0,
+        "difficulty": "easy"
+      }
+    ],
+    "missing": []
+  },
+  "failure_modes": {
+    "unknown_classifications": [
+      {
+        "index": 3,
+        "title": "LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLO",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 12,
+        "title": "Southwire 1/2 in. x 100 ft. Alflex RWA Metallic Aluminum Flexible Conduit 55082103",
+        "confidence": 9.0,
+        "reasons": [
+          "Matches 3 product domains"
+        ]
+      },
+      {
+        "index": 77,
+        "title": "Channellock 12 in. Oil Filter/PVC Plier, Angled Head 2012",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 78,
+        "title": "Husky Encased Sewer Rod 82-974-111",
+        "confidence": 9.0,
+        "reasons": [
+          "Matches 3 product domains"
+        ]
+      },
+      {
+        "index": 86,
+        "title": "Nite Ize GlowStreak LED Red Ball Dog Toy GSB-10-R7",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 87,
+        "title": "Nite Ize SlapLit Neon Yellow LED Slap Wrap SLP2-33-R3",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 94,
+        "title": "Home Decorators Collection Silky Medallion Multi 5 ft. x 7 ft. Medallion Polyester Area Rug 5285.81.",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 110,
+        "title": "Lifetime 4 ft. One Hand Adjustable Height Fold-in-Half Table Almond 80726",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 127,
+        "title": "Home Decorators Collection Raleigh Jute Boucle Natural 6 ft. x 9 ft. Area Rug 8959830106x9",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 160,
+        "title": "Home Decorators Collection Harmony Denim 5 ft. x 7 ft. Indoor Machine Washable Area Rug 610273",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 164,
+        "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 166,
+        "title": "Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 168,
+        "title": "Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02/BN",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 191,
+        "title": "Home Decorators Collection Harmony Denim 2 ft. x 7 ft. Indoor Machine Washable Runner Rug 607228",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 193,
+        "title": "DIABLO 2-3/4 in. x 5 in. 100-Grit SandNET Reusable Sanding Sheets DND234100S10N",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 197,
+        "title": "DIABLO 2-3/4 in. x 5 in. 150-Grit SandNET Reusable Sanding Sheets DND234150S10N",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 206,
+        "title": "TrafficMaster Quince Navy/Blue 5 x 7 Medallion Vinyl Area Rug 8214.42.51HD",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 207,
+        "title": "Home Decorators Collection Harmony Gray 5 ft. x 7 ft. Abstract Indoor Machine Washable Area Rug 6103",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 213,
+        "title": "Philips Advance 40-Watt (F40T12) 1 or 2 Lamp 4 ft. T12 120V Rapid Start High Frequency Electronic Re",
+        "confidence": 11.0,
+        "reasons": [
+          "Has 1 matching specifications",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 225,
+        "title": "StyleWell Beckett Charcoal 6 ft. x 9 ft. Modern Geometric Living Room/Bedroom/Dining Room Area Rug G",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 226,
+        "title": "Home Decorators Collection Fog Sage 5 ft. 3 in. x 7 ft. Indoor Area Rug 374100",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 227,
+        "title": "Rubbermaid Roughneck 32 Gal. Vented Black Round Trash Can with Lid 2149500",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 229,
+        "title": "DEWALT MAXFIT ULTRA 3-1./2 in. Phillips 3 Steel Screwdriving Bit DWAF3PH3-1H",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 231,
+        "title": "DEWALT MAXFIT ULTRA 1 in. T25 Steel Screwdriving Bits (2-Pack) DWAF1TX25-2H",
+        "confidence": 8.0,
+        "reasons": [
+          "Has 1 matching specifications",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 243,
+        "title": "DEWALT MAXFIT ULTRA 2 in. Phillips 3 Steel Screwdriving Bits (2-Pack) DWAF2PH3-2H",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 246,
+        "title": "RYOBI ONE+ 18V Cordless High Power Inflator P738",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 254,
+        "title": "Bondo 8 sq. ft. Fiberglass Cloth 20128",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 258,
+        "title": "DEWALT MAXFIT ULTRA 2 in. Phillips 1 Steel Screwdriving Bits (2-Pack) DWAF2PH1-2H",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 260,
+        "title": "Home Decorators Collection Westcourt 30 in. W x 22 in. D x 34 in. H Bath Vanity Cabinet without Top ",
+        "confidence": 9.0,
+        "reasons": [
+          "Matches 3 product domains"
+        ]
+      },
+      {
+        "index": 271,
+        "title": "Vigoro Torenia 64 in. Black Steel Shepherd Hook 87217",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 273,
+        "title": "TrafficMaster Walnut Ember Java 4 MIL x 6 in. W x 36 in. L Peel and Stick Water Resistant Luxury Vin",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 279,
+        "title": "Scotch 3/4 in x 1.5ft White Indoor Fasteners, 1 Set of Strips RF4710",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 283,
+        "title": "Commercial Electric 4-Piece Nut Driver CE180651",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Found 1 description hints",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 287,
+        "title": "Hampton Bay Wireless Battery Operated Tabletop Doorbell Kit with LED Strobe Light and Wireless Push ",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 288,
+        "title": "Concord Global Trading Retro Gray 3 ft. x 4 ft. Contemporary Area Rug 46623",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 301,
+        "title": "Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 306,
+        "title": "Everbilt 4 in. Gray Rubber Like TPR and Steel Swivel Plate Caster with 250 lb. Load Rating 4033445EB",
+        "confidence": 13.0,
+        "reasons": [
+          "Found 2 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 320,
+        "title": "Andersen 36 in. x 80 in. LuminAire Sandtone for Single Entry Door 32 in.-36 in. Universal Handed Alu",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 328,
+        "title": "Husky 12 in. Groove Joint Pliers 48065",
+        "confidence": 11.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 332,
+        "title": "Andersen 36in.x 80in. LuminAire Charcoal Gray for Single Entry Door 32in.-36in. Universal Handed Alu",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 334,
+        "title": "Andersen 36 in. x 80 in. LuminAire Bronze for Single Entry Door 32 in.-36 in. Universal Handed Alumi",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 337,
+        "title": "Anvil 1-1/4 in. Steel Corner Bead Tool with 24 oz. Rubber Mallet 82092",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 338,
+        "title": "TrafficMaster All Seasons Tulip Scroll Granite 24 in. x 39 in. Door Mat 60787172924x39",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 345,
+        "title": "Wright Products Villa Pull Handle for Screen and Storm Doors, White VIL333WH",
+        "confidence": 6.0,
+        "reasons": [
+          "Matches 2 product domains"
+        ]
+      },
+      {
+        "index": 352,
+        "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb I",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Matches 1 product domains"
+        ]
+      },
+      {
+        "index": 358,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 363,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 365,
+        "title": "HDX FMS-1-S Standard Refrigerator Water Filter Replacement Fits Samsung HAF-CU1S (3-Pack) 107126",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      },
+      {
+        "index": 373,
+        "title": "Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in. Slats - 28 in. W x",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Found 1 description hints"
+        ]
+      },
+      {
+        "index": 374,
+        "title": "MSI Carrara White 6 in. x 12 in. Polished Marble Floor and Wall Tile (5 sq. ft./Case) TCARWHT612P",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 375,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 382,
+        "title": "EMOH Adjustable 48\" to 84\" Round Sash Rod in White (Set of 2) HSASHR-4884",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 384,
+        "title": "UNIKOO UKS04 66 to 72 in. W x 76 in. H Sliding Frameless Shower Door in Brushed Nickel, EnduroShield",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 386,
+        "title": "Chicology Oxford Gray Cordless Room Darkening Vinyl Vertical Blind with 3.5 in. Slats 78 in. W x 84 ",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Found 1 description hints"
+        ]
+      },
+      {
+        "index": 392,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 393,
+        "title": "Lifeproof Sterling Oak 6 MIL x 8.7 in. W x 48 in. L Click Lock Waterproof Luxury Vinyl Plank Floorin",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 394,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 395,
+        "title": "HALO ALP 250-Watt Equivalent Integrated LED Grey Premium Area Light Field Selectable CCT 3000K/4000K",
+        "confidence": 13.0,
+        "reasons": [
+          "Found 2 supporting keywords",
+          "Found 1 description hints"
+        ]
+      },
+      {
+        "index": 396,
+        "title": "Saint-Gobain ADFORS 72 in. x 25 ft. Charcoal Fiberglass Pool and Patio Screen Roll FCS8513-M",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 400,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 408,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 410,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 411,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 412,
+        "title": "Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 413,
+        "title": "",
+        "confidence": 0,
+        "reasons": [
+          "Product has no title or description"
+        ]
+      },
+      {
+        "index": 414,
+        "title": "Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora",
+        "confidence": 5.0,
+        "reasons": [
+          "Found 1 supporting keywords"
+        ]
+      },
+      {
+        "index": 415,
+        "title": "VELCRO 7/8 in. Sticky Back Squares (12-Pack) 90072",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Found 1 description hints"
+        ]
+      },
+      {
+        "index": 416,
+        "title": "Vigoro 4 ft. x 100 ft. Heavy Duty Matrix Grid Weed Control Landscape Fabric VPNM410085",
+        "confidence": 9.0,
+        "reasons": [
+          "Found 3 description hints"
+        ]
+      },
+      {
+        "index": 417,
+        "title": "Milwaukee High Performance Hard Shell Knee Pads with PACKOUT Tool Bag 48-73-6030-48-22-8321",
+        "confidence": 8.0,
+        "reasons": [
+          "Found 1 supporting keywords",
+          "Found 1 description hints"
+        ]
+      },
+      {
+        "index": 422,
+        "title": "Commercial Electric Pocket Size Auto Digital Ranging Multimeter MMB-8332R",
+        "confidence": 10.0,
+        "reasons": [
+          "Found 2 supporting keywords"
+        ]
+      }
+    ],
+    "confident_wrong": [
+      {
+        "index": 25,
+        "title": "HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit (4-Pack) HLBSL4069FS35-4PK",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 142,
+        "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+        "expected": "surge_protector_with_usb",
+        "predicted": "Surge Protector",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 95,
+        "title": "Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger Duplex Outlet, White R02-GUSB1-0BW",
+        "expected": "gfci_usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 324,
+        "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2GTL 4 70LHE GZ10 PWS1836 LP840",
+        "expected": "led_troffer_light",
+        "predicted": "Troffer Light",
+        "confidence": 86.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 34,
+        "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior Low-E Glass and White Hardware 9163982",
+        "expected": "double_hung_window",
+        "predicted": "Window",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 107,
+        "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
+        "expected": "decorative_shelf_bracket",
+        "predicted": "Shelf Bracket",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 26,
+        "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
+        "expected": "multi_position_ladder",
+        "predicted": "Ladder",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 234,
+        "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 in. L 458379",
+        "expected": "outdoor_roller_shade",
+        "predicted": "Window Shade",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 116,
+        "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle Faucets 864540",
+        "expected": "faucet_valve_stem",
+        "predicted": "Faucet Part",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 423,
+        "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single Top Entry Freeze Sensor 007M1-QT-FZ 1 R",
+        "expected": "backflow_preventer_valve",
+        "predicted": "Plumbing Fitting",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 305,
+        "title": "Anvil Replacement Blade THD-blade-set",
+        "expected": "roofing_shovel_blade",
+        "predicted": "Saw Blade",
+        "confidence": 88.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 119,
+        "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel with Crystal Square Finials U-BN144FOMS03",
+        "expected": "double_curtain_rod",
+        "predicted": "Curtain Rod",
+        "confidence": 95.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 36,
+        "title": "Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T5632-3BW M02-T5632-3BW",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 96,
+        "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 70,
+        "title": "Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for Kitchen Bath Living rooms, White 4-Pack 91475",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "easy"
+      }
+    ],
+    "low_confidence_correct": [
+      {
+        "index": 358,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 375,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 411,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      }
+    ],
+    "pattern_missing": [
+      {
+        "index": 164,
+        "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+        "missing_type": "stair_nosing_trim"
+      },
+      {
+        "index": 301,
+        "title": "Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",
+        "missing_type": "speaker_wall_mounts"
+      },
+      {
+        "index": 352,
+        "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb Included HDP12107ORB",
+        "missing_type": "mini_pendant_light"
+      }
+    ],
+    "pattern_ambiguous": [],
+    "negative_keyword_issues": []
+  },
+  "pattern_coverage": {
+    "type_counts": {
+      "Wall Sconce": 13,
+      "Circuit Breaker": 17,
+      "Door Lock": 2,
+      "Unknown - Unable to Classify": 60,
+      "Water Heater": 5,
+      "LED Light Bulb": 15,
+      "Wire": 12,
+      "Level": 4,
+      "High Bay Light": 2,
+      "Cable": 4,
+      "Faucet": 8,
+      "Drain": 5,
+      "Thermostat": 1,
+      "Ladder": 5,
+      "Tool Kit": 1,
+      "Recessed Light": 22,
+      "Load Center": 11,
+      "Fastener": 4,
+      "Metal Folding Tool": 1,
+      "Light Switch": 3,
+      "Drill Bit": 6,
+      "Window": 2,
+      "Saw": 8,
+      "Electrical Outlet": 8,
+      "Track Lighting": 6,
+      "Saw Blade": 12,
+      "Screwdriver": 1,
+      "Cleaning Pad": 2,
+      "Voltage Tester": 2,
+      "Door Handle": 6,
+      "Surge Protector": 5,
+      "Door Knob": 3,
+      "Wall Plate": 2,
+      "Shop Vacuum": 2,
+      "Specialty Cutter": 1,
+      "Paint Sprayer": 1,
+      "Plumbing Fitting": 6,
+      "Sink": 14,
+      "Drill": 11,
+      "Curtain Rod": 8,
+      "Shelf Bracket": 3,
+      "Work Gloves": 9,
+      "Under Cabinet Light": 6,
+      "HVAC Air Filter": 1,
+      "Faucet Part": 1,
+      "Paint": 2,
+      "Safety Respirator": 2,
+      "Tape": 8,
+      "Exhaust Fan": 7,
+      "Radon Detector": 1,
+      "Chandelier": 4,
+      "String Lights": 3,
+      "Paint Brush": 1,
+      "Cleaning Solution": 3,
+      "Shower Pan": 2,
+      "Pendant Light": 5,
+      "Skylight": 6,
+      "Landscape Lighting": 6,
+      "Flush Mount Light": 3,
+      "Vanity Top": 1,
+      "Bathroom Towel Bar": 6,
+      "Adhesive": 1,
+      "Toilet": 8,
+      "Window Shade": 3,
+      "Bathtub": 1,
+      "Flashlight": 1,
+      "Spring": 2,
+      "Troffer Light": 4,
+      "Showerhead": 2,
+      "Extension Cord": 3,
+      "Door Hinge": 2,
+      "Shop Light": 2,
+      "Unknown - Missing Data": 10,
+      "Smoke Detector": 2,
+      "Door": 1,
+      "Disposable Earplugs": 2
+    },
+    "type_avg_confidence": {
+      "Wall Sconce": 85.3076923076923,
+      "Circuit Breaker": 99.0,
+      "Door Lock": 92.5,
+      "Unknown - Unable to Classify": 8.3,
+      "Water Heater": 81.8,
+      "LED Light Bulb": 74.86666666666666,
+      "Wire": 76.41666666666667,
+      "Level": 86.0,
+      "High Bay Light": 58.0,
+      "Cable": 81.5,
+      "Faucet": 91.0,
+      "Drain": 71.0,
+      "Thermostat": 88.0,
+      "Ladder": 88.2,
+      "Tool Kit": 89.0,
+      "Recessed Light": 96.0909090909091,
+      "Load Center": 98.81818181818181,
+      "Fastener": 60.25,
+      "Metal Folding Tool": 80.0,
+      "Light Switch": 54.333333333333336,
+      "Drill Bit": 69.33333333333333,
+      "Window": 80.0,
+      "Saw": 87.5,
+      "Electrical Outlet": 94.625,
+      "Track Lighting": 85.66666666666667,
+      "Saw Blade": 62.083333333333336,
+      "Screwdriver": 83.0,
+      "Cleaning Pad": 87.5,
+      "Voltage Tester": 58.0,
+      "Door Handle": 68.16666666666667,
+      "Surge Protector": 98.2,
+      "Door Knob": 78.33333333333333,
+      "Wall Plate": 79.0,
+      "Shop Vacuum": 95.0,
+      "Specialty Cutter": 98.0,
+      "Paint Sprayer": 100.0,
+      "Plumbing Fitting": 82.83333333333333,
+      "Sink": 91.5,
+      "Drill": 64.27272727272727,
+      "Curtain Rod": 90.375,
+      "Shelf Bracket": 78.33333333333333,
+      "Work Gloves": 89.44444444444444,
+      "Under Cabinet Light": 91.83333333333333,
+      "HVAC Air Filter": 100.0,
+      "Faucet Part": 93.0,
+      "Paint": 51.5,
+      "Safety Respirator": 80.5,
+      "Tape": 70.0,
+      "Exhaust Fan": 97.71428571428571,
+      "Radon Detector": 98.0,
+      "Chandelier": 95.75,
+      "String Lights": 76.33333333333333,
+      "Paint Brush": 80.0,
+      "Cleaning Solution": 50.0,
+      "Shower Pan": 100.0,
+      "Pendant Light": 95.2,
+      "Skylight": 82.66666666666667,
+      "Landscape Lighting": 71.5,
+      "Flush Mount Light": 88.33333333333333,
+      "Vanity Top": 100.0,
+      "Bathroom Towel Bar": 97.5,
+      "Adhesive": 100.0,
+      "Toilet": 94.25,
+      "Window Shade": 100.0,
+      "Bathtub": 53.0,
+      "Flashlight": 100.0,
+      "Spring": 75.0,
+      "Troffer Light": 95.0,
+      "Showerhead": 100.0,
+      "Extension Cord": 66.0,
+      "Door Hinge": 85.0,
+      "Shop Light": 90.0,
+      "Unknown - Missing Data": 0.0,
+      "Smoke Detector": 74.0,
+      "Door": 50.0,
+      "Disposable Earplugs": 100.0
+    },
+    "weak_patterns": [
+      {
+        "type": "Unknown - Missing Data",
+        "count": 10,
+        "avg_confidence": 0.0
+      },
+      {
+        "type": "Unknown - Unable to Classify",
+        "count": 60,
+        "avg_confidence": 8.3
+      },
+      {
+        "type": "Cleaning Solution",
+        "count": 3,
+        "avg_confidence": 50.0
+      },
+      {
+        "type": "Paint",
+        "count": 2,
+        "avg_confidence": 51.5
+      },
+      {
+        "type": "Light Switch",
+        "count": 3,
+        "avg_confidence": 54.3
+      },
+      {
+        "type": "High Bay Light",
+        "count": 2,
+        "avg_confidence": 58.0
+      },
+      {
+        "type": "Voltage Tester",
+        "count": 2,
+        "avg_confidence": 58.0
+      }
+    ]
+  },
+  "scoring_issues": {
+    "high_score_wrong": [
+      {
+        "index": 25,
+        "title": "HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit (4-Pack) HLBSL4069FS35-4PK",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 142,
+        "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+        "expected": "surge_protector_with_usb",
+        "predicted": "Surge Protector",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 95,
+        "title": "Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger Duplex Outlet, White R02-GUSB1-0BW",
+        "expected": "gfci_usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 324,
+        "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2GTL 4 70LHE GZ10 PWS1836 LP840",
+        "expected": "led_troffer_light",
+        "predicted": "Troffer Light",
+        "confidence": 86.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 34,
+        "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior Low-E Glass and White Hardware 9163982",
+        "expected": "double_hung_window",
+        "predicted": "Window",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 107,
+        "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
+        "expected": "decorative_shelf_bracket",
+        "predicted": "Shelf Bracket",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 26,
+        "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
+        "expected": "multi_position_ladder",
+        "predicted": "Ladder",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 234,
+        "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 in. L 458379",
+        "expected": "outdoor_roller_shade",
+        "predicted": "Window Shade",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 116,
+        "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle Faucets 864540",
+        "expected": "faucet_valve_stem",
+        "predicted": "Faucet Part",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 423,
+        "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single Top Entry Freeze Sensor 007M1-QT-FZ 1 R",
+        "expected": "backflow_preventer_valve",
+        "predicted": "Plumbing Fitting",
+        "confidence": 93.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 305,
+        "title": "Anvil Replacement Blade THD-blade-set",
+        "expected": "roofing_shovel_blade",
+        "predicted": "Saw Blade",
+        "confidence": 88.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 119,
+        "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel with Crystal Square Finials U-BN144FOMS03",
+        "expected": "double_curtain_rod",
+        "predicted": "Curtain Rod",
+        "confidence": 95.0,
+        "difficulty": "medium"
+      },
+      {
+        "index": 36,
+        "title": "Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T5632-3BW M02-T5632-3BW",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 96,
+        "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
+        "expected": "usb_outlet",
+        "predicted": "Electrical Outlet",
+        "confidence": 100,
+        "difficulty": "medium"
+      },
+      {
+        "index": 70,
+        "title": "Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for Kitchen Bath Living rooms, White 4-Pack 91475",
+        "expected": "recessed_light_fixture",
+        "predicted": "Recessed Light",
+        "confidence": 100,
+        "difficulty": "easy"
+      }
+    ],
+    "low_score_correct": [
+      {
+        "index": 358,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 375,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      },
+      {
+        "index": 411,
+        "title": "",
+        "predicted": "Unknown - Missing Data",
+        "confidence": 0
+      }
+    ],
+    "score_distribution": {
+      "50": 60,
+      "100": 128,
+      "0": 52,
+      "90": 76,
+      "60": 9,
+      "80": 70,
+      "10": 24,
+      "20": 3,
+      "70": 3
+    }
+  }
+}
