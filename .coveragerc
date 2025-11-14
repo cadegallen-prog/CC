@@ -1,0 +1,144 @@
+[run]
+# Coverage.py configuration for CC Product Classification Project
+
+# Source code to measure coverage for
+source = scripts
+
+# Files to omit from coverage
+omit =
+    # Test files
+    tests/*
+    */tests/*
+
+    # Virtual environments
+    venv/*
+    env/*
+    .venv/*
+    */venv/*
+    */env/*
+    */.venv/*
+
+    # Python cache
+    */__pycache__/*
+    *.pyc
+
+    # Setup/config files
+    setup.py
+    */setup.py
+
+    # Temporary files
+    */tmp/*
+    */temp/*
+
+# Paths to include (relative to project root)
+include = scripts/*
+
+# Branch coverage (measures if-else branches)
+branch = True
+
+# Store coverage data in this file
+data_file = .coverage
+
+# Parallel mode (for concurrent testing)
+parallel = False
+
+# Concurrency libraries
+concurrency =
+    thread
+    multiprocessing
+
+[report]
+# Reporting options
+
+# Precision for coverage percentage
+precision = 2
+
+# Show missing line numbers
+show_missing = True
+
+# Skip empty files
+skip_empty = True
+
+# Skip files with 100% coverage
+skip_covered = False
+
+# Fail if coverage is below this percentage
+fail_under = 80
+
+# Exclude these lines from coverage analysis
+exclude_lines =
+    # Standard pragma
+    pragma: no cover
+
+    # Don't complain about missing debug code
+    def __repr__
+    def __str__
+
+    # Don't complain if tests don't hit defensive assertion code
+    raise AssertionError
+    raise NotImplementedError
+
+    # Don't complain if non-runnable code isn't run
+    if __name__ == .__main__.:
+    if __name__ == "__main__":
+
+    # Don't complain about abstract methods
+    @abstract
+    @abstractmethod
+
+    # Type checking blocks
+    if TYPE_CHECKING:
+    if typing.TYPE_CHECKING:
+
+    # Defensive programming
+    except ImportError:
+    except ModuleNotFoundError:
+
+    # Pass statements
+    pass
+
+    # Ellipsis
+    \.\.\.
+
+# Ignore errors for source files that can't be found
+ignore_errors = False
+
+# Sort the report by this column
+sort = Cover
+
+[html]
+# HTML report options
+
+# Directory for HTML report
+directory = reports/coverage
+
+# Title for HTML report
+title = CC Product Classification - Coverage Report
+
+# Show contexts in HTML report
+show_contexts = False
+
+[xml]
+# XML report for CI/CD integration
+
+# Output file for XML report
+output = reports/coverage.xml
+
+[json]
+# JSON report options
+
+# Output file for JSON report
+output = reports/coverage.json
+
+# Pretty print JSON
+pretty_print = True
+
+# Show contexts in JSON
+show_contexts = False
+
+[paths]
+# Path mapping for combining coverage from different environments
+
+source =
+    scripts/
+    */CC/scripts/
