@@ -1,0 +1,434 @@
+[
+  {
+    "keyword": "led light bulb",
+    "precision": 1.0,
+    "correct": 4,
+    "incorrect": 0,
+    "total": 4,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "light bulb",
+    "precision": 1.0,
+    "correct": 5,
+    "incorrect": 0,
+    "total": 5,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "led lamp",
+    "precision": 1.0,
+    "correct": 2,
+    "incorrect": 0,
+    "total": 2,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "rocker switch",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "kitchen faucet",
+    "precision": 1.0,
+    "correct": 3,
+    "incorrect": 0,
+    "total": 3,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "toilet",
+    "precision": 1.0,
+    "correct": 8,
+    "incorrect": 0,
+    "total": 8,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "bathroom sink",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "smart lock",
+    "precision": 1.0,
+    "correct": 2,
+    "incorrect": 0,
+    "total": 2,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "recessed light",
+    "precision": 1.0,
+    "correct": 19,
+    "incorrect": 0,
+    "total": 19,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "recessed lighting",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "canless",
+    "precision": 1.0,
+    "correct": 19,
+    "incorrect": 0,
+    "total": 19,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "mini-pendant",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "track light",
+    "precision": 1.0,
+    "correct": 6,
+    "incorrect": 0,
+    "total": 6,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "track lighting",
+    "precision": 1.0,
+    "correct": 6,
+    "incorrect": 0,
+    "total": 6,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "exhaust fan",
+    "precision": 1.0,
+    "correct": 7,
+    "incorrect": 0,
+    "total": 7,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "ladder",
+    "precision": 1.0,
+    "correct": 4,
+    "incorrect": 0,
+    "total": 4,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "step ladder",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "cordless drill",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "circular saw",
+    "precision": 1.0,
+    "correct": 2,
+    "incorrect": 0,
+    "total": 2,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "reciprocating saw",
+    "precision": 1.0,
+    "correct": 3,
+    "incorrect": 0,
+    "total": 3,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "bit set",
+    "precision": 1.0,
+    "correct": 3,
+    "incorrect": 0,
+    "total": 3,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "driver bit",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "tankless water heater",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "thermostat",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "string light",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "string lights",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "shower pan",
+    "precision": 1.0,
+    "correct": 2,
+    "incorrect": 0,
+    "total": 2,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "showerhead",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "shower head",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "curtain rod",
+    "precision": 1.0,
+    "correct": 7,
+    "incorrect": 0,
+    "total": 7,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "skylight",
+    "precision": 1.0,
+    "correct": 6,
+    "incorrect": 0,
+    "total": 6,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "shop vac",
+    "precision": 1.0,
+    "correct": 2,
+    "incorrect": 0,
+    "total": 2,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "shop vacuum",
+    "precision": 1.0,
+    "correct": 2,
+    "incorrect": 0,
+    "total": 2,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "wet dry vac",
+    "precision": 1.0,
+    "correct": 1,
+    "incorrect": 0,
+    "total": 1,
+    "category": "HIGH"
+  },
+  {
+    "keyword": "saw",
+    "precision": 0.8888888888888888,
+    "correct": 8,
+    "incorrect": 1,
+    "total": 9,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "kitchen sink",
+    "precision": 0.8571428571428571,
+    "correct": 6,
+    "incorrect": 1,
+    "total": 7,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "sink",
+    "precision": 0.8333333333333334,
+    "correct": 10,
+    "incorrect": 2,
+    "total": 12,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "drill",
+    "precision": 0.75,
+    "correct": 3,
+    "incorrect": 1,
+    "total": 4,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "water heater",
+    "precision": 0.75,
+    "correct": 3,
+    "incorrect": 1,
+    "total": 4,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "breaker",
+    "precision": 0.7272727272727273,
+    "correct": 16,
+    "incorrect": 6,
+    "total": 22,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "wall sconce",
+    "precision": 0.7,
+    "correct": 7,
+    "incorrect": 3,
+    "total": 10,
+    "category": "MEDIUM"
+  },
+  {
+    "keyword": "circuit breaker",
+    "precision": 0.6923076923076923,
+    "correct": 9,
+    "incorrect": 4,
+    "total": 13,
+    "category": "LOW"
+  },
+  {
+    "keyword": "sconce",
+    "precision": 0.6923076923076923,
+    "correct": 9,
+    "incorrect": 4,
+    "total": 13,
+    "category": "LOW"
+  },
+  {
+    "keyword": "deadbolt",
+    "precision": 0.6666666666666666,
+    "correct": 2,
+    "incorrect": 1,
+    "total": 3,
+    "category": "LOW"
+  },
+  {
+    "keyword": "chandelier",
+    "precision": 0.6666666666666666,
+    "correct": 4,
+    "incorrect": 2,
+    "total": 6,
+    "category": "LOW"
+  },
+  {
+    "keyword": "faucet",
+    "precision": 0.6363636363636364,
+    "correct": 7,
+    "incorrect": 4,
+    "total": 11,
+    "category": "LOW"
+  },
+  {
+    "keyword": "incandescent bulb",
+    "precision": 0.5,
+    "correct": 1,
+    "incorrect": 1,
+    "total": 2,
+    "category": "LOW"
+  },
+  {
+    "keyword": "bathroom faucet",
+    "precision": 0.5,
+    "correct": 1,
+    "incorrect": 1,
+    "total": 2,
+    "category": "LOW"
+  },
+  {
+    "keyword": "mini pendant",
+    "precision": 0.5,
+    "correct": 1,
+    "incorrect": 1,
+    "total": 2,
+    "category": "LOW"
+  },
+  {
+    "keyword": "window",
+    "precision": 0.5,
+    "correct": 1,
+    "incorrect": 1,
+    "total": 2,
+    "category": "LOW"
+  },
+  {
+    "keyword": "dimmer switch",
+    "precision": 0.0,
+    "correct": 0,
+    "incorrect": 2,
+    "total": 2,
+    "category": "LOW"
+  },
+  {
+    "keyword": "door lock",
+    "precision": 0.0,
+    "correct": 0,
+    "incorrect": 1,
+    "total": 1,
+    "category": "LOW"
+  },
+  {
+    "keyword": "ceiling fan",
+    "precision": 0.0,
+    "correct": 0,
+    "incorrect": 1,
+    "total": 1,
+    "category": "LOW"
+  },
+  {
+    "keyword": "drill bit",
+    "precision": 0.0,
+    "correct": 0,
+    "incorrect": 2,
+    "total": 2,
+    "category": "LOW"
+  }
+]

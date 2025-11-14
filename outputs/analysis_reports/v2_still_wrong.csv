@@ -1,0 +1,16 @@
+Index,Title,Ground Truth,V1 Classification,V2 Classification,Changed
+0,Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Cha,Chandelier,Wall Sconce,LED Light Bulb,Yes
+16,Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed,Faucet,Drain,Drain,No
+23,RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK,Saw,Tool Kit,Tool Kit,No
+92,Milwaukee SHOCKWAVE Impact Duty Drill & Drive Set (21-Piece) 48-32-5163,Drill,Drill Bit,Drill Bit,No
+123,Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimm,Light Switch,LED Light Bulb,LED Light Bulb,No
+166,Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR,Wall Sconce,Unknown - Unable to Classify,Light Switch,Yes
+168,Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02,Wall Sconce,Unknown - Unable to Classify,Light Switch,Yes
+174,KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed N,Faucet,Door Handle,Door Handle,No
+179,Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wal,Wall Sconce,Sink,Sink,No
+180,Hampton Bay Upton Brushed Nickel LED Sconce RS513859,Wall Sconce,Light Switch,Light Switch,No
+183,Glacier Bay Stancliff 25 in. Single Sink Elm Ember Bath Vanity with White Cultur,Sink,Vanity Top,Vanity Top,No
+240,MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Inc,Faucet,Bathtub,Bathtub,No
+343,Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Gla,Chandelier,Wall Sconce,LED Light Bulb,Yes
+352,Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Str,Pendant Light,Unknown - Unable to Classify,Unknown - Unable to Classify,No
+373,Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in,Window,Unknown - Unable to Classify,Unknown - Unable to Classify,No

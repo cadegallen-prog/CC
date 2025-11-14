@@ -1,0 +1,349 @@
+{
+  "total_products": 425,
+  "product_types_found": 71,
+  "type_distribution": {
+    "Unknown - Unable to Classify": 73,
+    "Circuit Breaker": 23,
+    "LED Light Bulb": 21,
+    "Recessed Light": 21,
+    "Wall Sconce": 15,
+    "Sink": 14,
+    "Faucet": 11,
+    "Area Rug": 11,
+    "Unknown - Missing Data": 10,
+    "Fastener": 9,
+    "Electrical Outlet": 9,
+    "Work Gloves": 9,
+    "Tape": 9,
+    "Drain": 8,
+    "Saw": 8,
+    "Curtain Rod": 8,
+    "Toilet": 8,
+    "Drill Bit": 7,
+    "Landscape Lighting": 7,
+    "Load Center": 6,
+    "Track Lighting": 6,
+    "Drill": 6,
+    "Plumbing Fitting": 6,
+    "Pendant Light": 6,
+    "Exhaust Fan": 6,
+    "Bathroom Towel Bar": 6,
+    "Water Heater": 5,
+    "Ladder": 5,
+    "High Bay Light": 4,
+    "Window": 4,
+    "Surge Protector": 4,
+    "Pliers": 4,
+    "Door Handle": 4,
+    "Chandelier": 4,
+    "Troffer Light": 4,
+    "Door Lock": 3,
+    "Light Switch": 3,
+    "Door Knob": 3,
+    "Shelf Bracket": 3,
+    "String Lights": 3,
+    "Under Cabinet Light": 3,
+    "Flush Mount Light": 3,
+    "Window Shade": 3,
+    "Extension Cord": 3,
+    "Wall Mirror": 2,
+    "Wall Plate": 2,
+    "Safety Respirator": 2,
+    "Sanding Supplies": 2,
+    "Flashlight": 2,
+    "Showerhead": 2,
+    "Door Hinge": 2,
+    "Shop Light": 2,
+    "Smoke Detector": 2,
+    "Disposable Earplugs": 2,
+    "Flexible Conduit": 1,
+    "Thermostat": 1,
+    "Tool Kit": 1,
+    "Metal Folding Tool": 1,
+    "Ceiling Fan": 1,
+    "Specialty Tool": 1,
+    "Pet Toy": 1,
+    "Safety Light": 1,
+    "Specialty Cutter": 1,
+    "Paint Sprayer": 1,
+    "Folding Table": 1,
+    "HVAC Air Filter": 1,
+    "Faucet Part": 1,
+    "Radon Detector": 1,
+    "Stair Nosing Trim": 1,
+    "Speaker Mount": 1,
+    "Roofing Shovel Blade": 1
+  },
+  "confidence_distribution": {
+    "High": 285,
+    "Medium": 42,
+    "No Match": 82,
+    "Very Low": 4,
+    "Low": 2,
+    "No Data": 10
+  },
+  "average_confidence": 74.2,
+  "low_confidence_count": 98,
+  "low_confidence_products": [
+    {
+      "index": 358,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 363,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 375,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 392,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 394,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 400,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 408,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 410,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 411,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 413,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 366,
+      "title": "Kapro 1-5/8 in. Bulls Eye Surface Level 240-01",
+      "brand": "Kapro",
+      "price": 3.14,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 description hints"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 84,
+      "title": "RIDGID 3 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with Filter, Locking Hose, Accessories and Pro",
+      "brand": "RIDGID",
+      "price": 139.97,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 374,
+      "title": "MSI Carrara White 6 in. x 12 in. Polished Marble Floor and Wall Tile (5 sq. ft./Case) TCARWHT612P",
+      "brand": "MSI",
+      "price": 86.13,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 384,
+      "title": "UNIKOO UKS04 66 to 72 in. W x 76 in. H Sliding Frameless Shower Door in Brushed Nickel, EnduroShield",
+      "brand": "UNIKOO",
+      "price": 800.99,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 390,
+      "title": "Search Results for 520214 at The Home Depot",
+      "brand": "",
+      "price": 78.46,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 393,
+      "title": "Lifeproof Sterling Oak 6 MIL x 8.7 in. W x 48 in. L Click Lock Waterproof Luxury Vinyl Plank Floorin",
+      "brand": "Lifeproof",
+      "price": 49.95,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 396,
+      "title": "Saint-Gobain ADFORS 72 in. x 25 ft. Charcoal Fiberglass Pool and Patio Screen Roll FCS8513-M",
+      "brand": "Saint-Gobain ADFORS",
+      "price": 46.48,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 397,
+      "title": "BlueDEF 2.5 Gal. Diesel Exhaust Fluid (DEF) DEF002",
+      "brand": "BlueDEF",
+      "price": 16.3,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 407,
+      "title": "SANOXY 25 ft. DVI-D Dual Link Digital Video Male to Male Cable 28AWG SNX-CBL-LDR-DV110-G125",
+      "brand": "SANOXY",
+      "price": 33.32,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 412,
+      "title": "Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora",
+      "brand": "Husky",
+      "price": 381.1,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 4.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords"
+      ],
+      "alternate_types": []
+    }
+  ]
+}
