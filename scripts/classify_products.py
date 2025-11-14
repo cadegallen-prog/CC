@@ -707,9 +707,32 @@ class ProductClassifier:
         specs = product.get('structured_specifications', {})
 
         # Check for negative keywords first (disqualifiers)
+        # Context-aware matching to avoid false rejections
         for neg_kw in pattern.get('negative_keywords', []):
-            if neg_kw in title or neg_kw in description:
-                return 0.0, ['Disqualified by negative keyword: ' + neg_kw]
+            # For fixture-type keywords (chandelier, sconce, pendant):
+            # Only block if NOT describing what the bulb is FOR
+            if neg_kw in ['chandelier', 'sconce', 'pendant']:
+                if neg_kw in title:
+                    # Check if it's "chandelier bulb" vs "chandelier fixture"
+                    # Pattern like "chandelier led" or "chandelier bulb" = bulb FOR chandelier
+                    pattern_str = rf'{neg_kw}\s+(led|light|bulb)'
+                    if re.search(pattern_str, title):
+                        # This is a bulb FOR that fixture type - don't block
+                        continue
+                    else:
+                        # It's an actual fixture - block it
+                        return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
+
+            # For generic keywords (fixture, wall mount, ceiling mount):
+            # Only block if in TITLE (not just description)
+            elif neg_kw in ['fixture', 'wall mount', 'ceiling mount']:
+                if neg_kw in title:
+                    return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
+
+            # For all other negative keywords: use original logic
+            else:
+                if neg_kw in title or neg_kw in description:
+                    return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
 
         # Strong keywords in title (highest weight)
         for kw in pattern['strong_keywords']:
