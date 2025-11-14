@@ -23,6 +23,13 @@
 **Current focus:** Identify product types (what each of 425 Home Depot products IS)
 **Future:** Map to Facebook's 373 taxonomy paths (on backburner)
 
+## Data Files (Use Right Format!)
+- **Browser AI?** → Use `data/scraped_data.csv` (340 KB, 71% smaller)
+- **Desktop AI?** → Use `data/scraped_data_output.json` (1,191 KB, complete)
+- **Just stats?** → Use `data/dataset_summary.json` (2 KB, overview)
+
+**Why CSV for browsers:** Large JSON files choke browser-based AI. CSV has everything needed for classification (title, description, brand, price) in a fraction of the size.
+
 ---
 
 **Details:** [AI_ASSISTANT_INSTRUCTIONS.md](AI_ASSISTANT_INSTRUCTIONS.md) (650 words)

@@ -106,6 +106,38 @@
 
 ---
 
+## Data Files & Format Strategy
+
+**IMPORTANT: Use the right file format for your environment!**
+
+### For Browser-Based AI (Claude.ai, ChatGPT web):
+**Use CSV format** - It's 71% smaller and loads easily in browsers:
+- **File:** `data/scraped_data.csv` (340 KB)
+- **Contains:** index, title, description, brand, price, rating, model
+- **Purpose:** Classification, validation, analysis work
+- **Why:** Browser AI agents struggle with large files. CSV is compact and has everything needed for product identification.
+
+### For Desktop AI (Claude Code, local scripts):
+**Use JSON format** - Complete data with all nested fields:
+- **File:** `data/scraped_data_output.json` (1,191 KB)
+- **Contains:** Full product data including specs, images, additional details
+- **Purpose:** Complete reference, when you need full product information
+- **Why:** Desktop tools can handle larger files and may need complete nested data.
+
+### Quick Summary File:
+- **File:** `data/dataset_summary.json` (2 KB)
+- **Contains:** Statistics, top brands, price ranges, data completeness
+- **Purpose:** Quick overview without loading full dataset
+- **Use:** When you just need counts and stats
+
+### Data Format Rule of Thumb:
+- Working in browser? → Use CSV (small, fast)
+- Need complete data? → Use JSON (full details)
+- Just need stats? → Use summary (tiny)
+- Validating classification? → Use CSV (has what you need)
+
+---
+
 ## Example Interaction
 
 **User:** "Can you make the data cleaner?"

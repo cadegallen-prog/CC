@@ -6,6 +6,7 @@ Identifies what each product actually IS (e.g., "LED bulb", "ceiling fan", "dril
 
 import json
 import re
+from pathlib import Path
 from collections import defaultdict, Counter
 from typing import Dict, List, Tuple, Optional
 
@@ -895,7 +896,8 @@ def main():
     print("Loading products from data/scraped_data_output.json...")
 
     # Load data
-    with open('/home/user/CC/data/scraped_data_output.json', 'r') as f:
+    data_file = Path(__file__).parent.parent / 'data' / 'scraped_data_output.json'
+    with open(data_file, 'r') as f:
         products = json.load(f)
 
     print(f"Loaded {len(products)} products")
