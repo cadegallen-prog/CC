@@ -1,0 +1,433 @@
+{
+  "summary": {
+    "total_products": 425,
+    "products_with_title_ground_truth": 168,
+    "correct_classifications": 140,
+    "misclassifications": 28,
+    "accuracy_rate": 0.8333333333333334,
+    "high_severity_mismatches": 17
+  },
+  "top_misclassification_patterns": {
+    "Circuit Breaker \u2192 Load Center": 6,
+    "Chandelier \u2192 Wall Sconce": 2,
+    "Drill Bit \u2192 Drill": 2,
+    "Wall Sconce \u2192 Unknown - Unable to Classify": 2,
+    "Faucet \u2192 Drain": 1,
+    "Saw \u2192 Tool Kit": 1,
+    "Ceiling Fan \u2192 LED Light Bulb": 1,
+    "Door Lock \u2192 Door Handle": 1,
+    "LED Light Bulb \u2192 Wall Plate": 1,
+    "Drill \u2192 Drill Bit": 1,
+    "Light Switch \u2192 LED Light Bulb": 1,
+    "Faucet \u2192 Door Handle": 1,
+    "Wall Sconce \u2192 Sink": 1,
+    "Wall Sconce \u2192 Light Switch": 1,
+    "Sink \u2192 Vanity Top": 1,
+    "Water Heater \u2192 Plumbing Fitting": 1,
+    "Sink \u2192 Faucet": 1,
+    "Faucet \u2192 Bathtub": 1,
+    "Pendant Light \u2192 Unknown - Unable to Classify": 1,
+    "Window \u2192 Unknown - Unable to Classify": 1
+  },
+  "keyword_effectiveness_summary": {
+    "high_precision": [
+      {
+        "keyword": "led light bulb",
+        "precision": 1.0,
+        "correct": 4,
+        "incorrect": 0,
+        "total": 4,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "light bulb",
+        "precision": 1.0,
+        "correct": 5,
+        "incorrect": 0,
+        "total": 5,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "led lamp",
+        "precision": 1.0,
+        "correct": 2,
+        "incorrect": 0,
+        "total": 2,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "rocker switch",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "kitchen faucet",
+        "precision": 1.0,
+        "correct": 3,
+        "incorrect": 0,
+        "total": 3,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "toilet",
+        "precision": 1.0,
+        "correct": 8,
+        "incorrect": 0,
+        "total": 8,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "bathroom sink",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "smart lock",
+        "precision": 1.0,
+        "correct": 2,
+        "incorrect": 0,
+        "total": 2,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "recessed light",
+        "precision": 1.0,
+        "correct": 19,
+        "incorrect": 0,
+        "total": 19,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "recessed lighting",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "canless",
+        "precision": 1.0,
+        "correct": 19,
+        "incorrect": 0,
+        "total": 19,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "mini-pendant",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "track light",
+        "precision": 1.0,
+        "correct": 6,
+        "incorrect": 0,
+        "total": 6,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "track lighting",
+        "precision": 1.0,
+        "correct": 6,
+        "incorrect": 0,
+        "total": 6,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "exhaust fan",
+        "precision": 1.0,
+        "correct": 7,
+        "incorrect": 0,
+        "total": 7,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "ladder",
+        "precision": 1.0,
+        "correct": 4,
+        "incorrect": 0,
+        "total": 4,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "step ladder",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "cordless drill",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "circular saw",
+        "precision": 1.0,
+        "correct": 2,
+        "incorrect": 0,
+        "total": 2,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "reciprocating saw",
+        "precision": 1.0,
+        "correct": 3,
+        "incorrect": 0,
+        "total": 3,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "bit set",
+        "precision": 1.0,
+        "correct": 3,
+        "incorrect": 0,
+        "total": 3,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "driver bit",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "tankless water heater",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "thermostat",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "string light",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "string lights",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "shower pan",
+        "precision": 1.0,
+        "correct": 2,
+        "incorrect": 0,
+        "total": 2,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "showerhead",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "shower head",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "curtain rod",
+        "precision": 1.0,
+        "correct": 7,
+        "incorrect": 0,
+        "total": 7,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "skylight",
+        "precision": 1.0,
+        "correct": 6,
+        "incorrect": 0,
+        "total": 6,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "shop vac",
+        "precision": 1.0,
+        "correct": 2,
+        "incorrect": 0,
+        "total": 2,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "shop vacuum",
+        "precision": 1.0,
+        "correct": 2,
+        "incorrect": 0,
+        "total": 2,
+        "category": "HIGH"
+      },
+      {
+        "keyword": "wet dry vac",
+        "precision": 1.0,
+        "correct": 1,
+        "incorrect": 0,
+        "total": 1,
+        "category": "HIGH"
+      }
+    ],
+    "low_precision": [
+      {
+        "keyword": "circuit breaker",
+        "precision": 0.6923076923076923,
+        "correct": 9,
+        "incorrect": 4,
+        "total": 13,
+        "category": "LOW"
+      },
+      {
+        "keyword": "sconce",
+        "precision": 0.6923076923076923,
+        "correct": 9,
+        "incorrect": 4,
+        "total": 13,
+        "category": "LOW"
+      },
+      {
+        "keyword": "deadbolt",
+        "precision": 0.6666666666666666,
+        "correct": 2,
+        "incorrect": 1,
+        "total": 3,
+        "category": "LOW"
+      },
+      {
+        "keyword": "chandelier",
+        "precision": 0.6666666666666666,
+        "correct": 4,
+        "incorrect": 2,
+        "total": 6,
+        "category": "LOW"
+      },
+      {
+        "keyword": "faucet",
+        "precision": 0.6363636363636364,
+        "correct": 7,
+        "incorrect": 4,
+        "total": 11,
+        "category": "LOW"
+      },
+      {
+        "keyword": "incandescent bulb",
+        "precision": 0.5,
+        "correct": 1,
+        "incorrect": 1,
+        "total": 2,
+        "category": "LOW"
+      },
+      {
+        "keyword": "bathroom faucet",
+        "precision": 0.5,
+        "correct": 1,
+        "incorrect": 1,
+        "total": 2,
+        "category": "LOW"
+      },
+      {
+        "keyword": "mini pendant",
+        "precision": 0.5,
+        "correct": 1,
+        "incorrect": 1,
+        "total": 2,
+        "category": "LOW"
+      },
+      {
+        "keyword": "window",
+        "precision": 0.5,
+        "correct": 1,
+        "incorrect": 1,
+        "total": 2,
+        "category": "LOW"
+      },
+      {
+        "keyword": "dimmer switch",
+        "precision": 0.0,
+        "correct": 0,
+        "incorrect": 2,
+        "total": 2,
+        "category": "LOW"
+      },
+      {
+        "keyword": "door lock",
+        "precision": 0.0,
+        "correct": 0,
+        "incorrect": 1,
+        "total": 1,
+        "category": "LOW"
+      },
+      {
+        "keyword": "ceiling fan",
+        "precision": 0.0,
+        "correct": 0,
+        "incorrect": 1,
+        "total": 1,
+        "category": "LOW"
+      },
+      {
+        "keyword": "drill bit",
+        "precision": 0.0,
+        "correct": 0,
+        "incorrect": 2,
+        "total": 2,
+        "category": "LOW"
+      }
+    ]
+  },
+  "failure_analysis_summary": {
+    "Wrong type matched title keyword": 13,
+    "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth": 10,
+    "Wrong type scored much higher; Title keyword not detected for ground truth; Wrong type matched title keyword": 1
+  },
+  "recommendations": [
+    {
+      "issue": "Ground truth products scoring too low",
+      "count": 10,
+      "solution": "Increase weight for exact title matches",
+      "priority": "HIGH"
+    },
+    {
+      "issue": "Wrong types scoring higher due to weak keyword accumulation",
+      "count": 10,
+      "solution": "Reduce weight of weak keywords, increase title match bonus",
+      "priority": "HIGH"
+    }
+  ]
+}

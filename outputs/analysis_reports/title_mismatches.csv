@@ -1,0 +1,29 @@
+Index,Title,Ground Truth,Matched Phrase,Classified As,Severity,Classification Confidence
+0,Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Chandelier LED Light Bu,Chandelier,chandelier,Wall Sconce,MEDIUM,56.0
+16,Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed Nickel LF-042-BRKK,Faucet,bathroom faucet,Drain,HIGH,53.0
+23,RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK,Saw,saw,Tool Kit,MEDIUM,89.0
+28,GE 150 Amp 4-Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Socket Load Center TSMR,Circuit Breaker,breaker,Load Center,MEDIUM,98.0
+44,"Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8563ENCBQH",Ceiling Fan,ceiling fan,LED Light Bulb,HIGH,100.0
+61,GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circuit Breaker Panel TL41,Circuit Breaker,circuit breaker,Load Center,HIGH,100.0
+63,GE 200 Amp 4 Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Socket Load Center TSMR,Circuit Breaker,breaker,Load Center,MEDIUM,98.0
+64,GE PowerMark Plus 125 Amp 4-Space 8-Circuit Single-Phase Indoor Main Lug Circuit Breaker Panel TL412,Circuit Breaker,circuit breaker,Load Center,HIGH,100.0
+65,GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Circuit Breaker Panel TLM812FCUDP,Circuit Breaker,circuit breaker,Load Center,HIGH,100.0
+66,Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Door Handle FBE365 V C,Door Lock,door lock,Door Handle,HIGH,100.0
+79,GE PowerMark Plus Outdoor 70 Amp 2-Space 4-Circuit Single-Phase Main Lug Circuit Breaker Panel TL270,Circuit Breaker,circuit breaker,Load Center,HIGH,100.0
+82,"Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Incandescent Bulbs, Whi",LED Light Bulb,incandescent bulb,Wall Plate,HIGH,58.0
+92,Milwaukee SHOCKWAVE Impact Duty Drill & Drive Set (21-Piece) 48-32-5163,Drill,drill,Drill Bit,MEDIUM,58.0
+104,DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010,Drill Bit,drill bit,Drill,HIGH,100.0
+123,Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimmer Switch with Brass,Light Switch,dimmer switch,LED Light Bulb,HIGH,21.0
+166,Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR,Wall Sconce,wall sconce,Unknown - Unable to Classify,HIGH,11.0
+168,Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02/BN,Wall Sconce,wall sconce,Unknown - Unable to Classify,HIGH,11.0
+174,KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed Nickel (Valve Include,Faucet,faucet,Door Handle,MEDIUM,53.0
+179,Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wall Sconce Light Fixtu,Wall Sconce,wall sconce,Sink,HIGH,53.0
+180,Hampton Bay Upton Brushed Nickel LED Sconce RS513859,Wall Sconce,sconce,Light Switch,MEDIUM,56.0
+183,Glacier Bay Stancliff 25 in. Single Sink Elm Ember Bath Vanity with White Cultured Marble Top (Assem,Sink,sink,Vanity Top,MEDIUM,100.0
+212,SharkBite Max 3/4 in. Push-to-Connect x 3/4 in. FIP x 18 in. Braided Stainless Steel Water Heater Co,Water Heater,water heater,Plumbing Fitting,HIGH,93.0
+214,KOHLER Setra Single-Handle Semi-Professional Kitchen Sink Faucet with Soap Dispenser in Matte Black ,Sink,kitchen sink,Faucet,HIGH,100.0
+240,MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Included) 82760BL,Faucet,faucet,Bathtub,MEDIUM,53.0
+250,DEWALT MAXFIT Impact Rated 2 in. #2 Philips Steel Screwdriver Drill Bit (2-Piece) DWA2PH2MF2,Drill Bit,drill bit,Drill,HIGH,100.0
+343,Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Glass Chandelier LED Li,Chandelier,chandelier,Wall Sconce,MEDIUM,56.0
+352,Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb I,Pendant Light,mini pendant,Unknown - Unable to Classify,HIGH,8.0
+373,Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in. Slats - 28 in. W x,Window,window,Unknown - Unable to Classify,MEDIUM,8.0

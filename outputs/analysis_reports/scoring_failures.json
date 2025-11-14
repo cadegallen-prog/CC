@@ -1,0 +1,466 @@
+[
+  {
+    "index": 0,
+    "title": "Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Cha",
+    "ground_truth": "Chandelier",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: light bulb"
+    ],
+    "classified_as": "Wall Sconce",
+    "classified_as_score": 56.0,
+    "classified_as_reasons": [
+      "Description contains \"wall sconce\"",
+      "Matches 2 product domains"
+    ],
+    "score_difference": 56.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 16,
+    "title": "Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed",
+    "ground_truth": "Faucet",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: drain"
+    ],
+    "classified_as": "Drain",
+    "classified_as_score": 53.0,
+    "classified_as_reasons": [
+      "Description contains \"drain\"",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 53.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 23,
+    "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
+    "ground_truth": "Saw",
+    "ground_truth_score": 53.0,
+    "ground_truth_reasons": [
+      "Description contains \"saw\"",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Tool Kit",
+    "classified_as_score": 89.0,
+    "classified_as_reasons": [
+      "Title contains \"tune-up kit\"",
+      "Found 2 description hints",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 36.0,
+    "failure_reason": "Wrong type scored much higher; Title keyword not detected for ground truth; Wrong type matched title keyword"
+  },
+  {
+    "index": 28,
+    "title": "GE 150 Amp 4-Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Soc",
+    "ground_truth": "Circuit Breaker",
+    "ground_truth_score": 93.0,
+    "ground_truth_reasons": [
+      "Title contains \"breaker\"",
+      "Found 1 supporting keywords",
+      "Has 1 matching specifications",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Load Center",
+    "classified_as_score": 98.0,
+    "classified_as_reasons": [
+      "Title contains \"load center\"",
+      "Found 3 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 5.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 44,
+    "title": "Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8",
+    "ground_truth": "Ceiling Fan",
+    "ground_truth_score": 99.0,
+    "ground_truth_reasons": [
+      "Title contains \"ceiling fan\"",
+      "Found 2 supporting keywords",
+      "Matches 3 product domains"
+    ],
+    "classified_as": "LED Light Bulb",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"led light\"",
+      "Found 2 supporting keywords",
+      "Has 2 matching specifications",
+      "Matches 2 product domains"
+    ],
+    "score_difference": 1.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 61,
+    "title": "GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circui",
+    "ground_truth": "Circuit Breaker",
+    "ground_truth_score": 93.0,
+    "ground_truth_reasons": [
+      "Title contains \"breaker\"",
+      "Found 1 supporting keywords",
+      "Has 1 matching specifications",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Load Center",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"breaker panel\"",
+      "Description contains \"load center\"",
+      "Found 3 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 7.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 63,
+    "title": "GE 200 Amp 4 Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Soc",
+    "ground_truth": "Circuit Breaker",
+    "ground_truth_score": 93.0,
+    "ground_truth_reasons": [
+      "Title contains \"breaker\"",
+      "Found 1 supporting keywords",
+      "Has 1 matching specifications",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Load Center",
+    "classified_as_score": 98.0,
+    "classified_as_reasons": [
+      "Title contains \"load center\"",
+      "Found 3 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 5.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 64,
+    "title": "GE PowerMark Plus 125 Amp 4-Space 8-Circuit Single-Phase Indoor Main Lug Circuit",
+    "ground_truth": "Circuit Breaker",
+    "ground_truth_score": 93.0,
+    "ground_truth_reasons": [
+      "Title contains \"breaker\"",
+      "Found 1 supporting keywords",
+      "Has 1 matching specifications",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Load Center",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"breaker panel\"",
+      "Description contains \"load center\"",
+      "Found 3 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 7.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 65,
+    "title": "GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Circuit Breaker Pan",
+    "ground_truth": "Circuit Breaker",
+    "ground_truth_score": 93.0,
+    "ground_truth_reasons": [
+      "Title contains \"breaker\"",
+      "Found 1 supporting keywords",
+      "Has 1 matching specifications",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Load Center",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"breaker panel\"",
+      "Description contains \"load center\"",
+      "Found 4 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 7.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 66,
+    "title": "Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Do",
+    "ground_truth": "Door Lock",
+    "ground_truth_score": 100,
+    "ground_truth_reasons": [
+      "Title contains \"door lock\"",
+      "Description contains \"keyless entry\"",
+      "Found 2 supporting keywords"
+    ],
+    "classified_as": "Door Handle",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"door handle\"",
+      "Description contains \"lever\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints"
+    ],
+    "score_difference": 0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 79,
+    "title": "GE PowerMark Plus Outdoor 70 Amp 2-Space 4-Circuit Single-Phase Main Lug Circuit",
+    "ground_truth": "Circuit Breaker",
+    "ground_truth_score": 85.0,
+    "ground_truth_reasons": [
+      "Title contains \"breaker\"",
+      "Found 1 supporting keywords"
+    ],
+    "classified_as": "Load Center",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"breaker panel\"",
+      "Description contains \"load center\"",
+      "Found 3 supporting keywords"
+    ],
+    "score_difference": 15.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 82,
+    "title": "Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Inc",
+    "ground_truth": "LED Light Bulb",
+    "ground_truth_score": 21.0,
+    "ground_truth_reasons": [
+      "Found 1 supporting keywords",
+      "Has 2 matching specifications",
+      "Matches 2 product domains"
+    ],
+    "classified_as": "Wall Plate",
+    "classified_as_score": 58.0,
+    "classified_as_reasons": [
+      "Description contains \"wall plate\"",
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 37.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 92,
+    "title": "Milwaukee SHOCKWAVE Impact Duty Drill & Drive Set (21-Piece) 48-32-5163",
+    "ground_truth": "Drill",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: accessory"
+    ],
+    "classified_as": "Drill Bit",
+    "classified_as_score": 58.0,
+    "classified_as_reasons": [
+      "Description contains \"drill bit\"",
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 58.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 104,
+    "title": "DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010",
+    "ground_truth": "Drill Bit",
+    "ground_truth_score": 83.0,
+    "ground_truth_reasons": [
+      "Title contains \"drill bit\"",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Drill",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"drill\"",
+      "Description contains \"hammer drill\"",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 17.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 123,
+    "title": "Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimm",
+    "ground_truth": "Light Switch",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: lamp"
+    ],
+    "classified_as": "LED Light Bulb",
+    "classified_as_score": 21.0,
+    "classified_as_reasons": [
+      "Found 1 supporting keywords",
+      "Has 2 matching specifications",
+      "Matches 2 product domains"
+    ],
+    "score_difference": 21.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 174,
+    "title": "KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed N",
+    "ground_truth": "Faucet",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: showerhead"
+    ],
+    "classified_as": "Door Handle",
+    "classified_as_score": 53.0,
+    "classified_as_reasons": [
+      "Description contains \"lever\"",
+      "Found 1 description hints"
+    ],
+    "score_difference": 53.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 179,
+    "title": "Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wal",
+    "ground_truth": "Wall Sconce",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: plate"
+    ],
+    "classified_as": "Sink",
+    "classified_as_score": 53.0,
+    "classified_as_reasons": [
+      "Description contains \"sink\"",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 53.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 180,
+    "title": "Hampton Bay Upton Brushed Nickel LED Sconce RS513859",
+    "ground_truth": "Wall Sconce",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: switch"
+    ],
+    "classified_as": "Light Switch",
+    "classified_as_score": 56.0,
+    "classified_as_reasons": [
+      "Description contains \"dimmer switch\"",
+      "Matches 2 product domains"
+    ],
+    "score_difference": 56.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 183,
+    "title": "Glacier Bay Stancliff 25 in. Single Sink Elm Ember Bath Vanity with White Cultur",
+    "ground_truth": "Sink",
+    "ground_truth_score": 83.0,
+    "ground_truth_reasons": [
+      "Title contains \"sink\"",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Vanity Top",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"cultured marble top\"",
+      "Description contains \"vanity top\"",
+      "Found 2 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 17.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 212,
+    "title": "SharkBite Max 3/4 in. Push-to-Connect x 3/4 in. FIP x 18 in. Braided Stainless S",
+    "ground_truth": "Water Heater",
+    "ground_truth_score": 86.0,
+    "ground_truth_reasons": [
+      "Title contains \"water heater\"",
+      "Matches 2 product domains"
+    ],
+    "classified_as": "Plumbing Fitting",
+    "classified_as_score": 93.0,
+    "classified_as_reasons": [
+      "Title contains \"push-to-connect\"",
+      "Found 2 supporting keywords",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 7.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 214,
+    "title": "KOHLER Setra Single-Handle Semi-Professional Kitchen Sink Faucet with Soap Dispe",
+    "ground_truth": "Sink",
+    "ground_truth_score": 86.0,
+    "ground_truth_reasons": [
+      "Title contains \"sink\"",
+      "Found 1 description hints",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Faucet",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"faucet\"",
+      "Description contains \"kitchen faucet\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 14.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 240,
+    "title": "MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Inc",
+    "ground_truth": "Faucet",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: showerhead"
+    ],
+    "classified_as": "Bathtub",
+    "classified_as_score": 53.0,
+    "classified_as_reasons": [
+      "Description contains \"bathtub\"",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 53.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  },
+  {
+    "index": 250,
+    "title": "DEWALT MAXFIT Impact Rated 2 in. #2 Philips Steel Screwdriver Drill Bit (2-Piece",
+    "ground_truth": "Drill Bit",
+    "ground_truth_score": 96.0,
+    "ground_truth_reasons": [
+      "Title contains \"drill bit\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints",
+      "Matches 1 product domains"
+    ],
+    "classified_as": "Drill",
+    "classified_as_score": 100,
+    "classified_as_reasons": [
+      "Title contains \"drill\"",
+      "Description contains \"impact driver\"",
+      "Matches 1 product domains"
+    ],
+    "score_difference": 4.0,
+    "failure_reason": "Wrong type matched title keyword"
+  },
+  {
+    "index": 343,
+    "title": "Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Gla",
+    "ground_truth": "Chandelier",
+    "ground_truth_score": 0.0,
+    "ground_truth_reasons": [
+      "Disqualified by negative keyword: light bulb"
+    ],
+    "classified_as": "Wall Sconce",
+    "classified_as_score": 56.0,
+    "classified_as_reasons": [
+      "Description contains \"wall sconce\"",
+      "Matches 2 product domains"
+    ],
+    "score_difference": 56.0,
+    "failure_reason": "Ground truth scored too low; Wrong type scored much higher; Title keyword not detected for ground truth"
+  }
+]
