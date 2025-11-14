@@ -1,0 +1,66 @@
+{
+  "total_products": 425,
+  "chunk_info": {
+    "total_chunks": 9,
+    "chunk_size": 50,
+    "chunk_directory": "data/chunks/",
+    "chunk_pattern": "products_chunk_XX.json"
+  },
+  "sample_products": [
+    {
+      "index": 0,
+      "title": "Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Cha",
+      "brand": "Feit Electric",
+      "price": 13.48
+    },
+    {
+      "index": 1,
+      "title": "GE 20 Amp Double Pole Ground Fault Breaker with Self-Test THQL2120GFTP",
+      "brand": "GE",
+      "price": 112.5
+    },
+    {
+      "index": 2,
+      "title": "Kwikset HALO Satin Nickel Keypad WiFi Electronic Single-Cylinder Smart Lock Dead",
+      "brand": "Kwikset",
+      "price": 169.39
+    },
+    {
+      "index": 3,
+      "title": "LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame",
+      "brand": "LuxHomez",
+      "price": 42.0
+    },
+    {
+      "index": 4,
+      "title": "Rheem Performance 30 Gal. Short 30,000 BTU Natural Gas Water Heater with 6-Year ",
+      "brand": "Rheem",
+      "price": 589.0
+    }
+  ],
+  "brand_distribution": {
+    "Hampton Bay": 33,
+    "Commercial Electric": 30,
+    "Home Decorators Collection": 23,
+    "GE": 19,
+    "Milwaukee": 18,
+    "DEWALT": 14,
+    "Glacier Bay": 13,
+    "Leviton": 12,
+    "Husky": 11,
+    "DIABLO": 11
+  },
+  "price_stats": {
+    "min": 2.89,
+    "max": 1510.11,
+    "avg": 88.99050602409638,
+    "count_with_price": 415
+  },
+  "data_completeness": {
+    "has_title": 415,
+    "has_description": 415,
+    "has_brand": 413,
+    "has_price": 415,
+    "has_specs": 0
+  }
+}

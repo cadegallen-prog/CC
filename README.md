@@ -11,9 +11,23 @@ This repository packages the raw ingredients that Claude Code Browser (or any ag
 - Any mapping or roll-up back into the taxonomy should be handled in a later phase, ideally with documented rules/audits so accuracy is preserved.
 
 ## Included Assets
+
+### Data Files
 - `data/taxonomy_paths.txt` - 374 hierarchical taxonomy leaves formatted as `Department//Category//Subcategory`. Treat it as a reference catalog for later mapping once fine-grained product types emerge from the scraped data; do not let it constrain discovery.
-- `data/scraped_data_output.json` - 425 structured product records captured from homedepot.com. Each entry includes `title`, `description`, `brand`, `model`, `price`, and a list of media URLs. This is the working dataset for prototyping, feature discovery, and evaluation.
+
+- **Product Dataset (Multiple Formats):**
+  - `data/scraped_data_output.json` (1,191 KB) - Complete structured product records with all nested data (specs, images, metadata). **Use for:** Desktop processing, complete data access, production pipelines.
+  - `data/scraped_data.csv` (340 KB, 71% smaller) - Flattened product data optimized for classification work. Contains: index, title, description, brand, price, rating, model. **Use for:** Browser-based AI agents, validation, quick analysis, classification prototyping.
+  - `data/dataset_summary.json` (2 KB) - Statistical overview with counts, top brands, price ranges, data completeness metrics. **Use for:** Quick reference without loading full dataset.
+
 - `requirements_product_identifier.txt` - environment, tooling, and process requirements that ensure Claude (or any assistant) can recreate the analysis stack deterministically.
+
+### Data Format Selection Guide
+**Browser-based AI agents (Claude.ai, ChatGPT web):** Use CSV format - browser environments struggle with large JSON files. CSV provides all essential fields (title, description, brand, price) needed for product type identification in 71% less space.
+
+**Desktop AI / Production:** Use JSON format - full nested data including specifications, images, and all metadata. Required when complete product information is needed.
+
+**Quick stats only:** Use summary JSON - tiny file with overview metrics, no need to load full dataset.
 
 ## Suggested Workflow Roadmap
 1. **Data Intake & Audit** - Validate JSON schema, deduplicate listings, and inventory naturally occurring product-type signals (keywords, attributes, brands) without imposing the taxonomy yet.
