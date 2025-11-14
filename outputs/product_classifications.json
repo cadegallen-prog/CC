@@ -4,24 +4,14 @@
     "title": "Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Chandelier LED Light Bu",
     "brand": "Feit Electric",
     "price": 13.48,
-    "product_type": "LED Light Bulb",
-    "confidence": 100,
-    "confidence_level": "High",
+    "product_type": "Wall Sconce",
+    "confidence": 56.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Title contains \"light bulb\"",
-      "Description contains \"led bulb\"",
-      "Found 5 supporting keywords",
-      "Has product-specific specifications",
-      "Found 5 description hints",
-      "Has 5 matching specifications",
+      "Description contains \"wall sconce\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Wall Sconce",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 1,
@@ -29,7 +19,7 @@
     "brand": "GE",
     "price": 112.5,
     "product_type": "Circuit Breaker",
-    "confidence": 88.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -46,7 +36,7 @@
     "brand": "Kwikset",
     "price": 169.39,
     "product_type": "Door Lock",
-    "confidence": 75.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"deadbolt\"",
@@ -56,7 +46,7 @@
     "alternate_types": [
       [
         "Door Handle",
-        25.0
+        50.0
       ]
     ]
   },
@@ -66,10 +56,11 @@
     "brand": "LuxHomez",
     "price": 42.0,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -79,8 +70,8 @@
     "brand": "Rheem",
     "price": 589.0,
     "product_type": "Water Heater",
-    "confidence": 59.0,
-    "confidence_level": "Medium",
+    "confidence": 99.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"water heater\"",
       "Found 2 supporting keywords",
@@ -94,15 +85,21 @@
     "title": "HALO HLBSL 6 in. Can Less Integrated LED, 900 Lumens, 5CCT, White (4-Pack) HLBSL609FS5-4PK",
     "brand": "HALO",
     "price": 61.97,
-    "product_type": "Recessed Light",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "product_type": "LED Light Bulb",
+    "confidence": 63.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Description contains \"recessed\"",
+      "Description contains \"led light\"",
       "Found 1 supporting keywords",
+      "Has 1 matching specifications",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Recessed Light",
+        58.0
+      ]
+    ]
   },
   {
     "index": 6,
@@ -110,8 +107,8 @@
     "brand": "Cerrowire",
     "price": 371.8,
     "product_type": "Wire",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 2 supporting keywords",
@@ -125,8 +122,8 @@
     "brand": "Empire",
     "price": 77.97,
     "product_type": "Level",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"level\"",
       "Found 2 supporting keywords",
@@ -140,8 +137,8 @@
     "brand": "Cerrowire",
     "price": 219.0,
     "product_type": "Wire",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 2 supporting keywords",
@@ -154,11 +151,14 @@
     "title": "Metalux 13 in. Round 400-Watt Equivalent Integrated LED White High Bay Light HBRC2L3",
     "brand": "Metalux",
     "price": 153.97,
-    "product_type": "Light Switch",
-    "confidence": 31.0,
-    "confidence_level": "Low",
+    "product_type": "High Bay Light",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"switch\"",
+      "Title contains \"high bay\"",
+      "Description contains \"highbay\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": [
@@ -174,8 +174,8 @@
     "brand": "Siemens",
     "price": 109.0,
     "product_type": "Circuit Breaker",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 3 supporting keywords",
@@ -190,8 +190,8 @@
     "brand": "Cobra",
     "price": 77.78,
     "product_type": "Cable",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"cable\"",
       "Matches 1 product domains"
@@ -199,11 +199,11 @@
     "alternate_types": [
       [
         "Drain",
-        28.0
+        53.0
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -214,7 +214,7 @@
     "price": 83.06,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 9.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 3 product domains"
     ],
@@ -226,8 +226,8 @@
     "brand": "MOEN",
     "price": 59.39,
     "product_type": "Faucet",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
       "Found 2 supporting keywords",
@@ -235,8 +235,12 @@
     ],
     "alternate_types": [
       [
+        "Sink",
+        56.0
+      ],
+      [
         "Door Handle",
-        25.0
+        50.0
       ]
     ]
   },
@@ -246,8 +250,8 @@
     "brand": "Cerrowire",
     "price": 45.0,
     "product_type": "Wire",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 3 supporting keywords",
@@ -256,7 +260,7 @@
     "alternate_types": [
       [
         "Cable",
-        43.0
+        68.0
       ]
     ]
   },
@@ -266,8 +270,8 @@
     "brand": "Cerrowire",
     "price": 11.58,
     "product_type": "Wire",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 2 supporting keywords",
@@ -280,9 +284,9 @@
     "title": "Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed Nickel LF-042-BRKK",
     "brand": "Pfister",
     "price": 135.79,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drain",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"drain\"",
       "Matches 1 product domains"
@@ -295,8 +299,8 @@
     "brand": "Honeywell Home",
     "price": 15.98,
     "product_type": "Thermostat",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"thermostat\"",
       "Found 1 supporting keywords",
@@ -321,56 +325,54 @@
       "Has 5 matching specifications",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 19,
     "title": "Werner 5 ft. Aluminum Step Ladder (9 ft. Reach Height) with 225 lb. Load Capacity Type II Duty Ratin",
     "brand": "Werner",
     "price": 59.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Ladder",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"paint\""
+      "Title contains \"ladder\"",
+      "Found 3 supporting keywords"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Paint",
+        50.0
+      ]
+    ]
   },
   {
     "index": 20,
     "title": "Lutron Skylark Contour LED+ Dimmer Switch for LED and Incandescent Bulbs, 150-Watt/Single-Pole or 3-",
     "brand": "Lutron",
     "price": 26.22,
-    "product_type": "Light Switch",
-    "confidence": 81.0,
-    "confidence_level": "High",
+    "product_type": "LED Light Bulb",
+    "confidence": 69.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Title contains \"switch\"",
-      "Description contains \"rocker switch\"",
-      "Found 2 supporting keywords",
+      "Description contains \"led bulb\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints",
+      "Has 1 matching specifications",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
-        "LED Light Bulb",
-        44.0
-      ],
-      [
         "Wall Plate",
-        28.0
+        53.0
       ],
       [
         "Level",
-        28.0
+        53.0
       ],
       [
         "Door Knob",
-        25.0
+        50.0
       ]
     ]
   },
@@ -380,8 +382,8 @@
     "brand": "GE",
     "price": 14.99,
     "product_type": "Circuit Breaker",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 2 supporting keywords",
@@ -391,11 +393,11 @@
     "alternate_types": [
       [
         "Load Center",
-        33.0
+        58.0
       ],
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -405,8 +407,8 @@
     "brand": "Southwire",
     "price": 3.28,
     "product_type": "Wire",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 2 supporting keywords",
@@ -415,7 +417,7 @@
     "alternate_types": [
       [
         "Cable",
-        33.0
+        58.0
       ]
     ]
   },
@@ -424,14 +426,24 @@
     "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
     "brand": "RYOBI",
     "price": 24.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Tool Kit",
+    "confidence": 89.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"saw\"",
+      "Title contains \"tune-up kit\"",
+      "Found 2 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "HVAC Air Filter",
+        53.0
+      ],
+      [
+        "Saw",
+        53.0
+      ]
+    ]
   },
   {
     "index": 24,
@@ -439,8 +451,8 @@
     "brand": "GE",
     "price": 14.79,
     "product_type": "Circuit Breaker",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 2 supporting keywords",
@@ -450,7 +462,7 @@
     "alternate_types": [
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -460,7 +472,7 @@
     "brand": "HALO",
     "price": 58.97,
     "product_type": "Recessed Light",
-    "confidence": 94.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -472,12 +484,8 @@
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "LED Light Bulb",
-        27.0
+        77.0
       ]
     ]
   },
@@ -486,11 +494,12 @@
     "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Loa",
     "brand": "Werner",
     "price": 179.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "product_type": "Ladder",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Matches 2 product domains"
+      "Title contains \"ladder\"",
+      "Found 6 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -500,8 +509,8 @@
     "brand": "Square D",
     "price": 48.48,
     "product_type": "Circuit Breaker",
-    "confidence": 64.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 2 supporting keywords",
@@ -512,7 +521,7 @@
     "alternate_types": [
       [
         "Load Center",
-        33.0
+        58.0
       ]
     ]
   },
@@ -522,8 +531,8 @@
     "brand": "GE",
     "price": 286.92,
     "product_type": "Load Center",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 3 supporting keywords",
@@ -532,11 +541,11 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        53.0
+        93.0
       ],
       [
         "Cable",
-        28.0
+        53.0
       ]
     ]
   },
@@ -546,8 +555,8 @@
     "brand": "Glacier Bay",
     "price": 17.98,
     "product_type": "Fastener",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"screw\"",
       "Found 1 supporting keywords",
@@ -556,7 +565,7 @@
     "alternate_types": [
       [
         "Toilet",
-        28.0
+        53.0
       ]
     ]
   },
@@ -565,11 +574,11 @@
     "title": "Malco 18 in. Folding Tool, Folding Depths of 3/8 in. and 1 in. 18F",
     "brand": "Malco",
     "price": 23.27,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Metal Folding Tool",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"folding tool\""
     ],
     "alternate_types": []
   },
@@ -578,9 +587,9 @@
     "title": "Lutron Claro 3-Gang Decorator/Rocker Wallplate, Gloss, Light Almond (1-Pack) CW-3B-LA",
     "brand": "Lutron",
     "price": 9.97,
-    "product_type": "Unknown - Unable to Classify",
+    "product_type": "Light Switch",
     "confidence": 16.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 2 supporting keywords",
       "Matches 2 product domains"
@@ -593,7 +602,7 @@
     "brand": "GE",
     "price": 176.0,
     "product_type": "Circuit Breaker",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -605,11 +614,11 @@
     "alternate_types": [
       [
         "Load Center",
-        61.0
+        100
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -618,9 +627,9 @@
     "title": "FastenMaster Universal Hidden Deck Fastening System \u2013 Stainless steel hidden deck screws and clips \u2013",
     "brand": "FastenMaster",
     "price": 49.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill Bit",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"driver bit\"",
       "Matches 1 product domains"
@@ -632,12 +641,13 @@
     "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior L",
     "brand": "Andersen",
     "price": 259.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Window",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Has 1 matching specifications",
-      "Matches 1 product domains"
+      "Title contains \"window\"",
+      "Found 7 supporting keywords",
+      "Found 2 description hints"
     ],
     "alternate_types": []
   },
@@ -647,8 +657,8 @@
     "brand": "Milwaukee",
     "price": 24.88,
     "product_type": "Saw",
-    "confidence": 55.0,
-    "confidence_level": "Medium",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"saw\"",
       "Found 3 supporting keywords"
@@ -656,7 +666,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        55.0
+        95.0
       ]
     ]
   },
@@ -666,19 +676,15 @@
     "brand": "Leviton",
     "price": 53.25,
     "product_type": "Electrical Outlet",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"outlet\"",
-      "Found 2 supporting keywords",
+      "Found 3 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": [
-      [
-        "Plumbing Fitting",
-        25.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 37,
@@ -686,8 +692,8 @@
     "brand": "GE",
     "price": 137.0,
     "product_type": "Load Center",
-    "confidence": 66.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 4 supporting keywords",
@@ -697,11 +703,11 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        38.0
+        63.0
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -711,8 +717,8 @@
     "brand": "Hampton Bay",
     "price": 149.0,
     "product_type": "Track Lighting",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"track light\"",
       "Matches 2 product domains"
@@ -725,8 +731,8 @@
     "brand": "Hampton Bay",
     "price": 79.98,
     "product_type": "Track Lighting",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"track light\"",
       "Found 1 supporting keywords",
@@ -735,7 +741,7 @@
     "alternate_types": [
       [
         "Wire",
-        43.0
+        83.0
       ]
     ]
   },
@@ -745,8 +751,8 @@
     "brand": "Hampton Bay",
     "price": 115.0,
     "product_type": "Track Lighting",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"track light\"",
       "Found 1 supporting keywords",
@@ -760,8 +766,8 @@
     "brand": "GE",
     "price": 189.0,
     "product_type": "Circuit Breaker",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 1 supporting keywords",
@@ -776,8 +782,8 @@
     "brand": "Commercial Electric",
     "price": 22.47,
     "product_type": "Recessed Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Has 1 matching specifications",
@@ -786,7 +792,7 @@
     "alternate_types": [
       [
         "Light Switch",
-        31.0
+        61.0
       ]
     ]
   },
@@ -796,8 +802,8 @@
     "brand": "Commercial Electric",
     "price": 27.47,
     "product_type": "Recessed Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Has 1 matching specifications",
@@ -806,7 +812,7 @@
     "alternate_types": [
       [
         "Light Switch",
-        31.0
+        61.0
       ]
     ]
   },
@@ -815,22 +821,23 @@
     "title": "Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8563ENCBQH",
     "brand": "Bell + Howell",
     "price": 39.19,
-    "product_type": "Ceiling Fan",
-    "confidence": 59.0,
-    "confidence_level": "Medium",
+    "product_type": "LED Light Bulb",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"ceiling fan\"",
+      "Title contains \"led light\"",
       "Found 2 supporting keywords",
-      "Matches 3 product domains"
+      "Has 2 matching specifications",
+      "Matches 2 product domains"
     ],
     "alternate_types": [
       [
-        "LED Light Bulb",
-        26.0
+        "Ceiling Fan",
+        99.0
       ],
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -840,20 +847,16 @@
     "brand": "Commercial Electric",
     "price": 28.98,
     "product_type": "Saw Blade",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"blade\"",
       "Matches 1 product domains"
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -863,8 +866,8 @@
     "brand": "Oregon",
     "price": 15.68,
     "product_type": "Saw",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "confidence": 58.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"saw\"",
       "Found 1 supporting keywords",
@@ -878,7 +881,7 @@
     "brand": "GE",
     "price": 45.98,
     "product_type": "Circuit Breaker",
-    "confidence": 83.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -890,7 +893,7 @@
     "alternate_types": [
       [
         "Load Center",
-        43.0
+        68.0
       ]
     ]
   },
@@ -900,8 +903,8 @@
     "brand": "Milwaukee",
     "price": 18.97,
     "product_type": "Screwdriver",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"screwdriver\"",
       "Matches 1 product domains"
@@ -914,7 +917,7 @@
     "brand": "Commercial Electric",
     "price": 19.88,
     "product_type": "Recessed Light",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -924,7 +927,7 @@
     "alternate_types": [
       [
         "LED Light Bulb",
-        20.0
+        70.0
       ]
     ]
   },
@@ -934,8 +937,8 @@
     "brand": "Swiffer",
     "price": 14.44,
     "product_type": "Cleaning Pad",
-    "confidence": 50.0,
-    "confidence_level": "Medium",
+    "confidence": 90.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sweeping pad\"",
       "Found 2 supporting keywords"
@@ -948,8 +951,8 @@
     "brand": "Swiffer",
     "price": 14.97,
     "product_type": "Cleaning Pad",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"refill\"",
       "Found 1 supporting keywords"
@@ -962,8 +965,8 @@
     "brand": "Oregon",
     "price": 12.18,
     "product_type": "Saw",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "confidence": 58.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"saw\"",
       "Found 1 supporting keywords",
@@ -977,7 +980,7 @@
     "brand": "HALO",
     "price": 16.65,
     "product_type": "Recessed Light",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -985,12 +988,7 @@
       "Found 2 supporting keywords",
       "Found 1 description hints"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        25.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 54,
@@ -998,7 +996,7 @@
     "brand": "Commercial Electric",
     "price": 89.97,
     "product_type": "Recessed Light",
-    "confidence": 81.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -1008,12 +1006,8 @@
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "Cable",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1023,8 +1017,8 @@
     "brand": "HALO",
     "price": 56.47,
     "product_type": "Recessed Light",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Found 2 supporting keywords",
@@ -1038,7 +1032,7 @@
     "brand": "GE",
     "price": 259.0,
     "product_type": "Circuit Breaker",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -1050,11 +1044,11 @@
     "alternate_types": [
       [
         "Load Center",
-        61.0
+        100
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1064,8 +1058,8 @@
     "brand": "GE",
     "price": 91.0,
     "product_type": "Circuit Breaker",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 2 supporting keywords",
@@ -1075,7 +1069,7 @@
     "alternate_types": [
       [
         "Load Center",
-        43.0
+        68.0
       ]
     ]
   },
@@ -1085,7 +1079,7 @@
     "brand": "GE",
     "price": 94.98,
     "product_type": "Circuit Breaker",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -1097,11 +1091,11 @@
     "alternate_types": [
       [
         "Load Center",
-        61.0
+        100
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1111,8 +1105,8 @@
     "brand": "Commercial Electric",
     "price": 19.97,
     "product_type": "Recessed Light",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Matches 2 product domains"
@@ -1125,7 +1119,7 @@
     "brand": "HALO",
     "price": 18.79,
     "product_type": "Recessed Light",
-    "confidence": 89.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -1134,7 +1128,12 @@
       "Found 1 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        59.0
+      ]
+    ]
   },
   {
     "index": 61,
@@ -1142,7 +1141,7 @@
     "brand": "GE",
     "price": 48.95,
     "product_type": "Load Center",
-    "confidence": 83.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker panel\"",
@@ -1153,7 +1152,7 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        53.0
+        93.0
       ]
     ]
   },
@@ -1162,9 +1161,9 @@
     "title": "Lithonia Lighting Contractor Select EU2C 120/277-Volt Integrated LED White Emergency Light Fixture w",
     "brand": "Lithonia Lighting",
     "price": 25.77,
-    "product_type": "Unknown - Unable to Classify",
+    "product_type": "Voltage Tester",
     "confidence": 16.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 2 supporting keywords",
       "Matches 2 product domains"
@@ -1177,8 +1176,8 @@
     "brand": "GE",
     "price": 286.92,
     "product_type": "Load Center",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 3 supporting keywords",
@@ -1187,11 +1186,11 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        53.0
+        93.0
       ],
       [
         "Cable",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1201,7 +1200,7 @@
     "brand": "GE",
     "price": 36.65,
     "product_type": "Load Center",
-    "confidence": 83.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker panel\"",
@@ -1212,7 +1211,7 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        53.0
+        93.0
       ]
     ]
   },
@@ -1222,7 +1221,7 @@
     "brand": "GE",
     "price": 52.98,
     "product_type": "Load Center",
-    "confidence": 88.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker panel\"",
@@ -1233,11 +1232,11 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        53.0
+        93.0
       ],
       [
         "Flush Mount Light",
-        31.0
+        56.0
       ]
     ]
   },
@@ -1246,18 +1245,19 @@
     "title": "Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Door Handle FBE365 V C",
     "brand": "Schlage",
     "price": 157.41,
-    "product_type": "Door Lock",
-    "confidence": 75.0,
+    "product_type": "Door Handle",
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
-      "Title contains \"door lock\"",
-      "Description contains \"keyless entry\"",
-      "Found 2 supporting keywords"
+      "Title contains \"door handle\"",
+      "Description contains \"lever\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": [
       [
-        "Door Handle",
-        73.0
+        "Door Lock",
+        100
       ]
     ]
   },
@@ -1267,8 +1267,8 @@
     "brand": "Lockly",
     "price": 329.0,
     "product_type": "Door Lock",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"deadbolt\"",
       "Found 1 supporting keywords"
@@ -1281,8 +1281,8 @@
     "brand": "GE",
     "price": 6.98,
     "product_type": "Circuit Breaker",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 2 supporting keywords",
@@ -1292,11 +1292,11 @@
     "alternate_types": [
       [
         "Load Center",
-        33.0
+        58.0
       ],
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1306,8 +1306,8 @@
     "brand": "GE",
     "price": 14.99,
     "product_type": "Circuit Breaker",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 2 supporting keywords",
@@ -1317,7 +1317,7 @@
     "alternate_types": [
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1327,7 +1327,7 @@
     "brand": "Commercial Electric",
     "price": 102.58,
     "product_type": "Recessed Light",
-    "confidence": 81.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -1337,12 +1337,8 @@
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "Cable",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1352,7 +1348,7 @@
     "brand": "Commercial Electric",
     "price": 75.79,
     "product_type": "Recessed Light",
-    "confidence": 76.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -1362,12 +1358,8 @@
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "Cable",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1377,8 +1369,8 @@
     "brand": "Leviton",
     "price": 69.0,
     "product_type": "Circuit Breaker",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 3 supporting keywords",
@@ -1388,7 +1380,7 @@
     "alternate_types": [
       [
         "Load Center",
-        33.0
+        58.0
       ]
     ]
   },
@@ -1397,11 +1389,13 @@
     "title": "Leviton 120-Volt/240-Volt Residential Whole House Surge Protector 51110-SRG R02-51110-SRG",
     "brand": "Leviton",
     "price": 52.35,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 13.0,
-    "confidence_level": "Very Low",
+    "product_type": "Surge Protector",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 2 supporting keywords",
+      "Title contains \"surge protector\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -1412,8 +1406,8 @@
     "brand": "Leviton",
     "price": 60.0,
     "product_type": "Circuit Breaker",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
       "Found 3 supporting keywords",
@@ -1423,7 +1417,7 @@
     "alternate_types": [
       [
         "Load Center",
-        33.0
+        58.0
       ]
     ]
   },
@@ -1433,8 +1427,8 @@
     "brand": "Square D",
     "price": 38.8,
     "product_type": "Load Center",
-    "confidence": 61.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 3 supporting keywords",
@@ -1444,11 +1438,11 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        38.0
+        63.0
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1458,16 +1452,17 @@
     "brand": "Leviton",
     "price": 14.98,
     "product_type": "Light Switch",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"switch\"",
+      "Title contains \"rocker switch\"",
+      "Found 1 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
         "Wall Plate",
-        28.0
+        53.0
       ],
       [
         "Circuit Breaker",
@@ -1482,7 +1477,7 @@
     "price": 27.45,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -1496,7 +1491,7 @@
     "price": 59.15,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 9.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 3 product domains"
     ],
@@ -1508,7 +1503,7 @@
     "brand": "GE",
     "price": 43.89,
     "product_type": "Load Center",
-    "confidence": 80.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker panel\"",
@@ -1518,7 +1513,7 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        45.0
+        85.0
       ]
     ]
   },
@@ -1528,7 +1523,7 @@
     "brand": "Schlage",
     "price": 121.0,
     "product_type": "Door Knob",
-    "confidence": 86.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"knob\"",
@@ -1539,7 +1534,7 @@
     "alternate_types": [
       [
         "Door Lock",
-        30.0
+        55.0
       ]
     ]
   },
@@ -1549,23 +1544,19 @@
     "brand": "Cobra",
     "price": 314.0,
     "product_type": "Cable",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"cable\""
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        25.0
-      ],
-      [
         "Drain",
-        25.0
+        50.0
       ],
       [
         "Drill",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1575,8 +1566,8 @@
     "brand": "Legrand",
     "price": 58.99,
     "product_type": "Wall Plate",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "confidence": 58.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wall plate\"",
       "Found 1 supporting keywords",
@@ -1595,7 +1586,7 @@
     "brand": "Leviton",
     "price": 179.0,
     "product_type": "Circuit Breaker",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -1607,11 +1598,11 @@
     "alternate_types": [
       [
         "Load Center",
-        58.0
+        98.0
       ],
       [
         "Cable",
-        33.0
+        58.0
       ]
     ]
   },
@@ -1621,8 +1612,8 @@
     "brand": "RIDGID",
     "price": 139.97,
     "product_type": "Shop Vacuum",
-    "confidence": 50.0,
-    "confidence_level": "Medium",
+    "confidence": 90.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"shop vac\"",
       "Found 2 supporting keywords"
@@ -1630,7 +1621,7 @@
     "alternate_types": [
       [
         "Paint Brush",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1640,8 +1631,8 @@
     "brand": "DIABLO",
     "price": 19.88,
     "product_type": "Saw",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"saw\"",
       "Found 2 supporting keywords",
@@ -1650,7 +1641,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        53.0
+        93.0
       ]
     ]
   },
@@ -1660,11 +1651,11 @@
     "brand": "Nite Ize",
     "price": 16.19,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence": 11.0,
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Matches 2 product domains"
     ],
     "alternate_types": []
   },
@@ -1674,10 +1665,11 @@
     "brand": "Nite Ize",
     "price": 12.39,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -1686,23 +1678,29 @@
     "title": "DIABLO 3/4 in. x 12 in. SDS-Plus Rebar Cutter DMAPLRC1050",
     "brand": "DIABLO",
     "price": 35.21,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Specialty Cutter",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"drill\"",
+      "Title contains \"rebar cutter\"",
+      "Found 3 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Drill",
+        53.0
+      ]
+    ]
   },
   {
     "index": 89,
     "title": "Husky 8 in. Standard Slip Joint Pliers 90146",
     "brand": "Husky",
     "price": 7.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Wire",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wire\"",
       "Matches 1 product domains"
@@ -1714,17 +1712,24 @@
     "title": "TITAN EP 60X Fine Finishing HVLP Paint Sprayer 2456369",
     "brand": "TITAN",
     "price": 349.99,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Paint Sprayer",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"level\"",
+      "Title contains \"paint sprayer\"",
+      "Description contains \"spray gun\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": [
       [
+        "Level",
+        53.0
+      ],
+      [
         "Door",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1734,8 +1739,8 @@
     "brand": "Leviton",
     "price": 144.0,
     "product_type": "Load Center",
-    "confidence": 55.0,
-    "confidence_level": "Medium",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 3 supporting keywords"
@@ -1743,7 +1748,7 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        30.0
+        55.0
       ]
     ]
   },
@@ -1753,8 +1758,8 @@
     "brand": "Milwaukee",
     "price": 19.88,
     "product_type": "Drill Bit",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "confidence": 58.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"drill bit\"",
       "Found 1 supporting keywords",
@@ -1763,7 +1768,7 @@
     "alternate_types": [
       [
         "Plumbing Fitting",
-        28.0
+        53.0
       ]
     ]
   },
@@ -1773,7 +1778,7 @@
     "brand": "DIABLO",
     "price": 102.87,
     "product_type": "Saw",
-    "confidence": 83.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"saw\"",
@@ -1784,7 +1789,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        53.0
+        93.0
       ]
     ]
   },
@@ -1795,7 +1800,7 @@
     "price": 159.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 10.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 2 supporting keywords"
     ],
@@ -1807,11 +1812,12 @@
     "brand": "Leviton",
     "price": 42.1,
     "product_type": "Electrical Outlet",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"outlet\"",
-      "Found 1 supporting keywords",
+      "Found 3 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -1821,11 +1827,15 @@
     "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R0",
     "brand": "Leviton",
     "price": 17.89,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Electrical Outlet",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"adapter\""
+      "Title contains \"in-wall charger\"",
+      "Description contains \"usb charger\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -1835,7 +1845,7 @@
     "brand": "Kwikset",
     "price": 163.35,
     "product_type": "Door Handle",
-    "confidence": 70.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"door handle\"",
@@ -1845,11 +1855,11 @@
     "alternate_types": [
       [
         "Door Lock",
-        30.0
+        55.0
       ],
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1859,18 +1869,18 @@
     "brand": "SharkBite",
     "price": 8.86,
     "product_type": "Plumbing Fitting",
-    "confidence": 83.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"tee\"",
       "Description contains \"fitting\"",
-      "Found 3 supporting keywords",
+      "Found 4 supporting keywords",
       "Matches 1 product domains"
     ],
     "alternate_types": [
       [
         "Adhesive",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1880,15 +1890,15 @@
     "brand": "Cash Acme",
     "price": 109.0,
     "product_type": "Water Heater",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"water heater\""
     ],
     "alternate_types": [
       [
         "Plumbing Fitting",
-        25.0
+        50.0
       ]
     ]
   },
@@ -1898,8 +1908,8 @@
     "brand": "Kwikset",
     "price": 15.96,
     "product_type": "Door Knob",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"door knob\"",
       "Found 1 supporting keywords"
@@ -1911,19 +1921,17 @@
     "title": "SharkBite 3/4 in. PEX-A Brass Expansion x 3/4 in. FIP x 18 in. L Stainless Steel Flexible Water Heat",
     "brand": "SharkBite",
     "price": 16.06,
-    "product_type": "Plumbing Fitting",
-    "confidence": 73.0,
+    "product_type": "Water Heater",
+    "confidence": 86.0,
     "confidence_level": "High",
     "reasons": [
-      "Title contains \"connector\"",
-      "Description contains \"fitting\"",
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"water heater\"",
+      "Matches 2 product domains"
     ],
     "alternate_types": [
       [
-        "Water Heater",
-        46.0
+        "Plumbing Fitting",
+        63.0
       ]
     ]
   },
@@ -1933,11 +1941,12 @@
     "brand": "Glacier Bay",
     "price": 69.0,
     "product_type": "Sink",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sink\"",
       "Found 1 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -1948,8 +1957,8 @@
     "brand": "Milwaukee",
     "price": 43.94,
     "product_type": "Saw",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"saw\"",
       "Found 3 supporting keywords",
@@ -1958,7 +1967,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        58.0
+        98.0
       ]
     ]
   },
@@ -1968,8 +1977,8 @@
     "brand": "DIABLO",
     "price": 134.1,
     "product_type": "Drill",
-    "confidence": 68.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"drill\"",
       "Description contains \"hammer drill\"",
@@ -1978,7 +1987,7 @@
     "alternate_types": [
       [
         "Drill Bit",
-        43.0
+        83.0
       ]
     ]
   },
@@ -1987,11 +1996,14 @@
     "title": "CyberPower 6 ft. 4-Outlet Power Station with Surge Protector PS406UC",
     "brand": "CyberPower",
     "price": 39.58,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 9.0,
-    "confidence_level": "Very Low",
+    "product_type": "Surge Protector",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Matches 3 product domains"
+      "Title contains \"surge protector\"",
+      "Found 4 supporting keywords",
+      "Found 2 description hints",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -2000,11 +2012,13 @@
     "title": "Home Decorators Collection 36 in. - 72 in. Telescoping 1 in. Single Curtain Rod Kit in Matte Black w",
     "brand": "Home Decorators Collection",
     "price": 42.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"curtain rod\"",
+      "Description contains \"drapery rod\"",
+      "Found 3 supporting keywords",
       "Found 1 description hints"
     ],
     "alternate_types": []
@@ -2014,12 +2028,13 @@
     "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
     "brand": "StyleWell",
     "price": 8.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 11.0,
-    "confidence_level": "Very Low",
+    "product_type": "Shelf Bracket",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Matches 2 product domains"
+      "Title contains \"shelf bracket\"",
+      "Found 4 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -2028,9 +2043,9 @@
     "title": "SunTouch Floor Warming 8 ft. x 30 in. 120-Volt Radiant Floor Heating Mat (Covers 20 sq. ft.) 1200083",
     "brand": "SunTouch Floor Warming",
     "price": 359.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Wire",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wire\""
     ],
@@ -2042,14 +2057,20 @@
     "brand": "Bell + Howell",
     "price": 18.58,
     "product_type": "Electrical Outlet",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"outlet\"",
+      "Found 1 supporting keywords",
       "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Surge Protector",
+        74.0
+      ]
+    ]
   },
   {
     "index": 110,
@@ -2058,7 +2079,7 @@
     "price": 44.98,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -2071,8 +2092,8 @@
     "brand": "FIRM GRIP",
     "price": 19.97,
     "product_type": "Work Gloves",
-    "confidence": 35.0,
-    "confidence_level": "Low",
+    "confidence": 60.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"gloves\"",
       "Found 2 supporting keywords"
@@ -2085,8 +2106,8 @@
     "brand": "ULTRA PROGRADE",
     "price": 34.97,
     "product_type": "Under Cabinet Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"under cabinet\"",
       "Has 1 matching specifications",
@@ -2094,12 +2115,12 @@
     ],
     "alternate_types": [
       [
-        "Wire",
-        43.0
+        "LED Light Bulb",
+        89.0
       ],
       [
-        "LED Light Bulb",
-        39.0
+        "Wire",
+        83.0
       ]
     ]
   },
@@ -2108,11 +2129,13 @@
     "title": "HDX 20 in. x 25 in. x 6 in. AprilAire and Space-Gard Replacement Pleated Air Filter (Without Frame) ",
     "brand": "HDX",
     "price": 31.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "HVAC Air Filter",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Has 1 matching specifications",
+      "Title contains \"air filter\"",
+      "Found 3 supporting keywords",
+      "Found 2 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -2123,8 +2146,8 @@
     "brand": "Square D",
     "price": 199.0,
     "product_type": "Load Center",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 3 supporting keywords",
@@ -2133,11 +2156,11 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        38.0
+        63.0
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -2146,9 +2169,9 @@
     "title": "Master Flow 4 in. x 25 ft. Insulated Flexible Duct R6 Silver Jacket F6IFD4X300",
     "brand": "Master Flow",
     "price": 57.71,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Wire",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wire\"",
       "Matches 1 product domains"
@@ -2160,11 +2183,12 @@
     "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle",
     "brand": "Pfister",
     "price": 29.08,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Faucet Part",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"valve stem\"",
+      "Found 2 supporting keywords",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -2174,14 +2198,18 @@
     "title": "PEAK Aluminum Railing 6 in. W Black Aluminum Deck Railing Wall Mount Bracket Kit for 42 in. high sys",
     "brand": "PEAK Aluminum Railing",
     "price": 20.88,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Shelf Bracket",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"fitting\"",
-      "Matches 1 product domains"
+      "Title contains \"bracket\""
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Plumbing Fitting",
+        53.0
+      ]
+    ]
   },
   {
     "index": 118,
@@ -2189,11 +2217,11 @@
     "brand": "PEAK Aluminum Railing",
     "price": 34.97,
     "product_type": "Plumbing Fitting",
-    "confidence": 68.0,
+    "confidence": 58.0,
     "confidence_level": "Medium",
     "reasons": [
-      "Title contains \"connector\"",
       "Description contains \"fitting\"",
+      "Found 1 supporting keywords",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -2203,28 +2231,40 @@
     "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel w",
     "brand": "Home Decorators Collection",
     "price": 78.77,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"drill\"",
-      "Matches 1 product domains"
+      "Title contains \"curtain rod\"",
+      "Found 3 supporting keywords"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Drill",
+        53.0
+      ]
+    ]
   },
   {
     "index": 120,
     "title": "CyberPower 15 ft. 6-Outlet Cord 1500J Surge Protector B615",
     "brand": "CyberPower",
     "price": 29.99,
-    "product_type": "Electrical Outlet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "product_type": "Surge Protector",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"outlet\"",
+      "Title contains \"surge protector\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Electrical Outlet",
+        83.0
+      ]
+    ]
   },
   {
     "index": 121,
@@ -2232,10 +2272,11 @@
     "brand": "Hampton Bay",
     "price": 32.7,
     "product_type": "Wall Sconce",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 89.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sconce\"",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -2246,8 +2287,8 @@
     "brand": "Digz",
     "price": 7.47,
     "product_type": "Work Gloves",
-    "confidence": 50.0,
-    "confidence_level": "Medium",
+    "confidence": 90.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"gloves\"",
       "Found 2 supporting keywords"
@@ -2259,28 +2300,24 @@
     "title": "Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimmer Switch with Brass",
     "brand": "Hampton Bay",
     "price": 79.97,
-    "product_type": "Light Switch",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "product_type": "LED Light Bulb",
+    "confidence": 21.0,
+    "confidence_level": "Very Low",
     "reasons": [
-      "Title contains \"switch\"",
+      "Found 1 supporting keywords",
+      "Has 2 matching specifications",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "LED Light Bulb",
-        21.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 124,
     "title": "3M 3-3/4 in. x 2-5/8 in. x 1 in. 60 Grit Sanding Sponge Coarse (12-Pack) CP002-12P",
     "brand": "3M",
     "price": 31.41,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Paint",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"paint\"",
       "Found 1 description hints"
@@ -2292,13 +2329,20 @@
     "title": "3M Organic Vapor Replacement Cartridges (1-Pair) 6001P1-DC",
     "brand": "3M",
     "price": 14.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Safety Respirator",
+    "confidence": 68.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Description contains \"paint\""
+      "Description contains \"respirator\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Paint",
+        50.0
+      ]
+    ]
   },
   {
     "index": 126,
@@ -2306,15 +2350,15 @@
     "brand": "3M",
     "price": 4.81,
     "product_type": "Tape",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"tape\""
     ],
     "alternate_types": [
       [
         "Paint",
-        25.0
+        50.0
       ]
     ]
   },
@@ -2325,7 +2369,7 @@
     "price": 169.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -2337,7 +2381,7 @@
     "brand": "ReVent",
     "price": 165.62,
     "product_type": "Exhaust Fan",
-    "confidence": 76.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
@@ -2345,21 +2389,16 @@
       "Found 1 supporting keywords",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 129,
     "title": "Hampton Bay Raeburn 23 in. Steel and Marble Aged Brass Indoor Table Lamp with Black Fabric Shade HD-",
     "brand": "Hampton Bay",
     "price": 29.97,
-    "product_type": "Unknown - Unable to Classify",
+    "product_type": "LED Light Bulb",
     "confidence": 16.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Has 1 matching specifications",
@@ -2372,11 +2411,13 @@
     "title": "Airthings Wave Radon Battery Operated Smart Radon Detector 2951",
     "brand": "Airthings",
     "price": 139.9,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Radon Detector",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"radon detector\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -2386,8 +2427,8 @@
     "brand": "Hampton Bay",
     "price": 16.97,
     "product_type": "Chandelier",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"chandelier\"",
       "Matches 2 product domains"
@@ -2395,19 +2436,15 @@
     "alternate_types": [
       [
         "Track Lighting",
-        46.0
-      ],
-      [
-        "Plumbing Fitting",
-        40.0
+        86.0
       ],
       [
         "Pendant Light",
-        36.0
+        61.0
       ],
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -2416,9 +2453,9 @@
     "title": "FastenMaster Collated Cortex Hidden Fastening System for AZEK Trim - 2 inch Cortex screws and plugs ",
     "brand": "FastenMaster",
     "price": 165.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Fastener",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"screw\"",
       "Found 1 description hints"
@@ -2430,11 +2467,13 @@
     "title": "Hampton Bay Indoor/Outdoor 12-Light 24 ft. Smart Plug-in Edison Bulb RGBW Color Changing LED String ",
     "brand": "Hampton Bay",
     "price": 64.97,
-    "product_type": "Light Switch",
-    "confidence": 31.0,
-    "confidence_level": "Low",
+    "product_type": "String Lights",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"switch\"",
+      "Title contains \"string light\"",
+      "Description contains \"string lights\"",
+      "Found 3 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -2445,15 +2484,15 @@
     "brand": "Milwaukee",
     "price": 59.97,
     "product_type": "Paint Brush",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"brush\""
     ],
     "alternate_types": [
       [
         "Shop Vacuum",
-        40.0
+        80.0
       ]
     ]
   },
@@ -2462,9 +2501,9 @@
     "title": "PUR PLUS 30 Cup Dispenser - Water Filter Pitcher DS1810ZA",
     "brand": "PUR",
     "price": 39.35,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Cleaning Solution",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"cleaner\""
     ],
@@ -2475,9 +2514,9 @@
     "title": "PUR PLUS 11 Cup Pitcher - Water Filter Pitcher PPT110WA",
     "brand": "PUR",
     "price": 34.99,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Cleaning Solution",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"cleaner\""
     ],
@@ -2488,9 +2527,9 @@
     "title": "HDX Natural Cream Painters Cotton Spray Sock Hood (3-Pack) 09305-12HDX",
     "brand": "HDX",
     "price": 8.59,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Paint",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"paint\""
     ],
@@ -2501,11 +2540,15 @@
     "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, White T5632-BW R0",
     "brand": "Leviton",
     "price": 17.89,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Electrical Outlet",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"adapter\""
+      "Title contains \"in-wall charger\"",
+      "Description contains \"usb charger\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -2515,8 +2558,8 @@
     "brand": "Empire",
     "price": 16.1,
     "product_type": "Level",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"level\"",
       "Found 3 supporting keywords",
@@ -2530,7 +2573,7 @@
     "brand": "CASTICO",
     "price": 519.0,
     "product_type": "Shower Pan",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"shower pan\"",
@@ -2541,7 +2584,7 @@
     "alternate_types": [
       [
         "Drain",
-        43.0
+        83.0
       ]
     ]
   },
@@ -2551,8 +2594,8 @@
     "brand": "ULTRA PROGRADE",
     "price": 54.97,
     "product_type": "Under Cabinet Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"under cabinet\"",
       "Has 1 matching specifications",
@@ -2560,12 +2603,12 @@
     ],
     "alternate_types": [
       [
-        "Wire",
-        43.0
+        "LED Light Bulb",
+        89.0
       ],
       [
-        "LED Light Bulb",
-        39.0
+        "Wire",
+        83.0
       ]
     ]
   },
@@ -2574,28 +2617,40 @@
     "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
     "brand": "360 Electrical",
     "price": 34.99,
-    "product_type": "Electrical Outlet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "product_type": "Surge Protector",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"outlet\"",
+      "Title contains \"surge protector\"",
+      "Found 4 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Electrical Outlet",
+        88.0
+      ]
+    ]
   },
   {
     "index": 143,
     "title": "360 Electrical 45-Watt Revolve 4-Outlet Surge Protector 3E0771-WHT6NA",
     "brand": "360 Electrical",
     "price": 59.99,
-    "product_type": "Electrical Outlet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "product_type": "Surge Protector",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"outlet\"",
+      "Title contains \"surge protector\"",
+      "Found 4 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Electrical Outlet",
+        88.0
+      ]
+    ]
   },
   {
     "index": 144,
@@ -2603,12 +2658,12 @@
     "brand": "Leviton",
     "price": 29.99,
     "product_type": "Electrical Outlet",
-    "confidence": 73.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"outlet\"",
       "Description contains \"receptacle\"",
-      "Found 1 supporting keywords",
+      "Found 2 supporting keywords",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -2619,8 +2674,8 @@
     "brand": "Defiant",
     "price": 24.79,
     "product_type": "Electrical Outlet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"outlet\"",
       "Matches 1 product domains"
@@ -2633,7 +2688,7 @@
     "brand": "EcoSmart",
     "price": 24.97,
     "product_type": "Recessed Light",
-    "confidence": 81.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -2644,15 +2699,11 @@
     "alternate_types": [
       [
         "LED Light Bulb",
-        69.0
-      ],
-      [
-        "Light Switch",
-        36.0
+        94.0
       ],
       [
         "Fastener",
-        30.0
+        55.0
       ]
     ]
   },
@@ -2662,7 +2713,7 @@
     "brand": "EcoSmart",
     "price": 24.97,
     "product_type": "Recessed Light",
-    "confidence": 89.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -2675,15 +2726,11 @@
     "alternate_types": [
       [
         "LED Light Bulb",
-        66.0
-      ],
-      [
-        "Light Switch",
-        36.0
+        91.0
       ],
       [
         "Fastener",
-        30.0
+        55.0
       ]
     ]
   },
@@ -2693,8 +2740,8 @@
     "brand": "Commercial Electric",
     "price": 32.97,
     "product_type": "Under Cabinet Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"under cabinet\"",
       "Found 1 supporting keywords",
@@ -2703,11 +2750,11 @@
     "alternate_types": [
       [
         "Tape",
-        40.0
+        80.0
       ],
       [
-        "Plumbing Fitting",
-        25.0
+        "LED Light Bulb",
+        56.0
       ]
     ]
   },
@@ -2716,12 +2763,15 @@
     "title": "Enbrighten 12 Bulb 24 ft. Outdoor/Indoor Black Vintage LED String Lights, Acrylic Edison Bulbs 35629",
     "brand": "Enbrighten",
     "price": 63.5,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 13.0,
-    "confidence_level": "Very Low",
+    "product_type": "String Lights",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 2 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"string light\"",
+      "Description contains \"cafe lights\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints",
+      "Matches 2 product domains"
     ],
     "alternate_types": []
   },
@@ -2731,8 +2781,8 @@
     "brand": "Hampton Bay",
     "price": 88.88,
     "product_type": "Pendant Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"mini-pendant\"",
       "Found 1 supporting keywords",
@@ -2745,9 +2795,9 @@
     "title": "GE Whole House Water Filtration System GXWH50M",
     "brand": "GE",
     "price": 148.99,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Level",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"level\"",
       "Matches 1 product domains"
@@ -2755,7 +2805,7 @@
     "alternate_types": [
       [
         "Plumbing Fitting",
-        28.0
+        53.0
       ]
     ]
   },
@@ -2765,8 +2815,8 @@
     "brand": "VELUX",
     "price": 55.0,
     "product_type": "Skylight",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"skylight\""
     ],
@@ -2778,8 +2828,8 @@
     "brand": "VELUX",
     "price": 249.0,
     "product_type": "Skylight",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"skylight\"",
       "Found 1 description hints"
@@ -2792,8 +2842,8 @@
     "brand": "VELUX",
     "price": 193.3,
     "product_type": "Skylight",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"skylight\"",
       "Found 1 supporting keywords"
@@ -2806,11 +2856,12 @@
     "brand": "Glacier Bay",
     "price": 229.0,
     "product_type": "Sink",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sink\"",
-      "Found 2 supporting keywords",
+      "Found 4 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -2821,18 +2872,23 @@
     "brand": "BEYOND BRIGHT",
     "price": 39.99,
     "product_type": "LED Light Bulb",
-    "confidence": 61.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"light bulb\"",
+      "Description contains \"led light\"",
       "Found 1 supporting keywords",
       "Has 2 matching specifications",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
+        "Shop Light",
+        56.0
+      ],
+      [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -2842,7 +2898,7 @@
     "brand": "EcoSmart",
     "price": 27.99,
     "product_type": "Recessed Light",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -2863,8 +2919,8 @@
     "brand": "VELUX",
     "price": 292.0,
     "product_type": "Skylight",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"skylight\"",
       "Found 1 supporting keywords"
@@ -2876,21 +2932,17 @@
     "title": "Home Decorators Collection Kenton 4.75 in. 1-Light Vintage Bronze Industrial Wall Sconce with Cage F",
     "brand": "Home Decorators Collection",
     "price": 27.49,
-    "product_type": "LED Light Bulb",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "product_type": "Wall Sconce",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"light bulb\"",
+      "Title contains \"sconce\"",
+      "Description contains \"sconce light\"",
       "Found 1 supporting keywords",
-      "Has 2 matching specifications",
+      "Found 3 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Wall Sconce",
-        46.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 160,
@@ -2898,10 +2950,11 @@
     "brand": "Home Decorators Collection",
     "price": 159.0,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -2910,19 +2963,17 @@
     "title": "Home Decorators Collection Sirrine 17.25 in. 2-Light Black Outdoor Wall Light Fixture Sconce with Cl",
     "brand": "Home Decorators Collection",
     "price": 79.97,
-    "product_type": "LED Light Bulb",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "product_type": "Wall Sconce",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"light bulb\"",
-      "Found 2 supporting keywords",
-      "Has 2 matching specifications",
+      "Title contains \"sconce\"",
       "Matches 1 product domains"
     ],
     "alternate_types": [
       [
-        "Wall Sconce",
-        43.0
+        "Shop Light",
+        53.0
       ]
     ]
   },
@@ -2932,8 +2983,8 @@
     "brand": "VELUX",
     "price": 445.86,
     "product_type": "Skylight",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"skylight\"",
       "Found 1 description hints"
@@ -2945,11 +2996,14 @@
     "title": "Ring Smart Lighting - Low Voltage Lighting Transformer (12-Volt x 15-Volt, 200-Watt), Black (Bridge ",
     "brand": "Ring",
     "price": 99.99,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 9.0,
-    "confidence_level": "Very Low",
+    "product_type": "Landscape Lighting",
+    "confidence": 64.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Matches 3 product domains"
+      "Description contains \"landscape light\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints",
+      "Matches 2 product domains"
     ],
     "alternate_types": []
   },
@@ -2959,10 +3013,10 @@
     "brand": "TrimMaster",
     "price": 25.99,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "confidence": 10.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Description contains \"glue\""
+      "Found 2 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -2971,9 +3025,9 @@
     "title": "RYOBI ONE+ 18V Cordless Hybrid 3000 Lumens LED Panel Light (Tool Only) PCL631B",
     "brand": "RYOBI",
     "price": 96.92,
-    "product_type": "Unknown - Unable to Classify",
+    "product_type": "LED Light Bulb",
     "confidence": 16.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Has 1 matching specifications",
@@ -2986,11 +3040,11 @@
     "title": "Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR",
     "brand": "Hampton Bay",
     "price": 18.97,
-    "product_type": "Light Switch",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "product_type": "Unknown - Unable to Classify",
+    "confidence": 11.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Title contains \"switch\"",
+      "Found 1 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -3000,11 +3054,12 @@
     "title": "Glacier Bay 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet V",
     "brand": "Glacier Bay",
     "price": 299.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 11.0,
-    "confidence_level": "Very Low",
+    "product_type": "Sink",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"sink\"",
+      "Found 4 supporting keywords",
       "Found 1 description hints",
       "Matches 1 product domains"
     ],
@@ -3015,11 +3070,11 @@
     "title": "Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02/BN",
     "brand": "Hampton Bay",
     "price": 18.97,
-    "product_type": "Light Switch",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "product_type": "Unknown - Unable to Classify",
+    "confidence": 11.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Title contains \"switch\"",
+      "Found 1 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -3030,8 +3085,8 @@
     "brand": "Commercial Electric",
     "price": 40.47,
     "product_type": "Flush Mount Light",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"flush mount\"",
       "Found 1 supporting keywords",
@@ -3045,8 +3100,8 @@
     "brand": "Hampton Bay",
     "price": 94.97,
     "product_type": "Track Lighting",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"track light\"",
       "Matches 2 product domains"
@@ -3058,18 +3113,13 @@
     "title": "Hampton Bay Lamar Park 50 Lumen Low Voltage Black Integrated LED Waterproof Outdoor Path Lights with",
     "brand": "Hampton Bay",
     "price": 69.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Wire",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wire\""
     ],
-    "alternate_types": [
-      [
-        "Plumbing Fitting",
-        25.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 172,
@@ -3077,7 +3127,7 @@
     "brand": "CASTICO",
     "price": 609.0,
     "product_type": "Shower Pan",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"shower pan\"",
@@ -3088,7 +3138,7 @@
     "alternate_types": [
       [
         "Drain",
-        43.0
+        83.0
       ]
     ]
   },
@@ -3098,8 +3148,8 @@
     "brand": "Milwaukee",
     "price": 19.97,
     "product_type": "Shop Vacuum",
-    "confidence": 65.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"shop vac\"",
       "Description contains \"wet/dry vacuum\""
@@ -3111,9 +3161,9 @@
     "title": "KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed Nickel (Valve Include",
     "brand": "KOHLER",
     "price": 180.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Door Handle",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"lever\"",
       "Found 1 description hints"
@@ -3125,36 +3175,38 @@
     "title": "Feit Electric OneSync Landscape 40 Lumens Bronze Solar Integrated LED Outdoor Path Light with Dusk-T",
     "brand": "Feit Electric",
     "price": 48.24,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 21.0,
-    "confidence_level": "Very Low",
+    "product_type": "Landscape Lighting",
+    "confidence": 75.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Has 2 matching specifications",
+      "Description contains \"landscape light\"",
+      "Found 2 supporting keywords",
+      "Found 3 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        21.0
+      ]
+    ]
   },
   {
     "index": 176,
     "title": "Home Decorators Collection Closmere 5 in. 1-Light Brushed Gold Mid-Century Modern Wall Sconce with C",
     "brand": "Home Decorators Collection",
     "price": 59.97,
-    "product_type": "LED Light Bulb",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "product_type": "Wall Sconce",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"light bulb\"",
-      "Found 1 supporting keywords",
-      "Has 2 matching specifications",
+      "Title contains \"sconce\"",
+      "Description contains \"sconce light\"",
+      "Found 5 supporting keywords",
+      "Found 3 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Wall Sconce",
-        46.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 177,
@@ -3162,10 +3214,12 @@
     "brand": "Hampton Bay",
     "price": 39.99,
     "product_type": "Wall Sconce",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sconce\"",
+      "Found 3 supporting keywords",
+      "Found 2 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -3176,21 +3230,18 @@
     "brand": "Hampton Bay",
     "price": 44.97,
     "product_type": "Wall Sconce",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"sconce\"",
       "Description contains \"wall light\"",
+      "Found 1 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
-        "LED Light Bulb",
-        31.0
-      ],
-      [
         "Sink",
-        28.0
+        53.0
       ]
     ]
   },
@@ -3199,43 +3250,28 @@
     "title": "Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wall Sconce Light Fixtu",
     "brand": "Home Decorators Collection",
     "price": 79.97,
-    "product_type": "LED Light Bulb",
-    "confidence": 41.0,
-    "confidence_level": "Low",
+    "product_type": "Sink",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Found 2 supporting keywords",
-      "Has product-specific specifications",
-      "Found 1 description hints",
-      "Has 3 matching specifications",
+      "Description contains \"sink\"",
       "Matches 1 product domains"
     ],
-    "alternate_types": [
-      [
-        "Sink",
-        28.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 180,
     "title": "Hampton Bay Upton Brushed Nickel LED Sconce RS513859",
     "brand": "Hampton Bay",
     "price": 64.97,
-    "product_type": "LED Light Bulb",
-    "confidence": 32.0,
-    "confidence_level": "Low",
+    "product_type": "Light Switch",
+    "confidence": 56.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Found 2 supporting keywords",
-      "Found 2 description hints",
-      "Has 2 matching specifications",
+      "Description contains \"dimmer switch\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 181,
@@ -3243,10 +3279,11 @@
     "brand": "Hampton Bay",
     "price": 44.97,
     "product_type": "Wall Sconce",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sconce\"",
+      "Found 3 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -3257,10 +3294,11 @@
     "brand": "Home Decorators Collection",
     "price": 59.97,
     "product_type": "Wall Sconce",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sconce\"",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -3271,7 +3309,7 @@
     "brand": "Glacier Bay",
     "price": 269.0,
     "product_type": "Vanity Top",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"cultured marble top\"",
@@ -3281,12 +3319,16 @@
     ],
     "alternate_types": [
       [
+        "Sink",
+        83.0
+      ],
+      [
         "Faucet",
-        28.0
+        53.0
       ],
       [
         "Door Hinge",
-        25.0
+        50.0
       ]
     ]
   },
@@ -3295,29 +3337,42 @@
     "title": "Glacier Bay 33 in. Drop-In 60/40 Double Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Fa",
     "brand": "Glacier Bay",
     "price": 329.0,
-    "product_type": "Faucet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "product_type": "Sink",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"faucet\"",
+      "Title contains \"sink\"",
+      "Found 4 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Faucet",
+        83.0
+      ]
+    ]
   },
   {
     "index": 185,
     "title": "Feit Electric OneSync Landscape 40 Lumens Bronze Solar Integrated LED Outdoor Path Light w/Dusk-To-D",
     "brand": "Feit Electric",
     "price": 99.26,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 21.0,
-    "confidence_level": "Very Low",
+    "product_type": "Landscape Lighting",
+    "confidence": 70.0,
+    "confidence_level": "High",
     "reasons": [
+      "Description contains \"landscape light\"",
       "Found 1 supporting keywords",
-      "Has 2 matching specifications",
+      "Found 3 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        21.0
+      ]
+    ]
   },
   {
     "index": 186,
@@ -3325,8 +3380,8 @@
     "brand": "Commercial Electric",
     "price": 31.85,
     "product_type": "Flush Mount Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"flush mount\"",
       "Found 1 supporting keywords",
@@ -3334,12 +3389,12 @@
     ],
     "alternate_types": [
       [
-        "LED Light Bulb",
-        41.0
+        "Level",
+        53.0
       ],
       [
-        "Level",
-        28.0
+        "LED Light Bulb",
+        41.0
       ]
     ]
   },
@@ -3348,24 +3403,22 @@
     "title": "Hampton Bay 540 Lumen Low Voltage Millennium Black Adjustable Light Color Integrated LED Outdoor Lan",
     "brand": "Hampton Bay",
     "price": 49.97,
-    "product_type": "Light Switch",
-    "confidence": 31.0,
-    "confidence_level": "Low",
+    "product_type": "Landscape Lighting",
+    "confidence": 99.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"switch\"",
+      "Title contains \"flood light\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
         "Wire",
-        28.0
+        53.0
       ],
       [
         "LED Light Bulb",
-        25.0
-      ],
-      [
-        "Plumbing Fitting",
         25.0
       ]
     ]
@@ -3375,16 +3428,22 @@
     "title": "Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Spotlight with Smart App Control (1-Pac",
     "brand": "Hampton Bay",
     "price": 51.78,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 19.0,
-    "confidence_level": "Very Low",
+    "product_type": "LED Light Bulb",
+    "confidence": 69.0,
+    "confidence_level": "Medium",
     "reasons": [
+      "Description contains \"led light\"",
       "Found 1 supporting keywords",
       "Found 1 description hints",
       "Has 1 matching specifications",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Landscape Lighting",
+        29.0
+      ]
+    ]
   },
   {
     "index": 189,
@@ -3392,8 +3451,8 @@
     "brand": "Commercial Electric",
     "price": 49.47,
     "product_type": "Under Cabinet Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"under cabinet\"",
       "Has 1 matching specifications",
@@ -3402,7 +3461,7 @@
     "alternate_types": [
       [
         "Wire",
-        43.0
+        83.0
       ],
       [
         "LED Light Bulb",
@@ -3416,8 +3475,8 @@
     "brand": "ULTRA PROGRADE",
     "price": 44.97,
     "product_type": "Under Cabinet Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"under cabinet\"",
       "Has 1 matching specifications",
@@ -3425,12 +3484,12 @@
     ],
     "alternate_types": [
       [
-        "Wire",
-        43.0
+        "LED Light Bulb",
+        89.0
       ],
       [
-        "LED Light Bulb",
-        39.0
+        "Wire",
+        83.0
       ]
     ]
   },
@@ -3440,10 +3499,11 @@
     "brand": "Home Decorators Collection",
     "price": 39.97,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -3452,16 +3512,22 @@
     "title": "Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Landscape Spotlight with Smart App Cont",
     "brand": "Hampton Bay",
     "price": 129.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 19.0,
-    "confidence_level": "Very Low",
+    "product_type": "LED Light Bulb",
+    "confidence": 69.0,
+    "confidence_level": "Medium",
     "reasons": [
+      "Description contains \"led light\"",
       "Found 1 supporting keywords",
       "Found 1 description hints",
       "Has 1 matching specifications",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Landscape Lighting",
+        29.0
+      ]
+    ]
   },
   {
     "index": 193,
@@ -3470,7 +3536,7 @@
     "price": 9.97,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -3481,9 +3547,9 @@
     "title": "Husky Folding Lock-Back Utility Knife (3-Pack) 99732",
     "brand": "Husky",
     "price": 21.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\""
     ],
@@ -3494,12 +3560,14 @@
     "title": "Hampton Bay 75-Watt Equivalent Low Voltage Black LED Outdoor Landscape Flood Light Powered by Hubspa",
     "brand": "Hampton Bay",
     "price": 59.17,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 14.0,
-    "confidence_level": "Very Low",
+    "product_type": "Landscape Lighting",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Found 1 description hints",
+      "Title contains \"flood light\"",
+      "Description contains \"outdoor flood\"",
+      "Found 3 supporting keywords",
+      "Found 2 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -3510,7 +3578,7 @@
     "brand": "HALO",
     "price": 128.88,
     "product_type": "Recessed Light",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -3527,7 +3595,7 @@
     "price": 9.95,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -3538,13 +3606,18 @@
     "title": "Wagner Control Pro 130 High Efficiency Airless Power Tank Paint and Stain Sprayer 580678",
     "brand": "Wagner",
     "price": 229.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "product_type": "Ladder",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Matches 2 product domains"
+      "Description contains \"ladder\""
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Paint Sprayer",
+        50.0
+      ]
+    ]
   },
   {
     "index": 199,
@@ -3552,10 +3625,11 @@
     "brand": "Home Decorators Collection",
     "price": 309.0,
     "product_type": "Sink",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sink\"",
+      "Description contains \"undermount sink\"",
       "Found 1 supporting keywords",
       "Matches 1 product domains"
     ],
@@ -3566,23 +3640,29 @@
     "title": "Home Decorators Collection 37 in. W x 22 in. D Cultured Marble White Rectangular Single Sink Vanity ",
     "brand": "Home Decorators Collection",
     "price": 429.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Sink",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"faucet\"",
+      "Title contains \"sink\"",
+      "Found 1 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Faucet",
+        53.0
+      ]
+    ]
   },
   {
     "index": 201,
     "title": "PRIVATE BRAND UNBRANDED Safety Glasses Indoor and Outdoor mirror Hard Coat EP6100 EP6100 Indoor&Outd",
     "brand": "PRIVATE BRAND UNBRANDED",
     "price": 9.88,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Plumbing Fitting",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"fitting\"",
       "Matches 1 product domains"
@@ -3595,8 +3675,8 @@
     "brand": "FREEZE MISER",
     "price": 58.95,
     "product_type": "Faucet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
       "Matches 1 product domains"
@@ -3609,8 +3689,8 @@
     "brand": "Hampton Bay",
     "price": 59.98,
     "product_type": "Exhaust Fan",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
       "Found 1 supporting keywords",
@@ -3619,7 +3699,7 @@
     "alternate_types": [
       [
         "Level",
-        28.0
+        53.0
       ]
     ]
   },
@@ -3629,8 +3709,8 @@
     "brand": "DIABLO",
     "price": 12.88,
     "product_type": "Saw",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"saw\"",
       "Found 3 supporting keywords",
@@ -3639,7 +3719,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        53.0
+        93.0
       ]
     ]
   },
@@ -3649,8 +3729,8 @@
     "brand": "DIABLO",
     "price": 19.88,
     "product_type": "Saw Blade",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"blade\"",
       "Matches 1 product domains"
@@ -3663,10 +3743,11 @@
     "brand": "TrafficMaster",
     "price": 69.0,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -3676,10 +3757,11 @@
     "brand": "Home Decorators Collection",
     "price": 159.0,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -3689,8 +3771,8 @@
     "brand": "DIABLO",
     "price": 12.88,
     "product_type": "Drill Bit",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"bit set\"",
       "Found 1 description hints",
@@ -3699,7 +3781,7 @@
     "alternate_types": [
       [
         "Drill",
-        28.0
+        53.0
       ]
     ]
   },
@@ -3708,12 +3790,14 @@
     "title": "Delta Lyndall 24 in. Wall Mount Towel Bar Bath Hardware Accessory in Polished Chrome LDL24-PC",
     "brand": "Delta",
     "price": 34.64,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathroom Towel Bar",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"towel bar\"",
+      "Description contains \"towel holder\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -3723,7 +3807,7 @@
     "brand": "3M",
     "price": 13.27,
     "product_type": "Adhesive",
-    "confidence": 73.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"adhesive\"",
@@ -3739,8 +3823,8 @@
     "brand": "Everbilt",
     "price": 52.37,
     "product_type": "Water Heater",
-    "confidence": 54.0,
-    "confidence_level": "Medium",
+    "confidence": 94.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"water heater\"",
       "Found 1 supporting keywords",
@@ -3755,21 +3839,21 @@
     "brand": "SharkBite",
     "price": 19.99,
     "product_type": "Plumbing Fitting",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"connector\"",
-      "Found 1 supporting keywords",
+      "Title contains \"push-to-connect\"",
+      "Found 2 supporting keywords",
       "Matches 1 product domains"
     ],
     "alternate_types": [
       [
         "Water Heater",
-        46.0
+        86.0
       ],
       [
         "Adhesive",
-        30.0
+        55.0
       ]
     ]
   },
@@ -3780,7 +3864,7 @@
     "price": 24.47,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 11.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Has 1 matching specifications",
       "Matches 2 product domains"
@@ -3793,7 +3877,7 @@
     "brand": "KOHLER",
     "price": 299.0,
     "product_type": "Faucet",
-    "confidence": 81.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
@@ -3802,7 +3886,12 @@
       "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Sink",
+        86.0
+      ]
+    ]
   },
   {
     "index": 215,
@@ -3810,8 +3899,8 @@
     "brand": "Delta",
     "price": 30.88,
     "product_type": "Toilet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Matches 1 product domains"
@@ -3819,7 +3908,7 @@
     "alternate_types": [
       [
         "Spring",
-        28.0
+        53.0
       ]
     ]
   },
@@ -3828,12 +3917,14 @@
     "title": "Delta Crestfield 24 in. Wall Mounted Towel Bar in Brushed Nickel 138031",
     "brand": "Delta",
     "price": 37.93,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathroom Towel Bar",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"towel bar\"",
+      "Description contains \"towel holder\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -3843,8 +3934,8 @@
     "brand": "KOHLER",
     "price": 334.68,
     "product_type": "Sink",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"sink\"",
       "Found 2 supporting keywords",
@@ -3853,7 +3944,7 @@
     "alternate_types": [
       [
         "Vanity Top",
-        28.0
+        53.0
       ]
     ]
   },
@@ -3863,8 +3954,8 @@
     "brand": "Feit Electric",
     "price": 36.97,
     "product_type": "Under Cabinet Light",
-    "confidence": 56.0,
-    "confidence_level": "Medium",
+    "confidence": 96.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"under cabinet\"",
       "Found 1 supporting keywords",
@@ -3874,15 +3965,15 @@
     "alternate_types": [
       [
         "Electrical Outlet",
-        28.0
+        53.0
       ],
       [
         "Cable",
-        28.0
+        53.0
       ],
       [
         "Tape",
-        25.0
+        50.0
       ]
     ]
   },
@@ -3892,8 +3983,8 @@
     "brand": "Scotch",
     "price": 14.41,
     "product_type": "Tape",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"tape\""
     ],
@@ -3904,12 +3995,14 @@
     "title": "Delta Greenwich II Wall Mount Round Closed Towel Ring Bath Hardware Accessory in Brushed Nickel GRE4",
     "brand": "Delta",
     "price": 17.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathroom Towel Bar",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"towel ring\"",
+      "Description contains \"towel holder\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -3918,11 +4011,13 @@
     "title": "Delta Crestfield 18 in. Towel Bar in Brushed Nickel 138029",
     "brand": "Delta",
     "price": 39.19,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathroom Towel Bar",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"towel bar\"",
+      "Description contains \"towel holder\"",
+      "Found 2 supporting keywords",
       "Found 1 description hints"
     ],
     "alternate_types": []
@@ -3933,8 +4028,8 @@
     "brand": "Glacier Bay",
     "price": 183.69,
     "product_type": "Faucet",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
       "Found 1 supporting keywords",
@@ -3944,7 +4039,7 @@
     "alternate_types": [
       [
         "Door Handle",
-        25.0
+        50.0
       ]
     ]
   },
@@ -3954,8 +4049,8 @@
     "brand": "DIABLO",
     "price": 21.87,
     "product_type": "Drill Bit",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"bit set\"",
       "Found 1 description hints",
@@ -3964,7 +4059,7 @@
     "alternate_types": [
       [
         "Drill",
-        28.0
+        53.0
       ]
     ]
   },
@@ -3974,8 +4069,8 @@
     "brand": "Delta",
     "price": 189.0,
     "product_type": "Faucet",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
       "Found 1 supporting keywords",
@@ -3990,7 +4085,7 @@
     "price": 74.97,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 10.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 2 supporting keywords"
     ],
@@ -4002,10 +4097,11 @@
     "brand": "Home Decorators Collection",
     "price": 154.74,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -4016,7 +4112,7 @@
     "price": 29.97,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -4028,9 +4124,9 @@
     "title": "Milwaukee SHOCKWAVE Impact Duty 1 in. Square #2 Alloy Steel Insert Bit (10-Pack) 48-32-5008",
     "brand": "Milwaukee",
     "price": 9.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill Bit",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"driver bit\"",
       "Matches 1 product domains"
@@ -4038,11 +4134,11 @@
     "alternate_types": [
       [
         "Drill",
-        28.0
+        53.0
       ],
       [
         "Plumbing Fitting",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4053,7 +4149,7 @@
     "price": 3.97,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -4065,8 +4161,8 @@
     "brand": "DEWALT",
     "price": 3.86,
     "product_type": "Drill",
-    "confidence": 31.0,
-    "confidence_level": "Low",
+    "confidence": 56.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"drill\"",
       "Found 1 description hints",
@@ -4081,7 +4177,7 @@
     "price": 3.97,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Has 1 matching specifications",
       "Matches 1 product domains"
@@ -4093,30 +4189,28 @@
     "title": "DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6",
     "brand": "DEWALT",
     "price": 19.97,
-    "product_type": "Plumbing Fitting",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "product_type": "Drill",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Title contains \"adapter\""
+      "Description contains \"impact driver\"",
+      "Matches 1 product domains"
     ],
-    "alternate_types": [
-      [
-        "Drill",
-        28.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 233,
     "title": "Delta Greenwich II 18 in. Wall Mount Towel Bar Bath Hardware Accessory in Brushed Nickel GRE18-BN",
     "brand": "Delta",
     "price": 23.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathroom Towel Bar",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"towel bar\"",
+      "Description contains \"towel holder\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -4125,40 +4219,53 @@
     "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 ",
     "brand": "Coolaroo",
     "price": 92.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Window Shade",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"spring\"",
-      "Matches 1 product domains"
+      "Title contains \"roller shade\"",
+      "Description contains \"outdoor shade\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Spring",
+        53.0
+      ]
+    ]
   },
   {
     "index": 235,
     "title": "Coolaroo Brown Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 96 in. W ",
     "brand": "Coolaroo",
     "price": 92.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Window Shade",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"spring\"",
-      "Matches 1 product domains"
+      "Title contains \"roller shade\"",
+      "Description contains \"outdoor shade\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Spring",
+        53.0
+      ]
+    ]
   },
   {
     "index": 236,
     "title": "Hampton Bay Commercial Wall-Mount Hose Reel 709",
     "brand": "Hampton Bay",
     "price": 104.54,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 14.0,
-    "confidence_level": "Very Low",
+    "product_type": "High Bay Light",
+    "confidence": 16.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Found 1 description hints",
+      "Found 2 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -4168,14 +4275,21 @@
     "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 72 in. ",
     "brand": "Coolaroo",
     "price": 72.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Window Shade",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"spring\"",
-      "Matches 1 product domains"
+      "Title contains \"roller shade\"",
+      "Description contains \"outdoor shade\"",
+      "Found 3 supporting keywords",
+      "Found 1 description hints"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Spring",
+        53.0
+      ]
+    ]
   },
   {
     "index": 238,
@@ -4183,7 +4297,7 @@
     "brand": "Klein Tools",
     "price": 29.97,
     "product_type": "Voltage Tester",
-    "confidence": 73.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"voltage tester\"",
@@ -4193,8 +4307,12 @@
     ],
     "alternate_types": [
       [
+        "Flashlight",
+        83.0
+      ],
+      [
         "Circuit Breaker",
-        33.0
+        58.0
       ]
     ]
   },
@@ -4203,23 +4321,29 @@
     "title": "Home Decorators Collection 37 in. W x 22 in. D Engineered Stone Composite White Rectangular Single S",
     "brand": "Home Decorators Collection",
     "price": 299.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Sink",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"faucet\"",
+      "Title contains \"sink\"",
+      "Found 1 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Faucet",
+        53.0
+      ]
+    ]
   },
   {
     "index": 240,
     "title": "MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Included) 82760BL",
     "brand": "MOEN",
     "price": 185.47,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathtub",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"bathtub\"",
       "Matches 1 product domains"
@@ -4227,7 +4351,7 @@
     "alternate_types": [
       [
         "Door Handle",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4236,27 +4360,23 @@
     "title": "DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6",
     "brand": "DEWALT",
     "price": 19.97,
-    "product_type": "Plumbing Fitting",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "product_type": "Drill",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Title contains \"adapter\""
+      "Description contains \"impact driver\"",
+      "Matches 1 product domains"
     ],
-    "alternate_types": [
-      [
-        "Drill",
-        28.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 242,
     "title": "DEWALT MAXFIT 2 in. #25 Torx Bit with Small Bulk Storage (15-Piece) DWA2TX25MF15",
     "brand": "DEWALT",
     "price": 14.69,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"impact driver\"",
       "Matches 1 product domains"
@@ -4264,7 +4384,7 @@
     "alternate_types": [
       [
         "Level",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4275,7 +4395,7 @@
     "price": 4.47,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -4286,9 +4406,9 @@
     "title": "Husky 8 in. Classic Anvil Pruner Husky-16",
     "brand": "Husky",
     "price": 14.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\""
     ],
@@ -4300,8 +4420,8 @@
     "brand": "Oatey",
     "price": 44.61,
     "product_type": "Drain",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"drain\"",
       "Matches 1 product domains"
@@ -4309,11 +4429,11 @@
     "alternate_types": [
       [
         "Electrical Outlet",
-        28.0
+        53.0
       ],
       [
         "Adhesive",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4323,11 +4443,11 @@
     "brand": "RYOBI",
     "price": 40.0,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "confidence": 11.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Description contains \"adapter\"",
-      "Matches 1 product domains"
+      "Found 1 supporting keywords",
+      "Matches 2 product domains"
     ],
     "alternate_types": []
   },
@@ -4337,8 +4457,8 @@
     "brand": "Oatey",
     "price": 52.37,
     "product_type": "Drain",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"drain\"",
       "Found 1 description hints",
@@ -4347,11 +4467,11 @@
     "alternate_types": [
       [
         "Electrical Outlet",
-        28.0
+        53.0
       ],
       [
         "Adhesive",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4361,8 +4481,8 @@
     "brand": "Cerrowire",
     "price": 50.0,
     "product_type": "Wire",
-    "confidence": 61.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 3 supporting keywords",
@@ -4372,7 +4492,7 @@
     "alternate_types": [
       [
         "Cable",
-        41.0
+        66.0
       ]
     ]
   },
@@ -4381,17 +4501,23 @@
     "title": "Coast G450 1630 Lumens Alkaline LED Handheld Flashlight 21864",
     "brand": "Coast",
     "price": 41.02,
-    "product_type": "Light Switch",
-    "confidence": 31.0,
-    "confidence_level": "Low",
+    "product_type": "Flashlight",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"switch\"",
+      "Title contains \"flashlight\"",
+      "Found 4 supporting keywords",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
+        "Landscape Lighting",
+        56.0
+      ],
+      [
         "Level",
-        28.0
+        53.0
       ],
       [
         "LED Light Bulb",
@@ -4405,8 +4531,8 @@
     "brand": "DEWALT",
     "price": 4.47,
     "product_type": "Drill",
-    "confidence": 68.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"drill\"",
       "Description contains \"impact driver\"",
@@ -4415,11 +4541,11 @@
     "alternate_types": [
       [
         "Drill Bit",
-        56.0
+        96.0
       ],
       [
         "Level",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4428,9 +4554,9 @@
     "title": "DEWALT MAXFIT 1 in. #2 Philips Bit (2-Piece) DWA1PH2MF2",
     "brand": "DEWALT",
     "price": 3.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"impact driver\"",
       "Matches 1 product domains"
@@ -4438,7 +4564,7 @@
     "alternate_types": [
       [
         "Level",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4448,7 +4574,7 @@
     "brand": "Leviton",
     "price": 104.0,
     "product_type": "Circuit Breaker",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"breaker\"",
@@ -4460,11 +4586,11 @@
     "alternate_types": [
       [
         "Load Center",
-        58.0
+        98.0
       ],
       [
         "Cable",
-        33.0
+        58.0
       ]
     ]
   },
@@ -4474,19 +4600,16 @@
     "brand": "Hampton Bay",
     "price": 29.97,
     "product_type": "Wall Sconce",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"sconce\"",
       "Description contains \"wall light\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "LED Light Bulb",
-        41.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 254,
@@ -4494,10 +4617,11 @@
     "brand": "Bondo",
     "price": 6.62,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 9.0,
-    "confidence_level": "Very Low",
+    "confidence": 11.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 3 product domains"
+      "Found 1 supporting keywords",
+      "Matches 2 product domains"
     ],
     "alternate_types": []
   },
@@ -4507,8 +4631,8 @@
     "brand": "Philips",
     "price": 13.97,
     "product_type": "LED Light Bulb",
-    "confidence": 64.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"light bulb\"",
       "Found 2 supporting keywords",
@@ -4524,8 +4648,8 @@
     "brand": "HDX",
     "price": 5.74,
     "product_type": "Spring",
-    "confidence": 30.0,
-    "confidence_level": "Low",
+    "confidence": 55.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"spring\"",
       "Found 1 supporting keywords"
@@ -4533,7 +4657,7 @@
     "alternate_types": [
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -4542,9 +4666,9 @@
     "title": "DEWALT MAXFIT 2 in. #1 Square Bit (2-Piece) DWA2SQ1MF2",
     "brand": "DEWALT",
     "price": 4.47,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"impact driver\"",
       "Matches 1 product domains"
@@ -4552,7 +4676,7 @@
     "alternate_types": [
       [
         "Level",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4563,7 +4687,7 @@
     "price": 4.47,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -4574,9 +4698,9 @@
     "title": "Liberty 10-Pack Top Ring 1-1/4 in. (31 mm) Classic Matte Black Round Cabinet Knobs P40052C-FB-SP",
     "brand": "Liberty",
     "price": 15.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Door Knob",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"knob\""
     ],
@@ -4589,7 +4713,7 @@
     "price": 469.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 9.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 3 product domains"
     ],
@@ -4601,8 +4725,8 @@
     "brand": "Delta",
     "price": 174.0,
     "product_type": "Toilet",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Found 4 supporting keywords",
@@ -4616,8 +4740,8 @@
     "brand": "Delta",
     "price": 179.0,
     "product_type": "Toilet",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Found 4 supporting keywords",
@@ -4631,8 +4755,8 @@
     "brand": "Commercial Electric",
     "price": 79.47,
     "product_type": "Recessed Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Found 1 supporting keywords",
@@ -4641,7 +4765,7 @@
     "alternate_types": [
       [
         "LED Light Bulb",
-        20.0
+        70.0
       ]
     ]
   },
@@ -4651,8 +4775,8 @@
     "brand": "Delta",
     "price": 159.0,
     "product_type": "Toilet",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Found 5 supporting keywords",
@@ -4665,9 +4789,9 @@
     "title": "Commercial Electric 8 in. Multi-Purpose Wiring Tool CE190206",
     "brand": "Commercial Electric",
     "price": 18.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Wire",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wire\"",
       "Matches 1 product domains"
@@ -4680,8 +4804,8 @@
     "brand": "Philips",
     "price": 12.97,
     "product_type": "LED Light Bulb",
-    "confidence": 64.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"light bulb\"",
       "Found 2 supporting keywords",
@@ -4696,12 +4820,12 @@
     "title": "Hampton Bay Cairo 160 Lumen Low Voltage Square Transitional Black Integrated LED Waterproof Outdoor ",
     "brand": "Hampton Bay",
     "price": 30.34,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
+    "product_type": "Landscape Lighting",
+    "confidence": 21.0,
     "confidence_level": "Very Low",
     "reasons": [
-      "Description contains \"connector\"",
-      "Matches 1 product domains"
+      "Found 3 supporting keywords",
+      "Matches 2 product domains"
     ],
     "alternate_types": []
   },
@@ -4711,8 +4835,8 @@
     "brand": "Home Decorators Collection",
     "price": 99.97,
     "product_type": "Pendant Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"mini-pendant\"",
       "Found 1 supporting keywords",
@@ -4727,8 +4851,8 @@
     "brand": "Philips",
     "price": 12.97,
     "product_type": "LED Light Bulb",
-    "confidence": 64.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"light bulb\"",
       "Found 2 supporting keywords",
@@ -4744,8 +4868,8 @@
     "brand": "Commercial Electric",
     "price": 69.97,
     "product_type": "Recessed Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Found 1 supporting keywords",
@@ -4754,7 +4878,7 @@
     "alternate_types": [
       [
         "LED Light Bulb",
-        20.0
+        70.0
       ]
     ]
   },
@@ -4765,7 +4889,7 @@
     "price": 25.97,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -4777,14 +4901,20 @@
     "title": "Home Decorators Collection 49 in. W x 22 in. D Ceramic White Rectangular Single Sink Vanity Top in W",
     "brand": "Home Decorators Collection",
     "price": 409.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Sink",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"faucet\"",
+      "Title contains \"sink\"",
+      "Found 1 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Faucet",
+        53.0
+      ]
+    ]
   },
   {
     "index": 273,
@@ -4792,10 +4922,10 @@
     "brand": "TrafficMaster",
     "price": 46.44,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 10.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 2 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -4805,8 +4935,8 @@
     "brand": "DEWALT",
     "price": 30.27,
     "product_type": "Saw Blade",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"blade\"",
       "Matches 1 product domains"
@@ -4819,8 +4949,8 @@
     "brand": "Hampton Bay",
     "price": 49.97,
     "product_type": "Chandelier",
-    "confidence": 57.0,
-    "confidence_level": "Medium",
+    "confidence": 97.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"chandelier\"",
       "Found 1 supporting keywords",
@@ -4830,10 +4960,14 @@
     "alternate_types": [
       [
         "Wire",
-        28.0
+        53.0
       ],
       [
         "Pendant Light",
+        21.0
+      ],
+      [
+        "Wall Sconce",
         21.0
       ]
     ]
@@ -4844,8 +4978,8 @@
     "brand": "Commercial Electric",
     "price": 15.97,
     "product_type": "Wire",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"wire\"",
       "Found 1 supporting keywords",
@@ -4854,7 +4988,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        28.0
+        53.0
       ]
     ]
   },
@@ -4863,18 +4997,18 @@
     "title": "Unbranded Brushed Nickel Metal Oblong Pendant Shade with 2-1/4 in. Fitter 801255",
     "brand": "Unbranded",
     "price": 19.97,
-    "product_type": "Pendant Light",
-    "confidence": 36.0,
-    "confidence_level": "Low",
+    "product_type": "Wall Sconce",
+    "confidence": 71.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"pendant light\"",
-      "Found 1 supporting keywords",
+      "Description contains \"wall light\"",
+      "Found 3 supporting keywords",
       "Matches 2 product domains"
     ],
     "alternate_types": [
       [
-        "Wall Sconce",
-        36.0
+        "Pendant Light",
+        61.0
       ]
     ]
   },
@@ -4884,8 +5018,8 @@
     "brand": "Commercial Electric",
     "price": 14.97,
     "product_type": "Recessed Light",
-    "confidence": 51.0,
-    "confidence_level": "Medium",
+    "confidence": 91.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Found 1 supporting keywords",
@@ -4894,7 +5028,7 @@
     "alternate_types": [
       [
         "LED Light Bulb",
-        20.0
+        70.0
       ]
     ]
   },
@@ -4905,7 +5039,7 @@
     "price": 4.21,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 10.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 2 supporting keywords"
     ],
@@ -4917,8 +5051,8 @@
     "brand": "Glacier Bay",
     "price": 29.68,
     "product_type": "Toilet",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Found 2 supporting keywords",
@@ -4927,7 +5061,7 @@
     "alternate_types": [
       [
         "Toilet Seat",
-        48.0
+        88.0
       ]
     ]
   },
@@ -4936,12 +5070,12 @@
     "title": "EcoSmart 6.5 ft. RGBWIC Dynamic Color Changing Dimmable Linkable Plug-In LED Neon Flex Strip Light w",
     "brand": "EcoSmart",
     "price": 14.68,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 16.0,
+    "product_type": "String Lights",
+    "confidence": 29.0,
     "confidence_level": "Very Low",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Has 1 matching specifications",
+      "Found 4 supporting keywords",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
     "alternate_types": []
@@ -4952,8 +5086,8 @@
     "brand": "FIRM GRIP",
     "price": 12.88,
     "product_type": "Work Gloves",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"work gloves\"",
       "Found 1 supporting keywords"
@@ -4966,10 +5100,11 @@
     "brand": "Commercial Electric",
     "price": 14.97,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence": 11.0,
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -4979,11 +5114,13 @@
     "title": "Werner 8 ft. - 10 ft., 22.5 in. x 54 in. Wood Attic Ladder with 250 lb. Maximum Load Capacity WU2210",
     "brand": "Werner",
     "price": 239.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "product_type": "Ladder",
+    "confidence": 96.0,
+    "confidence_level": "High",
     "reasons": [
-      "Matches 2 product domains"
+      "Title contains \"ladder\"",
+      "Found 2 supporting keywords",
+      "Found 2 description hints"
     ],
     "alternate_types": []
   },
@@ -4993,8 +5130,8 @@
     "brand": "Delta",
     "price": 149.0,
     "product_type": "Toilet",
-    "confidence": 63.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Found 5 supporting keywords",
@@ -5008,8 +5145,8 @@
     "brand": "Milwaukee",
     "price": 14.97,
     "product_type": "Work Gloves",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"work gloves\""
     ],
@@ -5022,7 +5159,7 @@
     "price": 39.98,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 11.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 2 product domains"
@@ -5035,10 +5172,11 @@
     "brand": "Concord Global Trading",
     "price": 22.0,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Matches 2 product domains"
+      "Found 1 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -5047,11 +5185,13 @@
     "title": "Gorilla Ladders 19 ft. Reach MPXT Aluminum Multi-Position Ladder with Project Top, 375 lbs. Load Cap",
     "brand": "Gorilla Ladders",
     "price": 259.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "product_type": "Ladder",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Matches 2 product domains"
+      "Title contains \"ladder\"",
+      "Description contains \"step ladder\"",
+      "Found 5 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -5060,12 +5200,12 @@
     "title": "Frost King 3/8 in. x 7/8 in. x 17 ft. Tan Vinyl Clad Foam Weatherstrip with Flange 1700/17",
     "brand": "Frost King",
     "price": 10.47,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Window",
+    "confidence": 60.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Description contains \"window\"",
+      "Found 2 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -5075,8 +5215,8 @@
     "brand": "MOEN",
     "price": 189.0,
     "product_type": "Faucet",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
       "Found 1 supporting keywords",
@@ -5090,10 +5230,11 @@
     "brand": "Philips",
     "price": 13.98,
     "product_type": "LED Light Bulb",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"light bulb\"",
+      "Description contains \"led light\"",
       "Has product-specific specifications",
       "Has 3 matching specifications",
       "Matches 2 product domains"
@@ -5106,18 +5247,13 @@
     "brand": "Commercial Electric",
     "price": 8.79,
     "product_type": "Cable",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"cable\"",
       "Matches 1 product domains"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 294,
@@ -5125,8 +5261,8 @@
     "brand": "Square D",
     "price": 125.0,
     "product_type": "Load Center",
-    "confidence": 58.0,
-    "confidence_level": "Medium",
+    "confidence": 98.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"load center\"",
       "Found 3 supporting keywords",
@@ -5135,7 +5271,7 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        48.0
+        73.0
       ]
     ]
   },
@@ -5145,8 +5281,8 @@
     "brand": "Everbilt",
     "price": 36.88,
     "product_type": "Drain",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"drain\"",
       "Matches 1 product domains"
@@ -5158,14 +5294,19 @@
     "title": "Kidde Residential and Kitchen 1-A:10-B:C Class ABC and Class BC 5.5 lbs. Fire Extinguisher (2-Pack) ",
     "brand": "Kidde",
     "price": 44.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Shelf Bracket",
+    "confidence": 55.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Description contains \"level\"",
-      "Matches 1 product domains"
+      "Description contains \"bracket\"",
+      "Found 1 supporting keywords"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Level",
+        53.0
+      ]
+    ]
   },
   {
     "index": 297,
@@ -5173,7 +5314,7 @@
     "brand": "Commercial Electric",
     "price": 25.05,
     "product_type": "Recessed Light",
-    "confidence": 81.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -5183,16 +5324,16 @@
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "Cable",
-        28.0
+        53.0
       ],
       [
         "LED Light Bulb",
         24.0
+      ],
+      [
+        "High Bay Light",
+        21.0
       ]
     ]
   },
@@ -5202,9 +5343,10 @@
     "brand": "BEYOND BRIGHT",
     "price": 19.99,
     "product_type": "LED Light Bulb",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
+      "Title contains \"led lamp\"",
       "Description contains \"light bulb\"",
       "Found 1 supporting keywords",
       "Has 2 matching specifications",
@@ -5212,8 +5354,12 @@
     ],
     "alternate_types": [
       [
+        "Shop Light",
+        56.0
+      ],
+      [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -5223,7 +5369,7 @@
     "brand": "Commercial Electric",
     "price": 38.97,
     "product_type": "Wall Plate",
-    "confidence": 73.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"wall plate\"",
@@ -5234,11 +5380,11 @@
     "alternate_types": [
       [
         "Recessed Light",
-        46.0
+        86.0
       ],
       [
         "Cable",
-        43.0
+        83.0
       ]
     ]
   },
@@ -5248,7 +5394,7 @@
     "brand": "Commercial Electric",
     "price": 29.97,
     "product_type": "Recessed Light",
-    "confidence": 86.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
@@ -5258,12 +5404,8 @@
     ],
     "alternate_types": [
       [
-        "Light Switch",
-        31.0
-      ],
-      [
         "Cable",
-        28.0
+        53.0
       ]
     ]
   },
@@ -5274,7 +5416,7 @@
     "price": 10.14,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -5287,8 +5429,8 @@
     "brand": "Milwaukee",
     "price": 4.97,
     "product_type": "Work Gloves",
-    "confidence": 55.0,
-    "confidence_level": "Medium",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"work gloves\"",
       "Found 3 supporting keywords"
@@ -5296,7 +5438,7 @@
     "alternate_types": [
       [
         "Level",
-        43.0
+        83.0
       ]
     ]
   },
@@ -5306,7 +5448,7 @@
     "brand": "Milwaukee",
     "price": 30.97,
     "product_type": "Work Gloves",
-    "confidence": 70.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"gloves\"",
@@ -5321,7 +5463,7 @@
     "brand": "Milwaukee",
     "price": 30.97,
     "product_type": "Work Gloves",
-    "confidence": 70.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"gloves\"",
@@ -5336,8 +5478,8 @@
     "brand": "Anvil",
     "price": 10.92,
     "product_type": "Saw Blade",
-    "confidence": 48.0,
-    "confidence_level": "Low",
+    "confidence": 88.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"blade\"",
       "Found 1 supporting keywords",
@@ -5351,10 +5493,11 @@
     "brand": "Everbilt",
     "price": 19.93,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 10.0,
-    "confidence_level": "Very Low",
+    "confidence": 13.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 2 supporting keywords"
+      "Found 2 supporting keywords",
+      "Matches 1 product domains"
     ],
     "alternate_types": []
   },
@@ -5363,9 +5506,9 @@
     "title": "VELCRO ALFA-LOK 1 in. x 1 in. Squares in Black (16 Sets per Pack) VEL-30180-USA",
     "brand": "VELCRO",
     "price": 9.26,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Tape",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"tape\""
     ],
@@ -5377,8 +5520,8 @@
     "brand": "VELCRO",
     "price": 3.77,
     "product_type": "Tape",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"tape\""
     ],
@@ -5389,9 +5532,9 @@
     "title": "VELCRO ALFA-LOK 1 in. x 1 in. Squares in Black (6 Sets per Pack) VEL-30177-USA",
     "brand": "VELCRO",
     "price": 4.28,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Tape",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"tape\""
     ],
@@ -5403,8 +5546,8 @@
     "brand": "VELCRO",
     "price": 6.76,
     "product_type": "Tape",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"tape\"",
       "Found 1 supporting keywords"
@@ -5417,7 +5560,7 @@
     "brand": "Milwaukee",
     "price": 30.97,
     "product_type": "Work Gloves",
-    "confidence": 70.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"gloves\"",
@@ -5432,7 +5575,7 @@
     "brand": "Broan-NuTone",
     "price": 98.0,
     "product_type": "Exhaust Fan",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
@@ -5443,11 +5586,7 @@
     "alternate_types": [
       [
         "Cleaning Solution",
-        25.0
-      ],
-      [
-        "Plumbing Fitting",
-        25.0
+        50.0
       ]
     ]
   },
@@ -5457,7 +5596,7 @@
     "brand": "ReVent",
     "price": 95.65,
     "product_type": "Exhaust Fan",
-    "confidence": 73.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
@@ -5473,7 +5612,7 @@
     "brand": "Broan-NuTone",
     "price": 49.0,
     "product_type": "Exhaust Fan",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
@@ -5488,11 +5627,13 @@
     "title": "Glacier Bay Dolancourt Tight Radius 33 in. Drop-In 50/50 Double Bowl 18 Gauge Stainless Steel Kitche",
     "brand": "Glacier Bay",
     "price": 389.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Sink",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"sink\"",
+      "Found 5 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -5503,7 +5644,7 @@
     "brand": "ReVent",
     "price": 119.0,
     "product_type": "Exhaust Fan",
-    "confidence": 76.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
@@ -5511,12 +5652,7 @@
       "Found 1 supporting keywords",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 317,
@@ -5524,8 +5660,8 @@
     "brand": "KOHLER",
     "price": 11.89,
     "product_type": "Toilet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Matches 1 product domains"
@@ -5533,11 +5669,11 @@
     "alternate_types": [
       [
         "Door Handle",
-        40.0
+        80.0
       ],
       [
         "Fastener",
-        25.0
+        50.0
       ]
     ]
   },
@@ -5546,15 +5682,21 @@
     "title": "Glacier Bay Dolancourt Tight Radius 25 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink",
     "brand": "Glacier Bay",
     "price": 329.0,
-    "product_type": "Drain",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "product_type": "Sink",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"drain\"",
-      "Found 1 supporting keywords",
+      "Title contains \"sink\"",
+      "Found 5 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Drain",
+        58.0
+      ]
+    ]
   },
   {
     "index": 319,
@@ -5562,8 +5704,8 @@
     "brand": "Commercial Electric",
     "price": 5.39,
     "product_type": "Electrical Outlet",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"outlet\"",
       "Matches 1 product domains"
@@ -5571,7 +5713,7 @@
     "alternate_types": [
       [
         "Wire",
-        28.0
+        53.0
       ]
     ]
   },
@@ -5582,7 +5724,7 @@
     "price": 228.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -5595,14 +5737,19 @@
     "brand": "Broan-NuTone",
     "price": 169.0,
     "product_type": "Exhaust Fan",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"exhaust fan\"",
       "Found 2 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        83.0
+      ]
+    ]
   },
   {
     "index": 322,
@@ -5610,8 +5757,8 @@
     "brand": "Milwaukee",
     "price": 4.88,
     "product_type": "Work Gloves",
-    "confidence": 55.0,
-    "confidence_level": "Medium",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"work gloves\"",
       "Found 3 supporting keywords"
@@ -5619,7 +5766,7 @@
     "alternate_types": [
       [
         "Level",
-        43.0
+        83.0
       ]
     ]
   },
@@ -5629,8 +5776,8 @@
     "brand": "PRIVATE BRAND UNBRANDED",
     "price": 15.97,
     "product_type": "Flush Mount Light",
-    "confidence": 46.0,
-    "confidence_level": "Low",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"flush mount\"",
       "Found 1 description hints",
@@ -5643,47 +5790,60 @@
     "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2",
     "brand": "Lithonia Lighting",
     "price": 79.99,
-    "product_type": "Wire",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "product_type": "Troffer Light",
+    "confidence": 86.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"wire\"",
-      "Found 1 supporting keywords",
-      "Matches 1 product domains"
+      "Title contains \"troffer\"",
+      "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Wire",
+        58.0
+      ]
+    ]
   },
   {
     "index": 325,
     "title": "Metalux 2 ft. x 2 ft. 51-Watt Equivalent Integrated LED White Center Lens Troffer, 4000K Bright Whit",
     "brand": "Metalux",
     "price": 84.97,
-    "product_type": "LED Light Bulb",
-    "confidence": 41.0,
-    "confidence_level": "Low",
+    "product_type": "Troffer Light",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 2 supporting keywords",
-      "Has product-specific specifications",
-      "Has 3 matching specifications",
+      "Title contains \"troffer\"",
+      "Description contains \"troffer light\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        41.0
+      ]
+    ]
   },
   {
     "index": 326,
     "title": "Commercial Electric 1-Pack 2 ft. x 4 ft. 128-Watt Equivalent Integrated LED White Prismatic Lens Com",
     "brand": "Commercial Electric",
     "price": 60.48,
-    "product_type": "LED Light Bulb",
-    "confidence": 41.0,
-    "confidence_level": "Low",
+    "product_type": "Troffer Light",
+    "confidence": 94.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 2 supporting keywords",
-      "Has product-specific specifications",
-      "Has 3 matching specifications",
+      "Title contains \"troffer\"",
+      "Found 1 supporting keywords",
+      "Found 1 description hints",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        91.0
+      ]
+    ]
   },
   {
     "index": 327,
@@ -5691,7 +5851,7 @@
     "brand": "CASAINC",
     "price": 79.0,
     "product_type": "Showerhead",
-    "confidence": 88.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"shower head\"",
@@ -5714,7 +5874,7 @@
     "price": 13.67,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 11.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 2 product domains"
@@ -5727,7 +5887,7 @@
     "brand": "Glacier Bay",
     "price": 439.0,
     "product_type": "Faucet",
-    "confidence": 78.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
@@ -5737,8 +5897,12 @@
     ],
     "alternate_types": [
       [
+        "Sink",
+        100
+      ],
+      [
         "Spring",
-        45.0
+        85.0
       ]
     ]
   },
@@ -5747,16 +5911,20 @@
     "title": "Metalux 2 ft. x 4 ft. 64-Watt Equivalent Integrated LED White Center Lens Troffer, 4000K Bright Whit",
     "brand": "Metalux",
     "price": 99.0,
-    "product_type": "LED Light Bulb",
-    "confidence": 41.0,
-    "confidence_level": "Low",
+    "product_type": "Troffer Light",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 2 supporting keywords",
-      "Has product-specific specifications",
-      "Has 3 matching specifications",
+      "Title contains \"troffer\"",
+      "Description contains \"troffer light\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        41.0
+      ]
+    ]
   },
   {
     "index": 331,
@@ -5764,7 +5932,7 @@
     "brand": "Speakman",
     "price": 56.37,
     "product_type": "Showerhead",
-    "confidence": 88.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"showerhead\"",
@@ -5776,7 +5944,7 @@
     "alternate_types": [
       [
         "Door Handle",
-        28.0
+        53.0
       ]
     ]
   },
@@ -5787,7 +5955,7 @@
     "price": 179.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -5799,11 +5967,12 @@
     "title": "KOHLER Capilano 18 in. Towel Bar in Matte Black K-R26682-BL",
     "brand": "KOHLER",
     "price": 31.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "product_type": "Bathroom Towel Bar",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
-      "Matches 2 product domains"
+      "Title contains \"towel bar\"",
+      "Found 1 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -5814,7 +5983,7 @@
     "price": 228.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -5826,9 +5995,9 @@
     "title": "Grip-Rite 2-3/8 in. x 0.113 in. 30\u00b0 Paper Collated Exterior Galvanized Offset Round Head Ring Shank ",
     "brand": "Grip-Rite",
     "price": 154.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Tape",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"tape\""
     ],
@@ -5840,8 +6009,8 @@
     "brand": "Husky",
     "price": 18.89,
     "product_type": "Extension Cord",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"extension cord\"",
       "Found 2 supporting keywords",
@@ -5856,7 +6025,7 @@
     "price": 51.98,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Matches 1 product domains"
@@ -5870,7 +6039,7 @@
     "price": 11.95,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -5881,24 +6050,30 @@
     "title": "Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink",
     "brand": "Glacier Bay",
     "price": 389.0,
-    "product_type": "Drain",
-    "confidence": 33.0,
-    "confidence_level": "Low",
+    "product_type": "Sink",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"drain\"",
-      "Found 1 supporting keywords",
+      "Title contains \"sink\"",
+      "Found 5 supporting keywords",
+      "Found 1 description hints",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Drain",
+        58.0
+      ]
+    ]
   },
   {
     "index": 340,
     "title": "Cub Cadet Original Equipment 42 in. Mulching Kit with Blades for Lawn Tractors and Zero Turn Mowers ",
     "brand": "Cub Cadet",
     "price": 74.93,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\""
     ],
@@ -5909,9 +6084,9 @@
     "title": "Husky Folding Lock-Back Utility Knife 00000",
     "brand": "Husky",
     "price": 8.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\"",
       "Found 1 description hints"
@@ -5924,7 +6099,7 @@
     "brand": "DIABLO",
     "price": 56.81,
     "product_type": "Saw",
-    "confidence": 73.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"saw\"",
@@ -5935,7 +6110,7 @@
     "alternate_types": [
       [
         "Saw Blade",
-        48.0
+        88.0
       ]
     ]
   },
@@ -5944,24 +6119,14 @@
     "title": "Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Glass Chandelier LED Li",
     "brand": "Feit Electric",
     "price": 12.98,
-    "product_type": "LED Light Bulb",
-    "confidence": 100,
-    "confidence_level": "High",
+    "product_type": "Wall Sconce",
+    "confidence": 56.0,
+    "confidence_level": "Medium",
     "reasons": [
-      "Title contains \"light bulb\"",
-      "Description contains \"led bulb\"",
-      "Found 6 supporting keywords",
-      "Has product-specific specifications",
-      "Found 3 description hints",
-      "Has 5 matching specifications",
+      "Description contains \"wall sconce\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": [
-      [
-        "Wall Sconce",
-        31.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 344,
@@ -5969,8 +6134,8 @@
     "brand": "Wright Products",
     "price": 14.99,
     "product_type": "Door Hinge",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"hinge\""
     ],
@@ -5983,7 +6148,7 @@
     "price": 20.32,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 6.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Matches 2 product domains"
     ],
@@ -5995,8 +6160,8 @@
     "brand": "Hampton Bay",
     "price": 64.97,
     "product_type": "Pendant Light",
-    "confidence": 54.0,
-    "confidence_level": "Medium",
+    "confidence": 94.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"pendant with\"",
       "Found 1 supporting keywords",
@@ -6011,14 +6176,19 @@
     "brand": "Home Decorators Collection",
     "price": 89.97,
     "product_type": "Wall Sconce",
-    "confidence": 38.0,
-    "confidence_level": "Low",
+    "confidence": 68.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"wall light\"",
-      "Found 2 supporting keywords",
+      "Found 3 supporting keywords",
       "Matches 1 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        63.0
+      ]
+    ]
   },
   {
     "index": 348,
@@ -6026,10 +6196,10 @@
     "brand": "Hampton Bay",
     "price": 69.97,
     "product_type": "Pendant Light",
-    "confidence": 84.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
-      "Title contains \"pendant with\"",
+      "Title contains \"mini pendant\"",
       "Description contains \"pendant light\"",
       "Found 2 supporting keywords",
       "Found 1 description hints",
@@ -6043,14 +6213,19 @@
     "brand": "Hampton Bay",
     "price": 79.97,
     "product_type": "Chandelier",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"chandelier\"",
       "Description contains \"light chandelier\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Wall Sconce",
+        21.0
+      ]
+    ]
   },
   {
     "index": 350,
@@ -6058,7 +6233,7 @@
     "brand": "Commercial Electric",
     "price": 69.97,
     "product_type": "Pendant Light",
-    "confidence": 76.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"pendant with\"",
@@ -6075,14 +6250,19 @@
     "brand": "Hampton Bay",
     "price": 99.97,
     "product_type": "Chandelier",
-    "confidence": 71.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"chandelier\"",
       "Description contains \"light chandelier\"",
       "Matches 2 product domains"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Wall Sconce",
+        21.0
+      ]
+    ]
   },
   {
     "index": 352,
@@ -6090,10 +6270,10 @@
     "brand": "Home Decorators Collection",
     "price": 84.97,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Description contains \"light bulb\"",
+      "Found 1 supporting keywords",
       "Matches 1 product domains"
     ],
     "alternate_types": []
@@ -6103,9 +6283,9 @@
     "title": "Wright Products Brookfield Surface Mount Latch in Satin Nickel VBR225SN",
     "brand": "Wright Products",
     "price": 49.93,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Door Handle",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"lever\""
     ],
@@ -6116,9 +6296,9 @@
     "title": "MARSHALLTOWN 18 in. x 4 in. Finishing Trowel - Curved Durasoft Handle MXS81D-HD",
     "brand": "MARSHALLTOWN",
     "price": 69.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\""
     ],
@@ -6129,29 +6309,34 @@
     "title": "Husky 800-Lumen LED Utility Lights 2-Modes with Magnetic Handle and Batteries (2-Pack) HSKY8002PKUL",
     "brand": "Husky",
     "price": 25.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Shop Light",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"utility light\""
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "LED Light Bulb",
+        50.0
+      ]
+    ]
   },
   {
     "index": 356,
     "title": "SharkBite 3/4 in. Scale Prevention Water Filtration System SBHF10",
     "brand": "SharkBite",
     "price": 145.54,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Water Heater",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"water heater\""
     ],
     "alternate_types": [
       [
         "Plumbing Fitting",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6161,8 +6346,8 @@
     "brand": "Hampton Bay",
     "price": 94.97,
     "product_type": "Track Lighting",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"track light\""
     ],
@@ -6186,16 +6371,26 @@
     "title": "Commercial Electric 3 ft. 30-Watt 4000K Bright White 1-Light 3000 Lumens White Integrated LED Hangin",
     "brand": "Commercial Electric",
     "price": 14.97,
-    "product_type": "Extension Cord",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "product_type": "Shop Light",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Title contains \"power cord\""
+      "Title contains \"shop light\"",
+      "Description contains \"led shop light\"",
+      "Found 2 supporting keywords"
     ],
     "alternate_types": [
       [
+        "Extension Cord",
+        80.0
+      ],
+      [
+        "LED Light Bulb",
+        55.0
+      ],
+      [
         "Flush Mount Light",
-        30.0
+        55.0
       ]
     ]
   },
@@ -6205,8 +6400,8 @@
     "brand": "Glacier Bay",
     "price": 107.1,
     "product_type": "Faucet",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"faucet\"",
       "Found 1 supporting keywords"
@@ -6218,9 +6413,9 @@
     "title": "Husky Magnetic Small Parts Tray Set with Pickup Tool and 300 Lumens Head Lamp 90661",
     "brand": "Husky",
     "price": 39.88,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Fastener",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"screw\""
     ],
@@ -6232,8 +6427,8 @@
     "brand": "Duracell",
     "price": 9.16,
     "product_type": "Smoke Detector",
-    "confidence": 30.0,
-    "confidence_level": "Low",
+    "confidence": 55.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"smoke alarm\"",
       "Found 1 supporting keywords"
@@ -6241,7 +6436,7 @@
     "alternate_types": [
       [
         "Door Lock",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6264,8 +6459,8 @@
     "brand": "Kidde",
     "price": 54.97,
     "product_type": "Smoke Detector",
-    "confidence": 53.0,
-    "confidence_level": "Medium",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"carbon monoxide detector\"",
       "Found 2 supporting keywords",
@@ -6273,8 +6468,16 @@
     ],
     "alternate_types": [
       [
+        "Shelf Bracket",
+        55.0
+      ],
+      [
+        "LED Light Bulb",
+        50.0
+      ],
+      [
         "Level",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6284,10 +6487,10 @@
     "brand": "HDX",
     "price": 29.98,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence": 10.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Found 2 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -6297,7 +6500,7 @@
     "brand": "Kapro",
     "price": 3.14,
     "product_type": "Level",
-    "confidence": 70.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"level\"",
@@ -6312,8 +6515,8 @@
     "brand": "Hampton Bay",
     "price": 139.0,
     "product_type": "Track Lighting",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"track light\""
     ],
@@ -6325,8 +6528,8 @@
     "brand": "Commercial Electric",
     "price": 17.97,
     "product_type": "Recessed Light",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\""
     ],
@@ -6338,30 +6541,27 @@
     "brand": "Commercial Electric",
     "price": 29.97,
     "product_type": "Recessed Light",
-    "confidence": 70.0,
+    "confidence": 100,
     "confidence_level": "High",
     "reasons": [
       "Title contains \"recessed\"",
       "Description contains \"recessed lighting\"",
       "Found 1 supporting keywords"
     ],
-    "alternate_types": [
-      [
-        "Light Switch",
-        25.0
-      ]
-    ]
+    "alternate_types": []
   },
   {
     "index": 370,
     "title": "Rod Desyne 84 in. - 120 in. Telescoping 5/8 in. Single Curtain Rod Kit in Black with Luna Finial 571",
     "brand": "Rod Desyne",
     "price": 24.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"curtain rod\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -6370,10 +6570,11 @@
     "title": "Unbranded 28 in. - 48 in. Single Curtain Rod in White with Finial HMag28-01-2PC",
     "brand": "Unbranded",
     "price": 52.7,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
+      "Title contains \"curtain rod\"",
       "Found 1 supporting keywords"
     ],
     "alternate_types": []
@@ -6383,10 +6584,12 @@
     "title": "Search Results for 1004528984 at The Home Depot",
     "brand": "",
     "price": 2.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 0.0,
-    "confidence_level": "Very Low",
-    "reasons": [],
+    "product_type": "Curtain Rod",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
+    "reasons": [
+      "Description contains \"curtain rod\""
+    ],
     "alternate_types": []
   },
   {
@@ -6395,10 +6598,11 @@
     "brand": "Home Decorators Collection",
     "price": 30.98,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Found 1 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -6409,7 +6613,7 @@
     "price": 86.13,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords"
     ],
@@ -6433,9 +6637,9 @@
     "title": "Milwaukee 10 in. Straight-Cut Aviation Snips 48-22-4530",
     "brand": "Milwaukee",
     "price": 16.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Fastener",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"bolt\""
     ],
@@ -6446,9 +6650,9 @@
     "title": "RYOBI 40V HP Brushless 21 in. Cordless Battery Walk Behind Self-Propelled Lawn Mower with (2) 6.0 Ah",
     "brand": "RYOBI",
     "price": 549.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\""
     ],
@@ -6459,9 +6663,9 @@
     "title": "HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn",
     "brand": "HOMACER",
     "price": 237.03,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Door Handle",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"door handle\"",
       "Found 1 description hints"
@@ -6469,7 +6673,7 @@
     "alternate_types": [
       [
         "Paint",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6478,11 +6682,13 @@
     "title": "StyleWell 48 in. - 84 in. Telescoping 5/8 in. Single Curtain Rod Kit in Oil-Rubbed Bronze with Trump",
     "brand": "StyleWell",
     "price": 24.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"curtain rod\"",
+      "Description contains \"drapery rod\"",
+      "Found 2 supporting keywords",
       "Found 1 description hints"
     ],
     "alternate_types": []
@@ -6492,9 +6698,9 @@
     "title": "HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn",
     "brand": "HOMACER",
     "price": 237.03,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Door Handle",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"door handle\"",
       "Found 1 description hints"
@@ -6502,7 +6708,7 @@
     "alternate_types": [
       [
         "Paint",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6512,8 +6718,8 @@
     "brand": "Master Flow",
     "price": 8.22,
     "product_type": "Plumbing Fitting",
-    "confidence": 65.0,
-    "confidence_level": "Medium",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"elbow\"",
       "Description contains \"fitting\""
@@ -6527,7 +6733,7 @@
     "price": 29.84,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords"
     ],
@@ -6538,11 +6744,13 @@
     "title": "StyleWell 28 in. - 48 in. Adjustable Telescoping 5/8 in. Single Curtain Rod Kit in Oil Rubbed Bronze",
     "brand": "StyleWell",
     "price": 14.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords",
+      "Title contains \"curtain rod\"",
+      "Description contains \"drapery rod\"",
+      "Found 3 supporting keywords",
       "Found 1 description hints"
     ],
     "alternate_types": []
@@ -6553,10 +6761,10 @@
     "brand": "UNIKOO",
     "price": 800.99,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 3.0,
-    "confidence_level": "Very Low",
+    "confidence": 5.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 description hints"
+      "Found 1 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -6565,10 +6773,12 @@
     "title": "Rod Desyne 28 in. - 48 in. Double Curtain Rod in Satin Nickel with Finial 4742-285",
     "brand": "Rod Desyne",
     "price": 63.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Curtain Rod",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
+      "Title contains \"curtain rod\"",
+      "Description contains \"drapery rod\"",
       "Found 1 supporting keywords"
     ],
     "alternate_types": []
@@ -6579,10 +6789,11 @@
     "brand": "Chicology",
     "price": 79.99,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence": 8.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Found 1 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -6592,8 +6803,8 @@
     "brand": "Gorilla",
     "price": 74.59,
     "product_type": "Tape",
-    "confidence": 45.0,
-    "confidence_level": "Low",
+    "confidence": 85.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"tape\"",
       "Found 1 supporting keywords"
@@ -6606,8 +6817,8 @@
     "brand": "Link2Home",
     "price": 72.09,
     "product_type": "Extension Cord",
-    "confidence": 50.0,
-    "confidence_level": "Medium",
+    "confidence": 90.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"extension cord\"",
       "Found 2 supporting keywords"
@@ -6615,7 +6826,7 @@
     "alternate_types": [
       [
         "Circuit Breaker",
-        40.0
+        80.0
       ]
     ]
   },
@@ -6625,8 +6836,8 @@
     "brand": "VELUX",
     "price": 371.63,
     "product_type": "Skylight",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"skylight\""
     ],
@@ -6637,9 +6848,9 @@
     "title": "Search Results for 520214 at The Home Depot",
     "brand": "",
     "price": 78.46,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Door",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"barn door\""
     ],
@@ -6651,8 +6862,8 @@
     "brand": "Saniflo",
     "price": 1510.11,
     "product_type": "Toilet",
-    "confidence": 55.0,
-    "confidence_level": "Medium",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"toilet\"",
       "Found 3 supporting keywords"
@@ -6660,11 +6871,11 @@
     "alternate_types": [
       [
         "Sink",
-        30.0
+        55.0
       ],
       [
         "Bathtub",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6687,9 +6898,11 @@
     "brand": "Lifeproof",
     "price": 49.95,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 0.0,
-    "confidence_level": "Very Low",
-    "reasons": [],
+    "confidence": 5.0,
+    "confidence_level": "No Match",
+    "reasons": [
+      "Found 1 supporting keywords"
+    ],
     "alternate_types": []
   },
   {
@@ -6712,7 +6925,7 @@
     "price": 106.54,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 13.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 2 supporting keywords",
       "Found 1 description hints"
@@ -6726,7 +6939,7 @@
     "price": 46.48,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords"
     ],
@@ -6737,9 +6950,9 @@
     "title": "BlueDEF 2.5 Gal. Diesel Exhaust Fluid (DEF) DEF002",
     "brand": "BlueDEF",
     "price": 16.3,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Cleaning Solution",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"cleaner\""
     ],
@@ -6750,9 +6963,9 @@
     "title": "IPEX 6 in. X 24 in. ABS SDR-35 Riser Pipe 9015",
     "brand": "IPEX",
     "price": 8.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drain",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"drain\""
     ],
@@ -6763,13 +6976,18 @@
     "title": "Home Decorators Collection 37 in. W x 22 in. D Engineered Solid Surface White Rectangular Single Sin",
     "brand": "Home Decorators Collection",
     "price": 319.0,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Sink",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"faucet\""
+      "Title contains \"sink\""
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Faucet",
+        50.0
+      ]
+    ]
   },
   {
     "index": 400,
@@ -6790,8 +7008,8 @@
     "brand": "Milwaukee",
     "price": 169.0,
     "product_type": "Drill",
-    "confidence": 43.0,
-    "confidence_level": "Low",
+    "confidence": 83.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"drill\"",
       "Found 1 description hints"
@@ -6803,9 +7021,9 @@
     "title": "Gardenised 24-Pack Pot Feet-Rubber Risers for Planters and Pots Prevents Stains, Rot, and Moisture D",
     "brand": "Gardenised",
     "price": 31.98,
-    "product_type": "Unknown - Unable to Classify",
+    "product_type": "Extension Cord",
     "confidence": 15.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 3 supporting keywords"
     ],
@@ -6816,16 +7034,16 @@
     "title": "DEWALT MAXFIT 1 in. #20 Torx Bit (2-Piece) DWA1TX20MF2",
     "brand": "DEWALT",
     "price": 4.89,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"impact driver\""
     ],
     "alternate_types": [
       [
         "Level",
-        25.0
+        50.0
       ]
     ]
   },
@@ -6834,11 +7052,13 @@
     "title": "3M OV/AG P100 Pro Multi-Purpose Reusable Respirator with Quick Latch, Size Medium 65023QLHA1-C",
     "brand": "3M",
     "price": 37.37,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Safety Respirator",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"respirator\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -6847,9 +7067,9 @@
     "title": "DEWALT 6 in. MAXFIT T25 Bit Tip DWA6TX25-1",
     "brand": "DEWALT",
     "price": 5.97,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 28.0,
-    "confidence_level": "Very Low",
+    "product_type": "Drill",
+    "confidence": 53.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"drill\"",
       "Found 1 description hints"
@@ -6862,8 +7082,8 @@
     "brand": "Milwaukee",
     "price": 10.97,
     "product_type": "Drill Bit",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"bit set\""
     ],
@@ -6875,19 +7095,15 @@
     "brand": "SANOXY",
     "price": 33.32,
     "product_type": "Cable",
-    "confidence": 40.0,
-    "confidence_level": "Low",
+    "confidence": 80.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"cable\""
     ],
     "alternate_types": [
       [
         "Level",
-        30.0
-      ],
-      [
-        "Light Switch",
-        25.0
+        55.0
       ]
     ]
   },
@@ -6909,13 +7125,19 @@
     "title": "HDX Disposable Earplugs (50-Pack) REP501 50PK",
     "brand": "HDX",
     "price": 12.98,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Disposable Earplugs",
+    "confidence": 100.0,
+    "confidence_level": "High",
     "reasons": [
-      "Description contains \"level\""
+      "Title contains \"earplugs\"",
+      "Found 4 supporting keywords"
     ],
-    "alternate_types": []
+    "alternate_types": [
+      [
+        "Level",
+        50.0
+      ]
+    ]
   },
   {
     "index": 410,
@@ -6950,7 +7172,7 @@
     "price": 381.1,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords"
     ],
@@ -6976,7 +7198,7 @@
     "price": 381.1,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords"
     ],
@@ -6989,7 +7211,7 @@
     "price": 2.89,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Found 1 description hints"
@@ -7002,10 +7224,10 @@
     "brand": "Vigoro",
     "price": 59.98,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence": 9.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Found 3 description hints"
     ],
     "alternate_types": []
   },
@@ -7016,7 +7238,7 @@
     "price": 79.0,
     "product_type": "Unknown - Unable to Classify",
     "confidence": 8.0,
-    "confidence_level": "Very Low",
+    "confidence_level": "No Match",
     "reasons": [
       "Found 1 supporting keywords",
       "Found 1 description hints"
@@ -7028,11 +7250,14 @@
     "title": "Milwaukee Red Disposable Earplugs (10-Pack) with 32 dB Noise Reduction Rating 48-73-3001",
     "brand": "Milwaukee",
     "price": 4.47,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Disposable Earplugs",
+    "confidence": 100,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"earplugs\"",
+      "Description contains \"ear plugs\"",
+      "Found 5 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -7042,8 +7267,8 @@
     "brand": "Everbilt",
     "price": 3.47,
     "product_type": "Door Hinge",
-    "confidence": 50.0,
-    "confidence_level": "Medium",
+    "confidence": 90.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"hinge\"",
       "Found 2 supporting keywords"
@@ -7056,8 +7281,8 @@
     "brand": "Stanley",
     "price": 7.42,
     "product_type": "Saw Blade",
-    "confidence": 30.0,
-    "confidence_level": "Low",
+    "confidence": 55.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\"",
       "Found 1 supporting keywords"
@@ -7069,9 +7294,9 @@
     "title": "Stanley 6 in. Pocket Surform Plane 21-399",
     "brand": "Stanley",
     "price": 11.18,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 25.0,
-    "confidence_level": "Very Low",
+    "product_type": "Saw Blade",
+    "confidence": 50.0,
+    "confidence_level": "Medium",
     "reasons": [
       "Description contains \"blade\""
     ],
@@ -7083,10 +7308,10 @@
     "brand": "Commercial Electric",
     "price": 42.77,
     "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "confidence": 10.0,
+    "confidence_level": "No Match",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Found 2 supporting keywords"
     ],
     "alternate_types": []
   },
@@ -7095,11 +7320,13 @@
     "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single T",
     "brand": "Watts",
     "price": 358.52,
-    "product_type": "Unknown - Unable to Classify",
-    "confidence": 5.0,
-    "confidence_level": "Very Low",
+    "product_type": "Plumbing Fitting",
+    "confidence": 93.0,
+    "confidence_level": "High",
     "reasons": [
-      "Found 1 supporting keywords"
+      "Title contains \"backflow preventer\"",
+      "Found 2 supporting keywords",
+      "Found 1 description hints"
     ],
     "alternate_types": []
   },
@@ -7109,8 +7336,8 @@
     "brand": "Everbilt",
     "price": 5.38,
     "product_type": "Spring",
-    "confidence": 55.0,
-    "confidence_level": "Medium",
+    "confidence": 95.0,
+    "confidence_level": "High",
     "reasons": [
       "Title contains \"spring\"",
       "Found 3 supporting keywords"

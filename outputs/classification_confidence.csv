@@ -1,426 +1,426 @@
 Index,Title,Brand,Product Type,Confidence,Confidence Level
-0,Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Chandelier LED Light Bu,Feit Electric,LED Light Bulb,100,High
-1,GE 20 Amp Double Pole Ground Fault Breaker with Self-Test THQL2120GFTP,GE,Circuit Breaker,88.0,High
-2,Kwikset HALO Satin Nickel Keypad WiFi Electronic Single-Cylinder Smart Lock Deadbolt featuring Smart,Kwikset,Door Lock,75.0,High
-3,LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLO,LuxHomez,Unknown - Unable to Classify,6.0,Very Low
-4,"Rheem Performance 30 Gal. Short 30,000 BTU Natural Gas Water Heater with 6-Year Warranty XG30S06EC30",Rheem,Water Heater,59.0,Medium
-5,"HALO HLBSL 6 in. Can Less Integrated LED, 900 Lumens, 5CCT, White (4-Pack) HLBSL609FS5-4PK",HALO,Recessed Light,33.0,Low
-6,Cerrowire 500 ft. 18/10 Black Solid Copper Sprinkler Wire 240-1010J,Cerrowire,Wire,53.0,Medium
-7,Empire 48 in. UltraView LED Magnetic Box Level EM95.48,Empire,Level,53.0,Medium
-8,Cerrowire 500 ft. 18/7 Black Solid Copper Sprinkler Wire 240-1007J,Cerrowire,Wire,53.0,Medium
-9,Metalux 13 in. Round 400-Watt Equivalent Integrated LED White High Bay Light HBRC2L3,Metalux,Light Switch,31.0,Low
-10,Siemens 30 Amp Double Pole Type QPF2 GFCI Circuit Breaker US2:QF230AP,Siemens,Circuit Breaker,63.0,Medium
-11,Cobra 5/16 in. x 50 ft. Slotted End Replacement Cable BC96106C,Cobra,Cable,43.0,Low
-12,Southwire 1/2 in. x 100 ft. Alflex RWA Metallic Aluminum Flexible Conduit 55082103,Southwire,Unknown - Unable to Classify,9.0,Very Low
-13,MOEN Adler Single-Handle Low Arc Kitchen Faucet in Chrome with Tool Free Install 87201,MOEN,Faucet,53.0,Medium
-14,Cerrowire 100 ft. 14 Gauge Red Solid Copper THHN Wire 112-1473CR,Cerrowire,Wire,58.0,Medium
-15,Cerrowire 25 ft. 18/2 Silver Stranded Copper Lamp Wire 251-1015AR,Cerrowire,Wire,53.0,Medium
-16,Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed Nickel LF-042-BRKK,Pfister,Unknown - Unable to Classify,28.0,Very Low
-17,Honeywell Home 1-Week Programmable Thermostat with Digital Display RTH221B,Honeywell Home,Thermostat,48.0,Low
+0,Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Chandelier LED Light Bu,Feit Electric,Wall Sconce,56.0,Medium
+1,GE 20 Amp Double Pole Ground Fault Breaker with Self-Test THQL2120GFTP,GE,Circuit Breaker,100,High
+2,Kwikset HALO Satin Nickel Keypad WiFi Electronic Single-Cylinder Smart Lock Deadbolt featuring Smart,Kwikset,Door Lock,100,High
+3,LuxHomez 24 in. W x 24 in. H Black Vanity Round Wall Mirror Aluminum Alloy Frame Bathroom Mirror LLO,LuxHomez,Unknown - Unable to Classify,8.0,No Match
+4,"Rheem Performance 30 Gal. Short 30,000 BTU Natural Gas Water Heater with 6-Year Warranty XG30S06EC30",Rheem,Water Heater,99.0,High
+5,"HALO HLBSL 6 in. Can Less Integrated LED, 900 Lumens, 5CCT, White (4-Pack) HLBSL609FS5-4PK",HALO,LED Light Bulb,63.0,Medium
+6,Cerrowire 500 ft. 18/10 Black Solid Copper Sprinkler Wire 240-1010J,Cerrowire,Wire,93.0,High
+7,Empire 48 in. UltraView LED Magnetic Box Level EM95.48,Empire,Level,93.0,High
+8,Cerrowire 500 ft. 18/7 Black Solid Copper Sprinkler Wire 240-1007J,Cerrowire,Wire,93.0,High
+9,Metalux 13 in. Round 400-Watt Equivalent Integrated LED White High Bay Light HBRC2L3,Metalux,High Bay Light,100,High
+10,Siemens 30 Amp Double Pole Type QPF2 GFCI Circuit Breaker US2:QF230AP,Siemens,Circuit Breaker,100,High
+11,Cobra 5/16 in. x 50 ft. Slotted End Replacement Cable BC96106C,Cobra,Cable,83.0,High
+12,Southwire 1/2 in. x 100 ft. Alflex RWA Metallic Aluminum Flexible Conduit 55082103,Southwire,Unknown - Unable to Classify,9.0,No Match
+13,MOEN Adler Single-Handle Low Arc Kitchen Faucet in Chrome with Tool Free Install 87201,MOEN,Faucet,93.0,High
+14,Cerrowire 100 ft. 14 Gauge Red Solid Copper THHN Wire 112-1473CR,Cerrowire,Wire,98.0,High
+15,Cerrowire 25 ft. 18/2 Silver Stranded Copper Lamp Wire 251-1015AR,Cerrowire,Wire,93.0,High
+16,Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed Nickel LF-042-BRKK,Pfister,Drain,53.0,Medium
+17,Honeywell Home 1-Week Programmable Thermostat with Digital Display RTH221B,Honeywell Home,Thermostat,88.0,High
 18,EcoSmart 60-Watt Equivalent A19 Dimmable LED Light Bulb with Selectable Color Temperature (6-Pack) 1,EcoSmart,LED Light Bulb,100,High
-19,Werner 5 ft. Aluminum Step Ladder (9 ft. Reach Height) with 225 lb. Load Capacity Type II Duty Ratin,Werner,Unknown - Unable to Classify,25.0,Very Low
-20,"Lutron Skylark Contour LED+ Dimmer Switch for LED and Incandescent Bulbs, 150-Watt/Single-Pole or 3-",Lutron,Light Switch,81.0,High
-21,GE Q-Line 40 Amp 1 in. Double Pole Circuit Breaker (THQP240) THQP240,GE,Circuit Breaker,58.0,Medium
-22,Southwire (By-The-Foot) 10/3 Gray Solid CU UF-B W/G Wire 13059199,Southwire,Wire,53.0,Medium
-23,RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK,RYOBI,Unknown - Unable to Classify,28.0,Very Low
-24,GE Q-Line 40 Amp 2 in. Double-Pole Circuit Breaker THQL2140,GE,Circuit Breaker,58.0,Medium
-25,HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit ,HALO,Recessed Light,94.0,High
-26,"Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Loa",Werner,Unknown - Unable to Classify,6.0,Very Low
-27,Square D Homeline 70 Amp 2-Pole Circuit Breaker HOM270CP,Square D,Circuit Breaker,64.0,Medium
-28,GE 150 Amp 4-Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Socket Load Center TSMR,GE,Load Center,58.0,Medium
-29,Glacier Bay 9 in. x 7/8 in. Exposed Screw Assist Bar in Chrome 20135-1401-09,Glacier Bay,Fastener,48.0,Low
-30,"Malco 18 in. Folding Tool, Folding Depths of 3/8 in. and 1 in. 18F",Malco,Unknown - Unable to Classify,5.0,Very Low
-31,"Lutron Claro 3-Gang Decorator/Rocker Wallplate, Gloss, Light Almond (1-Pack) CW-3B-LA",Lutron,Unknown - Unable to Classify,16.0,Very Low
-32,GE 200 Amp 32-Space 64-Circuit Main Breaker Indoor Load Center Contractor Kit TM3220C64K,GE,Circuit Breaker,78.0,High
-33,FastenMaster Universal Hidden Deck Fastening System – Stainless steel hidden deck screws and clips –,FastenMaster,Unknown - Unable to Classify,28.0,Very Low
-34,Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior L,Andersen,Unknown - Unable to Classify,8.0,Very Low
-35,Milwaukee 9 in. 10 TPI TORCH Nitrus Carbide Teeth Medium Metal Cutting Reciprocating Saw Blade w/Add,Milwaukee,Saw,55.0,Medium
-36,"Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T56",Leviton,Electrical Outlet,53.0,Medium
-37,GE 200 Amp 32-Space 64-Circuit Main Lug Indoor Load Center Contractor Kit TLM3220C64GK,GE,Load Center,66.0,Medium
-38,Hampton Bay 3.67 ft. Black Integrated LED Ceiling Mounted Hard Wired Linear Track Lighting Kit with ,Hampton Bay,Track Lighting,46.0,Low
-39,Hampton Bay 4 ft. Brushed Nickel Integrated LED Ceiling Mount Direct wire Track Lighting Kit with Fl,Hampton Bay,Track Lighting,51.0,Medium
-40,Hampton Bay 44 in. Black Integrated LED Linear Track Lighting Kit Mini Step 3-Light 805109,Hampton Bay,Track Lighting,51.0,Medium
-41,GE PowerMark Gold 200 Amp 10 in. Enclosed Outdoor Circuit Breaker THQMV200NRE,GE,Circuit Breaker,53.0,Medium
-42,Commercial Electric Trimless Integrated LED 4 in Round Adjustable Color Temp Canless Recessed Light ,Commercial Electric,Recessed Light,51.0,Medium
-43,Commercial Electric Trimless Integrated LED 6 in Round Adjustable Color Temp Canless Recessed Light ,Commercial Electric,Recessed Light,51.0,Medium
-44,"Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8563ENCBQH",Bell + Howell,Ceiling Fan,59.0,Medium
-45,Commercial Electric Impact Punch Down Tool with 110 Blade CE70804,Commercial Electric,Saw Blade,43.0,Low
-46,"Oregon R28F Polesaw Chain for 6 in. Bar, Fits Remington, Milwaukee and Craftsman R28F-21",Oregon,Saw,33.0,Low
-47,GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Breaker Value Kit TLM812SCUD1K,GE,Circuit Breaker,83.0,High
-48,Milwaukee 14-In-1 Multi-Bit Screwdriver 48-22-2900,Milwaukee,Screwdriver,43.0,Low
-49,Commercial Electric Cylinder Integrated LED 3 in Round  Canless Recessed Light for Kitchen Bathroom ,Commercial Electric,Recessed Light,71.0,High
-50,Swiffer Lavender Scent Dry Sweeping Pad Refills (52-Count) 003700081559,Swiffer,Cleaning Pad,50.0,Medium
-51,Swiffer 360 Multi-Surface Heavy-Duty Lavender Scent Microfiber Duster Refill (11-Count) 003077207610,Swiffer,Cleaning Pad,45.0,Low
-52,"Oregon N51 Chainsaw Chain for 12 in. Bar, Fits Husqvarna Models N51-21",Oregon,Saw,33.0,Low
-53,"HALO HLBSL 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor, Outdoor Integrated LED Recessed Li",HALO,Recessed Light,78.0,High
-54,Commercial Electric Slim Baffle Integrated LED 6 in Round Adj Color Temp Canless Recessed Light for ,Commercial Electric,Recessed Light,81.0,High
-55,HALO LCR6 6 in. Selectable CCT Round Canless Integrated LED White Recessed Light Retrofit Module Tri,HALO,Recessed Light,53.0,Medium
-56,GE 200 Amp 40-Space 80-Circuit Main Breaker Indoor Load Center Contractor Load Center and Breaker Ki,GE,Circuit Breaker,78.0,High
-57,GE PowerMark Plus 125 Amp 14-Space 24-Circuit Indoor Main Lug Value Kit Includes Select Circuit Brea,GE,Circuit Breaker,58.0,Medium
-58,GE 100 Amp 20-Space 20-Circuit Main Breaker Indoor Load Center Contractor Kit TM2010CCUBK1,GE,Circuit Breaker,78.0,High
-59,"Commercial Electric Specialty Elite 3 in. LED Trimless Canless Recessed Light, Adjustable CCT 92346",Commercial Electric,Recessed Light,46.0,Low
-60,HALO LCR4 4 in. Soft White Selectable CCT Integrated LED Recessed Light With Round Surface Mount Whi,HALO,Recessed Light,89.0,High
-61,GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circuit Breaker Panel TL41,GE,Load Center,83.0,High
-62,Lithonia Lighting Contractor Select EU2C 120/277-Volt Integrated LED White Emergency Light Fixture w,Lithonia Lighting,Unknown - Unable to Classify,16.0,Very Low
-63,GE 200 Amp 4 Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Socket Load Center TSMR,GE,Load Center,58.0,Medium
-64,GE PowerMark Plus 125 Amp 4-Space 8-Circuit Single-Phase Indoor Main Lug Circuit Breaker Panel TL412,GE,Load Center,83.0,High
-65,GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Circuit Breaker Panel TLM812FCUDP,GE,Load Center,88.0,High
-66,Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Door Handle FBE365 V C,Schlage,Door Lock,75.0,High
-67,"Lockly Secure Pro Zeno Series Matte Black Deadbolt WiFi Smart Lock, Apple Home Key, Fingerprint, Key",Lockly,Door Lock,45.0,Low
-68,GE Q-Line 30 Amp 1/2 in. Single-Pole Circuit Breaker (THQP130) THQP130,GE,Circuit Breaker,58.0,Medium
-69,GE Q-Line 50 Amp 2 in. Double-Pole Circuit Breaker THQL2150,GE,Circuit Breaker,58.0,Medium
-70,Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for ,Commercial Electric,Recessed Light,81.0,High
-71,Commercial Electric Ultra Slim Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for K,Commercial Electric,Recessed Light,76.0,High
-72,"Leviton Branch Circuit Breaker, AFCI/GFCI 1-Pole 20 Amp, 120-Volt, Thermal Magnetic LB120-DFR R12-LB",Leviton,Circuit Breaker,63.0,Medium
-73,Leviton 120-Volt/240-Volt Residential Whole House Surge Protector 51110-SRG R02-51110-SRG,Leviton,Unknown - Unable to Classify,13.0,Very Low
-74,"Leviton Branch Circuit Breaker, AFCI 1-Pole 15 Amp, 120-Volt, Thermal Magnetic LB115-AFR R11-LB115-A",Leviton,Circuit Breaker,63.0,Medium
-75,Square D Homeline 70 Amp 2-Space 4-Circuit Outdoor Main Lug Load Center(HOM24L70RBCP) HOM24L70RBCP,Square D,Load Center,61.0,Medium
-76,"Leviton 15 Amp 120/277 Volt Single Pole Antimicrobial Treated Decora Rocker Switch, White, 5-Pack MA",Leviton,Light Switch,46.0,Low
-77,"Channellock 12 in. Oil Filter/PVC Plier, Angled Head 2012",Channellock,Unknown - Unable to Classify,8.0,Very Low
-78,Husky Encased Sewer Rod 82-974-111,Husky,Unknown - Unable to Classify,9.0,Very Low
-79,GE PowerMark Plus Outdoor 70 Amp 2-Space 4-Circuit Single-Phase Main Lug Circuit Breaker Panel TL270,GE,Load Center,80.0,High
-80,Schlage Parthenon Antique Brass Single Cylinder Door Handle set with Georgian Knob F60 G PAR 609 GEO,Schlage,Door Knob,86.0,High
-81,Cobra 5/16 in. x 50 ft. Cable Drum Machine BC260,Cobra,Cable,40.0,Low
-82,"Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Incandescent Bulbs, Whi",Legrand,Wall Plate,33.0,Low
-83,Leviton 200 Amp 42-Space Indoor Load Center with Main Breaker LP420-BDR RD0-LP420-BDR,Leviton,Circuit Breaker,78.0,High
-84,"RIDGID 3 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with Filter, Locking Hose, Accessories and Pro",RIDGID,Shop Vacuum,50.0,Medium
-85,DIABLO 9 in. 8 TPI Steel Demon AMPED Carbide Reciprocating Saw Blade for Thick Metal Cutting (2-Pack,DIABLO,Saw,53.0,Medium
-86,Nite Ize GlowStreak LED Red Ball Dog Toy GSB-10-R7,Nite Ize,Unknown - Unable to Classify,8.0,Very Low
-87,Nite Ize SlapLit Neon Yellow LED Slap Wrap SLP2-33-R3,Nite Ize,Unknown - Unable to Classify,6.0,Very Low
-88,DIABLO 3/4 in. x 12 in. SDS-Plus Rebar Cutter DMAPLRC1050,DIABLO,Unknown - Unable to Classify,28.0,Very Low
-89,Husky 8 in. Standard Slip Joint Pliers 90146,Husky,Unknown - Unable to Classify,28.0,Very Low
-90,TITAN EP 60X Fine Finishing HVLP Paint Sprayer 2456369,TITAN,Unknown - Unable to Classify,28.0,Very Low
-91,Leviton 200 Amp 30-Space Indoor Load Center with Main Lugs LP322-LDR RS0-LP322-LDR,Leviton,Load Center,55.0,Medium
-92,Milwaukee SHOCKWAVE Impact Duty Drill & Drive Set (21-Piece) 48-32-5163,Milwaukee,Drill Bit,33.0,Low
-93,DIABLO 10in. x 6-Teeth HardieBlade Saw Blade for Fiber Cement D1006DH,DIABLO,Saw,83.0,High
-94,Home Decorators Collection Silky Medallion Multi 5 ft. x 7 ft. Medallion Polyester Area Rug 5285.81.,Home Decorators Collection,Unknown - Unable to Classify,10.0,Very Low
-95,Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger,Leviton,Electrical Outlet,48.0,Low
-96,"Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R0",Leviton,Unknown - Unable to Classify,25.0,Very Low
-97,Kwikset San Clemente Matte Black Single Cylinder Low Profile Door Handleset with Halifax Handle Feat,Kwikset,Door Handle,70.0,High
-98,SharkBite 1/4 in. Push-to-Connect x 3/8 in. Compression Chrome-Plated Brass Tee Adapter Stop Valve U,SharkBite,Plumbing Fitting,83.0,High
-99,Cash Acme 3/4 in. FNPT Tankless Water Heater Valves Installation Kit 25760,Cash Acme,Water Heater,40.0,Low
-100,Kwikset Pismo Round Satin Nickel Dummy Door Knob Featuring Microban Antimicrobial Technology 788PSKR,Kwikset,Door Knob,45.0,Low
-101,SharkBite 3/4 in. PEX-A Brass Expansion x 3/4 in. FIP x 18 in. L Stainless Steel Flexible Water Heat,SharkBite,Plumbing Fitting,73.0,High
-102,Glacier Bay 22 in. Undermount Rectangular Vitreous China Bathroom Sink in White 14-027-W,Glacier Bay,Sink,48.0,Low
-103,Milwaukee 9 in. 8 TPI TORCH Nitrus Carbide Teeth Metal Cutting SAWZALL Reciprocating Saw Blade w/Add,Milwaukee,Saw,58.0,Medium
-104,DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010,DIABLO,Drill,68.0,Medium
-105,CyberPower 6 ft. 4-Outlet Power Station with Surge Protector PS406UC,CyberPower,Unknown - Unable to Classify,9.0,Very Low
-106,Home Decorators Collection 36 in. - 72 in. Telescoping 1 in. Single Curtain Rod Kit in Matte Black w,Home Decorators Collection,Unknown - Unable to Classify,8.0,Very Low
-107,StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD,StyleWell,Unknown - Unable to Classify,11.0,Very Low
-108,SunTouch Floor Warming 8 ft. x 30 in. 120-Volt Radiant Floor Heating Mat (Covers 20 sq. ft.) 1200083,SunTouch Floor Warming,Unknown - Unable to Classify,25.0,Very Low
-109,Bell + Howell Swivel Power 180-Degree Swiveling Design 6-Outlets & 3 USB Port Outlet Splitters Charg,Bell + Howell,Electrical Outlet,46.0,Low
-110,Lifetime 4 ft. One Hand Adjustable Height Fold-in-Half Table Almond 80726,Lifetime,Unknown - Unable to Classify,8.0,Very Low
-111,FIRM GRIP Pro Grip X-Large Black Synthetic Leather High Performance Glove 55283-06,FIRM GRIP,Work Gloves,35.0,Low
-112,ULTRA PROGRADE ProWire Direct Wire 12 in. LED Oil-Rubbed Bronze Under Cabinet Light 64769-T1,ULTRA PROGRADE,Under Cabinet Light,51.0,Medium
-113,HDX 20 in. x 25 in. x 6 in. AprilAire and Space-Gard Replacement Pleated Air Filter (Without Frame) ,HDX,Unknown - Unable to Classify,8.0,Very Low
-114,Square D Homeline 225 Amp 40-Space 80-Circuit Indoor Main Lug Plug-On Neutral Load Center with Cover,Square D,Load Center,58.0,Medium
-115,Master Flow 4 in. x 25 ft. Insulated Flexible Duct R6 Silver Jacket F6IFD4X300,Master Flow,Unknown - Unable to Classify,28.0,Very Low
-116,Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle,Pfister,Unknown - Unable to Classify,8.0,Very Low
-117,PEAK Aluminum Railing 6 in. W Black Aluminum Deck Railing Wall Mount Bracket Kit for 42 in. high sys,PEAK Aluminum Railing,Unknown - Unable to Classify,28.0,Very Low
-118,PEAK Aluminum Railing 6 in. W Black Aluminum Deck Railing Universal Connector for 42 in. high system,PEAK Aluminum Railing,Plumbing Fitting,68.0,Medium
-119,Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel w,Home Decorators Collection,Unknown - Unable to Classify,28.0,Very Low
-120,CyberPower 15 ft. 6-Outlet Cord 1500J Surge Protector B615,CyberPower,Electrical Outlet,43.0,Low
-121,Hampton Bay Denbeck 4.5 in. W Matte Black 1-Light Sconce Clear Glass KVB1301AX-01,Hampton Bay,Wall Sconce,46.0,Low
-122,Digz Women's Medium Comfort Grip Garden Gloves 74876-014,Digz,Work Gloves,50.0,Medium
-123,Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimmer Switch with Brass,Hampton Bay,Light Switch,46.0,Low
-124,3M 3-3/4 in. x 2-5/8 in. x 1 in. 60 Grit Sanding Sponge Coarse (12-Pack) CP002-12P,3M,Unknown - Unable to Classify,28.0,Very Low
-125,3M Organic Vapor Replacement Cartridges (1-Pair) 6001P1-DC,3M,Unknown - Unable to Classify,25.0,Very Low
-126,3M ScotchBlue 0.94 in. x 60 yds. Sharp Lines Painter's Tape with Edge-Lock 2093-24NC,3M,Tape,40.0,Low
-127,Home Decorators Collection Raleigh Jute Boucle Natural 6 ft. x 9 ft. Area Rug 8959830106x9,Home Decorators Collection,Unknown - Unable to Classify,6.0,Very Low
-128,ReVent 110 CFM Ceiling/Wall Mount Easy Roomside Installation Bathroom/Bath Exhaust Fan w/ Adjustable,ReVent,Exhaust Fan,76.0,High
-129,Hampton Bay Raeburn 23 in. Steel and Marble Aged Brass Indoor Table Lamp with Black Fabric Shade HD-,Hampton Bay,Unknown - Unable to Classify,16.0,Very Low
-130,Airthings Wave Radon Battery Operated Smart Radon Detector 2951,Airthings,Unknown - Unable to Classify,5.0,Very Low
-131,Hampton Bay 120-Volt 150-Watt Black Single Circuit Linear Track Pendant or Chandelier Adapter Track ,Hampton Bay,Chandelier,46.0,Low
-132,FastenMaster Collated Cortex Hidden Fastening System for AZEK Trim - 2 inch Cortex screws and plugs ,FastenMaster,Unknown - Unable to Classify,28.0,Very Low
-133,Hampton Bay Indoor/Outdoor 12-Light 24 ft. Smart Plug-in Edison Bulb RGBW Color Changing LED String ,Hampton Bay,Light Switch,31.0,Low
-134,"Milwaukee AIR-TIP Claw Utility Nozzle, Rotating Corner Brush, Flexible Long Crevice Tool For Wet/Dry",Milwaukee,Paint Brush,40.0,Low
-135,PUR PLUS 30 Cup Dispenser - Water Filter Pitcher DS1810ZA,PUR,Unknown - Unable to Classify,25.0,Very Low
-136,PUR PLUS 11 Cup Pitcher - Water Filter Pitcher PPT110WA,PUR,Unknown - Unable to Classify,25.0,Very Low
-137,HDX Natural Cream Painters Cotton Spray Sock Hood (3-Pack) 09305-12HDX,HDX,Unknown - Unable to Classify,25.0,Very Low
-138,"Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, White T5632-BW R0",Leviton,Unknown - Unable to Classify,25.0,Very Low
-139,Empire 9 in. True Blue Professional Magnetic Torpedo Level (2-Pack) EM81.9G,Empire,Level,58.0,Medium
-140,CASTICO 32 in. W x 60 in. L x 1.125 in. H Alcove Solid Composite Stone Shower Pan Base with L/R Drai,CASTICO,Shower Pan,78.0,High
-141,ULTRA PROGRADE ProWire Direct Wire 24 in. LED Oil-Rubbed Bronze Under Cabinet Light 64771-T1,ULTRA PROGRADE,Under Cabinet Light,51.0,Medium
-142,360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA,360 Electrical,Electrical Outlet,43.0,Low
-143,360 Electrical 45-Watt Revolve 4-Outlet Surge Protector 3E0771-WHT6NA,360 Electrical,Electrical Outlet,43.0,Low
-144,"Leviton Decora 20 Amp 125-Volt Combination Duplex Outlet and USB Outlet, White T5832-BW R02-T5832-0B",Leviton,Electrical Outlet,73.0,High
-145,Defiant Smart Outdoor 4 ft. 6-Outlet Power Stake Timer with Holiday Lights Projector Powered by Hubs,Defiant,Electrical Outlet,43.0,Low
-146,EcoSmart 6 in. Integrated LED White Canless New Construction or Remodel Dimmable Recessed Light Trim,EcoSmart,Recessed Light,81.0,High
-147,"EcoSmart 5/6 in. Integrated LED Recessed Retrofit Light Trim 3000K, (4-Pack) NB01cA10FR1-309",EcoSmart,Recessed Light,89.0,High
-148,Commercial Electric 12 in. LED Linkable White Flexible Tape Under Cabinet Light Kit (4-Strip Pack) 4,Commercial Electric,Under Cabinet Light,51.0,Medium
-149,"Enbrighten 12 Bulb 24 ft. Outdoor/Indoor Black Vintage LED String Lights, Acrylic Edison Bulbs 35629",Enbrighten,Unknown - Unable to Classify,13.0,Very Low
-150,Hampton Bay Richland 1-Light Dark Bronze Mini-Pendant Design Clear Seedy Glass KSF8901AX-01/DB,Hampton Bay,Pendant Light,51.0,Medium
-151,GE Whole House Water Filtration System GXWH50M,GE,Unknown - Unable to Classify,28.0,Very Low
-152,"VELUX 2 ft. Rigid Extension Tube for TGR 010, THR 010, TSR 010, and TMR 010 Sun Tunnel Skylight ZTR ",VELUX,Skylight,40.0,Low
-153,VELUX 10 in. Acrylic Dome Sun Tunnel Skylight with Rigid Tube and Pitched High Density Flashing THR ,VELUX,Skylight,43.0,Low
-154,VELUX 22.5 in. x 22.5 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2222 0005,VELUX,Skylight,45.0,Low
-155,Glacier Bay Bratten 33 in. Drop-In 50/50 Double Bowl 18 Gauge Stainless Steel Kitchen Sink with Acce,Glacier Bay,Sink,53.0,Medium
-156,BEYOND BRIGHT 25-Watt LED Lamp Light Bulbs 6500K 3700-Lumens with Built-In Bluetooth Speaker BEBRSW-,BEYOND BRIGHT,LED Light Bulb,61.0,Medium
-157,EcoSmart 6 in. Integrated LED White Canless New Construction or Remodel Dimmable Recessed Light Trim,EcoSmart,Recessed Light,78.0,High
-158,VELUX 22-1/2 in. x 46-1/2 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2246 0005,VELUX,Skylight,45.0,Low
-159,Home Decorators Collection Kenton 4.75 in. 1-Light Vintage Bronze Industrial Wall Sconce with Cage F,Home Decorators Collection,LED Light Bulb,46.0,Low
-160,Home Decorators Collection Harmony Denim 5 ft. x 7 ft. Indoor Machine Washable Area Rug 610273,Home Decorators Collection,Unknown - Unable to Classify,6.0,Very Low
-161,Home Decorators Collection Sirrine 17.25 in. 2-Light Black Outdoor Wall Light Fixture Sconce with Cl,Home Decorators Collection,LED Light Bulb,48.0,Low
-162,VELUX 21 in. x 45-3/4 in. Fixed Deck-Mount Skylight with Laminated Low-E3 Glass FS C06 2004,VELUX,Skylight,43.0,Low
-163,"Ring Smart Lighting - Low Voltage Lighting Transformer (12-Volt x 15-Volt, 200-Watt), Black (Bridge ",Ring,Unknown - Unable to Classify,9.0,Very Low
-164,TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74,TrimMaster,Unknown - Unable to Classify,25.0,Very Low
-165,RYOBI ONE+ 18V Cordless Hybrid 3000 Lumens LED Panel Light (Tool Only) PCL631B,RYOBI,Unknown - Unable to Classify,16.0,Very Low
-166,Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR,Hampton Bay,Light Switch,46.0,Low
-167,Glacier Bay 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet V,Glacier Bay,Unknown - Unable to Classify,11.0,Very Low
-168,Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02/BN,Hampton Bay,Light Switch,46.0,Low
-169,Commercial Electric 11 in. 100-Watt Equivalent Oil-Rubbed Bronze Integrated LED Flush Mount with Fro,Commercial Electric,Flush Mount Light,48.0,Low
-170,Hampton Bay Pratford 2.6 ft. 4-Light Brushed Nickel Integrated LED Fixed Track Lighting Kit 23055-00,Hampton Bay,Track Lighting,46.0,Low
-171,Hampton Bay Lamar Park 50 Lumen Low Voltage Black Integrated LED Waterproof Outdoor Path Lights with,Hampton Bay,Unknown - Unable to Classify,25.0,Very Low
-172,CASTICO 36 in. W x 60 in. L x 1.125 in. H Alcove Solid Composite Stone Shower Pan Base with L/R Drai,CASTICO,Shower Pan,78.0,High
-173,Milwaukee AIR-TIP 1-1/4 in. - 2-1/2 in. Pivoting Extension Wand Wet/Dry Shop Vacuum Attachment (1-Pi,Milwaukee,Shop Vacuum,65.0,Medium
-174,KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed Nickel (Valve Include,KOHLER,Unknown - Unable to Classify,28.0,Very Low
-175,Feit Electric OneSync Landscape 40 Lumens Bronze Solar Integrated LED Outdoor Path Light with Dusk-T,Feit Electric,Unknown - Unable to Classify,21.0,Very Low
-176,Home Decorators Collection Closmere 5 in. 1-Light Brushed Gold Mid-Century Modern Wall Sconce with C,Home Decorators Collection,LED Light Bulb,46.0,Low
-177,Hampton Bay Darlington 4.5 in. 1-Light Brushed Nickel Transitional Wall Sconce with Frosted Opal Gla,Hampton Bay,Wall Sconce,46.0,Low
-178,Hampton Bay Byrson 6 in. 1-Light Matte Black Wall Sconce Light with Plug-In/Hardwire White Fabric Sh,Hampton Bay,Wall Sconce,71.0,High
-179,Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wall Sconce Light Fixtu,Home Decorators Collection,LED Light Bulb,41.0,Low
-180,Hampton Bay Upton Brushed Nickel LED Sconce RS513859,Hampton Bay,LED Light Bulb,32.0,Low
-181,Hampton Bay Obsidian 8.5 in. 1-Light Brushed Nickel Wall Sconce with Frosted Glass Shade RS228470,Hampton Bay,Wall Sconce,46.0,Low
-182,Home Decorators Collection Downing 1-Light Polished Nickel/Corona Bronze Wall Sconce 28011,Home Decorators Collection,Wall Sconce,43.0,Low
-183,Glacier Bay Stancliff 25 in. Single Sink Elm Ember Bath Vanity with White Cultured Marble Top (Assem,Glacier Bay,Vanity Top,78.0,High
-184,Glacier Bay 33 in. Drop-In 60/40 Double Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Fa,Glacier Bay,Faucet,43.0,Low
-185,Feit Electric OneSync Landscape 40 Lumens Bronze Solar Integrated LED Outdoor Path Light w/Dusk-To-D,Feit Electric,Unknown - Unable to Classify,21.0,Very Low
-186,Commercial Electric 11 in. White Integrated LED Dimmable Flush Mount Puff with Adjustable CCT and RG,Commercial Electric,Flush Mount Light,51.0,Medium
-187,Hampton Bay 540 Lumen Low Voltage Millennium Black Adjustable Light Color Integrated LED Outdoor Lan,Hampton Bay,Light Switch,31.0,Low
-188,Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Spotlight with Smart App Control (1-Pac,Hampton Bay,Unknown - Unable to Classify,19.0,Very Low
-189,Commercial Electric 36 in. LED White Direct Wire Under Cabinet Light 57005N-WH,Commercial Electric,Under Cabinet Light,51.0,Medium
-190,ULTRA PROGRADE ProWire Direct Wire 18 in. LED Oil-Rubbed Bronze Under Cabinet Light 64770-T1,ULTRA PROGRADE,Under Cabinet Light,51.0,Medium
-191,Home Decorators Collection Harmony Denim 2 ft. x 7 ft. Indoor Machine Washable Runner Rug 607228,Home Decorators Collection,Unknown - Unable to Classify,6.0,Very Low
-192,Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Landscape Spotlight with Smart App Cont,Hampton Bay,Unknown - Unable to Classify,19.0,Very Low
-193,DIABLO 2-3/4 in. x 5 in. 100-Grit SandNET Reusable Sanding Sheets DND234100S10N,DIABLO,Unknown - Unable to Classify,6.0,Very Low
-194,Husky Folding Lock-Back Utility Knife (3-Pack) 99732,Husky,Unknown - Unable to Classify,25.0,Very Low
-195,Hampton Bay 75-Watt Equivalent Low Voltage Black LED Outdoor Landscape Flood Light Powered by Hubspa,Hampton Bay,Unknown - Unable to Classify,14.0,Very Low
-196,"HALO H99 4 in. Steel Recessed Lighting Housing for Remodel Ceiling, No Insulation Contact, Air-Tite ",HALO,Recessed Light,71.0,High
-197,DIABLO 2-3/4 in. x 5 in. 150-Grit SandNET Reusable Sanding Sheets DND234150S10N,DIABLO,Unknown - Unable to Classify,6.0,Very Low
-198,Wagner Control Pro 130 High Efficiency Airless Power Tank Paint and Stain Sprayer 580678,Wagner,Unknown - Unable to Classify,6.0,Very Low
-199,Home Decorators Collection 37 in. W x 22 in D Quartz white Rectangular Single Sink Vanity Top in Sno,Home Decorators Collection,Sink,48.0,Low
-200,Home Decorators Collection 37 in. W x 22 in. D Cultured Marble White Rectangular Single Sink Vanity ,Home Decorators Collection,Unknown - Unable to Classify,28.0,Very Low
-201,PRIVATE BRAND UNBRANDED Safety Glasses Indoor and Outdoor mirror Hard Coat EP6100 EP6100 Indoor&Outd,PRIVATE BRAND UNBRANDED,Unknown - Unable to Classify,28.0,Very Low
-202,FREEZE MISER Outdoor Faucet Freeze Protector 2 Pack 6000-02,FREEZE MISER,Faucet,43.0,Low
-203,"Hampton Bay 80 CFM Ceiling Mount Room Side Installation Heavy-Duty Bathroom Exhaust Fan, ENERGY STAR",Hampton Bay,Exhaust Fan,51.0,Medium
-204,DIABLO 6-1/2in. x 24-Teeth Framing Circular Saw Blade for Wood (2-Pack) D0624RVP,DIABLO,Saw,58.0,Medium
-205,DIABLO 4-1/2 in. Turbo Rim Masonry Diamond Cut Off Blade Value Pack (2-Pack) DDD045TUR1VP,DIABLO,Saw Blade,43.0,Low
-206,TrafficMaster Quince Navy/Blue 5 x 7 Medallion Vinyl Area Rug 8214.42.51HD,TrafficMaster,Unknown - Unable to Classify,5.0,Very Low
-207,Home Decorators Collection Harmony Gray 5 ft. x 7 ft. Abstract Indoor Machine Washable Area Rug 6103,Home Decorators Collection,Unknown - Unable to Classify,6.0,Very Low
-208,DIABLO SPEEDemon High Speed Steel Spade Bit Set with Pouch (10-Piece) DSP2940-S10,DIABLO,Drill Bit,46.0,Low
-209,Delta Lyndall 24 in. Wall Mount Towel Bar Bath Hardware Accessory in Polished Chrome LDL24-PC,Delta,Unknown - Unable to Classify,8.0,Very Low
-210,3M 13.8 oz. Super 77 Multipurpose Spray Adhesive 77-DSC,3M,Adhesive,73.0,High
-211,Everbilt Electric Water Heater Installation Kit EBWCB-07-18EKIT,Everbilt,Water Heater,54.0,Medium
-212,SharkBite Max 3/4 in. Push-to-Connect x 3/4 in. FIP x 18 in. Braided Stainless Steel Water Heater Co,SharkBite,Plumbing Fitting,48.0,Low
-213,Philips Advance 40-Watt (F40T12) 1 or 2 Lamp 4 ft. T12 120V Rapid Start High Frequency Electronic Re,Philips Advance,Unknown - Unable to Classify,11.0,Very Low
-214,KOHLER Setra Single-Handle Semi-Professional Kitchen Sink Faucet with Soap Dispenser in Matte Black ,KOHLER,Faucet,81.0,High
-215,Delta Crestfield Toilet Paper Holder in Brushed Nickel 138035,Delta,Toilet,43.0,Low
-216,Delta Crestfield 24 in. Wall Mounted Towel Bar in Brushed Nickel 138031,Delta,Unknown - Unable to Classify,8.0,Very Low
-217,KOHLER Kennon 33 in. Drop-In 1-Hole Single Bowl Neoroc Granite Composite Kitchen Sink in Matte Black,KOHLER,Sink,53.0,Medium
-218,Feit Electric 6 ft. Plug-In White Strip Light Cuttable Linkable Integrated LED Color Changing CCT On,Feit Electric,Under Cabinet Light,56.0,Medium
-219,Scotch 3/4 in. x 30 ft. Linerless Rubber Splicing Tape 41717-BX-10,Scotch,Tape,40.0,Low
-220,Delta Greenwich II Wall Mount Round Closed Towel Ring Bath Hardware Accessory in Brushed Nickel GRE4,Delta,Unknown - Unable to Classify,8.0,Very Low
-221,Delta Crestfield 18 in. Towel Bar in Brushed Nickel 138029,Delta,Unknown - Unable to Classify,8.0,Very Low
-222,Glacier Bay Builders 2-Handle Deck-Mount Roman Tub Faucet in Brushed Nickel 461-3004,Glacier Bay,Faucet,51.0,Medium
-223,DIABLO Speed Demon High Speed Steel Spade Bit Set With Pouch (16-Piece) DSP2980-S16P,DIABLO,Drill Bit,46.0,Low
-224,Delta Eldridge Single-Handle Pull Down Sprayer Kitchen Faucet with ShieldSpray Technology in Polishe,Delta,Faucet,48.0,Low
-225,StyleWell Beckett Charcoal 6 ft. x 9 ft. Modern Geometric Living Room/Bedroom/Dining Room Area Rug G,StyleWell,Unknown - Unable to Classify,10.0,Very Low
-226,Home Decorators Collection Fog Sage 5 ft. 3 in. x 7 ft. Indoor Area Rug 374100,Home Decorators Collection,Unknown - Unable to Classify,6.0,Very Low
-227,Rubbermaid Roughneck 32 Gal. Vented Black Round Trash Can with Lid 2149500,Rubbermaid,Unknown - Unable to Classify,8.0,Very Low
-228,Milwaukee SHOCKWAVE Impact Duty 1 in. Square #2 Alloy Steel Insert Bit (10-Pack) 48-32-5008,Milwaukee,Unknown - Unable to Classify,28.0,Very Low
-229,DEWALT MAXFIT ULTRA 3-1./2 in. Phillips 3 Steel Screwdriving Bit DWAF3PH3-1H,DEWALT,Unknown - Unable to Classify,6.0,Very Low
-230,DEWALT 3.5 in. MAXFIT SQ2 Bit Tip DWA3SQ2-1,DEWALT,Drill,31.0,Low
-231,DEWALT MAXFIT ULTRA 1 in. T25 Steel Screwdriving Bits (2-Pack) DWAF1TX25-2H,DEWALT,Unknown - Unable to Classify,8.0,Very Low
-232,DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6,DEWALT,Plumbing Fitting,40.0,Low
-233,Delta Greenwich II 18 in. Wall Mount Towel Bar Bath Hardware Accessory in Brushed Nickel GRE18-BN,Delta,Unknown - Unable to Classify,8.0,Very Low
-234,Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 ,Coolaroo,Unknown - Unable to Classify,28.0,Very Low
-235,Coolaroo Brown Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 96 in. W ,Coolaroo,Unknown - Unable to Classify,28.0,Very Low
-236,Hampton Bay Commercial Wall-Mount Hose Reel 709,Hampton Bay,Unknown - Unable to Classify,14.0,Very Low
-237,Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 72 in. ,Coolaroo,Unknown - Unable to Classify,28.0,Very Low
-238,Klein Tools Digital Dual Range Non Contact Voltage Tester with LED Flashlight 12-1000V AC NCVT-3PR,Klein Tools,Voltage Tester,73.0,High
-239,Home Decorators Collection 37 in. W x 22 in. D Engineered Stone Composite White Rectangular Single S,Home Decorators Collection,Unknown - Unable to Classify,28.0,Very Low
-240,MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Included) 82760BL,MOEN,Unknown - Unable to Classify,28.0,Very Low
-241,DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6,DEWALT,Plumbing Fitting,40.0,Low
-242,DEWALT MAXFIT 2 in. #25 Torx Bit with Small Bulk Storage (15-Piece) DWA2TX25MF15,DEWALT,Unknown - Unable to Classify,28.0,Very Low
-243,DEWALT MAXFIT ULTRA 2 in. Phillips 3 Steel Screwdriving Bits (2-Pack) DWAF2PH3-2H,DEWALT,Unknown - Unable to Classify,6.0,Very Low
-244,Husky 8 in. Classic Anvil Pruner Husky-16,Husky,Unknown - Unable to Classify,25.0,Very Low
-245,Oatey Designline 4 in. x 4 in. Stainless Steel Square Shower Drain with Square Pattern Drain Cover D,Oatey,Drain,43.0,Low
-246,RYOBI ONE+ 18V Cordless High Power Inflator P738,RYOBI,Unknown - Unable to Classify,28.0,Very Low
-247,Oatey Designline 6 in. x 6 in. Stainless Steel Square Shower Drain with Square Pattern Drain Cover D,Oatey,Drain,46.0,Low
-248,Cerrowire 100 ft. 14 Gauge Green Solid Copper THHN Wire 112-1475CR,Cerrowire,Wire,61.0,Medium
-249,Coast G450 1630 Lumens Alkaline LED Handheld Flashlight 21864,Coast,Light Switch,31.0,Low
-250,DEWALT MAXFIT Impact Rated 2 in. #2 Philips Steel Screwdriver Drill Bit (2-Piece) DWA2PH2MF2,DEWALT,Drill,68.0,Medium
-251,DEWALT MAXFIT 1 in. #2 Philips Bit (2-Piece) DWA1PH2MF2,DEWALT,Unknown - Unable to Classify,28.0,Very Low
-252,Leviton 100 Amp 20-Space Indoor Load Center with Main Breaker LP210-BDR RD0-LP210-BDR,Leviton,Circuit Breaker,78.0,High
-253,Hampton Bay Bryson 1-Light Matte Black Wall Sconce 65740,Hampton Bay,Wall Sconce,71.0,High
-254,Bondo 8 sq. ft. Fiberglass Cloth 20128,Bondo,Unknown - Unable to Classify,9.0,Very Low
-255,Philips 40-Watt Equivalent G16.5 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) Wi,Philips,LED Light Bulb,64.0,Medium
-256,HDX 36 in. Flat Bungee with Carabiner 56153,HDX,Spring,30.0,Low
-257,DEWALT MAXFIT 2 in. #1 Square Bit (2-Piece) DWA2SQ1MF2,DEWALT,Unknown - Unable to Classify,28.0,Very Low
-258,DEWALT MAXFIT ULTRA 2 in. Phillips 1 Steel Screwdriving Bits (2-Pack) DWAF2PH1-2H,DEWALT,Unknown - Unable to Classify,6.0,Very Low
-259,Liberty 10-Pack Top Ring 1-1/4 in. (31 mm) Classic Matte Black Round Cabinet Knobs P40052C-FB-SP,Liberty,Unknown - Unable to Classify,25.0,Very Low
-260,Home Decorators Collection Westcourt 30 in. W x 22 in. D x 34 in. H Bath Vanity Cabinet without Top ,Home Decorators Collection,Unknown - Unable to Classify,9.0,Very Low
-261,Delta Foundations 2-Piece 1.1 GPF/1.6 GPF Dual Flush Elongated Toilet in White C43913D-WH,Delta,Toilet,63.0,Medium
-262,Delta Foundations 2-Piece 1.1 GPF/1.6 GPF Dual Flush Round Toilet in White C41913D-WH,Delta,Toilet,63.0,Medium
-263,Commercial Electric Box on Top Integrated LED 6 in Round Canless Recessed Light for Kitchen Bathroom,Commercial Electric,Recessed Light,51.0,Medium
-264,Delta Foundations 2-Piece 1.28 GPF Single Flush Elongated Toilet in White C43913-WH,Delta,Toilet,63.0,Medium
-265,Commercial Electric 8 in. Multi-Purpose Wiring Tool CE190206,Commercial Electric,Unknown - Unable to Classify,28.0,Very Low
-266,Philips 40-Watt Equivalent A15 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) WiZ ,Philips,LED Light Bulb,64.0,Medium
-267,Hampton Bay Cairo 160 Lumen Low Voltage Square Transitional Black Integrated LED Waterproof Outdoor ,Hampton Bay,Unknown - Unable to Classify,28.0,Very Low
-268,Home Decorators Collection Palermo Grove 10 in. 1-Light Gilded Iron Farmhouse Kitchen Island Mini-Pe,Home Decorators Collection,Pendant Light,51.0,Medium
-269,Philips 60-Watt Equivalent G25 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) with,Philips,LED Light Bulb,64.0,Medium
-270,Commercial Electric Box on Top Integrated LED 4 in Round Canless Recessed Light for Kitchen Bathroom,Commercial Electric,Recessed Light,51.0,Medium
-271,Vigoro Torenia 64 in. Black Steel Shepherd Hook 87217,Vigoro,Unknown - Unable to Classify,8.0,Very Low
-272,Home Decorators Collection 49 in. W x 22 in. D Ceramic White Rectangular Single Sink Vanity Top in W,Home Decorators Collection,Unknown - Unable to Classify,28.0,Very Low
-273,TrafficMaster Walnut Ember Java 4 MIL x 6 in. W x 36 in. L Peel and Stick Water Resistant Luxury Vin,TrafficMaster,Unknown - Unable to Classify,6.0,Very Low
-274,DEWALT Original Equipment 3-In-1 Blade for 21 in. Battery Powered Walk-Behind Mowers DWO1DT233,DEWALT,Saw Blade,43.0,Low
-275,Hampton Bay Halophane 5-Light Brushed Nickel Chandelier with Frosted Ribbed Glass Shades WB0390/SC-1,Hampton Bay,Chandelier,57.0,Medium
-276,Commercial Electric 7 in. Wire Cutting Pliers CE180837,Commercial Electric,Wire,48.0,Low
-277,Unbranded Brushed Nickel Metal Oblong Pendant Shade with 2-1/4 in. Fitter 801255,Unbranded,Pendant Light,36.0,Low
-278,Commercial Electric Box on Top Integrated LED 6 in Round Canless Recessed Light for Kitchen Bathroom,Commercial Electric,Recessed Light,51.0,Medium
-279,"Scotch 3/4 in x 1.5ft White Indoor Fasteners, 1 Set of Strips RF4710",Scotch,Unknown - Unable to Classify,10.0,Very Low
-280,Glacier Bay Round Front Toilet Seat in Oak Veneer TSVRD001-HD,Glacier Bay,Toilet,53.0,Medium
-281,EcoSmart 6.5 ft. RGBWIC Dynamic Color Changing Dimmable Linkable Plug-In LED Neon Flex Strip Light w,EcoSmart,Unknown - Unable to Classify,16.0,Very Low
-282,FIRM GRIP Medium Flex Cuff Outdoor and Work Gloves (2-Pack) 43126-20,FIRM GRIP,Work Gloves,45.0,Low
-283,Commercial Electric 4-Piece Nut Driver CE180651,Commercial Electric,Unknown - Unable to Classify,8.0,Very Low
-284,"Werner 8 ft. - 10 ft., 22.5 in. x 54 in. Wood Attic Ladder with 250 lb. Maximum Load Capacity WU2210",Werner,Unknown - Unable to Classify,6.0,Very Low
-285,Delta Foundations 2-Piece 1.28 GPF Single Flush Round Toilet in White C41913-WH,Delta,Toilet,63.0,Medium
-286,Milwaukee X-Large Performance Work Gloves 48-22-8723,Milwaukee,Work Gloves,40.0,Low
-287,Hampton Bay Wireless Battery Operated Tabletop Doorbell Kit with LED Strobe Light and Wireless Push ,Hampton Bay,Unknown - Unable to Classify,11.0,Very Low
-288,Concord Global Trading Retro Gray 3 ft. x 4 ft. Contemporary Area Rug 46623,Concord Global Trading,Unknown - Unable to Classify,6.0,Very Low
-289,"Gorilla Ladders 19 ft. Reach MPXT Aluminum Multi-Position Ladder with Project Top, 375 lbs. Load Cap",Gorilla Ladders,Unknown - Unable to Classify,6.0,Very Low
-290,Frost King 3/8 in. x 7/8 in. x 17 ft. Tan Vinyl Clad Foam Weatherstrip with Flange 1700/17,Frost King,Unknown - Unable to Classify,8.0,Very Low
-291,MOEN Haelyn Single-Handle Pull-Down Sprayer Kitchen Faucet with Reflex and Power Boost in Spot Resis,MOEN,Faucet,48.0,Low
-292,Philips 28W Equivalent 46 in. High Efficiency Linear T5 Type A InstantFit Cool White LED Tube Light ,Philips,LED Light Bulb,71.0,High
-293,"Commercial Electric 15 ft. CAT5e UTP Ethernet Cable, Yellow 575698-15",Commercial Electric,Cable,43.0,Low
-294,Square D Homeline 50 Amp 2-Space 4-Circuit Spa Panel Main Lug Load Center HOME250SPA,Square D,Load Center,58.0,Medium
-295,Everbilt Twist and Close 1-1/2 in. Schedule 40 White PVC Pipe Bath Waste and Overflow Drain in Chrom,Everbilt,Drain,43.0,Low
-296,Kidde Residential and Kitchen 1-A:10-B:C Class ABC and Class BC 5.5 lbs. Fire Extinguisher (2-Pack) ,Kidde,Unknown - Unable to Classify,28.0,Very Low
-297,Commercial Electric Ultra Slim Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for K,Commercial Electric,Recessed Light,81.0,High
-298,BEYOND BRIGHT 20-Watt 72 LED Lamp Lights 6500K Garage Ultra-Bright BEBRBLZ-PD32,BEYOND BRIGHT,LED Light Bulb,46.0,Low
-299,Commercial Electric White 1-Gang Cable Pass-Through Plastic Wall Plate TV Multimedia Recessed Box 50,Commercial Electric,Wall Plate,73.0,High
-300,Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for ,Commercial Electric,Recessed Light,86.0,High
-301,"Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",Commercial Electric,Unknown - Unable to Classify,8.0,Very Low
-302,Milwaukee Medium Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8901,Milwaukee,Work Gloves,55.0,Medium
-303,Milwaukee X-Large Demolition Gloves 48-22-8733,Milwaukee,Work Gloves,70.0,High
-304,Milwaukee Large Demolition Gloves 48-22-8732,Milwaukee,Work Gloves,70.0,High
-305,Anvil Replacement Blade THD-blade-set,Anvil,Saw Blade,48.0,Low
-306,Everbilt 4 in. Gray Rubber Like TPR and Steel Swivel Plate Caster with 250 lb. Load Rating 4033445EB,Everbilt,Unknown - Unable to Classify,10.0,Very Low
-307,VELCRO ALFA-LOK 1 in. x 1 in. Squares in Black (16 Sets per Pack) VEL-30180-USA,VELCRO,Unknown - Unable to Classify,25.0,Very Low
-308,VELCRO 24 in. x 3/4 in. Sticky Back for Fabrics Tape Black VEL-91878-USA,VELCRO,Tape,40.0,Low
-309,VELCRO ALFA-LOK 1 in. x 1 in. Squares in Black (6 Sets per Pack) VEL-30177-USA,VELCRO,Unknown - Unable to Classify,25.0,Very Low
-310,VELCRO 5 ft. x 3/4 in. Sticky Back Tape 90087,VELCRO,Tape,45.0,Low
-311,Milwaukee Medium Demolition Gloves 48-22-8731,Milwaukee,Work Gloves,70.0,High
-312,"Broan-NuTone Roomside Series 80 CFM Ceiling Bathroom Exhaust Fan with CleanCover, ENERGY STAR AERN80",Broan-NuTone,Exhaust Fan,78.0,High
-313,ReVent 80 CFM Ceiling/Wall Mount Quiet Easy Roomside Installation Bathroom/Bath Exhaust Fan with Mod,ReVent,Exhaust Fan,73.0,High
-314,Broan-NuTone 50 CFM Ceiling Bathroom Exhaust Fan with Incandescent Light 763N,Broan-NuTone,Exhaust Fan,78.0,High
-315,Glacier Bay Dolancourt Tight Radius 33 in. Drop-In 50/50 Double Bowl 18 Gauge Stainless Steel Kitche,Glacier Bay,Unknown - Unable to Classify,8.0,Very Low
-316,ReVent 110 CFM Ceiling/Wall Mount Quiet Easy Roomside Installation Bathroom/Bath Exhaust Fan with Hu,ReVent,Exhaust Fan,76.0,High
-317,KOHLER Cimarron Toilet Trip Lever in Chrome GP1034693-CP,KOHLER,Toilet,43.0,Low
-318,Glacier Bay Dolancourt Tight Radius 25 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink,Glacier Bay,Drain,33.0,Low
-319,Commercial Electric Outlet Tester OT-112,Commercial Electric,Electrical Outlet,43.0,Low
-320,Andersen 36 in. x 80 in. LuminAire Sandtone for Single Entry Door 32 in.-36 in. Universal Handed Alu,Andersen,Unknown - Unable to Classify,8.0,Very Low
-321,"Broan-NuTone QT Series 130 CFM Ceiling Bathroom Exhaust Fan with LED Light and Night Light, ENERGY S",Broan-NuTone,Exhaust Fan,53.0,Medium
-322,Milwaukee X-Large Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8903,Milwaukee,Work Gloves,55.0,Medium
-323,PRIVATE BRAND UNBRANDED 12 in. 2-Light White Frosted Semi-Flush Mount HM-21022401,PRIVATE BRAND UNBRANDED,Flush Mount Light,46.0,Low
-324,Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2,Lithonia Lighting,Wire,33.0,Low
-325,"Metalux 2 ft. x 2 ft. 51-Watt Equivalent Integrated LED White Center Lens Troffer, 4000K Bright Whit",Metalux,LED Light Bulb,41.0,Low
-326,Commercial Electric 1-Pack 2 ft. x 4 ft. 128-Watt Equivalent Integrated LED White Prismatic Lens Com,Commercial Electric,LED Light Bulb,41.0,Low
-327,CASAINC 1-Spray Pattern with 1.8 GPM 10 in. with 1.8 GPM Wall Mount Square Fixed Shower Head in Brus,CASAINC,Showerhead,88.0,High
-328,Husky 12 in. Groove Joint Pliers 48065,Husky,Unknown - Unable to Classify,11.0,Very Low
-329,Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18G Stainless Steel Workstation Kitch,Glacier Bay,Faucet,78.0,High
-330,"Metalux 2 ft. x 4 ft. 64-Watt Equivalent Integrated LED White Center Lens Troffer, 4000K Bright Whit",Metalux,LED Light Bulb,41.0,Low
-331,Speakman 3-Spray Patterns with 2.5 GPM 2.75 in. Wall Mount Fixed Showerhead in Matte Black SR-2252-M,Speakman,Showerhead,88.0,High
-332,Andersen 36in.x 80in. LuminAire Charcoal Gray for Single Entry Door 32in.-36in. Universal Handed Alu,Andersen,Unknown - Unable to Classify,8.0,Very Low
-333,KOHLER Capilano 18 in. Towel Bar in Matte Black K-R26682-BL,KOHLER,Unknown - Unable to Classify,6.0,Very Low
-334,Andersen 36 in. x 80 in. LuminAire Bronze for Single Entry Door 32 in.-36 in. Universal Handed Alumi,Andersen,Unknown - Unable to Classify,8.0,Very Low
-335,Grip-Rite 2-3/8 in. x 0.113 in. 30° Paper Collated Exterior Galvanized Offset Round Head Ring Shank ,Grip-Rite,Unknown - Unable to Classify,25.0,Very Low
-336,Husky 25 ft. 12/3 Lighted Extension Cord HW12325,Husky,Extension Cord,53.0,Medium
-337,Anvil 1-1/4 in. Steel Corner Bead Tool with 24 oz. Rubber Mallet 82092,Anvil,Unknown - Unable to Classify,8.0,Very Low
-338,TrafficMaster All Seasons Tulip Scroll Granite 24 in. x 39 in. Door Mat 60787172924x39,TrafficMaster,Unknown - Unable to Classify,6.0,Very Low
-339,Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink,Glacier Bay,Drain,33.0,Low
-340,Cub Cadet Original Equipment 42 in. Mulching Kit with Blades for Lawn Tractors and Zero Turn Mowers ,Cub Cadet,Unknown - Unable to Classify,25.0,Very Low
-341,Husky Folding Lock-Back Utility Knife 00000,Husky,Unknown - Unable to Classify,28.0,Very Low
-342,DIABLO 8-1/2in. x 60-Tooth Fine Finish Circular Saw Blade for Wood D0860S,DIABLO,Saw,73.0,High
-343,Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Glass Chandelier LED Li,Feit Electric,LED Light Bulb,100,High
-344,Wright Products 2-3/4 in. Black Self-Closing Hinge Set (1-Pair) V221BL,Wright Products,Door Hinge,40.0,Low
-345,"Wright Products Villa Pull Handle for Screen and Storm Doors, White VIL333WH",Wright Products,Unknown - Unable to Classify,6.0,Very Low
-346,Hampton Bay Melton 1-Light Polished Nickel Transitional Pendant with Clear Glass Shade and Silver Co,Hampton Bay,Pendant Light,54.0,Medium
-347,Home Decorators Collection VICINO 12.61 in. W x 5.71 in. H 2-Light Brushed Nickel Integrated LED Bat,Home Decorators Collection,Wall Sconce,38.0,Low
-348,Hampton Bay Hensley 4.75 in. W x 11 in. H 1-Light Satin Nickel Mini Pendant with Metal Cylinder Shad,Hampton Bay,Pendant Light,84.0,High
-349,Hampton Bay Creekford 3-Light Brushed Nickel Chandelier with Frosted Glass Shades HON8113A,Hampton Bay,Chandelier,71.0,High
-350,Commercial Electric Creekford 3-Light Brushed Nickel Pendant with Frosted Glass Shade HON8913A,Commercial Electric,Pendant Light,76.0,High
-351,Hampton Bay Creekford 5-Light Brushed Nickel Chandelier with Frosted Glass Shades HON8115A,Hampton Bay,Chandelier,71.0,High
-352,Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb I,Home Decorators Collection,Unknown - Unable to Classify,28.0,Very Low
-353,Wright Products Brookfield Surface Mount Latch in Satin Nickel VBR225SN,Wright Products,Unknown - Unable to Classify,25.0,Very Low
-354,MARSHALLTOWN 18 in. x 4 in. Finishing Trowel - Curved Durasoft Handle MXS81D-HD,MARSHALLTOWN,Unknown - Unable to Classify,25.0,Very Low
-355,Husky 800-Lumen LED Utility Lights 2-Modes with Magnetic Handle and Batteries (2-Pack) HSKY8002PKUL,Husky,Unknown - Unable to Classify,5.0,Very Low
-356,SharkBite 3/4 in. Scale Prevention Water Filtration System SBHF10,SharkBite,Unknown - Unable to Classify,25.0,Very Low
-357,Hampton Bay 2.6 ft. 4-Lights Black Integrated LED Fixed Track Lighting Kit 23055-003,Hampton Bay,Track Lighting,40.0,Low
+19,Werner 5 ft. Aluminum Step Ladder (9 ft. Reach Height) with 225 lb. Load Capacity Type II Duty Ratin,Werner,Ladder,95.0,High
+20,"Lutron Skylark Contour LED+ Dimmer Switch for LED and Incandescent Bulbs, 150-Watt/Single-Pole or 3-",Lutron,LED Light Bulb,69.0,Medium
+21,GE Q-Line 40 Amp 1 in. Double Pole Circuit Breaker (THQP240) THQP240,GE,Circuit Breaker,98.0,High
+22,Southwire (By-The-Foot) 10/3 Gray Solid CU UF-B W/G Wire 13059199,Southwire,Wire,93.0,High
+23,RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK,RYOBI,Tool Kit,89.0,High
+24,GE Q-Line 40 Amp 2 in. Double-Pole Circuit Breaker THQL2140,GE,Circuit Breaker,98.0,High
+25,HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit ,HALO,Recessed Light,100,High
+26,"Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Loa",Werner,Ladder,100,High
+27,Square D Homeline 70 Amp 2-Pole Circuit Breaker HOM270CP,Square D,Circuit Breaker,100,High
+28,GE 150 Amp 4-Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Socket Load Center TSMR,GE,Load Center,98.0,High
+29,Glacier Bay 9 in. x 7/8 in. Exposed Screw Assist Bar in Chrome 20135-1401-09,Glacier Bay,Fastener,88.0,High
+30,"Malco 18 in. Folding Tool, Folding Depths of 3/8 in. and 1 in. 18F",Malco,Metal Folding Tool,80.0,High
+31,"Lutron Claro 3-Gang Decorator/Rocker Wallplate, Gloss, Light Almond (1-Pack) CW-3B-LA",Lutron,Light Switch,16.0,No Match
+32,GE 200 Amp 32-Space 64-Circuit Main Breaker Indoor Load Center Contractor Kit TM3220C64K,GE,Circuit Breaker,100,High
+33,FastenMaster Universal Hidden Deck Fastening System – Stainless steel hidden deck screws and clips –,FastenMaster,Drill Bit,53.0,Medium
+34,Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior L,Andersen,Window,100,High
+35,Milwaukee 9 in. 10 TPI TORCH Nitrus Carbide Teeth Medium Metal Cutting Reciprocating Saw Blade w/Add,Milwaukee,Saw,95.0,High
+36,"Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T56",Leviton,Electrical Outlet,100,High
+37,GE 200 Amp 32-Space 64-Circuit Main Lug Indoor Load Center Contractor Kit TLM3220C64GK,GE,Load Center,100,High
+38,Hampton Bay 3.67 ft. Black Integrated LED Ceiling Mounted Hard Wired Linear Track Lighting Kit with ,Hampton Bay,Track Lighting,86.0,High
+39,Hampton Bay 4 ft. Brushed Nickel Integrated LED Ceiling Mount Direct wire Track Lighting Kit with Fl,Hampton Bay,Track Lighting,91.0,High
+40,Hampton Bay 44 in. Black Integrated LED Linear Track Lighting Kit Mini Step 3-Light 805109,Hampton Bay,Track Lighting,91.0,High
+41,GE PowerMark Gold 200 Amp 10 in. Enclosed Outdoor Circuit Breaker THQMV200NRE,GE,Circuit Breaker,93.0,High
+42,Commercial Electric Trimless Integrated LED 4 in Round Adjustable Color Temp Canless Recessed Light ,Commercial Electric,Recessed Light,91.0,High
+43,Commercial Electric Trimless Integrated LED 6 in Round Adjustable Color Temp Canless Recessed Light ,Commercial Electric,Recessed Light,91.0,High
+44,"Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8563ENCBQH",Bell + Howell,LED Light Bulb,100,High
+45,Commercial Electric Impact Punch Down Tool with 110 Blade CE70804,Commercial Electric,Saw Blade,83.0,High
+46,"Oregon R28F Polesaw Chain for 6 in. Bar, Fits Remington, Milwaukee and Craftsman R28F-21",Oregon,Saw,58.0,Medium
+47,GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Breaker Value Kit TLM812SCUD1K,GE,Circuit Breaker,100,High
+48,Milwaukee 14-In-1 Multi-Bit Screwdriver 48-22-2900,Milwaukee,Screwdriver,83.0,High
+49,Commercial Electric Cylinder Integrated LED 3 in Round  Canless Recessed Light for Kitchen Bathroom ,Commercial Electric,Recessed Light,100,High
+50,Swiffer Lavender Scent Dry Sweeping Pad Refills (52-Count) 003700081559,Swiffer,Cleaning Pad,90.0,High
+51,Swiffer 360 Multi-Surface Heavy-Duty Lavender Scent Microfiber Duster Refill (11-Count) 003077207610,Swiffer,Cleaning Pad,85.0,High
+52,"Oregon N51 Chainsaw Chain for 12 in. Bar, Fits Husqvarna Models N51-21",Oregon,Saw,58.0,Medium
+53,"HALO HLBSL 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor, Outdoor Integrated LED Recessed Li",HALO,Recessed Light,100,High
+54,Commercial Electric Slim Baffle Integrated LED 6 in Round Adj Color Temp Canless Recessed Light for ,Commercial Electric,Recessed Light,100,High
+55,HALO LCR6 6 in. Selectable CCT Round Canless Integrated LED White Recessed Light Retrofit Module Tri,HALO,Recessed Light,93.0,High
+56,GE 200 Amp 40-Space 80-Circuit Main Breaker Indoor Load Center Contractor Load Center and Breaker Ki,GE,Circuit Breaker,100,High
+57,GE PowerMark Plus 125 Amp 14-Space 24-Circuit Indoor Main Lug Value Kit Includes Select Circuit Brea,GE,Circuit Breaker,98.0,High
+58,GE 100 Amp 20-Space 20-Circuit Main Breaker Indoor Load Center Contractor Kit TM2010CCUBK1,GE,Circuit Breaker,100,High
+59,"Commercial Electric Specialty Elite 3 in. LED Trimless Canless Recessed Light, Adjustable CCT 92346",Commercial Electric,Recessed Light,86.0,High
+60,HALO LCR4 4 in. Soft White Selectable CCT Integrated LED Recessed Light With Round Surface Mount Whi,HALO,Recessed Light,100,High
+61,GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circuit Breaker Panel TL41,GE,Load Center,100,High
+62,Lithonia Lighting Contractor Select EU2C 120/277-Volt Integrated LED White Emergency Light Fixture w,Lithonia Lighting,Voltage Tester,16.0,No Match
+63,GE 200 Amp 4 Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Socket Load Center TSMR,GE,Load Center,98.0,High
+64,GE PowerMark Plus 125 Amp 4-Space 8-Circuit Single-Phase Indoor Main Lug Circuit Breaker Panel TL412,GE,Load Center,100,High
+65,GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Circuit Breaker Panel TLM812FCUDP,GE,Load Center,100,High
+66,Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Door Handle FBE365 V C,Schlage,Door Handle,100,High
+67,"Lockly Secure Pro Zeno Series Matte Black Deadbolt WiFi Smart Lock, Apple Home Key, Fingerprint, Key",Lockly,Door Lock,85.0,High
+68,GE Q-Line 30 Amp 1/2 in. Single-Pole Circuit Breaker (THQP130) THQP130,GE,Circuit Breaker,98.0,High
+69,GE Q-Line 50 Amp 2 in. Double-Pole Circuit Breaker THQL2150,GE,Circuit Breaker,98.0,High
+70,Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for ,Commercial Electric,Recessed Light,100,High
+71,Commercial Electric Ultra Slim Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for K,Commercial Electric,Recessed Light,100,High
+72,"Leviton Branch Circuit Breaker, AFCI/GFCI 1-Pole 20 Amp, 120-Volt, Thermal Magnetic LB120-DFR R12-LB",Leviton,Circuit Breaker,100,High
+73,Leviton 120-Volt/240-Volt Residential Whole House Surge Protector 51110-SRG R02-51110-SRG,Leviton,Surge Protector,91.0,High
+74,"Leviton Branch Circuit Breaker, AFCI 1-Pole 15 Amp, 120-Volt, Thermal Magnetic LB115-AFR R11-LB115-A",Leviton,Circuit Breaker,100,High
+75,Square D Homeline 70 Amp 2-Space 4-Circuit Outdoor Main Lug Load Center(HOM24L70RBCP) HOM24L70RBCP,Square D,Load Center,100,High
+76,"Leviton 15 Amp 120/277 Volt Single Pole Antimicrobial Treated Decora Rocker Switch, White, 5-Pack MA",Leviton,Light Switch,91.0,High
+77,"Channellock 12 in. Oil Filter/PVC Plier, Angled Head 2012",Channellock,Unknown - Unable to Classify,8.0,No Match
+78,Husky Encased Sewer Rod 82-974-111,Husky,Unknown - Unable to Classify,9.0,No Match
+79,GE PowerMark Plus Outdoor 70 Amp 2-Space 4-Circuit Single-Phase Main Lug Circuit Breaker Panel TL270,GE,Load Center,100,High
+80,Schlage Parthenon Antique Brass Single Cylinder Door Handle set with Georgian Knob F60 G PAR 609 GEO,Schlage,Door Knob,100,High
+81,Cobra 5/16 in. x 50 ft. Cable Drum Machine BC260,Cobra,Cable,80.0,High
+82,"Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Incandescent Bulbs, Whi",Legrand,Wall Plate,58.0,Medium
+83,Leviton 200 Amp 42-Space Indoor Load Center with Main Breaker LP420-BDR RD0-LP420-BDR,Leviton,Circuit Breaker,100,High
+84,"RIDGID 3 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with Filter, Locking Hose, Accessories and Pro",RIDGID,Shop Vacuum,90.0,High
+85,DIABLO 9 in. 8 TPI Steel Demon AMPED Carbide Reciprocating Saw Blade for Thick Metal Cutting (2-Pack,DIABLO,Saw,93.0,High
+86,Nite Ize GlowStreak LED Red Ball Dog Toy GSB-10-R7,Nite Ize,Unknown - Unable to Classify,11.0,No Match
+87,Nite Ize SlapLit Neon Yellow LED Slap Wrap SLP2-33-R3,Nite Ize,Unknown - Unable to Classify,8.0,No Match
+88,DIABLO 3/4 in. x 12 in. SDS-Plus Rebar Cutter DMAPLRC1050,DIABLO,Specialty Cutter,98.0,High
+89,Husky 8 in. Standard Slip Joint Pliers 90146,Husky,Wire,53.0,Medium
+90,TITAN EP 60X Fine Finishing HVLP Paint Sprayer 2456369,TITAN,Paint Sprayer,100,High
+91,Leviton 200 Amp 30-Space Indoor Load Center with Main Lugs LP322-LDR RS0-LP322-LDR,Leviton,Load Center,95.0,High
+92,Milwaukee SHOCKWAVE Impact Duty Drill & Drive Set (21-Piece) 48-32-5163,Milwaukee,Drill Bit,58.0,Medium
+93,DIABLO 10in. x 6-Teeth HardieBlade Saw Blade for Fiber Cement D1006DH,DIABLO,Saw,100,High
+94,Home Decorators Collection Silky Medallion Multi 5 ft. x 7 ft. Medallion Polyester Area Rug 5285.81.,Home Decorators Collection,Unknown - Unable to Classify,10.0,No Match
+95,Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger,Leviton,Electrical Outlet,100,High
+96,"Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R0",Leviton,Electrical Outlet,100,High
+97,Kwikset San Clemente Matte Black Single Cylinder Low Profile Door Handleset with Halifax Handle Feat,Kwikset,Door Handle,100,High
+98,SharkBite 1/4 in. Push-to-Connect x 3/8 in. Compression Chrome-Plated Brass Tee Adapter Stop Valve U,SharkBite,Plumbing Fitting,100,High
+99,Cash Acme 3/4 in. FNPT Tankless Water Heater Valves Installation Kit 25760,Cash Acme,Water Heater,80.0,High
+100,Kwikset Pismo Round Satin Nickel Dummy Door Knob Featuring Microban Antimicrobial Technology 788PSKR,Kwikset,Door Knob,85.0,High
+101,SharkBite 3/4 in. PEX-A Brass Expansion x 3/4 in. FIP x 18 in. L Stainless Steel Flexible Water Heat,SharkBite,Water Heater,86.0,High
+102,Glacier Bay 22 in. Undermount Rectangular Vitreous China Bathroom Sink in White 14-027-W,Glacier Bay,Sink,91.0,High
+103,Milwaukee 9 in. 8 TPI TORCH Nitrus Carbide Teeth Metal Cutting SAWZALL Reciprocating Saw Blade w/Add,Milwaukee,Saw,98.0,High
+104,DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010,DIABLO,Drill,100,High
+105,CyberPower 6 ft. 4-Outlet Power Station with Surge Protector PS406UC,CyberPower,Surge Protector,100,High
+106,Home Decorators Collection 36 in. - 72 in. Telescoping 1 in. Single Curtain Rod Kit in Matte Black w,Home Decorators Collection,Curtain Rod,100,High
+107,StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD,StyleWell,Shelf Bracket,100,High
+108,SunTouch Floor Warming 8 ft. x 30 in. 120-Volt Radiant Floor Heating Mat (Covers 20 sq. ft.) 1200083,SunTouch Floor Warming,Wire,50.0,Medium
+109,Bell + Howell Swivel Power 180-Degree Swiveling Design 6-Outlets & 3 USB Port Outlet Splitters Charg,Bell + Howell,Electrical Outlet,91.0,High
+110,Lifetime 4 ft. One Hand Adjustable Height Fold-in-Half Table Almond 80726,Lifetime,Unknown - Unable to Classify,8.0,No Match
+111,FIRM GRIP Pro Grip X-Large Black Synthetic Leather High Performance Glove 55283-06,FIRM GRIP,Work Gloves,60.0,Medium
+112,ULTRA PROGRADE ProWire Direct Wire 12 in. LED Oil-Rubbed Bronze Under Cabinet Light 64769-T1,ULTRA PROGRADE,Under Cabinet Light,91.0,High
+113,HDX 20 in. x 25 in. x 6 in. AprilAire and Space-Gard Replacement Pleated Air Filter (Without Frame) ,HDX,HVAC Air Filter,100,High
+114,Square D Homeline 225 Amp 40-Space 80-Circuit Indoor Main Lug Plug-On Neutral Load Center with Cover,Square D,Load Center,98.0,High
+115,Master Flow 4 in. x 25 ft. Insulated Flexible Duct R6 Silver Jacket F6IFD4X300,Master Flow,Wire,53.0,Medium
+116,Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle,Pfister,Faucet Part,93.0,High
+117,PEAK Aluminum Railing 6 in. W Black Aluminum Deck Railing Wall Mount Bracket Kit for 42 in. high sys,PEAK Aluminum Railing,Shelf Bracket,80.0,High
+118,PEAK Aluminum Railing 6 in. W Black Aluminum Deck Railing Universal Connector for 42 in. high system,PEAK Aluminum Railing,Plumbing Fitting,58.0,Medium
+119,Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel w,Home Decorators Collection,Curtain Rod,95.0,High
+120,CyberPower 15 ft. 6-Outlet Cord 1500J Surge Protector B615,CyberPower,Surge Protector,100,High
+121,Hampton Bay Denbeck 4.5 in. W Matte Black 1-Light Sconce Clear Glass KVB1301AX-01,Hampton Bay,Wall Sconce,89.0,High
+122,Digz Women's Medium Comfort Grip Garden Gloves 74876-014,Digz,Work Gloves,90.0,High
+123,Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimmer Switch with Brass,Hampton Bay,LED Light Bulb,21.0,Very Low
+124,3M 3-3/4 in. x 2-5/8 in. x 1 in. 60 Grit Sanding Sponge Coarse (12-Pack) CP002-12P,3M,Paint,53.0,Medium
+125,3M Organic Vapor Replacement Cartridges (1-Pair) 6001P1-DC,3M,Safety Respirator,68.0,Medium
+126,3M ScotchBlue 0.94 in. x 60 yds. Sharp Lines Painter's Tape with Edge-Lock 2093-24NC,3M,Tape,80.0,High
+127,Home Decorators Collection Raleigh Jute Boucle Natural 6 ft. x 9 ft. Area Rug 8959830106x9,Home Decorators Collection,Unknown - Unable to Classify,6.0,No Match
+128,ReVent 110 CFM Ceiling/Wall Mount Easy Roomside Installation Bathroom/Bath Exhaust Fan w/ Adjustable,ReVent,Exhaust Fan,100,High
+129,Hampton Bay Raeburn 23 in. Steel and Marble Aged Brass Indoor Table Lamp with Black Fabric Shade HD-,Hampton Bay,LED Light Bulb,16.0,No Match
+130,Airthings Wave Radon Battery Operated Smart Radon Detector 2951,Airthings,Radon Detector,98.0,High
+131,Hampton Bay 120-Volt 150-Watt Black Single Circuit Linear Track Pendant or Chandelier Adapter Track ,Hampton Bay,Chandelier,86.0,High
+132,FastenMaster Collated Cortex Hidden Fastening System for AZEK Trim - 2 inch Cortex screws and plugs ,FastenMaster,Fastener,53.0,Medium
+133,Hampton Bay Indoor/Outdoor 12-Light 24 ft. Smart Plug-in Edison Bulb RGBW Color Changing LED String ,Hampton Bay,String Lights,100,High
+134,"Milwaukee AIR-TIP Claw Utility Nozzle, Rotating Corner Brush, Flexible Long Crevice Tool For Wet/Dry",Milwaukee,Paint Brush,80.0,High
+135,PUR PLUS 30 Cup Dispenser - Water Filter Pitcher DS1810ZA,PUR,Cleaning Solution,50.0,Medium
+136,PUR PLUS 11 Cup Pitcher - Water Filter Pitcher PPT110WA,PUR,Cleaning Solution,50.0,Medium
+137,HDX Natural Cream Painters Cotton Spray Sock Hood (3-Pack) 09305-12HDX,HDX,Paint,50.0,Medium
+138,"Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, White T5632-BW R0",Leviton,Electrical Outlet,100,High
+139,Empire 9 in. True Blue Professional Magnetic Torpedo Level (2-Pack) EM81.9G,Empire,Level,98.0,High
+140,CASTICO 32 in. W x 60 in. L x 1.125 in. H Alcove Solid Composite Stone Shower Pan Base with L/R Drai,CASTICO,Shower Pan,100,High
+141,ULTRA PROGRADE ProWire Direct Wire 24 in. LED Oil-Rubbed Bronze Under Cabinet Light 64771-T1,ULTRA PROGRADE,Under Cabinet Light,91.0,High
+142,360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA,360 Electrical,Surge Protector,100,High
+143,360 Electrical 45-Watt Revolve 4-Outlet Surge Protector 3E0771-WHT6NA,360 Electrical,Surge Protector,100,High
+144,"Leviton Decora 20 Amp 125-Volt Combination Duplex Outlet and USB Outlet, White T5832-BW R02-T5832-0B",Leviton,Electrical Outlet,100,High
+145,Defiant Smart Outdoor 4 ft. 6-Outlet Power Stake Timer with Holiday Lights Projector Powered by Hubs,Defiant,Electrical Outlet,83.0,High
+146,EcoSmart 6 in. Integrated LED White Canless New Construction or Remodel Dimmable Recessed Light Trim,EcoSmart,Recessed Light,100,High
+147,"EcoSmart 5/6 in. Integrated LED Recessed Retrofit Light Trim 3000K, (4-Pack) NB01cA10FR1-309",EcoSmart,Recessed Light,100,High
+148,Commercial Electric 12 in. LED Linkable White Flexible Tape Under Cabinet Light Kit (4-Strip Pack) 4,Commercial Electric,Under Cabinet Light,91.0,High
+149,"Enbrighten 12 Bulb 24 ft. Outdoor/Indoor Black Vintage LED String Lights, Acrylic Edison Bulbs 35629",Enbrighten,String Lights,100,High
+150,Hampton Bay Richland 1-Light Dark Bronze Mini-Pendant Design Clear Seedy Glass KSF8901AX-01/DB,Hampton Bay,Pendant Light,91.0,High
+151,GE Whole House Water Filtration System GXWH50M,GE,Level,53.0,Medium
+152,"VELUX 2 ft. Rigid Extension Tube for TGR 010, THR 010, TSR 010, and TMR 010 Sun Tunnel Skylight ZTR ",VELUX,Skylight,80.0,High
+153,VELUX 10 in. Acrylic Dome Sun Tunnel Skylight with Rigid Tube and Pitched High Density Flashing THR ,VELUX,Skylight,83.0,High
+154,VELUX 22.5 in. x 22.5 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2222 0005,VELUX,Skylight,85.0,High
+155,Glacier Bay Bratten 33 in. Drop-In 50/50 Double Bowl 18 Gauge Stainless Steel Kitchen Sink with Acce,Glacier Bay,Sink,100,High
+156,BEYOND BRIGHT 25-Watt LED Lamp Light Bulbs 6500K 3700-Lumens with Built-In Bluetooth Speaker BEBRSW-,BEYOND BRIGHT,LED Light Bulb,100,High
+157,EcoSmart 6 in. Integrated LED White Canless New Construction or Remodel Dimmable Recessed Light Trim,EcoSmart,Recessed Light,100,High
+158,VELUX 22-1/2 in. x 46-1/2 in. Fixed Curb-Mount Skylight with Tempered Low-E3 Glass FCM 2246 0005,VELUX,Skylight,85.0,High
+159,Home Decorators Collection Kenton 4.75 in. 1-Light Vintage Bronze Industrial Wall Sconce with Cage F,Home Decorators Collection,Wall Sconce,100,High
+160,Home Decorators Collection Harmony Denim 5 ft. x 7 ft. Indoor Machine Washable Area Rug 610273,Home Decorators Collection,Unknown - Unable to Classify,8.0,No Match
+161,Home Decorators Collection Sirrine 17.25 in. 2-Light Black Outdoor Wall Light Fixture Sconce with Cl,Home Decorators Collection,Wall Sconce,83.0,High
+162,VELUX 21 in. x 45-3/4 in. Fixed Deck-Mount Skylight with Laminated Low-E3 Glass FS C06 2004,VELUX,Skylight,83.0,High
+163,"Ring Smart Lighting - Low Voltage Lighting Transformer (12-Volt x 15-Volt, 200-Watt), Black (Bridge ",Ring,Landscape Lighting,64.0,Medium
+164,TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74,TrimMaster,Unknown - Unable to Classify,10.0,No Match
+165,RYOBI ONE+ 18V Cordless Hybrid 3000 Lumens LED Panel Light (Tool Only) PCL631B,RYOBI,LED Light Bulb,16.0,No Match
+166,Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR,Hampton Bay,Unknown - Unable to Classify,11.0,No Match
+167,Glacier Bay 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet V,Glacier Bay,Sink,100,High
+168,Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02/BN,Hampton Bay,Unknown - Unable to Classify,11.0,No Match
+169,Commercial Electric 11 in. 100-Watt Equivalent Oil-Rubbed Bronze Integrated LED Flush Mount with Fro,Commercial Electric,Flush Mount Light,88.0,High
+170,Hampton Bay Pratford 2.6 ft. 4-Light Brushed Nickel Integrated LED Fixed Track Lighting Kit 23055-00,Hampton Bay,Track Lighting,86.0,High
+171,Hampton Bay Lamar Park 50 Lumen Low Voltage Black Integrated LED Waterproof Outdoor Path Lights with,Hampton Bay,Wire,50.0,Medium
+172,CASTICO 36 in. W x 60 in. L x 1.125 in. H Alcove Solid Composite Stone Shower Pan Base with L/R Drai,CASTICO,Shower Pan,100,High
+173,Milwaukee AIR-TIP 1-1/4 in. - 2-1/2 in. Pivoting Extension Wand Wet/Dry Shop Vacuum Attachment (1-Pi,Milwaukee,Shop Vacuum,100,High
+174,KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed Nickel (Valve Include,KOHLER,Door Handle,53.0,Medium
+175,Feit Electric OneSync Landscape 40 Lumens Bronze Solar Integrated LED Outdoor Path Light with Dusk-T,Feit Electric,Landscape Lighting,75.0,High
+176,Home Decorators Collection Closmere 5 in. 1-Light Brushed Gold Mid-Century Modern Wall Sconce with C,Home Decorators Collection,Wall Sconce,100,High
+177,Hampton Bay Darlington 4.5 in. 1-Light Brushed Nickel Transitional Wall Sconce with Frosted Opal Gla,Hampton Bay,Wall Sconce,100,High
+178,Hampton Bay Byrson 6 in. 1-Light Matte Black Wall Sconce Light with Plug-In/Hardwire White Fabric Sh,Hampton Bay,Wall Sconce,100,High
+179,Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wall Sconce Light Fixtu,Home Decorators Collection,Sink,53.0,Medium
+180,Hampton Bay Upton Brushed Nickel LED Sconce RS513859,Hampton Bay,Light Switch,56.0,Medium
+181,Hampton Bay Obsidian 8.5 in. 1-Light Brushed Nickel Wall Sconce with Frosted Glass Shade RS228470,Hampton Bay,Wall Sconce,100,High
+182,Home Decorators Collection Downing 1-Light Polished Nickel/Corona Bronze Wall Sconce 28011,Home Decorators Collection,Wall Sconce,86.0,High
+183,Glacier Bay Stancliff 25 in. Single Sink Elm Ember Bath Vanity with White Cultured Marble Top (Assem,Glacier Bay,Vanity Top,100,High
+184,Glacier Bay 33 in. Drop-In 60/40 Double Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Fa,Glacier Bay,Sink,100,High
+185,Feit Electric OneSync Landscape 40 Lumens Bronze Solar Integrated LED Outdoor Path Light w/Dusk-To-D,Feit Electric,Landscape Lighting,70.0,High
+186,Commercial Electric 11 in. White Integrated LED Dimmable Flush Mount Puff with Adjustable CCT and RG,Commercial Electric,Flush Mount Light,91.0,High
+187,Hampton Bay 540 Lumen Low Voltage Millennium Black Adjustable Light Color Integrated LED Outdoor Lan,Hampton Bay,Landscape Lighting,99.0,High
+188,Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Spotlight with Smart App Control (1-Pac,Hampton Bay,LED Light Bulb,69.0,Medium
+189,Commercial Electric 36 in. LED White Direct Wire Under Cabinet Light 57005N-WH,Commercial Electric,Under Cabinet Light,91.0,High
+190,ULTRA PROGRADE ProWire Direct Wire 18 in. LED Oil-Rubbed Bronze Under Cabinet Light 64770-T1,ULTRA PROGRADE,Under Cabinet Light,91.0,High
+191,Home Decorators Collection Harmony Denim 2 ft. x 7 ft. Indoor Machine Washable Runner Rug 607228,Home Decorators Collection,Unknown - Unable to Classify,8.0,No Match
+192,Hampton Bay 10-Watt Equivalent Low Voltage Black LED Outdoor Landscape Spotlight with Smart App Cont,Hampton Bay,LED Light Bulb,69.0,Medium
+193,DIABLO 2-3/4 in. x 5 in. 100-Grit SandNET Reusable Sanding Sheets DND234100S10N,DIABLO,Unknown - Unable to Classify,6.0,No Match
+194,Husky Folding Lock-Back Utility Knife (3-Pack) 99732,Husky,Saw Blade,50.0,Medium
+195,Hampton Bay 75-Watt Equivalent Low Voltage Black LED Outdoor Landscape Flood Light Powered by Hubspa,Hampton Bay,Landscape Lighting,100,High
+196,"HALO H99 4 in. Steel Recessed Lighting Housing for Remodel Ceiling, No Insulation Contact, Air-Tite ",HALO,Recessed Light,100,High
+197,DIABLO 2-3/4 in. x 5 in. 150-Grit SandNET Reusable Sanding Sheets DND234150S10N,DIABLO,Unknown - Unable to Classify,6.0,No Match
+198,Wagner Control Pro 130 High Efficiency Airless Power Tank Paint and Stain Sprayer 580678,Wagner,Ladder,50.0,Medium
+199,Home Decorators Collection 37 in. W x 22 in D Quartz white Rectangular Single Sink Vanity Top in Sno,Home Decorators Collection,Sink,100,High
+200,Home Decorators Collection 37 in. W x 22 in. D Cultured Marble White Rectangular Single Sink Vanity ,Home Decorators Collection,Sink,88.0,High
+201,PRIVATE BRAND UNBRANDED Safety Glasses Indoor and Outdoor mirror Hard Coat EP6100 EP6100 Indoor&Outd,PRIVATE BRAND UNBRANDED,Plumbing Fitting,53.0,Medium
+202,FREEZE MISER Outdoor Faucet Freeze Protector 2 Pack 6000-02,FREEZE MISER,Faucet,83.0,High
+203,"Hampton Bay 80 CFM Ceiling Mount Room Side Installation Heavy-Duty Bathroom Exhaust Fan, ENERGY STAR",Hampton Bay,Exhaust Fan,91.0,High
+204,DIABLO 6-1/2in. x 24-Teeth Framing Circular Saw Blade for Wood (2-Pack) D0624RVP,DIABLO,Saw,98.0,High
+205,DIABLO 4-1/2 in. Turbo Rim Masonry Diamond Cut Off Blade Value Pack (2-Pack) DDD045TUR1VP,DIABLO,Saw Blade,83.0,High
+206,TrafficMaster Quince Navy/Blue 5 x 7 Medallion Vinyl Area Rug 8214.42.51HD,TrafficMaster,Unknown - Unable to Classify,8.0,No Match
+207,Home Decorators Collection Harmony Gray 5 ft. x 7 ft. Abstract Indoor Machine Washable Area Rug 6103,Home Decorators Collection,Unknown - Unable to Classify,8.0,No Match
+208,DIABLO SPEEDemon High Speed Steel Spade Bit Set with Pouch (10-Piece) DSP2940-S10,DIABLO,Drill Bit,86.0,High
+209,Delta Lyndall 24 in. Wall Mount Towel Bar Bath Hardware Accessory in Polished Chrome LDL24-PC,Delta,Bathroom Towel Bar,100,High
+210,3M 13.8 oz. Super 77 Multipurpose Spray Adhesive 77-DSC,3M,Adhesive,100,High
+211,Everbilt Electric Water Heater Installation Kit EBWCB-07-18EKIT,Everbilt,Water Heater,94.0,High
+212,SharkBite Max 3/4 in. Push-to-Connect x 3/4 in. FIP x 18 in. Braided Stainless Steel Water Heater Co,SharkBite,Plumbing Fitting,93.0,High
+213,Philips Advance 40-Watt (F40T12) 1 or 2 Lamp 4 ft. T12 120V Rapid Start High Frequency Electronic Re,Philips Advance,Unknown - Unable to Classify,11.0,No Match
+214,KOHLER Setra Single-Handle Semi-Professional Kitchen Sink Faucet with Soap Dispenser in Matte Black ,KOHLER,Faucet,100,High
+215,Delta Crestfield Toilet Paper Holder in Brushed Nickel 138035,Delta,Toilet,83.0,High
+216,Delta Crestfield 24 in. Wall Mounted Towel Bar in Brushed Nickel 138031,Delta,Bathroom Towel Bar,100,High
+217,KOHLER Kennon 33 in. Drop-In 1-Hole Single Bowl Neoroc Granite Composite Kitchen Sink in Matte Black,KOHLER,Sink,93.0,High
+218,Feit Electric 6 ft. Plug-In White Strip Light Cuttable Linkable Integrated LED Color Changing CCT On,Feit Electric,Under Cabinet Light,96.0,High
+219,Scotch 3/4 in. x 30 ft. Linerless Rubber Splicing Tape 41717-BX-10,Scotch,Tape,80.0,High
+220,Delta Greenwich II Wall Mount Round Closed Towel Ring Bath Hardware Accessory in Brushed Nickel GRE4,Delta,Bathroom Towel Bar,100,High
+221,Delta Crestfield 18 in. Towel Bar in Brushed Nickel 138029,Delta,Bathroom Towel Bar,100,High
+222,Glacier Bay Builders 2-Handle Deck-Mount Roman Tub Faucet in Brushed Nickel 461-3004,Glacier Bay,Faucet,91.0,High
+223,DIABLO Speed Demon High Speed Steel Spade Bit Set With Pouch (16-Piece) DSP2980-S16P,DIABLO,Drill Bit,86.0,High
+224,Delta Eldridge Single-Handle Pull Down Sprayer Kitchen Faucet with ShieldSpray Technology in Polishe,Delta,Faucet,88.0,High
+225,StyleWell Beckett Charcoal 6 ft. x 9 ft. Modern Geometric Living Room/Bedroom/Dining Room Area Rug G,StyleWell,Unknown - Unable to Classify,10.0,No Match
+226,Home Decorators Collection Fog Sage 5 ft. 3 in. x 7 ft. Indoor Area Rug 374100,Home Decorators Collection,Unknown - Unable to Classify,8.0,No Match
+227,Rubbermaid Roughneck 32 Gal. Vented Black Round Trash Can with Lid 2149500,Rubbermaid,Unknown - Unable to Classify,8.0,No Match
+228,Milwaukee SHOCKWAVE Impact Duty 1 in. Square #2 Alloy Steel Insert Bit (10-Pack) 48-32-5008,Milwaukee,Drill Bit,53.0,Medium
+229,DEWALT MAXFIT ULTRA 3-1./2 in. Phillips 3 Steel Screwdriving Bit DWAF3PH3-1H,DEWALT,Unknown - Unable to Classify,6.0,No Match
+230,DEWALT 3.5 in. MAXFIT SQ2 Bit Tip DWA3SQ2-1,DEWALT,Drill,56.0,Medium
+231,DEWALT MAXFIT ULTRA 1 in. T25 Steel Screwdriving Bits (2-Pack) DWAF1TX25-2H,DEWALT,Unknown - Unable to Classify,8.0,No Match
+232,DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6,DEWALT,Drill,53.0,Medium
+233,Delta Greenwich II 18 in. Wall Mount Towel Bar Bath Hardware Accessory in Brushed Nickel GRE18-BN,Delta,Bathroom Towel Bar,100,High
+234,Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 ,Coolaroo,Window Shade,100,High
+235,Coolaroo Brown Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 96 in. W ,Coolaroo,Window Shade,100,High
+236,Hampton Bay Commercial Wall-Mount Hose Reel 709,Hampton Bay,High Bay Light,16.0,No Match
+237,Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Polypropylene Exterior Roller Shade 72 in. ,Coolaroo,Window Shade,100,High
+238,Klein Tools Digital Dual Range Non Contact Voltage Tester with LED Flashlight 12-1000V AC NCVT-3PR,Klein Tools,Voltage Tester,100,High
+239,Home Decorators Collection 37 in. W x 22 in. D Engineered Stone Composite White Rectangular Single S,Home Decorators Collection,Sink,88.0,High
+240,MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Included) 82760BL,MOEN,Bathtub,53.0,Medium
+241,DEWALT MAXFIT ULTRA 3/8 in. Carbon Steel Drive Socket Set (6-Piece) with 1/4 in. Adapter DWAFSFS6,DEWALT,Drill,53.0,Medium
+242,DEWALT MAXFIT 2 in. #25 Torx Bit with Small Bulk Storage (15-Piece) DWA2TX25MF15,DEWALT,Drill,53.0,Medium
+243,DEWALT MAXFIT ULTRA 2 in. Phillips 3 Steel Screwdriving Bits (2-Pack) DWAF2PH3-2H,DEWALT,Unknown - Unable to Classify,6.0,No Match
+244,Husky 8 in. Classic Anvil Pruner Husky-16,Husky,Saw Blade,50.0,Medium
+245,Oatey Designline 4 in. x 4 in. Stainless Steel Square Shower Drain with Square Pattern Drain Cover D,Oatey,Drain,83.0,High
+246,RYOBI ONE+ 18V Cordless High Power Inflator P738,RYOBI,Unknown - Unable to Classify,11.0,No Match
+247,Oatey Designline 6 in. x 6 in. Stainless Steel Square Shower Drain with Square Pattern Drain Cover D,Oatey,Drain,86.0,High
+248,Cerrowire 100 ft. 14 Gauge Green Solid Copper THHN Wire 112-1475CR,Cerrowire,Wire,100,High
+249,Coast G450 1630 Lumens Alkaline LED Handheld Flashlight 21864,Coast,Flashlight,100,High
+250,DEWALT MAXFIT Impact Rated 2 in. #2 Philips Steel Screwdriver Drill Bit (2-Piece) DWA2PH2MF2,DEWALT,Drill,100,High
+251,DEWALT MAXFIT 1 in. #2 Philips Bit (2-Piece) DWA1PH2MF2,DEWALT,Drill,53.0,Medium
+252,Leviton 100 Amp 20-Space Indoor Load Center with Main Breaker LP210-BDR RD0-LP210-BDR,Leviton,Circuit Breaker,100,High
+253,Hampton Bay Bryson 1-Light Matte Black Wall Sconce 65740,Hampton Bay,Wall Sconce,100,High
+254,Bondo 8 sq. ft. Fiberglass Cloth 20128,Bondo,Unknown - Unable to Classify,11.0,No Match
+255,Philips 40-Watt Equivalent G16.5 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) Wi,Philips,LED Light Bulb,100,High
+256,HDX 36 in. Flat Bungee with Carabiner 56153,HDX,Spring,55.0,Medium
+257,DEWALT MAXFIT 2 in. #1 Square Bit (2-Piece) DWA2SQ1MF2,DEWALT,Drill,53.0,Medium
+258,DEWALT MAXFIT ULTRA 2 in. Phillips 1 Steel Screwdriving Bits (2-Pack) DWAF2PH1-2H,DEWALT,Unknown - Unable to Classify,6.0,No Match
+259,Liberty 10-Pack Top Ring 1-1/4 in. (31 mm) Classic Matte Black Round Cabinet Knobs P40052C-FB-SP,Liberty,Door Knob,50.0,Medium
+260,Home Decorators Collection Westcourt 30 in. W x 22 in. D x 34 in. H Bath Vanity Cabinet without Top ,Home Decorators Collection,Unknown - Unable to Classify,9.0,No Match
+261,Delta Foundations 2-Piece 1.1 GPF/1.6 GPF Dual Flush Elongated Toilet in White C43913D-WH,Delta,Toilet,100,High
+262,Delta Foundations 2-Piece 1.1 GPF/1.6 GPF Dual Flush Round Toilet in White C41913D-WH,Delta,Toilet,100,High
+263,Commercial Electric Box on Top Integrated LED 6 in Round Canless Recessed Light for Kitchen Bathroom,Commercial Electric,Recessed Light,91.0,High
+264,Delta Foundations 2-Piece 1.28 GPF Single Flush Elongated Toilet in White C43913-WH,Delta,Toilet,100,High
+265,Commercial Electric 8 in. Multi-Purpose Wiring Tool CE190206,Commercial Electric,Wire,53.0,Medium
+266,Philips 40-Watt Equivalent A15 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) WiZ ,Philips,LED Light Bulb,100,High
+267,Hampton Bay Cairo 160 Lumen Low Voltage Square Transitional Black Integrated LED Waterproof Outdoor ,Hampton Bay,Landscape Lighting,21.0,Very Low
+268,Home Decorators Collection Palermo Grove 10 in. 1-Light Gilded Iron Farmhouse Kitchen Island Mini-Pe,Home Decorators Collection,Pendant Light,91.0,High
+269,Philips 60-Watt Equivalent G25 Smart Wi-Fi Vintage Edison LED Light Bulb Tunable White 2700 (K) with,Philips,LED Light Bulb,100,High
+270,Commercial Electric Box on Top Integrated LED 4 in Round Canless Recessed Light for Kitchen Bathroom,Commercial Electric,Recessed Light,91.0,High
+271,Vigoro Torenia 64 in. Black Steel Shepherd Hook 87217,Vigoro,Unknown - Unable to Classify,8.0,No Match
+272,Home Decorators Collection 49 in. W x 22 in. D Ceramic White Rectangular Single Sink Vanity Top in W,Home Decorators Collection,Sink,88.0,High
+273,TrafficMaster Walnut Ember Java 4 MIL x 6 in. W x 36 in. L Peel and Stick Water Resistant Luxury Vin,TrafficMaster,Unknown - Unable to Classify,10.0,No Match
+274,DEWALT Original Equipment 3-In-1 Blade for 21 in. Battery Powered Walk-Behind Mowers DWO1DT233,DEWALT,Saw Blade,83.0,High
+275,Hampton Bay Halophane 5-Light Brushed Nickel Chandelier with Frosted Ribbed Glass Shades WB0390/SC-1,Hampton Bay,Chandelier,97.0,High
+276,Commercial Electric 7 in. Wire Cutting Pliers CE180837,Commercial Electric,Wire,88.0,High
+277,Unbranded Brushed Nickel Metal Oblong Pendant Shade with 2-1/4 in. Fitter 801255,Unbranded,Wall Sconce,71.0,High
+278,Commercial Electric Box on Top Integrated LED 6 in Round Canless Recessed Light for Kitchen Bathroom,Commercial Electric,Recessed Light,91.0,High
+279,"Scotch 3/4 in x 1.5ft White Indoor Fasteners, 1 Set of Strips RF4710",Scotch,Unknown - Unable to Classify,10.0,No Match
+280,Glacier Bay Round Front Toilet Seat in Oak Veneer TSVRD001-HD,Glacier Bay,Toilet,93.0,High
+281,EcoSmart 6.5 ft. RGBWIC Dynamic Color Changing Dimmable Linkable Plug-In LED Neon Flex Strip Light w,EcoSmart,String Lights,29.0,Very Low
+282,FIRM GRIP Medium Flex Cuff Outdoor and Work Gloves (2-Pack) 43126-20,FIRM GRIP,Work Gloves,85.0,High
+283,Commercial Electric 4-Piece Nut Driver CE180651,Commercial Electric,Unknown - Unable to Classify,11.0,No Match
+284,"Werner 8 ft. - 10 ft., 22.5 in. x 54 in. Wood Attic Ladder with 250 lb. Maximum Load Capacity WU2210",Werner,Ladder,96.0,High
+285,Delta Foundations 2-Piece 1.28 GPF Single Flush Round Toilet in White C41913-WH,Delta,Toilet,100,High
+286,Milwaukee X-Large Performance Work Gloves 48-22-8723,Milwaukee,Work Gloves,80.0,High
+287,Hampton Bay Wireless Battery Operated Tabletop Doorbell Kit with LED Strobe Light and Wireless Push ,Hampton Bay,Unknown - Unable to Classify,11.0,No Match
+288,Concord Global Trading Retro Gray 3 ft. x 4 ft. Contemporary Area Rug 46623,Concord Global Trading,Unknown - Unable to Classify,8.0,No Match
+289,"Gorilla Ladders 19 ft. Reach MPXT Aluminum Multi-Position Ladder with Project Top, 375 lbs. Load Cap",Gorilla Ladders,Ladder,100,High
+290,Frost King 3/8 in. x 7/8 in. x 17 ft. Tan Vinyl Clad Foam Weatherstrip with Flange 1700/17,Frost King,Window,60.0,Medium
+291,MOEN Haelyn Single-Handle Pull-Down Sprayer Kitchen Faucet with Reflex and Power Boost in Spot Resis,MOEN,Faucet,88.0,High
+292,Philips 28W Equivalent 46 in. High Efficiency Linear T5 Type A InstantFit Cool White LED Tube Light ,Philips,LED Light Bulb,100,High
+293,"Commercial Electric 15 ft. CAT5e UTP Ethernet Cable, Yellow 575698-15",Commercial Electric,Cable,83.0,High
+294,Square D Homeline 50 Amp 2-Space 4-Circuit Spa Panel Main Lug Load Center HOME250SPA,Square D,Load Center,98.0,High
+295,Everbilt Twist and Close 1-1/2 in. Schedule 40 White PVC Pipe Bath Waste and Overflow Drain in Chrom,Everbilt,Drain,83.0,High
+296,Kidde Residential and Kitchen 1-A:10-B:C Class ABC and Class BC 5.5 lbs. Fire Extinguisher (2-Pack) ,Kidde,Shelf Bracket,55.0,Medium
+297,Commercial Electric Ultra Slim Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for K,Commercial Electric,Recessed Light,100,High
+298,BEYOND BRIGHT 20-Watt 72 LED Lamp Lights 6500K Garage Ultra-Bright BEBRBLZ-PD32,BEYOND BRIGHT,LED Light Bulb,100,High
+299,Commercial Electric White 1-Gang Cable Pass-Through Plastic Wall Plate TV Multimedia Recessed Box 50,Commercial Electric,Wall Plate,100,High
+300,Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for ,Commercial Electric,Recessed Light,100,High
+301,"Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",Commercial Electric,Unknown - Unable to Classify,8.0,No Match
+302,Milwaukee Medium Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8901,Milwaukee,Work Gloves,95.0,High
+303,Milwaukee X-Large Demolition Gloves 48-22-8733,Milwaukee,Work Gloves,100,High
+304,Milwaukee Large Demolition Gloves 48-22-8732,Milwaukee,Work Gloves,100,High
+305,Anvil Replacement Blade THD-blade-set,Anvil,Saw Blade,88.0,High
+306,Everbilt 4 in. Gray Rubber Like TPR and Steel Swivel Plate Caster with 250 lb. Load Rating 4033445EB,Everbilt,Unknown - Unable to Classify,13.0,No Match
+307,VELCRO ALFA-LOK 1 in. x 1 in. Squares in Black (16 Sets per Pack) VEL-30180-USA,VELCRO,Tape,50.0,Medium
+308,VELCRO 24 in. x 3/4 in. Sticky Back for Fabrics Tape Black VEL-91878-USA,VELCRO,Tape,80.0,High
+309,VELCRO ALFA-LOK 1 in. x 1 in. Squares in Black (6 Sets per Pack) VEL-30177-USA,VELCRO,Tape,50.0,Medium
+310,VELCRO 5 ft. x 3/4 in. Sticky Back Tape 90087,VELCRO,Tape,85.0,High
+311,Milwaukee Medium Demolition Gloves 48-22-8731,Milwaukee,Work Gloves,100,High
+312,"Broan-NuTone Roomside Series 80 CFM Ceiling Bathroom Exhaust Fan with CleanCover, ENERGY STAR AERN80",Broan-NuTone,Exhaust Fan,100,High
+313,ReVent 80 CFM Ceiling/Wall Mount Quiet Easy Roomside Installation Bathroom/Bath Exhaust Fan with Mod,ReVent,Exhaust Fan,100,High
+314,Broan-NuTone 50 CFM Ceiling Bathroom Exhaust Fan with Incandescent Light 763N,Broan-NuTone,Exhaust Fan,100,High
+315,Glacier Bay Dolancourt Tight Radius 33 in. Drop-In 50/50 Double Bowl 18 Gauge Stainless Steel Kitche,Glacier Bay,Sink,100,High
+316,ReVent 110 CFM Ceiling/Wall Mount Quiet Easy Roomside Installation Bathroom/Bath Exhaust Fan with Hu,ReVent,Exhaust Fan,100,High
+317,KOHLER Cimarron Toilet Trip Lever in Chrome GP1034693-CP,KOHLER,Toilet,83.0,High
+318,Glacier Bay Dolancourt Tight Radius 25 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink,Glacier Bay,Sink,100,High
+319,Commercial Electric Outlet Tester OT-112,Commercial Electric,Electrical Outlet,83.0,High
+320,Andersen 36 in. x 80 in. LuminAire Sandtone for Single Entry Door 32 in.-36 in. Universal Handed Alu,Andersen,Unknown - Unable to Classify,8.0,No Match
+321,"Broan-NuTone QT Series 130 CFM Ceiling Bathroom Exhaust Fan with LED Light and Night Light, ENERGY S",Broan-NuTone,Exhaust Fan,93.0,High
+322,Milwaukee X-Large Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8903,Milwaukee,Work Gloves,95.0,High
+323,PRIVATE BRAND UNBRANDED 12 in. 2-Light White Frosted Semi-Flush Mount HM-21022401,PRIVATE BRAND UNBRANDED,Flush Mount Light,86.0,High
+324,Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2,Lithonia Lighting,Troffer Light,86.0,High
+325,"Metalux 2 ft. x 2 ft. 51-Watt Equivalent Integrated LED White Center Lens Troffer, 4000K Bright Whit",Metalux,Troffer Light,100,High
+326,Commercial Electric 1-Pack 2 ft. x 4 ft. 128-Watt Equivalent Integrated LED White Prismatic Lens Com,Commercial Electric,Troffer Light,94.0,High
+327,CASAINC 1-Spray Pattern with 1.8 GPM 10 in. with 1.8 GPM Wall Mount Square Fixed Shower Head in Brus,CASAINC,Showerhead,100,High
+328,Husky 12 in. Groove Joint Pliers 48065,Husky,Unknown - Unable to Classify,11.0,No Match
+329,Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18G Stainless Steel Workstation Kitch,Glacier Bay,Faucet,100,High
+330,"Metalux 2 ft. x 4 ft. 64-Watt Equivalent Integrated LED White Center Lens Troffer, 4000K Bright Whit",Metalux,Troffer Light,100,High
+331,Speakman 3-Spray Patterns with 2.5 GPM 2.75 in. Wall Mount Fixed Showerhead in Matte Black SR-2252-M,Speakman,Showerhead,100,High
+332,Andersen 36in.x 80in. LuminAire Charcoal Gray for Single Entry Door 32in.-36in. Universal Handed Alu,Andersen,Unknown - Unable to Classify,8.0,No Match
+333,KOHLER Capilano 18 in. Towel Bar in Matte Black K-R26682-BL,KOHLER,Bathroom Towel Bar,85.0,High
+334,Andersen 36 in. x 80 in. LuminAire Bronze for Single Entry Door 32 in.-36 in. Universal Handed Alumi,Andersen,Unknown - Unable to Classify,8.0,No Match
+335,Grip-Rite 2-3/8 in. x 0.113 in. 30° Paper Collated Exterior Galvanized Offset Round Head Ring Shank ,Grip-Rite,Tape,50.0,Medium
+336,Husky 25 ft. 12/3 Lighted Extension Cord HW12325,Husky,Extension Cord,93.0,High
+337,Anvil 1-1/4 in. Steel Corner Bead Tool with 24 oz. Rubber Mallet 82092,Anvil,Unknown - Unable to Classify,8.0,No Match
+338,TrafficMaster All Seasons Tulip Scroll Granite 24 in. x 39 in. Door Mat 60787172924x39,TrafficMaster,Unknown - Unable to Classify,6.0,No Match
+339,Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink,Glacier Bay,Sink,100,High
+340,Cub Cadet Original Equipment 42 in. Mulching Kit with Blades for Lawn Tractors and Zero Turn Mowers ,Cub Cadet,Saw Blade,50.0,Medium
+341,Husky Folding Lock-Back Utility Knife 00000,Husky,Saw Blade,53.0,Medium
+342,DIABLO 8-1/2in. x 60-Tooth Fine Finish Circular Saw Blade for Wood D0860S,DIABLO,Saw,100,High
+343,Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Glass Chandelier LED Li,Feit Electric,Wall Sconce,56.0,Medium
+344,Wright Products 2-3/4 in. Black Self-Closing Hinge Set (1-Pair) V221BL,Wright Products,Door Hinge,80.0,High
+345,"Wright Products Villa Pull Handle for Screen and Storm Doors, White VIL333WH",Wright Products,Unknown - Unable to Classify,6.0,No Match
+346,Hampton Bay Melton 1-Light Polished Nickel Transitional Pendant with Clear Glass Shade and Silver Co,Hampton Bay,Pendant Light,94.0,High
+347,Home Decorators Collection VICINO 12.61 in. W x 5.71 in. H 2-Light Brushed Nickel Integrated LED Bat,Home Decorators Collection,Wall Sconce,68.0,Medium
+348,Hampton Bay Hensley 4.75 in. W x 11 in. H 1-Light Satin Nickel Mini Pendant with Metal Cylinder Shad,Hampton Bay,Pendant Light,100,High
+349,Hampton Bay Creekford 3-Light Brushed Nickel Chandelier with Frosted Glass Shades HON8113A,Hampton Bay,Chandelier,100,High
+350,Commercial Electric Creekford 3-Light Brushed Nickel Pendant with Frosted Glass Shade HON8913A,Commercial Electric,Pendant Light,100,High
+351,Hampton Bay Creekford 5-Light Brushed Nickel Chandelier with Frosted Glass Shades HON8115A,Hampton Bay,Chandelier,100,High
+352,Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb I,Home Decorators Collection,Unknown - Unable to Classify,8.0,No Match
+353,Wright Products Brookfield Surface Mount Latch in Satin Nickel VBR225SN,Wright Products,Door Handle,50.0,Medium
+354,MARSHALLTOWN 18 in. x 4 in. Finishing Trowel - Curved Durasoft Handle MXS81D-HD,MARSHALLTOWN,Saw Blade,50.0,Medium
+355,Husky 800-Lumen LED Utility Lights 2-Modes with Magnetic Handle and Batteries (2-Pack) HSKY8002PKUL,Husky,Shop Light,80.0,High
+356,SharkBite 3/4 in. Scale Prevention Water Filtration System SBHF10,SharkBite,Water Heater,50.0,Medium
+357,Hampton Bay 2.6 ft. 4-Lights Black Integrated LED Fixed Track Lighting Kit 23055-003,Hampton Bay,Track Lighting,80.0,High
 358,,,Unknown - Missing Data,0,No Data
-359,Commercial Electric 3 ft. 30-Watt 4000K Bright White 1-Light 3000 Lumens White Integrated LED Hangin,Commercial Electric,Extension Cord,40.0,Low
-360,Glacier Bay Foxton Single-Handle Single-Hole Bathroom Faucet in Chrome HDQFS6A0235CP,Glacier Bay,Faucet,45.0,Low
-361,Husky Magnetic Small Parts Tray Set with Pickup Tool and 300 Lumens Head Lamp 90661,Husky,Unknown - Unable to Classify,25.0,Very Low
-362,"Duracell Coppertop Alkaline AAA Battery (10-Pack), Triple A Batteries 004133317064",Duracell,Smoke Detector,30.0,Low
+359,Commercial Electric 3 ft. 30-Watt 4000K Bright White 1-Light 3000 Lumens White Integrated LED Hangin,Commercial Electric,Shop Light,100,High
+360,Glacier Bay Foxton Single-Handle Single-Hole Bathroom Faucet in Chrome HDQFS6A0235CP,Glacier Bay,Faucet,85.0,High
+361,Husky Magnetic Small Parts Tray Set with Pickup Tool and 300 Lumens Head Lamp 90661,Husky,Fastener,50.0,Medium
+362,"Duracell Coppertop Alkaline AAA Battery (10-Pack), Triple A Batteries 004133317064",Duracell,Smoke Detector,55.0,Medium
 363,,,Unknown - Missing Data,0,No Data
-364,Kidde 10-Year Battery Powered Smoke and Carbon Monoxide Detector with Alarm LED Warning Lights 21031,Kidde,Smoke Detector,53.0,Medium
-365,HDX FMS-1-S Standard Refrigerator Water Filter Replacement Fits Samsung HAF-CU1S (3-Pack) 107126,HDX,Unknown - Unable to Classify,5.0,Very Low
-366,Kapro 1-5/8 in. Bulls Eye Surface Level 240-01,Kapro,Level,70.0,High
-367,Hampton Bay 4-ft. 3-Light Black Integrated LED Linear Track Lighting Kit with Mini Cylinder Track He,Hampton Bay,Track Lighting,40.0,Low
-368,"Commercial Electric Specialty Elite 2 in. LED Gimble Canless Recessed Light, Adjustable CCT 92311",Commercial Electric,Recessed Light,40.0,Low
-369,Commercial Electric Ultra Directional Integrated LED 4 in Round Adj Color Temp Canless Recessed Ligh,Commercial Electric,Recessed Light,70.0,High
-370,Rod Desyne 84 in. - 120 in. Telescoping 5/8 in. Single Curtain Rod Kit in Black with Luna Finial 571,Rod Desyne,Unknown - Unable to Classify,5.0,Very Low
-371,Unbranded 28 in. - 48 in. Single Curtain Rod in White with Finial HMag28-01-2PC,Unbranded,Unknown - Unable to Classify,5.0,Very Low
-372,Search Results for 1004528984 at The Home Depot,,Unknown - Unable to Classify,0.0,Very Low
-373,Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in. Slats - 28 in. W x,Home Decorators Collection,Unknown - Unable to Classify,5.0,Very Low
-374,MSI Carrara White 6 in. x 12 in. Polished Marble Floor and Wall Tile (5 sq. ft./Case) TCARWHT612P,MSI,Unknown - Unable to Classify,5.0,Very Low
+364,Kidde 10-Year Battery Powered Smoke and Carbon Monoxide Detector with Alarm LED Warning Lights 21031,Kidde,Smoke Detector,93.0,High
+365,HDX FMS-1-S Standard Refrigerator Water Filter Replacement Fits Samsung HAF-CU1S (3-Pack) 107126,HDX,Unknown - Unable to Classify,10.0,No Match
+366,Kapro 1-5/8 in. Bulls Eye Surface Level 240-01,Kapro,Level,100,High
+367,Hampton Bay 4-ft. 3-Light Black Integrated LED Linear Track Lighting Kit with Mini Cylinder Track He,Hampton Bay,Track Lighting,80.0,High
+368,"Commercial Electric Specialty Elite 2 in. LED Gimble Canless Recessed Light, Adjustable CCT 92311",Commercial Electric,Recessed Light,80.0,High
+369,Commercial Electric Ultra Directional Integrated LED 4 in Round Adj Color Temp Canless Recessed Ligh,Commercial Electric,Recessed Light,100,High
+370,Rod Desyne 84 in. - 120 in. Telescoping 5/8 in. Single Curtain Rod Kit in Black with Luna Finial 571,Rod Desyne,Curtain Rod,93.0,High
+371,Unbranded 28 in. - 48 in. Single Curtain Rod in White with Finial HMag28-01-2PC,Unbranded,Curtain Rod,85.0,High
+372,Search Results for 1004528984 at The Home Depot,,Curtain Rod,50.0,Medium
+373,Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in. Slats - 28 in. W x,Home Decorators Collection,Unknown - Unable to Classify,8.0,No Match
+374,MSI Carrara White 6 in. x 12 in. Polished Marble Floor and Wall Tile (5 sq. ft./Case) TCARWHT612P,MSI,Unknown - Unable to Classify,5.0,No Match
 375,,,Unknown - Missing Data,0,No Data
-376,Milwaukee 10 in. Straight-Cut Aviation Snips 48-22-4530,Milwaukee,Unknown - Unable to Classify,25.0,Very Low
-377,RYOBI 40V HP Brushless 21 in. Cordless Battery Walk Behind Self-Propelled Lawn Mower with (2) 6.0 Ah,RYOBI,Unknown - Unable to Classify,25.0,Very Low
-378,HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn,HOMACER,Unknown - Unable to Classify,28.0,Very Low
-379,StyleWell 48 in. - 84 in. Telescoping 5/8 in. Single Curtain Rod Kit in Oil-Rubbed Bronze with Trump,StyleWell,Unknown - Unable to Classify,8.0,Very Low
-380,HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn,HOMACER,Unknown - Unable to Classify,28.0,Very Low
-381,Master Flow 7 in. 90-Degree Round Adjustable Elbow 90E7,Master Flow,Plumbing Fitting,65.0,Medium
-382,"EMOH Adjustable 48"" to 84"" Round Sash Rod in White (Set of 2) HSASHR-4884",EMOH,Unknown - Unable to Classify,5.0,Very Low
-383,StyleWell 28 in. - 48 in. Adjustable Telescoping 5/8 in. Single Curtain Rod Kit in Oil Rubbed Bronze,StyleWell,Unknown - Unable to Classify,8.0,Very Low
-384,"UNIKOO UKS04 66 to 72 in. W x 76 in. H Sliding Frameless Shower Door in Brushed Nickel, EnduroShield",UNIKOO,Unknown - Unable to Classify,3.0,Very Low
-385,Rod Desyne 28 in. - 48 in. Double Curtain Rod in Satin Nickel with Finial 4742-285,Rod Desyne,Unknown - Unable to Classify,5.0,Very Low
-386,Chicology Oxford Gray Cordless Room Darkening Vinyl Vertical Blind with 3.5 in. Slats 78 in. W x 84 ,Chicology,Unknown - Unable to Classify,5.0,Very Low
-387,Gorilla 8 ft. Waterproof Patch and Seal Tape Clear 107261,Gorilla,Tape,45.0,Low
-388,Link2Home 60 ft. 14/3 Extension Cord Storage Reel with 4 Grounded Outlets and Overload Circuit Break,Link2Home,Extension Cord,50.0,Medium
-389,VELUX 22-1/2 in. x 22-1/2 in. Fixed Pan-Flashed Skylight with Tempered Low-E3 Glass QPF 2222 2005,VELUX,Skylight,40.0,Low
-390,Search Results for 520214 at The Home Depot,,Unknown - Unable to Classify,25.0,Very Low
-391,Saniflo SaniBest Pro 2-Piece 1.28gal Single Flush Elongated Toilet with 1hp Grinder Pump in White 01,Saniflo,Toilet,55.0,Medium
+376,Milwaukee 10 in. Straight-Cut Aviation Snips 48-22-4530,Milwaukee,Fastener,50.0,Medium
+377,RYOBI 40V HP Brushless 21 in. Cordless Battery Walk Behind Self-Propelled Lawn Mower with (2) 6.0 Ah,RYOBI,Saw Blade,50.0,Medium
+378,HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn,HOMACER,Door Handle,53.0,Medium
+379,StyleWell 48 in. - 84 in. Telescoping 5/8 in. Single Curtain Rod Kit in Oil-Rubbed Bronze with Trump,StyleWell,Curtain Rod,100,High
+380,HOMACER 48 in. x 84 in. 5-in-1 Design Unfinished Solid Natural Pine Wood Panel Interior Sliding Barn,HOMACER,Door Handle,53.0,Medium
+381,Master Flow 7 in. 90-Degree Round Adjustable Elbow 90E7,Master Flow,Plumbing Fitting,100,High
+382,"EMOH Adjustable 48"" to 84"" Round Sash Rod in White (Set of 2) HSASHR-4884",EMOH,Unknown - Unable to Classify,5.0,No Match
+383,StyleWell 28 in. - 48 in. Adjustable Telescoping 5/8 in. Single Curtain Rod Kit in Oil Rubbed Bronze,StyleWell,Curtain Rod,100,High
+384,"UNIKOO UKS04 66 to 72 in. W x 76 in. H Sliding Frameless Shower Door in Brushed Nickel, EnduroShield",UNIKOO,Unknown - Unable to Classify,5.0,No Match
+385,Rod Desyne 28 in. - 48 in. Double Curtain Rod in Satin Nickel with Finial 4742-285,Rod Desyne,Curtain Rod,100,High
+386,Chicology Oxford Gray Cordless Room Darkening Vinyl Vertical Blind with 3.5 in. Slats 78 in. W x 84 ,Chicology,Unknown - Unable to Classify,8.0,No Match
+387,Gorilla 8 ft. Waterproof Patch and Seal Tape Clear 107261,Gorilla,Tape,85.0,High
+388,Link2Home 60 ft. 14/3 Extension Cord Storage Reel with 4 Grounded Outlets and Overload Circuit Break,Link2Home,Extension Cord,90.0,High
+389,VELUX 22-1/2 in. x 22-1/2 in. Fixed Pan-Flashed Skylight with Tempered Low-E3 Glass QPF 2222 2005,VELUX,Skylight,80.0,High
+390,Search Results for 520214 at The Home Depot,,Door,50.0,Medium
+391,Saniflo SaniBest Pro 2-Piece 1.28gal Single Flush Elongated Toilet with 1hp Grinder Pump in White 01,Saniflo,Toilet,95.0,High
 392,,,Unknown - Missing Data,0,No Data
-393,Lifeproof Sterling Oak 6 MIL x 8.7 in. W x 48 in. L Click Lock Waterproof Luxury Vinyl Plank Floorin,Lifeproof,Unknown - Unable to Classify,0.0,Very Low
+393,Lifeproof Sterling Oak 6 MIL x 8.7 in. W x 48 in. L Click Lock Waterproof Luxury Vinyl Plank Floorin,Lifeproof,Unknown - Unable to Classify,5.0,No Match
 394,,,Unknown - Missing Data,0,No Data
-395,HALO ALP 250-Watt Equivalent Integrated LED Grey Premium Area Light Field Selectable CCT 3000K/4000K,HALO,Unknown - Unable to Classify,13.0,Very Low
-396,Saint-Gobain ADFORS 72 in. x 25 ft. Charcoal Fiberglass Pool and Patio Screen Roll FCS8513-M,Saint-Gobain ADFORS,Unknown - Unable to Classify,5.0,Very Low
-397,BlueDEF 2.5 Gal. Diesel Exhaust Fluid (DEF) DEF002,BlueDEF,Unknown - Unable to Classify,25.0,Very Low
-398,IPEX 6 in. X 24 in. ABS SDR-35 Riser Pipe 9015,IPEX,Unknown - Unable to Classify,25.0,Very Low
-399,Home Decorators Collection 37 in. W x 22 in. D Engineered Solid Surface White Rectangular Single Sin,Home Decorators Collection,Unknown - Unable to Classify,25.0,Very Low
+395,HALO ALP 250-Watt Equivalent Integrated LED Grey Premium Area Light Field Selectable CCT 3000K/4000K,HALO,Unknown - Unable to Classify,13.0,No Match
+396,Saint-Gobain ADFORS 72 in. x 25 ft. Charcoal Fiberglass Pool and Patio Screen Roll FCS8513-M,Saint-Gobain ADFORS,Unknown - Unable to Classify,5.0,No Match
+397,BlueDEF 2.5 Gal. Diesel Exhaust Fluid (DEF) DEF002,BlueDEF,Cleaning Solution,50.0,Medium
+398,IPEX 6 in. X 24 in. ABS SDR-35 Riser Pipe 9015,IPEX,Drain,50.0,Medium
+399,Home Decorators Collection 37 in. W x 22 in. D Engineered Solid Surface White Rectangular Single Sin,Home Decorators Collection,Sink,80.0,High
 400,,,Unknown - Missing Data,0,No Data
-401,Milwaukee M12 12V Lithium-Ion Cordless Drill Driver/Impact Driver Combo Kit with Two 1.5Ah Batteries,Milwaukee,Drill,43.0,Low
-402,"Gardenised 24-Pack Pot Feet-Rubber Risers for Planters and Pots Prevents Stains, Rot, and Moisture D",Gardenised,Unknown - Unable to Classify,15.0,Very Low
-403,DEWALT MAXFIT 1 in. #20 Torx Bit (2-Piece) DWA1TX20MF2,DEWALT,Unknown - Unable to Classify,25.0,Very Low
-404,"3M OV/AG P100 Pro Multi-Purpose Reusable Respirator with Quick Latch, Size Medium 65023QLHA1-C",3M,Unknown - Unable to Classify,5.0,Very Low
-405,DEWALT 6 in. MAXFIT T25 Bit Tip DWA6TX25-1,DEWALT,Unknown - Unable to Classify,28.0,Very Low
-406,Milwaukee SHOCKWAVE Impact Duty Alloy Steel Hex Screw Driver Bit Set (9-Piece) 48-32-4616,Milwaukee,Drill Bit,40.0,Low
-407,SANOXY 25 ft. DVI-D Dual Link Digital Video Male to Male Cable 28AWG SNX-CBL-LDR-DV110-G125,SANOXY,Cable,40.0,Low
+401,Milwaukee M12 12V Lithium-Ion Cordless Drill Driver/Impact Driver Combo Kit with Two 1.5Ah Batteries,Milwaukee,Drill,83.0,High
+402,"Gardenised 24-Pack Pot Feet-Rubber Risers for Planters and Pots Prevents Stains, Rot, and Moisture D",Gardenised,Extension Cord,15.0,No Match
+403,DEWALT MAXFIT 1 in. #20 Torx Bit (2-Piece) DWA1TX20MF2,DEWALT,Drill,50.0,Medium
+404,"3M OV/AG P100 Pro Multi-Purpose Reusable Respirator with Quick Latch, Size Medium 65023QLHA1-C",3M,Safety Respirator,93.0,High
+405,DEWALT 6 in. MAXFIT T25 Bit Tip DWA6TX25-1,DEWALT,Drill,53.0,Medium
+406,Milwaukee SHOCKWAVE Impact Duty Alloy Steel Hex Screw Driver Bit Set (9-Piece) 48-32-4616,Milwaukee,Drill Bit,80.0,High
+407,SANOXY 25 ft. DVI-D Dual Link Digital Video Male to Male Cable 28AWG SNX-CBL-LDR-DV110-G125,SANOXY,Cable,80.0,High
 408,,,Unknown - Missing Data,0,No Data
-409,HDX Disposable Earplugs (50-Pack) REP501 50PK,HDX,Unknown - Unable to Classify,25.0,Very Low
+409,HDX Disposable Earplugs (50-Pack) REP501 50PK,HDX,Disposable Earplugs,100.0,High
 410,,,Unknown - Missing Data,0,No Data
 411,,,Unknown - Missing Data,0,No Data
-412,Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora,Husky,Unknown - Unable to Classify,5.0,Very Low
+412,Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora,Husky,Unknown - Unable to Classify,5.0,No Match
 413,,,Unknown - Missing Data,0,No Data
-414,Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora,Husky,Unknown - Unable to Classify,5.0,Very Low
-415,VELCRO 7/8 in. Sticky Back Squares (12-Pack) 90072,VELCRO,Unknown - Unable to Classify,8.0,Very Low
-416,Vigoro 4 ft. x 100 ft. Heavy Duty Matrix Grid Weed Control Landscape Fabric VPNM410085,Vigoro,Unknown - Unable to Classify,5.0,Very Low
-417,Milwaukee High Performance Hard Shell Knee Pads with PACKOUT Tool Bag 48-73-6030-48-22-8321,Milwaukee,Unknown - Unable to Classify,8.0,Very Low
-418,Milwaukee Red Disposable Earplugs (10-Pack) with 32 dB Noise Reduction Rating 48-73-3001,Milwaukee,Unknown - Unable to Classify,5.0,Very Low
-419,Everbilt 2-Pack 2-1/2 in. Matte Black Non-Removable Pin Narrow Surface Mount Door Hinge 28927,Everbilt,Door Hinge,50.0,Medium
-420,Stanley 10 in. Surform Regular-Cut Flat Mill File 21-293,Stanley,Saw Blade,30.0,Low
-421,Stanley 6 in. Pocket Surform Plane 21-399,Stanley,Unknown - Unable to Classify,25.0,Very Low
-422,Commercial Electric Pocket Size Auto Digital Ranging Multimeter MMB-8332R,Commercial Electric,Unknown - Unable to Classify,5.0,Very Low
-423,Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single T,Watts,Unknown - Unable to Classify,5.0,Very Low
-424,Everbilt (84-Pack) Spring Assortment Kit 24470,Everbilt,Spring,55.0,Medium
+414,Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora,Husky,Unknown - Unable to Classify,5.0,No Match
+415,VELCRO 7/8 in. Sticky Back Squares (12-Pack) 90072,VELCRO,Unknown - Unable to Classify,8.0,No Match
+416,Vigoro 4 ft. x 100 ft. Heavy Duty Matrix Grid Weed Control Landscape Fabric VPNM410085,Vigoro,Unknown - Unable to Classify,9.0,No Match
+417,Milwaukee High Performance Hard Shell Knee Pads with PACKOUT Tool Bag 48-73-6030-48-22-8321,Milwaukee,Unknown - Unable to Classify,8.0,No Match
+418,Milwaukee Red Disposable Earplugs (10-Pack) with 32 dB Noise Reduction Rating 48-73-3001,Milwaukee,Disposable Earplugs,100,High
+419,Everbilt 2-Pack 2-1/2 in. Matte Black Non-Removable Pin Narrow Surface Mount Door Hinge 28927,Everbilt,Door Hinge,90.0,High
+420,Stanley 10 in. Surform Regular-Cut Flat Mill File 21-293,Stanley,Saw Blade,55.0,Medium
+421,Stanley 6 in. Pocket Surform Plane 21-399,Stanley,Saw Blade,50.0,Medium
+422,Commercial Electric Pocket Size Auto Digital Ranging Multimeter MMB-8332R,Commercial Electric,Unknown - Unable to Classify,10.0,No Match
+423,Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single T,Watts,Plumbing Fitting,93.0,High
+424,Everbilt (84-Pack) Spring Assortment Kit 24470,Everbilt,Spring,95.0,High
