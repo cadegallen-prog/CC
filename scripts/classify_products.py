@@ -701,9 +701,20 @@ class ProductClassifier:
         }
 
     def normalize_text(self, text: str) -> str:
-        """Convert text to lowercase and remove extra spaces"""
+        """
+        Convert text to lowercase and remove extra spaces
+        Handles non-string inputs gracefully by converting to string first
+        """
         if not text:
             return ""
+
+        # Handle non-string inputs gracefully
+        if not isinstance(text, str):
+            try:
+                text = str(text)
+            except Exception:
+                return ""
+
         return " ".join(text.lower().split())
 
     def contains_keyword(self, text: str, keyword: str) -> bool:
@@ -1079,7 +1090,11 @@ class ProductClassifier:
         }
         """
         # Handle products with missing data
-        if not product.get('title') and not product.get('description'):
+        # Check both raw and normalized values to catch whitespace-only strings
+        title_normalized = self.normalize_text(product.get('title', ''))
+        description_normalized = self.normalize_text(product.get('description', ''))
+
+        if not title_normalized and not description_normalized:
             return {
                 'product_type': 'Unknown - Missing Data',
                 'confidence': 0,
