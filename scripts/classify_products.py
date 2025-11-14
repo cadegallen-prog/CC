@@ -724,6 +724,250 @@ class ProductClassifier:
         pattern = r'\b' + re.escape(keyword) + r'\b'
         return bool(re.search(pattern, padded_text))
 
+    def is_false_positive_block(self, text: str, negative_kw: str, pattern: Dict, location: str = 'title') -> bool:
+        """
+        Determine if negative keyword match is a false positive.
+        Returns True if we should NOT block (false positive detected).
+
+        Context-aware analysis to distinguish:
+        - USE CASE mentions ("bulb for chandelier") from PRODUCT TYPE ("chandelier fixture")
+        - MODIFIERS ("chandelier bulb") from HEAD NOUNS ("chandelier with bulbs")
+        - INTEGRATED COMPONENTS ("faucet with drain") from STANDALONE PRODUCTS
+        """
+
+        # Rule 0: Check if negative keyword has a MODIFIER before it
+        # Pattern: "chandelier led light bulb" - "chandelier" modifies "light bulb"
+        # This catches cases where the negative keyword IS the product type, not a disqualifier
+
+        # Common modifiers that appear before product type keywords
+        fixture_modifiers = ['chandelier', 'pendant', 'sconce', 'ceiling fan', 'track', 'vanity']
+        use_case_modifiers = ['replacement', 'compatible', 'accessory', 'for use']
+
+        # Check if any modifier appears before the negative keyword
+        for modifier in fixture_modifiers + use_case_modifiers:
+            # Pattern: "[modifier] ... [negative_kw]"
+            # e.g., "chandelier led light bulb" where "chandelier" modifies "light bulb"
+            if modifier in text:
+                # Find positions
+                mod_pos = text.find(modifier)
+                neg_pos = text.find(negative_kw)
+
+                if mod_pos < neg_pos:
+                    # Modifier comes before negative keyword
+                    # Check if they're close (within 5 words)
+                    between_text = text[mod_pos:neg_pos]
+                    word_count = len(between_text.split())
+
+                    if word_count <= 6:  # Close enough to be related
+                        return True  # False positive - modifier + product type
+
+        # Rule 1: Strong Keyword After Negative Keyword (Compound Product Names)
+        # Pattern: "chandelier led light bulb" - "chandelier" modifies "led light bulb"
+        for strong_kw in pattern.get('strong_keywords', []):
+            # Direct adjacency: "chandelier bulb"
+            if f"{negative_kw} {strong_kw}" in text:
+                return True  # False positive - don't block
+
+            # With one intervening word: "chandelier led bulb"
+            # Split and check if strong keyword appears within 3 words after negative keyword
+            words = text.split()
+            for i, word in enumerate(words):
+                if negative_kw in word:
+                    # Create window of next 3 words
+                    window_end = min(i + 4, len(words))
+                    window = ' '.join(words[i:window_end])
+
+                    # Check if any strong keyword appears in this window
+                    for sk in pattern.get('strong_keywords', []):
+                        # For multi-word strong keywords, check the full phrase
+                        if sk in window:
+                            return True  # False positive
+
+        # Rule 2: Prepositional Phrases Indicating Use Case
+        # "for chandelier", "compatible with sconce", "replacement for pendant"
+        # Handle both singular and plural forms
+        use_case_phrases = [
+            f"for {negative_kw}",
+            f"for {negative_kw}s",  # plural form
+            f"for use with {negative_kw}",
+            f"for use in {negative_kw}",
+            f"in {negative_kw}",  # e.g., "use in fixture", "in any fixture"
+            f"in any {negative_kw}",
+            f"in a {negative_kw}",
+            f"compatible with {negative_kw}",
+            f"replacement for {negative_kw}",
+            f"accessory for {negative_kw}",
+            f"works with {negative_kw}",
+            f"use with {negative_kw}",
+            f"use in {negative_kw}",
+            f"ideal for {negative_kw}",
+        ]
+
+        if any(phrase in text for phrase in use_case_phrases):
+            return True  # Use case mention - don't block
+
+        # Enhanced check for use case with intervening words
+        # e.g., "ideal for sconces, chandeliers or damp rated fixture"
+        # Check if use case indicators appear before negative keyword within reasonable distance
+        use_case_indicators = ['ideal for', 'suitable for', 'compatible with', 'works with',
+                               'use with', 'for use', 'can be used', 'utilized with',
+                               'such as', 'like']
+
+        for indicator in use_case_indicators:
+            if indicator in text and negative_kw in text:
+                # Find ALL occurrences of the indicator, not just the first
+                import re
+                neg_pos = text.find(negative_kw)
+
+                for match in re.finditer(re.escape(indicator), text):
+                    indicator_pos = match.start()
+
+                    if indicator_pos < neg_pos:
+                        # Calculate distance in words
+                        between = text[indicator_pos:neg_pos]
+                        word_count = len(between.split())
+
+                        # If negative keyword appears within 15 words after use case indicator, it's likely a use case
+                        if word_count <= 15:
+                            return True  # Use case mention with intervening words
+
+        # Also check for patterns like "for LED and [other] bulbs" where negative_kw="led bulb"
+        # This handles cases where the text says "for LED bulbs" or "for LED and Incandescent bulbs"
+        if ' ' in negative_kw:
+            # Multi-word negative keyword - try variations
+            parts = negative_kw.split()
+            if len(parts) == 2:
+                # Try "for [part1] ... [part2]s" pattern
+                # e.g., "for led ... bulbs" matches negative_kw="led bulb"
+                first_part, second_part = parts
+
+                # Look for "for [first_part]" and "[second_part]s" in proximity
+                if f"for {first_part}" in text and f"{second_part}s" in text:
+                    # Check if they're close together (within 10 words)
+                    for_pos = text.find(f"for {first_part}")
+                    plural_pos = text.find(f"{second_part}s")
+                    if for_pos != -1 and plural_pos != -1:
+                        between_words = text[for_pos:plural_pos].split()
+                        if len(between_words) <= 10:
+                            return True  # Use case with plural form
+
+        # Rule 3: Product Type Compound Names
+        # Common patterns where negative keyword is a modifier, not the product type
+        # Also handles cases where negative keyword is PART OF product type
+        bulb_compounds = [
+            f"{negative_kw} bulb",
+            f"{negative_kw} led",
+            f"{negative_kw} light bulb",
+            f"{negative_kw} led bulb",
+            f"{negative_kw} led light",
+            f"{negative_kw} lamp",
+        ]
+
+        if any(compound in text for compound in bulb_compounds):
+            return True  # Compound product name - don't block
+
+        # Special handling for multi-word negative keywords that ARE product types
+        # e.g., negative_kw = "light bulb", check if it's part of "led light bulb"
+        if ' ' in negative_kw:
+            # This is a multi-word negative keyword
+            # Check if product type indicators appear just before it
+            product_type_prefixes = ['led', 'halogen', 'incandescent', 'cfl', 'fluorescent',
+                                    'candelabra', 'chandelier', 'pendant', 'sconce',
+                                    'a19', 'a21', 'br30', 'par38', 'g16', 'e26', 'e12']
+
+            for prefix in product_type_prefixes:
+                if f"{prefix} {negative_kw}" in text:
+                    return True  # e.g., "led light bulb" where negative_kw = "light bulb"
+
+        # Handle compound negative keywords like "bulb soft", "bulb daylight"
+        # These are fragments, check if they're part of a bulb product
+        if negative_kw in ['bulb soft', 'bulb daylight']:
+            # These only appear in bulb products
+            if 'watt' in text or 'led' in text or 'lumens' in text:
+                return True  # This is clearly a bulb product
+
+        # Rule 4: Integrated Components in Products with Strong Keywords
+        # Example: "Faucet with Push & Seal Drain" - drain is integrated, not the product
+        has_strong_keyword = any(
+            self.contains_keyword(text, kw)
+            for kw in pattern.get('strong_keywords', [])
+        )
+
+        # Check for integration patterns regardless of strong keyword presence
+        # This catches cases like "Sink with Drain Assembly" even when testing Faucet pattern
+        integration_patterns = [
+            f"with {negative_kw}",
+            f"includes {negative_kw}",
+            f"including {negative_kw}",
+            f"featuring {negative_kw}",
+            f"features {negative_kw}",
+            f"and {negative_kw}",
+            f"w/ {negative_kw}",
+            f"w {negative_kw}",
+            f"{negative_kw} included",
+            f"{negative_kw} assembly",  # e.g., "drain assembly"
+        ]
+
+        if any(pat in text for pat in integration_patterns):
+            return True  # Integrated component - don't block
+
+        # Also check for "for [negative_kw]" which indicates compatibility/use case
+        if f"for {negative_kw}" in text:
+            return True  # Use case - don't block
+
+        # Rule 5: Position-Based Analysis for Accessories
+        # If strong keyword appears BEFORE negative keyword in title, it's the main product
+        # Example: "Door Handle Set with Knob" - "handle" before "knob"
+        if has_strong_keyword and location == 'title':
+            words = text.split()
+            strong_kw_position = None
+            neg_kw_position = None
+
+            # Find positions
+            for i in range(len(words)):
+                # Check for strong keyword in window starting at i
+                window = ' '.join(words[i:min(i+5, len(words))])
+                for sk in pattern.get('strong_keywords', []):
+                    if sk in window and strong_kw_position is None:
+                        strong_kw_position = i
+
+                # Check for negative keyword
+                if negative_kw in words[i]:
+                    neg_kw_position = i
+
+            # If strong keyword appears first, it's the primary product
+            if strong_kw_position is not None and neg_kw_position is not None:
+                if strong_kw_position < neg_kw_position:
+                    return True  # Strong keyword is primary - don't block
+
+        # Rule 6: Specific Pattern Overrides
+        # Some negative keywords need special handling based on pattern type
+
+        # For lighting patterns: check for fixture-specific compounds
+        if negative_kw in ['chandelier', 'sconce', 'pendant', 'ceiling fan']:
+            # These are often used as modifiers for bulbs/lights
+            fixture_bulb_patterns = [
+                f"{negative_kw} base",
+                f"{negative_kw} sized",
+                f"{negative_kw} style",
+                f"{negative_kw} type",
+                f"for {negative_kw}s",  # plural form
+            ]
+
+            if any(pattern in text for pattern in fixture_bulb_patterns):
+                return True  # Modifier usage - don't block
+
+        # For component keywords: check if describing what's included
+        if negative_kw in ['drain', 'faucet', 'showerhead']:
+            # If product clearly has the pattern's strong keyword
+            if has_strong_keyword:
+                # Check description for "included" or "comes with"
+                inclusion_words = ['included', 'comes with', 'sold with', 'ships with']
+                if any(word in text for word in inclusion_words):
+                    return True  # Included component - don't block
+
+        return False  # Not a false positive - proceed with block
+
     def calculate_match_score(self, product: Dict, product_type: str) -> Tuple[float, List[str]]:
         """
         Calculate how well a product matches a product type pattern
@@ -739,33 +983,19 @@ class ProductClassifier:
         brand = self.normalize_text(product.get('brand', ''))
         specs = product.get('structured_specifications', {})
 
-        # Check for negative keywords first (disqualifiers)
-        # Context-aware matching to avoid false rejections
+        # Check for negative keywords with context-aware analysis
         for neg_kw in pattern.get('negative_keywords', []):
-            # For fixture-type keywords (chandelier, sconce, pendant):
-            # Only block if NOT describing what the bulb is FOR
-            if neg_kw in ['chandelier', 'sconce', 'pendant']:
-                if neg_kw in title:
-                    # Check if it's "chandelier bulb" vs "chandelier fixture"
-                    # Pattern like "chandelier led" or "chandelier bulb" = bulb FOR chandelier
-                    pattern_str = rf'{neg_kw}\s+(led|light|bulb)'
-                    if re.search(pattern_str, title):
-                        # This is a bulb FOR that fixture type - don't block
-                        continue
-                    else:
-                        # It's an actual fixture - block it
-                        return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
+            # Check title
+            if neg_kw in title:
+                # Use context-aware analysis
+                if not self.is_false_positive_block(title, neg_kw, pattern, location='title'):
+                    return 0.0, [f'Disqualified by negative keyword: {neg_kw} (in title)']
 
-            # For generic keywords (fixture, wall mount, ceiling mount):
-            # Only block if in TITLE (not just description)
-            elif neg_kw in ['fixture', 'wall mount', 'ceiling mount']:
-                if neg_kw in title:
-                    return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
-
-            # For all other negative keywords: use original logic
-            else:
-                if neg_kw in title or neg_kw in description:
-                    return 0.0, [f'Disqualified by negative keyword: {neg_kw}']
+            # Check description
+            if neg_kw in description:
+                # Use context-aware analysis
+                if not self.is_false_positive_block(description, neg_kw, pattern, location='description'):
+                    return 0.0, [f'Disqualified by negative keyword: {neg_kw} (in description)']
 
         # Strong keywords in title (highest weight)
         for kw in pattern['strong_keywords']:
