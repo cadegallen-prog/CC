@@ -1,0 +1,939 @@
+{
+  "summary": {
+    "classifier_version": "Optimized Phase 1 + Phase 2",
+    "validation_date": "2025-11-14",
+    "ground_truth_samples": 47,
+    "total_products_classified": 425,
+    "target_accuracy": 95.0,
+    "achieved_accuracy": 97.87,
+    "target_met": true,
+    "unknown_products": 83,
+    "unknown_percentage": 19.53
+  },
+  "overall_metrics": {
+    "total_samples": 47,
+    "correct": 46,
+    "incorrect": 1,
+    "missing": 0,
+    "accuracy": 97.87,
+    "error_rate": 2.13
+  },
+  "per_pattern_performance": {
+    "safety_respirator_cartridge": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 125,
+          "title": "3M Organic Vapor Replacement Cartridges (1-Pair) 6001P1-DC",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "recessed_light_fixture": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 2,
+      "correct_samples": [
+        {
+          "index": 25,
+          "title": "HALO HLBSL4 4 in. Adjustable CCT Canless IC Rated Dimmable Indoor Integrated LED Recessed Light Kit (4-Pack) HLBSL4069FS35-4PK",
+          "confidence": 100
+        },
+        {
+          "index": 70,
+          "title": "Commercial Electric Slim Baffle Integrated LED 4 in Round Adj Color Temp Canless Recessed Light for Kitchen Bath Living rooms, White 4-Pack 91475",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "bathroom_towel_bar": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 221,
+          "title": "Delta Crestfield 18 in. Towel Bar in Brushed Nickel 138029",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "bathroom_exhaust_fan": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 203,
+          "title": "Hampton Bay 80 CFM Ceiling Mount Room Side Installation Heavy-Duty Bathroom Exhaust Fan, ENERGY STAR BPT13-14MG",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "under_cabinet_light": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 2,
+      "correct_samples": [
+        {
+          "index": 189,
+          "title": "Commercial Electric 36 in. LED White Direct Wire Under Cabinet Light 57005N-WH",
+          "confidence": 100
+        },
+        {
+          "index": 218,
+          "title": "Feit Electric 6 ft. Plug-In White Strip Light Cuttable Linkable Integrated LED Color Changing CCT Onesync Under Cabinet Light (1-Pack) UCL72/FLEX/5CCT",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "surge_protector_with_usb": {
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "support": 1,
+      "correct_samples": [],
+      "incorrect_samples": [
+        {
+          "index": 142,
+          "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+          "predicted": "Electrical Outlet",
+          "confidence": 100
+        }
+      ]
+    },
+    "electrical_outlet": {
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "support": 0,
+      "correct_samples": [],
+      "incorrect_samples": []
+    },
+    "hvac_air_filter": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 113,
+          "title": "HDX 20 in. x 25 in. x 6 in. AprilAire and Space-Gard Replacement Pleated Air Filter (Without Frame) FPR 7, MERV 11 HDX-A201-11-6",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "gfci_usb_outlet": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 95,
+          "title": "Leviton 15 Amp Smartlock Pro Self-Test GFCI Combination 24-Watt (4.8 Amp) Type A USB In-Wall Charger Duplex Outlet, White R02-GUSB1-0BW",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "led_troffer_light": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 324,
+          "title": "Lithonia Lighting GTL 24 in. x 48 in. 128-Watt Equivalent Integrated LED White Troffer Light 4000K 2GTL 4 70LHE GZ10 PWS1836 LP840",
+          "confidence": 100.0
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "double_hung_window": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 34,
+          "title": "Andersen 27-1/2 in. x 35-1/2 in. 200-Series White Double-Hung Clad Wood Window with White Interior Low-E Glass and White Hardware 9163982",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "metal_folding_tool": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 30,
+          "title": "Malco 18 in. Folding Tool, Folding Depths of 3/8 in. and 1 in. 18F",
+          "confidence": 97.0
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "decorative_shelf_bracket": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 107,
+          "title": "StyleWell 6 in. x 8 in. Satin Nickel Steel Classic Arch Decorative Shelf Bracket 27790SNLHD",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "smart_flush_mount_light": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 186,
+          "title": "Commercial Electric 11 in. White Integrated LED Dimmable Flush Mount Puff with Adjustable CCT and RGB at 1400 Lumens Powered by Hubspace CD44bRGBW11W",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "landscape_flood_light": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 195,
+          "title": "Hampton Bay 75-Watt Equivalent Low Voltage Black LED Outdoor Landscape Flood Light Powered by Hubspace L08157",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "disposable_earplugs": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 2,
+      "correct_samples": [
+        {
+          "index": 418,
+          "title": "Milwaukee Red Disposable Earplugs (10-Pack) with 32 dB Noise Reduction Rating 48-73-3001",
+          "confidence": 100
+        },
+        {
+          "index": 409,
+          "title": "HDX Disposable Earplugs (50-Pack) REP501 50PK",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "multi_position_ladder": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 26,
+          "title": "Werner 5 in 1 Multi Position Pro 14 ft. Reach Aluminum Adjustable Multi Position Ladder, 375 lb. Load Capacity Type IAA Duty MT-14IAA",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "wall_sconce": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 176,
+          "title": "Home Decorators Collection Closmere 5 in. 1-Light Brushed Gold Mid-Century Modern Wall Sconce with Clear Glass Shade HB3696-338",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "work_gloves": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 322,
+          "title": "Milwaukee X-Large Black Nitrile Level 1 Cut Resistant Dipped Work Gloves 48-73-8903",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "circuit_breaker": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 41,
+          "title": "GE PowerMark Gold 200 Amp 10 in. Enclosed Outdoor Circuit Breaker THQMV200NRE",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "electrical_load_center": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 75,
+          "title": "Square D Homeline 70 Amp 2-Space 4-Circuit Outdoor Main Lug Load Center(HOM24L70RBCP) HOM24L70RBCP",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "radon_detector": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 130,
+          "title": "Airthings Wave Radon Battery Operated Smart Radon Detector 2951",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "outdoor_roller_shade": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 234,
+          "title": "Coolaroo Oatmeal Cordless Light Filtering Fade Resistant Fabric Exterior Roller Shade 96 in. W x 72 in. L 458379",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "smart_deadbolt_lock": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 2,
+          "title": "Kwikset HALO Satin Nickel Keypad WiFi Electronic Single-Cylinder Smart Lock Deadbolt featuring SmartKey Security 938WIFIKYPD15SM",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "faucet_valve_stem": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 116,
+          "title": "Pfister 971-250 2-3/4 in. Replacement Valve Stem Assembly for 08 Series Tub and Shower Single-Handle Faucets 864540",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "backflow_preventer_valve": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 423,
+          "title": "Watts 1 in. Bronze Double Check Valve Backflow Preventer Assembly Quarter Turn Shutoff With Single Top Entry Freeze Sensor 007M1-QT-FZ 1 R",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "roofing_shovel_blade": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 305,
+          "title": "Anvil Replacement Blade THD-blade-set",
+          "confidence": 35.0
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "stair_nosing_trim": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 164,
+          "title": "TrimMaster Satin Nickel 5.5mm x 74 in. Aluminum Stair Nosing Floor Transition Strip HLVT7SN74",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "double_curtain_rod": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 119,
+          "title": "Home Decorators Collection 72 in. - 144 in. Telescoping 1 in. Double Curtain Rod in Brushed Nickel with Crystal Square Finials U-BN144FOMS03",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "sds_plus_rebar_cutter": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 88,
+          "title": "DIABLO 3/4 in. x 12 in. SDS-Plus Rebar Cutter DMAPLRC1050",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "usb_outlet": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 2,
+      "correct_samples": [
+        {
+          "index": 36,
+          "title": "Leviton 15 Amp Decora Combination Tamper Resistant Duplex Outlet and USB Charger, White (3-Pack) T5632-3BW M02-T5632-3BW",
+          "confidence": 100
+        },
+        {
+          "index": 96,
+          "title": "Leviton 3.6A USB Dual Type A In-Wall Charger with 15 Amp Tamper-Resistant Outlets, Black T5632-BE R05-T5632-0BE",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "hvlp_paint_sprayer": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 90,
+          "title": "TITAN EP 60X Fine Finishing HVLP Paint Sprayer 2456369",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "kitchen_sink_with_faucet": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 339,
+          "title": "Glacier Bay Dolancourt Tight Radius 33 in. Drop-In Single Bowl 18 Gauge Stainless Steel Kitchen Sink with Pull-Down Faucet VDR3322A1PA1",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "unknown": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 3,
+      "correct_samples": [
+        {
+          "index": 358,
+          "title": "",
+          "confidence": 0
+        },
+        {
+          "index": 375,
+          "title": "",
+          "confidence": 0
+        },
+        {
+          "index": 411,
+          "title": "",
+          "confidence": 0
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "chainsaw_tuneup_kit": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 23,
+          "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "hex_driver_bits": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 406,
+          "title": "Milwaukee SHOCKWAVE Impact Duty Alloy Steel Hex Screw Driver Bit Set (9-Piece) 48-32-4616",
+          "confidence": 100.0
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "dual_flush_toilet": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 262,
+          "title": "Delta Foundations 2-Piece 1.1 GPF/1.6 GPF Dual Flush Round Toilet in White C41913D-WH",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "speaker_wall_mounts": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 301,
+          "title": "Commercial Electric Bookshelf Speaker Wall Mounts, No Stud Required (Set of 2) MB-74230",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "circuit_breaker_kit": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 47,
+          "title": "GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Breaker Value Kit TLM812SCUD1K",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "velcro_fastener_tape": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 310,
+          "title": "VELCRO 5 ft. x 3/4 in. Sticky Back Tape 90087",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "led_track_lighting_kit": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 170,
+          "title": "Hampton Bay Pratford 2.6 ft. 4-Light Brushed Nickel Integrated LED Fixed Track Lighting Kit 23055-000",
+          "confidence": 100.0
+        }
+      ],
+      "incorrect_samples": []
+    },
+    "mini_pendant_light": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 1,
+      "correct_samples": [
+        {
+          "index": 352,
+          "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Strap Design and Bulb Included HDP12107ORB",
+          "confidence": 100
+        }
+      ],
+      "incorrect_samples": []
+    }
+  },
+  "confusion_matrix": {
+    "safety_respirator_cartridge": {
+      "Safety Respirator": 1
+    },
+    "recessed_light_fixture": {
+      "Recessed Light": 2
+    },
+    "bathroom_towel_bar": {
+      "Bathroom Towel Bar": 1
+    },
+    "bathroom_exhaust_fan": {
+      "Exhaust Fan": 1
+    },
+    "under_cabinet_light": {
+      "Under Cabinet Light": 2
+    },
+    "surge_protector_with_usb": {
+      "Electrical Outlet": 1
+    },
+    "hvac_air_filter": {
+      "HVAC Air Filter": 1
+    },
+    "gfci_usb_outlet": {
+      "Electrical Outlet": 1
+    },
+    "led_troffer_light": {
+      "Troffer Light": 1
+    },
+    "double_hung_window": {
+      "Window": 1
+    },
+    "metal_folding_tool": {
+      "Metal Folding Tool": 1
+    },
+    "decorative_shelf_bracket": {
+      "Shelf Bracket": 1
+    },
+    "smart_flush_mount_light": {
+      "Flush Mount Light": 1
+    },
+    "landscape_flood_light": {
+      "Landscape Lighting": 1
+    },
+    "disposable_earplugs": {
+      "Disposable Earplugs": 2
+    },
+    "multi_position_ladder": {
+      "Ladder": 1
+    },
+    "wall_sconce": {
+      "Wall Sconce": 1
+    },
+    "work_gloves": {
+      "Work Gloves": 1
+    },
+    "circuit_breaker": {
+      "Circuit Breaker": 1
+    },
+    "electrical_load_center": {
+      "Load Center": 1
+    },
+    "radon_detector": {
+      "Radon Detector": 1
+    },
+    "outdoor_roller_shade": {
+      "Window Shade": 1
+    },
+    "smart_deadbolt_lock": {
+      "Door Lock": 1
+    },
+    "faucet_valve_stem": {
+      "Faucet Part": 1
+    },
+    "backflow_preventer_valve": {
+      "Plumbing Fitting": 1
+    },
+    "roofing_shovel_blade": {
+      "Roofing Shovel Blade": 1
+    },
+    "stair_nosing_trim": {
+      "Stair Nosing Trim": 1
+    },
+    "double_curtain_rod": {
+      "Curtain Rod": 1
+    },
+    "sds_plus_rebar_cutter": {
+      "Specialty Cutter": 1
+    },
+    "usb_outlet": {
+      "Electrical Outlet": 2
+    },
+    "hvlp_paint_sprayer": {
+      "Paint Sprayer": 1
+    },
+    "kitchen_sink_with_faucet": {
+      "Sink": 1
+    },
+    "missing_data": {
+      "Unknown - Missing Data": 3
+    },
+    "chainsaw_tuneup_kit": {
+      "Tool Kit": 1
+    },
+    "hex_driver_bits": {
+      "Drill Bit": 1
+    },
+    "dual_flush_toilet": {
+      "Toilet": 1
+    },
+    "speaker_wall_mounts": {
+      "Speaker Mount": 1
+    },
+    "circuit_breaker_kit": {
+      "Circuit Breaker": 1
+    },
+    "velcro_fastener_tape": {
+      "Tape": 1
+    },
+    "led_track_lighting_kit": {
+      "Track Lighting": 1
+    },
+    "mini_pendant_light": {
+      "Pendant Light": 1
+    }
+  },
+  "confidence_analysis": {
+    "mean": 75.95,
+    "median": 97.0,
+    "std_dev": 36.09,
+    "min": 3.0,
+    "max": 100,
+    "quartiles": {
+      "Q1": 63.0,
+      "Q2": 97.0,
+      "Q3": 100.0
+    },
+    "histogram": {
+      "0": 47,
+      "10": 35,
+      "20": 4,
+      "30": 2,
+      "60": 39,
+      "70": 6,
+      "80": 3,
+      "90": 78,
+      "100": 201
+    },
+    "correct_predictions": {
+      "mean": 92.0,
+      "median": 100.0,
+      "count": 46
+    },
+    "incorrect_predictions": {
+      "mean": 100,
+      "median": 100,
+      "count": 1
+    }
+  },
+  "key_improvements": {
+    "text_normalization": "Fixed hyphen handling (mini-pendant \u2192 mini pendant)",
+    "negative_keywords": "Removed overly restrictive blocking",
+    "scoring_calibration": "Increased title match from 80 to 90 points",
+    "missing_patterns": "Added 15+ new product type patterns",
+    "unknown_threshold": "Lowered from 15 to 12 points"
+  },
+  "remaining_issues": {
+    "total_errors": 1,
+    "error_details": [
+      {
+        "index": 142,
+        "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+        "expected": "surge_protector_with_usb",
+        "predicted": "Electrical Outlet",
+        "confidence": 100
+      }
+    ]
+  }
+}
