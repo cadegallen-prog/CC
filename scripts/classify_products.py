@@ -33,7 +33,7 @@ class ProductClassifier:
                 'description_hints': ['watt equivalent', 'color temperature', 'soft white', 'daylight', 'cri', 'bulbs for', 'bulbs take', 'led bulbs'],
                 'spec_indicators': {'wattage', 'lumens', 'color_temp', 'base_type', 'dimmable'},
                 'domains': ['lighting', 'electrical'],
-                'negative_keywords': ['sconce', 'pendant', 'chandelier', 'wall mount', 'ceiling mount'],
+                'negative_keywords': ['sconce', 'pendant', 'fixture', 'wall mount', 'ceiling mount'],
                 'spec_boost': True  # Boost score if has bulb-specific specs
             },
 
