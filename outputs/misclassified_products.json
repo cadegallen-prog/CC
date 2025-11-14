@@ -1,0 +1,82 @@
+[
+  {
+    "id": 20,
+    "title": "Lutron Skylark Contour LED+ Dimmer Switch for LED and Incandescent Bulbs, 150-Watt/Single-Pole or 3-",
+    "description": "The Contour LED+ dimmer switch provides optimal dimming performance of LED bulbs. This dimmer switch works with up to 150-Watt of dimmable LED/CFL or 600-Watt of incandescent/halogen, allowing you to ",
+    "should_be": "Light Switch",
+    "classified_as": "LED Light Bulb",
+    "confidence": 69.0
+  },
+  {
+    "id": 82,
+    "title": "Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Incandescent Bulbs, Whi",
+    "description": "The radiant collection is a step up from the standard with simple, classic options in wiring devices, home automation controls and screwless wall plates that complement today's homes. The Legrand radi",
+    "should_be": "LED Light Bulb",
+    "classified_as": "Wall Plate",
+    "confidence": 58.0
+  },
+  {
+    "id": 105,
+    "title": "CyberPower 6 ft. 4-Outlet Power Station with Surge Protector PS406UC",
+    "description": "The CyberPower PS406UC Charge and Glow USB and AC Power Station satisfies your need for power, style, and versatility-all in 1 unit. It keeps a variety of lighted color options and power solutions wit",
+    "should_be": "Electrical Outlet",
+    "classified_as": "Surge Protector",
+    "confidence": 100
+  },
+  {
+    "id": 120,
+    "title": "CyberPower 15 ft. 6-Outlet Cord 1500J Surge Protector B615",
+    "description": "The CyberPower Surge Protect or B615 offers vital surge protection for common home and office devices such as computers and electronics. It prevents spikes in energy caused by storms and electrical po",
+    "should_be": "Electrical Outlet",
+    "classified_as": "Surge Protector",
+    "confidence": 100
+  },
+  {
+    "id": 123,
+    "title": "Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimmer Switch with Brass",
+    "description": "The LED Desk Lamp adds a touch of sophistication with its sleek profile and Aged Brass finish. Its Metal Shade is specifically designed to cast focused light downward, providing 600 lumens for optimal",
+    "should_be": "Light Switch",
+    "classified_as": "LED Light Bulb",
+    "confidence": 21.0
+  },
+  {
+    "id": 133,
+    "title": "Hampton Bay Indoor/Outdoor 12-Light 24 ft. Smart Plug-in Edison Bulb RGBW Color Changing LED String ",
+    "description": "Hampton Bay commercial grade Smart 24 ft. Color-Changing Plug-in String Lights lets you create unique colors for your team, party or occasion, or quickly switch to 1 of the fashionable built-in holida",
+    "should_be": "LED Light Bulb",
+    "classified_as": "String Lights",
+    "confidence": 100
+  },
+  {
+    "id": 142,
+    "title": "360 Electrical 24-Watt Revolve 4-Outlet Surge Protector 3E0775-WHT6NA",
+    "description": "The Revolve24 employs 24-Watt and 4 USB-A ports to meet all of your charging needs. Add in 4 rotating outlets that fit large plugs and are protected by 1080 joules. All this wrapped in a stylish body ",
+    "should_be": "Electrical Outlet",
+    "classified_as": "Surge Protector",
+    "confidence": 100
+  },
+  {
+    "id": 143,
+    "title": "360 Electrical 45-Watt Revolve 4-Outlet Surge Protector 3E0771-WHT6NA",
+    "description": "The Revolve45 employs next gen Gallium Nitride technology to ensure the fastest and safest charge possible. With 45-Watt available, rapidly charging phones and tablets is only the beginning. The Revol",
+    "should_be": "Electrical Outlet",
+    "classified_as": "Surge Protector",
+    "confidence": 100
+  },
+  {
+    "id": 149,
+    "title": "Enbrighten 12 Bulb 24 ft. Outdoor/Indoor Black Vintage LED String Lights, Acrylic Edison Bulbs 35629",
+    "description": "Add the sophistication of old-world charm to your deck or patio while still enjoying the convenience of a contemporary and premium design. These carefully crafted Edison-style Cafe lights boast the fu",
+    "should_be": "LED Light Bulb",
+    "classified_as": "String Lights",
+    "confidence": 100
+  },
+  {
+    "id": 388,
+    "title": "Link2Home 60 ft. 14/3 Extension Cord Storage Reel with 4 Grounded Outlets and Overload Circuit Break",
+    "description": "Link2Home Cord Reel 60 ft. Extension Cord 4 Power Outlets with 14 AWG SJTW Cable is the perfect power solution for your garage, backyard, warehouse space etc. Tangle free cord management helps cords s",
+    "should_be": "Electrical Outlet",
+    "classified_as": "Extension Cord",
+    "confidence": 90.0
+  }
+]
