@@ -1,0 +1,55 @@
+keyword,precision,correct,incorrect,total,category
+led light bulb,1.0,4,0,4,HIGH
+light bulb,1.0,5,0,5,HIGH
+led lamp,1.0,2,0,2,HIGH
+rocker switch,1.0,1,0,1,HIGH
+kitchen faucet,1.0,3,0,3,HIGH
+toilet,1.0,8,0,8,HIGH
+bathroom sink,1.0,1,0,1,HIGH
+smart lock,1.0,2,0,2,HIGH
+recessed light,1.0,19,0,19,HIGH
+recessed lighting,1.0,1,0,1,HIGH
+canless,1.0,19,0,19,HIGH
+mini-pendant,1.0,1,0,1,HIGH
+track light,1.0,6,0,6,HIGH
+track lighting,1.0,6,0,6,HIGH
+exhaust fan,1.0,7,0,7,HIGH
+ladder,1.0,4,0,4,HIGH
+step ladder,1.0,1,0,1,HIGH
+cordless drill,1.0,1,0,1,HIGH
+circular saw,1.0,2,0,2,HIGH
+reciprocating saw,1.0,3,0,3,HIGH
+bit set,1.0,3,0,3,HIGH
+driver bit,1.0,1,0,1,HIGH
+tankless water heater,1.0,1,0,1,HIGH
+thermostat,1.0,1,0,1,HIGH
+string light,1.0,1,0,1,HIGH
+string lights,1.0,1,0,1,HIGH
+shower pan,1.0,2,0,2,HIGH
+showerhead,1.0,1,0,1,HIGH
+shower head,1.0,1,0,1,HIGH
+curtain rod,1.0,7,0,7,HIGH
+skylight,1.0,6,0,6,HIGH
+shop vac,1.0,2,0,2,HIGH
+shop vacuum,1.0,2,0,2,HIGH
+wet dry vac,1.0,1,0,1,HIGH
+saw,0.8888888888888888,8,1,9,MEDIUM
+kitchen sink,0.8571428571428571,6,1,7,MEDIUM
+sink,0.8333333333333334,10,2,12,MEDIUM
+drill,0.75,3,1,4,MEDIUM
+water heater,0.75,3,1,4,MEDIUM
+breaker,0.7272727272727273,16,6,22,MEDIUM
+wall sconce,0.7,7,3,10,MEDIUM
+circuit breaker,0.6923076923076923,9,4,13,LOW
+sconce,0.6923076923076923,9,4,13,LOW
+deadbolt,0.6666666666666666,2,1,3,LOW
+chandelier,0.6666666666666666,4,2,6,LOW
+faucet,0.6363636363636364,7,4,11,LOW
+incandescent bulb,0.5,1,1,2,LOW
+bathroom faucet,0.5,1,1,2,LOW
+mini pendant,0.5,1,1,2,LOW
+window,0.5,1,1,2,LOW
+dimmer switch,0.0,0,2,2,LOW
+door lock,0.0,0,1,1,LOW
+ceiling fan,0.0,0,1,1,LOW
+drill bit,0.0,0,2,2,LOW

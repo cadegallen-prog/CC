@@ -1,0 +1,366 @@
+{
+  "total_products": 425,
+  "product_types_found": 76,
+  "type_distribution": {
+    "Unknown - Unable to Classify": 61,
+    "LED Light Bulb": 39,
+    "Circuit Breaker": 21,
+    "Sink": 16,
+    "Saw Blade": 13,
+    "Wire": 12,
+    "Recessed Light": 12,
+    "Unknown - Missing Data": 10,
+    "Work Gloves": 9,
+    "Wall Sconce": 9,
+    "Drill": 9,
+    "Drill Bit": 8,
+    "Electrical Outlet": 8,
+    "Curtain Rod": 8,
+    "Tape": 8,
+    "Saw": 7,
+    "Load Center": 7,
+    "Track Lighting": 7,
+    "Exhaust Fan": 7,
+    "Toilet": 7,
+    "Water Heater": 6,
+    "Faucet": 6,
+    "Pendant Light": 6,
+    "Skylight": 6,
+    "Bathroom Towel Bar": 6,
+    "Level": 5,
+    "Drain": 5,
+    "Surge Protector": 5,
+    "Door Handle": 5,
+    "Plumbing Fitting": 5,
+    "Cable": 4,
+    "Ladder": 4,
+    "Fastener": 4,
+    "Light Switch": 4,
+    "Door Lock": 3,
+    "Door Knob": 3,
+    "Shop Vacuum": 3,
+    "Cleaning Solution": 3,
+    "Landscape Lighting": 3,
+    "Flush Mount Light": 3,
+    "Window Shade": 3,
+    "Chandelier": 3,
+    "Troffer Light": 3,
+    "Window": 2,
+    "Cleaning Pad": 2,
+    "Paint Sprayer": 2,
+    "Shelf Bracket": 2,
+    "Paint": 2,
+    "Safety Respirator": 2,
+    "String Lights": 2,
+    "Shower Pan": 2,
+    "Under Cabinet Light": 2,
+    "Spring": 2,
+    "Showerhead": 2,
+    "Extension Cord": 2,
+    "Door Hinge": 2,
+    "Shop Light": 2,
+    "Smoke Detector": 2,
+    "Disposable Earplugs": 2,
+    "Thermostat": 1,
+    "Tool Kit": 1,
+    "Metal Folding Tool": 1,
+    "Ceiling Fan": 1,
+    "Screwdriver": 1,
+    "Specialty Cutter": 1,
+    "HVAC Air Filter": 1,
+    "Faucet Part": 1,
+    "Radon Detector": 1,
+    "Vanity Top": 1,
+    "Adhesive": 1,
+    "Voltage Tester": 1,
+    "Bathtub": 1,
+    "Flashlight": 1,
+    "Toilet Seat": 1,
+    "Wall Plate": 1,
+    "Door": 1
+  },
+  "confidence_distribution": {
+    "High": 290,
+    "No Match": 61,
+    "Medium": 6,
+    "Low": 58,
+    "No Data": 10
+  },
+  "average_confidence": 70.6,
+  "low_confidence_count": 129,
+  "low_confidence_products": [
+    {
+      "index": 358,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 363,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 375,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 392,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 394,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 400,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 408,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 410,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 411,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 413,
+      "title": "",
+      "brand": "",
+      "price": 0.0,
+      "product_type": "Unknown - Missing Data",
+      "confidence": 0,
+      "confidence_level": "No Data",
+      "reasons": [
+        "Product has no title or description"
+      ],
+      "alternate_types": []
+    },
+    {
+      "index": 374,
+      "title": "MSI Carrara White 6 in. x 12 in. Polished Marble Floor and Wall Tile (5 sq. ft./Case) TCARWHT612P",
+      "brand": "MSI",
+      "price": 86.13,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 382,
+      "title": "EMOH Adjustable 48\" to 84\" Round Sash Rod in White (Set of 2) HSASHR-4884",
+      "brand": "EMOH",
+      "price": 29.84,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 384,
+      "title": "UNIKOO UKS04 66 to 72 in. W x 76 in. H Sliding Frameless Shower Door in Brushed Nickel, EnduroShield",
+      "brand": "UNIKOO",
+      "price": 800.99,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 393,
+      "title": "Lifeproof Sterling Oak 6 MIL x 8.7 in. W x 48 in. L Click Lock Waterproof Luxury Vinyl Plank Floorin",
+      "brand": "Lifeproof",
+      "price": 49.95,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 396,
+      "title": "Saint-Gobain ADFORS 72 in. x 25 ft. Charcoal Fiberglass Pool and Patio Screen Roll FCS8513-M",
+      "brand": "Saint-Gobain ADFORS",
+      "price": 46.48,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 412,
+      "title": "Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora",
+      "brand": "Husky",
+      "price": 381.1,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 414,
+      "title": "Husky 72 in. W x 24 in. D Adjustable Height Black Workbench for Ready to Assemble Steel Garage Stora",
+      "brand": "Husky",
+      "price": 381.1,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 3.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 373,
+      "title": "Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in. Slats - 28 in. W x",
+      "brand": "Home Decorators Collection",
+      "price": 30.98,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 5.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)",
+        "Found 1 description hints (+2)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 386,
+      "title": "Chicology Oxford Gray Cordless Room Darkening Vinyl Vertical Blind with 3.5 in. Slats 78 in. W x 84 ",
+      "brand": "Chicology",
+      "price": 79.99,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 5.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)",
+        "Found 1 description hints (+2)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    },
+    {
+      "index": 415,
+      "title": "VELCRO 7/8 in. Sticky Back Squares (12-Pack) 90072",
+      "brand": "VELCRO",
+      "price": 2.89,
+      "product_type": "Unknown - Unable to Classify",
+      "confidence": 5.0,
+      "confidence_level": "No Match",
+      "reasons": [
+        "Found 1 supporting keywords (+3)",
+        "Found 1 description hints (+2)"
+      ],
+      "alternate_types": [],
+      "version": "v2_recalibrated"
+    }
+  ]
+}

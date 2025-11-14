@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "total_products": 425,
+    "known_misclassifications_v1": 28,
+    "fixes": 13,
+    "still_wrong": 15,
+    "regressions": 0,
+    "fix_rate": 46.42857142857143
+  },
+  "metrics": {
+    "v1": {
+      "high_confidence_count": 277,
+      "high_confidence_pct": 65.17647058823529,
+      "unknown_count": 70,
+      "unknown_pct": 16.470588235294116,
+      "avg_confidence": 71.56941176470588,
+      "title_based_accuracy": 83.33333333333334,
+      "title_based_correct": 140
+    },
+    "v2": {
+      "high_confidence_count": 290,
+      "high_confidence_pct": 68.23529411764706,
+      "unknown_count": 71,
+      "unknown_pct": 16.705882352941178,
+      "avg_confidence": 70.6,
+      "title_based_accuracy": 91.07142857142857,
+      "title_based_correct": 153
+    },
+    "improvements": {
+      "high_confidence_gain": 13,
+      "unknown_reduction": -1,
+      "avg_confidence_delta": -0.9694117647058818,
+      "title_accuracy_gain": 7.738095238095233,
+      "misclassifications_fixed": 13
+    }
+  },
+  "fixes_detail": [
+    {
+      "index": 28,
+      "title": "GE 150 Amp 4-Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Soc",
+      "ground_truth": "Circuit Breaker",
+      "v1_classification": "Load Center",
+      "v2_classification": "Circuit Breaker",
+      "v1_confidence": "98.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 44,
+      "title": "Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8",
+      "ground_truth": "Ceiling Fan",
+      "v1_classification": "LED Light Bulb",
+      "v2_classification": "Ceiling Fan",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 61,
+      "title": "GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circui",
+      "ground_truth": "Circuit Breaker",
+      "v1_classification": "Load Center",
+      "v2_classification": "Circuit Breaker",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 63,
+      "title": "GE 200 Amp 4 Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Soc",
+      "ground_truth": "Circuit Breaker",
+      "v1_classification": "Load Center",
+      "v2_classification": "Circuit Breaker",
+      "v1_confidence": "98.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 64,
+      "title": "GE PowerMark Plus 125 Amp 4-Space 8-Circuit Single-Phase Indoor Main Lug Circuit",
+      "ground_truth": "Circuit Breaker",
+      "v1_classification": "Load Center",
+      "v2_classification": "Circuit Breaker",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 65,
+      "title": "GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Circuit Breaker Pan",
+      "ground_truth": "Circuit Breaker",
+      "v1_classification": "Load Center",
+      "v2_classification": "Circuit Breaker",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 66,
+      "title": "Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Do",
+      "ground_truth": "Door Lock",
+      "v1_classification": "Door Handle",
+      "v2_classification": "Door Lock",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 79,
+      "title": "GE PowerMark Plus Outdoor 70 Amp 2-Space 4-Circuit Single-Phase Main Lug Circuit",
+      "ground_truth": "Circuit Breaker",
+      "v1_classification": "Load Center",
+      "v2_classification": "Circuit Breaker",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 82,
+      "title": "Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Inc",
+      "ground_truth": "LED Light Bulb",
+      "v1_classification": "Wall Plate",
+      "v2_classification": "LED Light Bulb",
+      "v1_confidence": "58.0",
+      "v2_confidence": "100"
+    },
+    {
+      "index": 104,
+      "title": "DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010",
+      "ground_truth": "Drill Bit",
+      "v1_classification": "Drill",
+      "v2_classification": "Drill Bit",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 212,
+      "title": "SharkBite Max 3/4 in. Push-to-Connect x 3/4 in. FIP x 18 in. Braided Stainless S",
+      "ground_truth": "Water Heater",
+      "v1_classification": "Plumbing Fitting",
+      "v2_classification": "Water Heater",
+      "v1_confidence": "93.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 214,
+      "title": "KOHLER Setra Single-Handle Semi-Professional Kitchen Sink Faucet with Soap Dispe",
+      "ground_truth": "Sink",
+      "v1_classification": "Faucet",
+      "v2_classification": "Sink",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    },
+    {
+      "index": 250,
+      "title": "DEWALT MAXFIT Impact Rated 2 in. #2 Philips Steel Screwdriver Drill Bit (2-Piece",
+      "ground_truth": "Drill Bit",
+      "v1_classification": "Drill",
+      "v2_classification": "Drill Bit",
+      "v1_confidence": "100.0",
+      "v2_confidence": "95.0"
+    }
+  ],
+  "still_wrong_detail": [
+    {
+      "index": 0,
+      "title": "Feit Electric 60-Watt Equivalent B10 E26 Base Dim White Filament Clear Glass Cha",
+      "ground_truth": "Chandelier",
+      "v1_classification": "Wall Sconce",
+      "v2_classification": "LED Light Bulb",
+      "changed": true
+    },
+    {
+      "index": 16,
+      "title": "Pfister Brea Single Handle Single Hole Bathroom Faucet with Deckplate in Brushed",
+      "ground_truth": "Faucet",
+      "v1_classification": "Drain",
+      "v2_classification": "Drain",
+      "changed": false
+    },
+    {
+      "index": 23,
+      "title": "RYOBI Tune-Up Kit for 37cc and 38cc Gas Chainsaws AC0538CSK",
+      "ground_truth": "Saw",
+      "v1_classification": "Tool Kit",
+      "v2_classification": "Tool Kit",
+      "changed": false
+    },
+    {
+      "index": 92,
+      "title": "Milwaukee SHOCKWAVE Impact Duty Drill & Drive Set (21-Piece) 48-32-5163",
+      "ground_truth": "Drill",
+      "v1_classification": "Drill Bit",
+      "v2_classification": "Drill Bit",
+      "changed": false
+    },
+    {
+      "index": 123,
+      "title": "Hampton Bay Wesleigh 59 in. Aged Brass Standard LED Indoor Floor Lamp 3 CCT Dimm",
+      "ground_truth": "Light Switch",
+      "v1_classification": "LED Light Bulb",
+      "v2_classification": "LED Light Bulb",
+      "changed": false
+    },
+    {
+      "index": 166,
+      "title": "Hampton Bay Ashhurst 1-Light ORB Wall Sconce with Switch JIB8401AX-02/OR",
+      "ground_truth": "Wall Sconce",
+      "v1_classification": "Unknown - Unable to Classify",
+      "v2_classification": "Light Switch",
+      "changed": true
+    },
+    {
+      "index": 168,
+      "title": "Hampton Bay Ashhurst 1-Light Brushed Nickel Wall Sconce with Switch JIB8401AX-02",
+      "ground_truth": "Wall Sconce",
+      "v1_classification": "Unknown - Unable to Classify",
+      "v2_classification": "Light Switch",
+      "changed": true
+    },
+    {
+      "index": 174,
+      "title": "KOHLER Capilano Single-Handle 3-Spray Tub and Shower Faucet in Vibrant Brushed N",
+      "ground_truth": "Faucet",
+      "v1_classification": "Door Handle",
+      "v2_classification": "Door Handle",
+      "changed": false
+    },
+    {
+      "index": 179,
+      "title": "Home Decorators Collection Keighley Integrated LED Chrome and Crystal Indoor Wal",
+      "ground_truth": "Wall Sconce",
+      "v1_classification": "Sink",
+      "v2_classification": "Sink",
+      "changed": false
+    },
+    {
+      "index": 180,
+      "title": "Hampton Bay Upton Brushed Nickel LED Sconce RS513859",
+      "ground_truth": "Wall Sconce",
+      "v1_classification": "Light Switch",
+      "v2_classification": "Light Switch",
+      "changed": false
+    },
+    {
+      "index": 183,
+      "title": "Glacier Bay Stancliff 25 in. Single Sink Elm Ember Bath Vanity with White Cultur",
+      "ground_truth": "Sink",
+      "v1_classification": "Vanity Top",
+      "v2_classification": "Vanity Top",
+      "changed": false
+    },
+    {
+      "index": 240,
+      "title": "MOEN Genta Single-Handle 1-Spray Tub and Shower Faucet in Matte Black (Valve Inc",
+      "ground_truth": "Faucet",
+      "v1_classification": "Bathtub",
+      "v2_classification": "Bathtub",
+      "changed": false
+    },
+    {
+      "index": 343,
+      "title": "Feit Electric 40-Watt Equivalent B10 E12 Candelabra Dim White Filament Clear Gla",
+      "ground_truth": "Chandelier",
+      "v1_classification": "Wall Sconce",
+      "v2_classification": "LED Light Bulb",
+      "changed": true
+    },
+    {
+      "index": 352,
+      "title": "Home Decorators Collection Orbit 1-Light Black Mini Pendant with Black Metal Str",
+      "ground_truth": "Pendant Light",
+      "v1_classification": "Unknown - Unable to Classify",
+      "v2_classification": "Unknown - Unable to Classify",
+      "changed": false
+    },
+    {
+      "index": 373,
+      "title": "Home Decorators Collection White Cordless Faux Wood Blinds for Windows with 2 in",
+      "ground_truth": "Window",
+      "v1_classification": "Unknown - Unable to Classify",
+      "v2_classification": "Unknown - Unable to Classify",
+      "changed": false
+    }
+  ],
+  "classification_changes": 55,
+  "confidence_changes": {
+    "improvements": 69,
+    "decreases": 218
+  }
+}

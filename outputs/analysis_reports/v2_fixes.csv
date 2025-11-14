@@ -1,0 +1,14 @@
+Index,Title,Ground Truth,V1 Classification,V2 Classification,V1 Confidence,V2 Confidence
+28,GE 150 Amp 4-Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Soc,Circuit Breaker,Load Center,Circuit Breaker,98.0,95.0
+44,"Bell + Howell 15.7 in. Indoor White Ceiling Fan with Remote, LED Light, Socket 8",Ceiling Fan,LED Light Bulb,Ceiling Fan,100.0,95.0
+61,GE PowerMark Plus Outdoor 125 Amp 4-Space 8-Circuit Single-Phase Main Lug Circui,Circuit Breaker,Load Center,Circuit Breaker,100.0,95.0
+63,GE 200 Amp 4 Space 8 Circuit Outdoor Combination Main Breaker/Ringless Meter Soc,Circuit Breaker,Load Center,Circuit Breaker,98.0,95.0
+64,GE PowerMark Plus 125 Amp 4-Space 8-Circuit Single-Phase Indoor Main Lug Circuit,Circuit Breaker,Load Center,Circuit Breaker,100.0,95.0
+65,GE PowerMark Plus 125 Amp 8-Space 16-Circuit Indoor Main Lug Circuit Breaker Pan,Circuit Breaker,Load Center,Circuit Breaker,100.0,95.0
+66,Schlage Camelot Satin Nickel Electronic Keypad Deadbolt Door Lock with Accent Do,Door Lock,Door Handle,Door Lock,100.0,95.0
+79,GE PowerMark Plus Outdoor 70 Amp 2-Space 4-Circuit Single-Phase Main Lug Circuit,Circuit Breaker,Load Center,Circuit Breaker,100.0,95.0
+82,Legrand radiant 450W Multi-Location Master Rocker Dimmer for LED/CFL/Halogen/Inc,LED Light Bulb,Wall Plate,LED Light Bulb,58.0,100
+104,DIABLO 2 in. x 7 in. SDS-Max Carbide Tipped Coring Drill Bit DMAMXCC5010,Drill Bit,Drill,Drill Bit,100.0,95.0
+212,SharkBite Max 3/4 in. Push-to-Connect x 3/4 in. FIP x 18 in. Braided Stainless S,Water Heater,Plumbing Fitting,Water Heater,93.0,95.0
+214,KOHLER Setra Single-Handle Semi-Professional Kitchen Sink Faucet with Soap Dispe,Sink,Faucet,Sink,100.0,95.0
+250,DEWALT MAXFIT Impact Rated 2 in. #2 Philips Steel Screwdriver Drill Bit (2-Piece,Drill Bit,Drill,Drill Bit,100.0,95.0
