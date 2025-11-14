@@ -1,4 +1,7 @@
-# Instructions for AI Assistants (Claude, ChatGPT, etc.)
+# Instructions for Browser-Based AI Assistants
+
+**FOR: Claude.ai, ChatGPT web, or any AI running in a browser**
+**NOT FOR: Desktop AI like Claude Code (see README_FOR_AI.md instead)**
 
 **IMPORTANT: Read this FIRST before working with this user or this project.**
 
