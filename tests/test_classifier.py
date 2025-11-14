@@ -19,6 +19,8 @@ def load_json(file_path):
 
 def get_cluster_assignment(product):
     """Replicate the cluster assignment logic from pattern_discovery.py"""
+    import re
+
     title = product.get('title', '').lower()
     description = product.get('description', '').lower()
     combined = f"{title} {description}"
@@ -30,14 +32,15 @@ def get_cluster_assignment(product):
         'locks': ['lock', 'deadbolt', 'door', 'keyless', 'security', 'latch'],
         'paint': ['paint', 'primer', 'coating', 'stain', 'semi-gloss', 'latex', 'enamel'],
         'tools': ['drill', 'saw', 'tool', 'impact', 'cordless', 'battery', 'driver'],
-        'hardware': ['screw', 'nail', 'fastener', 'anchor', 'bolt', 'nut'],
+        'hardware': ['screw', 'screws', 'nail', 'nails', 'fastener', 'anchor', 'bolt', 'nut'],
         'plumbing': ['pipe', 'faucet', 'valve', 'plumbing', 'water', 'drain'],
     }
 
     cluster_scores = defaultdict(int)
     for cluster_name, keywords in cluster_seeds.items():
         for keyword in keywords:
-            if keyword in combined:
+            # Use word boundary matching to avoid partial matches (e.g., "stain" in "stainless")
+            if re.search(r'\b' + re.escape(keyword) + r'\b', combined):
                 cluster_scores[cluster_name] += 1
 
     if cluster_scores:
@@ -122,6 +125,7 @@ class TestClassifier:
         product = {'title': 'Kitchen Faucet', 'description': 'Stainless steel kitchen faucet with pull-down spray'}
         cluster, conf, _ = get_cluster_assignment(product)
         self.assert_equal(cluster, 'plumbing', 'Faucet should be classified as plumbing')
+        self.assert_true(conf >= 1, 'Faucet should have confidence >= 1')
 
         # Test toilet
         product = {'title': 'Dual Flush Toilet', 'description': 'Water-efficient toilet with dual flush system'}
@@ -132,6 +136,24 @@ class TestClassifier:
         product = {'title': 'Shut-off Valve', 'description': 'Quarter turn shut-off valve for plumbing'}
         cluster, conf, _ = get_cluster_assignment(product)
         self.assert_equal(cluster, 'plumbing', 'Valve should be classified as plumbing')
+
+        # Test bathroom faucet
+        product = {'title': 'Bathroom Faucet', 'description': 'Chrome bathroom sink faucet'}
+        cluster, conf, _ = get_cluster_assignment(product)
+        self.assert_equal(cluster, 'plumbing', 'Bathroom faucet should be classified as plumbing')
+        self.assert_true(conf >= 1, 'Bathroom faucet should have confidence >= 1')
+
+        # Test lavatory faucet
+        product = {'title': 'Lavatory Faucet', 'description': 'Single handle lavatory faucet'}
+        cluster, conf, _ = get_cluster_assignment(product)
+        self.assert_equal(cluster, 'plumbing', 'Lavatory faucet should be classified as plumbing')
+        self.assert_true(conf >= 1, 'Lavatory faucet should have confidence >= 1')
+
+        # Test pull-down faucet
+        product = {'title': 'Pull-Down Faucet', 'description': 'Kitchen pull-down spray faucet'}
+        cluster, conf, _ = get_cluster_assignment(product)
+        self.assert_equal(cluster, 'plumbing', 'Pull-down faucet should be classified as plumbing')
+        self.assert_true(conf >= 1, 'Pull-down faucet should have confidence >= 1')
 
     def test_tools_products(self):
         """Test tools product classification"""
@@ -189,9 +211,29 @@ class TestClassifier:
         cluster, conf, _ = get_cluster_assignment(product)
         self.assert_equal(cluster, 'paint', 'Primer should be classified as paint')
 
+        # Test wood stain (should be paint)
+        product = {'title': 'Wood Stain', 'description': 'Oil-based wood stain for furniture'}
+        cluster, conf, _ = get_cluster_assignment(product)
+        self.assert_equal(cluster, 'paint', 'Wood stain should be classified as paint')
+
+    def test_word_boundary_matching(self):
+        """Test that word boundary matching prevents false matches"""
+        print("\n8. Testing Word Boundary Matching:")
+
+        # Test stainless steel products (should NOT match "stain" keyword)
+        product = {'title': 'Stainless Steel Sink', 'description': 'Undermount stainless steel kitchen sink'}
+        cluster, conf, scores = get_cluster_assignment(product)
+        # Should NOT be paint (stain is a paint keyword)
+        self.assert_true(cluster != 'paint', 'Stainless steel sink should NOT be classified as paint')
+
+        # Test that actual stain products still work
+        product = {'title': 'Oak Wood Stain', 'description': 'Premium stain for wood surfaces'}
+        cluster, conf, _ = get_cluster_assignment(product)
+        self.assert_equal(cluster, 'paint', 'Wood stain should be classified as paint')
+
     def test_empty_products(self):
         """Test empty/invalid products"""
-        print("\n8. Testing Empty/Invalid Products:")
+        print("\n9. Testing Empty/Invalid Products:")
 
         # Test empty title
         product = {'title': '', 'description': ''}
@@ -205,7 +247,7 @@ class TestClassifier:
 
     def test_confidence_scores(self):
         """Test confidence scoring"""
-        print("\n9. Testing Confidence Scores:")
+        print("\n10. Testing Confidence Scores:")
 
         # Test high confidence (multiple matching keywords)
         product = {'title': 'LED Light Bulb', 'description': 'Energy efficient LED bulb with 800 lumens and 60-watt equivalent'}
@@ -219,7 +261,7 @@ class TestClassifier:
 
     def test_ambiguous_products(self):
         """Test products that match multiple clusters"""
-        print("\n10. Testing Ambiguous Products:")
+        print("\n11. Testing Ambiguous Products:")
 
         # Test product with both electrical and lighting keywords
         product = {'title': 'LED Switch', 'description': 'Smart light switch with LED indicator'}
@@ -239,6 +281,7 @@ class TestClassifier:
         self.test_locks_products()
         self.test_hardware_products()
         self.test_paint_products()
+        self.test_word_boundary_matching()
         self.test_empty_products()
         self.test_confidence_scores()
         self.test_ambiguous_products()
