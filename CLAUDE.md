@@ -3,7 +3,18 @@
 **FOR: Claude.ai, ChatGPT web, or any AI running in a browser**
 **NOT FOR: Desktop AI like Claude Code (see README_FOR_AI.md instead)**
 
-**IMPORTANT: Read this FIRST before working with this user or this project.**
+---
+
+## 🚨 CRITICAL: YOU MUST USE CSV FILES, NOT JSON! 🚨
+
+**DO NOT ATTEMPT TO LOAD `scraped_data_output.json` - IT WILL FAIL!**
+
+The JSON file is 1,191 KB - TOO LARGE for browsers. You will get errors or timeouts.
+
+**✅ YOU MUST USE:** `data/scraped_data.csv` (340 KB)
+**❌ DO NOT USE:** `data/scraped_data_output.json` (1,191 KB - TOO BIG!)
+
+This is NOT optional. CSV is the ONLY format that works in your browser environment.
 
 ---
 
@@ -13,7 +24,7 @@
 - **Your Role:** Do ALL technical work, explain in plain English
 - **Project:** Product type identification for 425 Home Depot products
 - **Current Status:** Stage 1 incomplete (81.4% accuracy, needs 95%+)
-- **Environment:** Browser AI uses CSV files, Desktop AI uses JSON
+- **DATA FILE:** CSV ONLY - `data/scraped_data.csv`
 
 ---
 
@@ -62,29 +73,42 @@
 
 ---
 
-## Data Files - CRITICAL!
+## Data Files - READ THIS CAREFULLY!
 
-**Use the RIGHT file format for your environment!**
+### 🚨 YOU ARE BROWSER-BASED AI - YOU CAN ONLY USE CSV! 🚨
 
-### Browser-Based AI (Claude.ai, ChatGPT web):
-**YOU MUST USE CSV FORMAT - JSON IS TOO BIG!**
+**The ONLY file you can use:**
+```
+data/scraped_data.csv (340 KB)
+```
 
-- **File:** `data/scraped_data.csv` (340 KB)
-- **Contains:** index, title, description, brand, price, rating, model
-- **Why:** Browser environments can't load large files. CSV has everything needed for classification.
+**Files you CANNOT use (will fail in browser):**
+```
+❌ data/scraped_data_output.json (1,191 KB - TOO BIG!)
+❌ Any file over 500 KB
+```
 
-### Desktop AI (Claude Code, local scripts):
-**Use JSON for complete data:**
+### What's in the CSV file:
+- **Column 0:** index (product ID number)
+- **Column 1:** title (product name)
+- **Column 2:** description (product description text)
+- **Column 3:** brand (manufacturer name)
+- **Column 4:** price (product price)
+- **Column 5:** rating (customer rating)
+- **Column 6:** model (model number)
 
-- **File:** `data/scraped_data_output.json` (1,191 KB)
-- **Contains:** Full product data including specs, images, nested fields
-- **Why:** Desktop can handle larger files and may need complete data.
+**This CSV has EVERYTHING you need for classification work.** You don't need the JSON.
 
-### Quick Stats Only:
-- **File:** `data/dataset_summary.json` (2 KB)
-- **Use:** When you just need overview metrics
+### If you need quick stats:
+```
+✅ data/dataset_summary.json (2 KB - small enough for browser)
+```
 
-**REMEMBER:** If you're in a browser, use CSV. If you try to load the JSON, you'll fail.
+### Desktop AI files (not for you):
+- `scraped_data_output.json` - Only desktop AI can use this
+- They have different capabilities, you don't
+
+**YOUR RULE:** Always use `data/scraped_data.csv`. Never try to load the JSON file.
 
 ---
 
